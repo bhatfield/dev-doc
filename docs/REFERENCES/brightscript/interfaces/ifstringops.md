@@ -227,6 +227,26 @@ Returns the value of the string interpreted as a floating point number.
 
 The floating point number representation of the string.
 
+### ToDouble() as Double
+
+##### Description
+
+Returns the value of the string interpreted as a double-precision floating point number.
+
+##### Return Value
+
+The double-precision floating point number representation of the string.
+
+### ToLongInteger() as LongInteger
+
+##### Description
+
+Returns the value of the string interpreted as a long integer.
+
+##### Return Value
+
+The long integer representation of the string.
+
 ### Tokenize(delim as String) as Object
 
 ##### Description

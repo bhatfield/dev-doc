@@ -131,7 +131,7 @@ blank for non-negative numbers is not desired. See
 
 See the [ifStringOps](doc:ifstringops) interface in
 [roString](doc:rostring) for the corresponding inverse /
-string-to-value functions ToInt() and ToFloat().
+string-to-value functions ToInt(), ToFloat(), ToDouble(), and ToLongInteger().
 
 ## StrI(value as Integer, radix as Integer) as String
 

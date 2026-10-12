@@ -131,6 +131,8 @@ The Widevine support security levels for the different Roku devices is as follow
   </tbody>
 </table>
 
+> **Widevine security level for audio:** If you use Widevine DRM and your license enforces a Widevine security level constraint, set the constraint for audio to L2 only (corresponds to EME level 3). Roku has no secure audio path requirement, so do not use L1 for audio.
+
 ## Copy protection
 
 Roku OS also supports HDCP for content copy protection between the

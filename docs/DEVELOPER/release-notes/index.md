@@ -1347,7 +1347,7 @@ Now:
 ##### Component changes
 
 - roTuner and associated interfaces have been added to support playing broadcast and cable content from a tuner (**roTuner**)
-- roProgramGuide and associated interfaces have been added to support broadcast content program guide data ([roProgramGuide](doc:roprogramguide))
+- roProgramGuide and associated interfaces have been added to support broadcast content program guide data (**roProgramGuide**)
 - roSlideShow SetLoop added
 - roTextureManager ifHttpAgent added ([roTextureManager](doc:rotexturemanager))
 - roUrlTransfer GetToString(), AsyncGetToString() now support UTF-16 files ([roUrlTransfer](doc:rourltransfer))

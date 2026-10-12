@@ -17,8 +17,8 @@ BrightScript supports the following familiar looking statement types:
 ```brightscript
 If / Then / Else If / Else / End If
 For / To / End For / Step / Exit For
-For Each / In / End For / Exit For
-While / End While / Exit While
+For Each / In / Continue For / Exit For / End For
+While / Continue While / Exit While / End While
 Try / Catch / End Try
 Throw
 Function / End Function / As / Return

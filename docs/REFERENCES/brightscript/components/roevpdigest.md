@@ -1,22 +1,20 @@
 ---
 title: "roEVPDigest"
-excerpt: 'Interface to OpenSSL EVP message digest algorithms for cryptographic hashing'
+excerpt: 'Interface to message digest algorithms for cryptographic hashing'
 deprecated: false
 hidden: false
 metadata:
   title: 'roEVPDigest'
-  description: 'roEVPDigest provides an interface to the OpenSSL EVP library of message digest algorithms, processing arbitrary data to generate a cryptographic hash.'
+  description: 'roEVPDigest provides an interface to a library of message digest algorithms, processing arbitrary data to generate a cryptographic hash.'
   robots: index
 next:
   description: ''
 ---
 
 
-The EVP Digest component provides an interface to the OpenSSL EVP library of message digest algorithms. The EVP library provides a high-level interface to cryptographic hash functions.
+The EVP Digest component provides an interface to a library of message digest algorithms. The library provides a high-level interface to cryptographic hash functions.
 
 roEVPDigest processes an arbitrary amount of data and generates a hash of the data, using a selected algorithm.
-
-> For additional information on the OpenSSL library of message digest algorithms see: http://www.openssl.org/docs/apps/dgst.html
 
 **List of Supported Digest Algorithms**
 

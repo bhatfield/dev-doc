@@ -1,20 +1,18 @@
 ---
 title: "roHMAC"
-excerpt: 'Interface to OpenSSL HMAC functions for generating a Message Authentication Code'
+excerpt: 'Interface to HMAC functions for generating a Message Authentication Code'
 deprecated: false
 hidden: false
 metadata:
   title: 'roHMAC'
-  description: 'The roHMAC component provides an interface to the OpenSSL HMAC functions, generating a Message Authentication Code based on a key using a digest algorithm.'
+  description: 'The roHMAC component provides an interface to HMAC functions, generating a Message Authentication Code based on a key using a digest algorithm.'
   robots: index
 next:
   description: ''
 ---
 
 
-The HMAC component provides an interface to the OpenSSL HMAC functions. These functions generate a Message Authentication Code (MAC) based on a key, in such a way that no one without the key could plausibly generate the MAC. HMAC uses a digest (hash) algorithm to generate the MAC.
-
-> For additional information on the OpenSSL HMAC functions, please see: http://www.openssl.org/docs/crypto/hmac.html
+The HMAC component provides an interface to HMAC functions. These functions generate a Message Authentication Code (MAC) based on a key, in such a way that no one without the key could plausibly generate the MAC. HMAC uses a digest (hash) algorithm to generate the MAC.
 
 **Supported Digest Algorithms**
 

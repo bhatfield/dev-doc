@@ -357,6 +357,47 @@ Returns the string with the following characters replaced with their correspondi
 
 The encoded string.
 
+### GetEntityDecode() as String
+
+##### Description
+
+Returns the string with the following HTML entity encoding sequences replaced with their corresponding characters:
+
+<table>
+  <thead>
+    <tr>
+      <th>Entity</th>
+      <th>Replaced with</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>\&quot;</td>
+      <td>" (double quote)</td>
+    </tr>
+    <tr>
+      <td>\&apos;</td>
+      <td>' (single quote)</td>
+    </tr>
+    <tr>
+      <td>\&lt;</td>
+      <td>\<</td>
+    </tr>
+    <tr>
+      <td>\&gt;</td>
+      <td>></td>
+    </tr>
+    <tr>
+      <td>\&amp;</td>
+      <td>&</td>
+    </tr>
+  </tbody>
+</table>
+
+##### Return Value
+
+The decoded string.
+
 ### Escape() as String
 
 ##### Description

@@ -379,7 +379,7 @@ The three icons at the top right of the page provide access to utility functions
 These utility functions operate as follows.
 
 * Information icon: Turns control hints on/off.
-* Page icon: Brings up a [RASP documentation article](http://devtools.web.roku.com/RokuRemote/rasp.html) that explains the scripting language.
+* Page icon: Brings up documentation that explains the scripting language. See also [Writing the script](#writing-the-script) on this page.
 * Gear icon: Displays the Settings pages shown below.
 
 ##### Start-up / run options (Settings page)

@@ -29,7 +29,7 @@ loaded into texture memory in the form of bitmaps, taking up 4 bytes per
 pixel (RGBA). A quick calculation (width x height x 4B) can help you
 approximate how much texture memory your images will be taking up.
 
-If your app ends up going over any of these limits by trying to
+If your app ends up going over the texture memory limit of a device by trying to
 display more than what the texture memory can allow for, then your
 app will run into unexpected behavior on those devices. A common
 symptom is flickering images or slow content loading, as bitmaps will be
@@ -40,12 +40,12 @@ larger images.
 
 ### How to see texture memory
 
-1.  Side load your app using one of the normal methods
+1.  Side load your app using one of the normal methods.
 2.  Run your app and navigate in the UI to where you think there
     might be an issue.
-3.  telnet to your roku at port 8080.
+3.  Telnet to your Roku at port 8080.
 4.  If your app is SceneGraph run this command: "loaded_textures". Be aware that there is a texture cache, so images that are not visible can be cleared automatically.
-5.  if your app is pre-SceneGraph, 2D API or template,  run this
+5.  If your app is pre-SceneGraph, 2D API or template, run this
     command: "r2d2_bitmaps."
 
 ### How to avoid going over memory limits
@@ -118,7 +118,7 @@ run into these problems\!
 
 You can view system memory usage multiple ways:
 
-- Use the [Roku Resource Monitor](https://devtools.web.roku.com/roku-resource-monitor)
+- Use the [Roku Resource Monitor](https://devtools.web.roku.com/roku-resource-monitor).
 
-- Telnet to `port 8080` and run `sgnodes all`
+- Telnet to `port 8080` and run `sgnodes all`.
 - Telnet to port 8085, press **^C** to break into the debugger, and run `bcs` or `bscs`.

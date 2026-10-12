@@ -1,17 +1,18 @@
 ---
-title: "Streaming specifications"
-excerpt: 'Container formats, codecs, adaptive protocols, and encoding ladders for Roku'
+title: Streaming specifications
+excerpt: Container formats, codecs, adaptive protocols, and encoding ladders for Roku
 deprecated: false
 hidden: false
 metadata:
-  title: 'Streaming specifications | Roku Developer Docs'
-  description: 'Lists supported container formats, adaptive streaming protocols (DASH, HLS, Smooth), video codecs, audio codecs, and encoding guidelines for Roku devices.'
+  title: Streaming specifications | Roku Developer Docs
+  description: >-
+    Lists supported container formats, adaptive streaming protocols (DASH, HLS,
+    Smooth), video codecs, audio codecs, and encoding guidelines for Roku
+    devices.
   robots: index
 next:
   description: ''
 ---
-
-
 Roku supports specific encoding methods and formats for streaming content on Roku devices. The following information details the best options for distributing content based on quality and availability.
 
 ## Container Formats
@@ -48,7 +49,6 @@ Network speeds can vary over time; therefore, it is important to provide multipl
 video streams of varying quality to provide the best experience to your viewers. Roku devices can then automatically select the best streaming quality based on the viewer's network connection.
 
 Roku supports the following widely-used standard formats for adaptive bit rate switching:
-
 
 <table>
   <thead>
@@ -87,7 +87,7 @@ Roku supports the following widely-used standard formats for adaptive bit rate s
     <tr>
       <th scope="row">DRM</th>
       <td>PlayReady, Widevine</td>
-      <td>AES-128, Widevine, Verimatrix</td>
+      <td>AES-128, Widevine</td>
       <td>PlayReady</td>
     </tr>
     <tr>
@@ -98,7 +98,6 @@ Roku supports the following widely-used standard formats for adaptive bit rate s
     </tr>
   </tbody>
 </table>
-
 
 ### Best practices
 
@@ -210,7 +209,6 @@ Videos can be encoded using `H.264`, `HEVC (H.265)`, or `AV1` (DASH only) codecs
   </tbody>
 </table>
 
-
 Some decoder and security features are device specific. For details, see [Roku Models and Features](doc:hardware).
 
 <ol>
@@ -223,17 +221,16 @@ Some decoder and security features are device specific. For details, see [Roku M
 
 Roku devices support the following audio file types:
 
-  - AAC: HE-AACv2, AAC-LC (CBR)
-  - MP3
-  - WAV (PCM)
-  - AIFF
-  - FLAC
-  - ALAC
-  - Dolby Audio: Dolby Digital (AC3), Dolby Digital Plus (E-AC3)
-  - Passthrough: DTS
+- AAC: HE-AACv2, AAC-LC (CBR)
+- MP3
+- WAV (PCM)
+- AIFF
+- FLAC
+- ALAC
+- Dolby Audio: Dolby Digital (AC3), Dolby Digital Plus (E-AC3)
+- Passthrough: DTS
 
 The most common audio codecs for video content are AAC, AC3, E-AC3, and DTS. It is strongly recommended that content with multichannel audio (i.e., 5.1, 7.1 channels) be made available in Dolby Digital Plus (E-AC3). This is the preferred multichannel format for streaming on Roku's Dolby Digital Plus-enabled devices.
-
 
 |                    | AAC                   | AC3/E-AC3            | DTS         |
 | ------------------ | --------------------- | -------------------- | ----------- |
@@ -244,7 +241,7 @@ The most common audio codecs for video content are AAC, AC3, E-AC3, and DTS. It 
 | Number of Channels | 2.0                   | 2.0, 5.1, 7.1, Atmos | Passthrough |
 
 > - Multichannel AAC is not supported on all Roku models. Roku TVs, Roku 4, and Roku Ultra set-top-boxes support multichannel decode to PCM stereo.
-> - For AC3 and E-AC3, Roku devices will do passthrough to the receiving device. Roku Ultra streaming players (Benjamin [4800X] and Brewster [4850X] models only) support the latest Dolby technologies such as Dolby Atmos and System Sound Mixing [(MS12)](http://www.dolby.com/us/en/professional/broadcast/products/dolby-ms12.html). The Roku Ultra LT (4800X) does not include Dolby support.
+> - For AC3 and E-AC3, Roku devices will do passthrough to the receiving device. Roku Ultra streaming players (Benjamin \[4800X] and Brewster \[4850X] models only) support the latest Dolby technologies such as Dolby Atmos and System Sound Mixing [(MS12)](http://www.dolby.com/us/en/professional/broadcast/products/dolby-ms12.html). The Roku Ultra LT (4800X) does not include Dolby support.
 >
 >   Apps must always provide an AAC stereo audio track (in addition to the optional Dolby track) that players can use in case the receiving device does not support AC3 or E-AC3 decoding.
 > - Encoding in Dolby Digital Plus instead of Dolby Digital is recommended.
@@ -306,7 +303,7 @@ The minimum bitrate ladder is as follows:
 
 ### HEVC 4K encodings
 
-Roku recommends HEVC for UHD encodings. Roku 4K devices support HEVC up to level 5.1 and bitrates up to 25Mbps.
+Roku recommends HEVC for UHD encodings. Roku 4K devices support HEVC up to level 5.1 and bitrates up to 40Mbps.
 
 UHD encodings should provide the complete bitrate ladder with the same codec. This is because Roku devices do not support seamless codec changes when switching video bitrates.
 
@@ -314,18 +311,15 @@ UHD encodings should provide the complete bitrate ladder with the same codec. Th
 
 Encoding in Dolby Digital Plus (instead of Dolby Digital) is recommended with the following bit rates:
 
-
 | Channels          | Bit rate |
 | ----------------- | -------- |
 | Stereo 2.0        | 96 kbps  |
 | Multi-channel 5.1 | 192 kbps |
 | Multi-channel 7.1 | 384 kbps |
 
-
 You can encode video content using services like Azure or [Encoding.com](http://Encoding.com). For more information, visit [developer.dolby.com](https://developer.dolby.com/)
 
 ### 4K UHD video streaming requirements
-
 
 | Specification | Requirement |
 | ------------- | ----------- |
@@ -336,12 +330,11 @@ You can encode video content using services like Azure or [Encoding.com](http://
 
 There are several conditions that must be checked to see if 4K UHD content can be played:
 
-  - Video output mode must be 2160p
-  - HDCP 2.2 must be enabled
-  - The device must be able to decode the proper codecs and encoding
-    profiles
-  - (Optional) Check if the device decrypts within a trusted execution environment (TEE).
-
+- Video output mode must be 2160p
+- HDCP 2.2 must be enabled
+- The device must be able to decode the proper codecs and encoding
+  profiles
+- (Optional) Check if the device decrypts within a trusted execution environment (TEE).
 
 ```brightscript
 function CanPlay4K() as Boolean
@@ -376,7 +369,7 @@ function CanPlay4K() as Boolean
 end function
 ```
 
->  This example returns true only if 4K HEVC decoding is supported. If your 4K UHD content is only encoded in one of these codecs, modify the third conditional statement as necessary.
+> This example returns true only if 4K HEVC decoding is supported. If your 4K UHD content is only encoded in one of these codecs, modify the third conditional statement as necessary.
 
 ### HDR10 video streaming requirements
 
@@ -388,7 +381,6 @@ function canPlayHDR() as Boolean
   return dev_info.getDisplayProperties().hdr10
 end function
 ```
-
 
 This function should only be called after detecting 4K UHD Compatibility.
 

@@ -1013,7 +1013,21 @@ end function
 
 Roku's Channel Store generic request framework enables developers to pass the ChannelStore command, parameters, and context into a single **request** object (an associative array). The result of the request is encapsulated in a **requestStatus** object (also an associative array), which includes the status of the request and the data returned by it.
 
-This API is available for all applicable commands for both SceneGraph (SDK 2) and BrightScript (SDK 1).
+### Supported commands
+
+You can send the following ChannelStore commands with the generic request framework. 
+
+| Command              | Description                                                  | Related legacy command        |
+| -------------------- | ------------------------------------------------------------ | ----------------------------- |
+| GetCatalog           | Returns the catalog of products with their purchase options and billing plans. Set `version` to 2. | [getCatalog](#getcatalog)     |
+| QueryPurchaseOptions | Queries and filters the purchase options in the catalog.     | None                          |
+| GetPurchases         | Returns the user's purchases, subscriptions, and entitlements. Set `version` to 2. | [getPurchases](#getpurchases) |
+| DoOrder              | Starts a purchase order. Set `version` to 2.                 | [doOrder](#doorder)           |
+| DoRecovery           | Starts the payment recovery flow for a subscription with a failed payment. | None                          |
+| GetRokuCustomerId    | Returns the Roku customer ID for the app, without requiring a prior purchase. | None                          |
+| GetUserData          | Returns the user's account data, with the user's consent.    | [getUserData](#getuserdata)   |
+
+### Reference
 
 ##### request
 

@@ -224,7 +224,7 @@ m.channelStore.deltaOrder = { "code": "UPC4321", "qty": 1}
 
 ##### requestPartnerOrder
 
-> See [Creating TVOD apps](/dev/docs/tvod-channel) for how to use this field for transactional purchases.
+> See [Creating TVOD apps](/dev/docs/tvod-app-catalog) for how to use this field for transactional purchases.
 
 <table>
   <thead>
@@ -249,7 +249,7 @@ m.channelStore.deltaOrder = { "code": "UPC4321", "qty": 1}
 
 ##### confirmPartnerOrder
 
-> See [Creating TVOD apps](/dev/docs/tvod-channel) for how to use this field for transactional purchases.
+> See [Creating TVOD apps](/dev/docs/tvod-app-catalog) for how to use this field for transactional purchases.
 
 <table>
   <thead>

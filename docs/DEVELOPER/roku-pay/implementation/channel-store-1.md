@@ -48,13 +48,13 @@ If the customer requires a PIN for making purchases, the dialog displays a PIN p
 
 _TVOD only_
 
-The [**requestPartnerOrder** command](doc:channelstore#requestpartnerorder) checks whether the customer's billing status is valid. It is used to verify that the customer is eligible to order a movie rental, sporting event, pay-per-view, or other one-time purchase product. See [Creating TVOD channels](doc:tvod-channel) for more information on using this command in the Roku Pay workflow.
+The [**requestPartnerOrder** command](doc:channelstore#requestpartnerorder) checks whether the customer's billing status is valid. It is used to verify that the customer is eligible to order a movie rental, sporting event, pay-per-view, or other one-time purchase product. See [Creating TVOD apps](doc:tvod-app-catalog) for more information on using this command in the Roku Pay workflow.
 
 ### confirmPartnerOrder
 
 _TVOD only_
 
-The [**confirmPartnerOrder** command](doc:channelstore) completes the transaction for the customer's purchase. Similar to the **doOrder** command for subscription purchases, the Roku Pay order confirmation screen is displayed after this command is executed. See [Creating TVOD channels](doc:tvod-app-catalog) for more information on using this command in the Roku Pay workflow.
+The [**confirmPartnerOrder** command](doc:channelstore) completes the transaction for the customer's purchase. Similar to the **doOrder** command for subscription purchases, the Roku Pay order confirmation screen is displayed after this command is executed. See [Creating TVOD apps](doc:tvod-app-catalog) for more information on using this command in the Roku Pay workflow.
 
 ## Entitlements and authentication
 

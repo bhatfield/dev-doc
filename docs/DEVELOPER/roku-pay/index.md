@@ -16,7 +16,7 @@ Roku Pay is Roku's proprietary payment platform. It provides a robust payment ex
 
 <video src="https://image.roku.com/ZHZscHItMTc2/roku-pay-how-it-works.mp4" poster="https://image.roku.com/ZHZscHItMTc2/roku-pay-how-it-works-v3.png" width="720" height="480" controls />
 
-This document uses the example of a customer signing up for a subscription video on demand (SVOD) app to highlight the streamlined purchasing experience provided by Roku Pay. This purchasing workflow is similar for customers renting movies, ordering pay-per-views and sporting events, or making other one-time purchases in a [transactional video on demand (TVOD) app](doc:tvod-channel).
+This document uses the example of a customer signing up for a subscription video on demand (SVOD) app to highlight the streamlined purchasing experience provided by Roku Pay. This purchasing workflow is similar for customers renting movies, ordering pay-per-views and sporting events, or making other one-time purchases in a [transactional video on demand (TVOD) app](doc:tvod-app-catalog).
 
 ## Customer adds payment method
 

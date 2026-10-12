@@ -87,7 +87,7 @@ Roku supports the following widely-used standard formats for adaptive bit rate s
     <tr>
       <th scope="row">DRM</th>
       <td>PlayReady, Widevine</td>
-      <td>AES-128, Widevine, Verimatrix</td>
+      <td>AES-128, Widevine</td>
       <td>PlayReady</td>
     </tr>
     <tr>

@@ -1018,7 +1018,7 @@ Roku's Channel Store generic request framework enables developers to pass the Ch
 You can send the following ChannelStore commands with the generic request framework. 
 
 | Command              | Description                                                  | Related legacy command        |
-| -------------------- | ------------------------------------------------------------ | ----------------------------- |
+| :------------------- | :----------------------------------------------------------- | :---------------------------- |
 | GetCatalog           | Returns the catalog of products with their purchase options and billing plans. Set `version` to 2. | [getCatalog](#getcatalog)     |
 | QueryPurchaseOptions | Queries and filters the purchase options in the catalog.     | None                          |
 | GetPurchases         | Returns the user's purchases, subscriptions, and entitlements. Set `version` to 2. | [getPurchases](#getpurchases) |

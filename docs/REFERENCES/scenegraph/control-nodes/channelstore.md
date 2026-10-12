@@ -1,11 +1,13 @@
 ---
 title: ChannelStore
-excerpt: 'Node interface to the Streaming Store for purchases and account data'
+excerpt: Node interface to the Streaming Store for purchases and account data
 deprecated: false
 hidden: false
 metadata:
-  title: 'ChannelStore'
-  description: 'The ChannelStore node provides an interface to the Streaming Store, enabling apps to issue commands for purchases, orders, and customer data.'
+  title: ChannelStore
+  description: >-
+    The ChannelStore node provides an interface to the Streaming Store, enabling
+    apps to issue commands for purchases, orders, and customer data.
   robots: index
 next:
   description: ''
@@ -39,7 +41,7 @@ Each of the commands starts a sequence of actions associated with the financial 
     <tr>
       <td class="short-line">command</td>
       <td class="short-line">string</td>
-      <td class="short-line" />
+      <td class="short-line"></td>
       <td class="short-line">READ\_WRITE</td>
       <td class="long-line">Specifies the command to be executed:<br /><ul><li><a href="#getuserdata">getUserData</a></li><li><a href="#getuserregiondata">getUserRegionData</a></li><li><a href="#getcatalog">getCatalog</a> and <a href="#getstorecatalog">getStoreCatalog</a></li><li><a href="#doorder">doOrder</a></li><li><a href="#getpurchases">getPurchases</a> and <a href="#getallpurchases">getAllPurchases</a></li><li><a href="#storechannelcreddata">storeChannelCredData</a></li><li><a href="#getchannelcred">getChannelCred</a></li><li><a href="#getdeviceattestationtoken">getDeviceAttestationToken</a></li><li><a href="#requestpartnerorder">requestPartnerOrder</a></li><li><a href="#confirmpartnerorder">confirmPartnerOrder</a></li></ul></td>
     </tr>
@@ -354,9 +356,9 @@ To use this command, follow these steps:
 
 3. The RFI screen's asks the customer to use their Roku customer account information to sign up or sign in to the app, and it lists the requested information.
 
-   <Image alt="roku815px - signup-rfi-getuserdata-v2" border={false} src="https://image.roku.com/ZHZscHItMTc2/signup-rfi-getuserdata-v2.jpg" />
+   ![roku815px - signup-rfi-getuserdata-v2](https://image.roku.com/ZHZscHItMTc2/signup-rfi-getuserdata-v2.jpg)
 
-   <Image alt="roku815px - signin-2-rfi-splash" border={false} src="https://image.roku.com/ZHZscHItMTc2/signin-2-rfi-splash-v2.jpg" />
+   ![roku815px - signin-2-rfi-splash](https://image.roku.com/ZHZscHItMTc2/signin-2-rfi-splash-v2.jpg)
 
 4. If the customer clicks **Continue** in the RFI screen to confirm that Roku can share their Roku customer account information with the app, the [**userData** field](#userdata) field is populated with the Roku customer account information that was requested in the [**requestedUserData**](#requesteduserdata) field. If the customer clicks **Cancel** in the RFI screen to decline sharing their information, the **userData** field is set to "invalid".
 
@@ -507,7 +509,7 @@ Lists the globally available [In-App Products](/dev/docs/in-channel-products), w
 
 Displays the Roku Pay order confirmation screen, which is populated with information about the current order (product name, price, any free trial or discount offer). The customer can then either approve and complete the purchase, or cancel the purchase.
 
-<Image alt="roku815px - signup-order-confirmation-do-order" border={false} src="https://image.roku.com/ZHZscHItMTc2/signup-order-confirmation-do-order.jpg" />
+![roku815px - signup-order-confirmation-do-order](https://image.roku.com/ZHZscHItMTc2/signup-order-confirmation-do-order.jpg)
 
 When the command completes, the [**orderStatus** field](#orderstatus) is set to a ContentNode containing information about the command completion.
 
@@ -963,7 +965,7 @@ The decoded JWT contains the following fields:
 
 ### GetRokuCustomerId
 
-*Available since [Roku OS 16.0](doc:release-notes#roku-os-160).*
+_Available since&#x20;_[Roku OS 16.0](doc:release-notes#roku-os-160)_._
 
 Returns the unique **rokuCustomerId** for the app, without requiring a prior purchase.
 
@@ -1011,7 +1013,7 @@ end function
 
 Roku's Channel Store generic request framework enables developers to pass the ChannelStore command, parameters, and context into a single **request** object (an associative array). The result of the request is encapsulated in a **requestStatus** object (also an associative array), which includes the status of the request and the data returned by it.
 
-This API is available for both SceneGraph (SDK 2) and BrightScript (SDK 1).
+This API is available for all applicable commands for both SceneGraph (SDK 2) and BrightScript (SDK 1).
 
 ##### request
 
@@ -1027,6 +1029,7 @@ This API is available for both SceneGraph (SDK 2) and BrightScript (SDK 1).
 <tr>
 <td class="short-line">request</td>
 <td class="short-line">associative array</td>
+
 <td class="long-line">Includes the request's command and context. <br /><br />
 <div class="hscroll"><table>
 <thead>
@@ -1050,6 +1053,7 @@ This API is available for both SceneGraph (SDK 2) and BrightScript (SDK 1).
 <tr>
 <td class="short-line">params</td>
 <td class="short-line">associative array</td>
+
 <td class="long-line">See the command documentation for how to set this parameter.<br />
 <div class="hscroll"><table>
 <thead>
@@ -1076,7 +1080,6 @@ This API is available for both SceneGraph (SDK 2) and BrightScript (SDK 1).
 </tbody>
 </table>
 
-
 ##### requestStatus
 
 <table>
@@ -1091,6 +1094,7 @@ This API is available for both SceneGraph (SDK 2) and BrightScript (SDK 1).
 <tr>
 <td class="short-line">requestStatus</td>
 <td class="short-line">associative array</td>
+
 <td class="long-line">Includes the status of the command and the data returned by it. <br /><br />
 <div class="hscroll"><table>
 <thead>
@@ -1109,6 +1113,7 @@ This API is available for both SceneGraph (SDK 2) and BrightScript (SDK 1).
 <tr>
 <td class="short-line">status</td>
 <td class="short-line">enum</td>
+
 <td class="long-line">The command completion status, which may be one of the following values: <br />
 <ul>
 <li><strong>2</strong> Interrupted</li>
@@ -1142,4 +1147,3 @@ This API is available for both SceneGraph (SDK 2) and BrightScript (SDK 1).
 </tr>
 </tbody>
 </table>
-

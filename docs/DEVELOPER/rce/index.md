@@ -15,7 +15,7 @@ metadata:
 next:
   description: ''
 ---
-> The Roku Cloud Emulator is currently being deployed to developer accounts as part of a phased rollout. If you are interested in getting early access to it, please contact [Partner Success](https://developer.roku.com/contact) and select **Other** from the topic list.
+> The Roku Cloud Emulator is currently being deployed to developer accounts as part of a phased rollout. If you are interested in getting early access to it, express your interest [here](https://forum.developer.roku.com/t/express-your-interest-in-rce/11583).
 
 The Roku Cloud Emulator (RCE) enables you to create virtual Roku streaming players and TVs to develop and test your apps. You can use the RCE to automate CI/CD merges and nightly testing, and to iteratively validate features that do not require hardware-specific performance.
 

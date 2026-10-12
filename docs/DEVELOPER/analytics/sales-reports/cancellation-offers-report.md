@@ -1,11 +1,16 @@
 ---
 title: Cancellation Offers Report
-excerpt: 'See how viewers move through the cancellation flow and how retention offers perform for your app'
+excerpt: >-
+  See how viewers move through the cancellation flow and how retention offers
+  perform for your app
 deprecated: false
 hidden: false
 metadata:
-  title: 'Cancellation Offers Report | Roku Developer Docs'
-  description: 'The Cancellation Offers Report shows how many viewers enter the cancellation flow, how many are shown a retention offer, what they do after seeing it, and which offers are redeemed by plan and currency.'
+  title: Cancellation Offers Report | Roku Developer Docs
+  description: >-
+    The Cancellation Offers Report shows how many viewers enter the cancellation
+    flow, how many are shown a retention offer, what they do after seeing it,
+    and which offers are redeemed by plan and currency.
   robots: index
 next:
   description: ''
@@ -18,9 +23,9 @@ This report is especially useful for evaluating the health of your retention str
 
 The filters applied to this report are:
 
-* **Channel ID** – Identifies the app whose cancellation and offer data you want to analyze. A Channel ID is required for the report to return data.
+* **Channel ID**: Identifies the app whose cancellation and offer data you want to analyze. A Channel ID is required for the report to return data.
 
-* **Date Filter** – Sets the data sample period for the entire report (for example, "is in the last 30 days" or a custom date range). All visualizations are aggregated by week (Date Key Week) within the selected period.
+* **Date Filter**: Sets the data sample period for the entire report (for example, "is in the last 30 days" or a custom date range). All visualizations are aggregated by week (Date Key Week) within the selected period.
 
 ## Visualizations
 
@@ -44,11 +49,11 @@ You can click any item in the legend at the bottom of a chart to isolate or comb
 
 This chart tracks the top of the retention funnel: how many viewers start the cancellation flow each day, and whether they see a retention offer during that flow, over the last 4 full weeks.
 
-* **Cancellation Initiation Events** – The number of viewers who started the cancellation flow that day.
+* **Cancellation Initiation Events**: The number of viewers who started the cancellation flow that day.
 
-* **Shown Offer** – Viewers who were presented with a retention offer during that flow.
+* **Shown Offer**: Viewers who were presented with a retention offer during that flow.
 
-* **Not Shown Offer** – Viewers who went through the cancellation flow without seeing a retention offer.
+* **Not Shown Offer**: Viewers who went through the cancellation flow without seeing a retention offer.
 
 ### Daily offer acceptance
 
@@ -56,9 +61,9 @@ This chart tracks the top of the retention funnel: how many viewers start the ca
 
 Of the viewers shown a retention offer, this chart tracks how many accept it, day by day, over the last 4 full weeks.
 
-* **Shown Offer** – The daily count of viewers shown an offer (repeated here for reference).
+* **Shown Offer**: The daily count of viewers shown an offer (repeated here for reference).
 
-* **Accepted Offer** – The daily count of viewers who accepted the offer they were shown.
+* **Accepted Offer**: The daily count of viewers who accepted the offer they were shown.
 
 ### Daily offer redemptions
 
@@ -66,7 +71,7 @@ Of the viewers shown a retention offer, this chart tracks how many accept it, da
 
 Tracks how many accepted offers are ultimately redeemed, aggregated across all products and countries, over the last 30 days. Use this alongside "Offer acceptance by product" and "Offer redemptions by product and country" to see which products and countries drive the totals shown here.
 
-* **Offer Redemptions** – The total number of retention offers redeemed that day, across all products.
+* **Offer Redemptions**: The total number of retention offers redeemed that day, across all products.
 
 ### Offer acceptance by product
 
@@ -74,13 +79,13 @@ Tracks how many accepted offers are ultimately redeemed, aggregated across all p
 
 This table breaks offer performance down by product so you can see which plans see the most offers and which convert best, over the last 30 days.
 
-* **Product Name** – The subscription plan the offer was shown against.
+* **Product Name**: The subscription plan the offer was shown against.
 
-* **SKU** – A per-product identifier. The aggregated "Other" row has no SKU since it spans multiple products.
+* **SKU**: A per-product identifier. The aggregated "Other" row has no SKU since it spans multiple products.
 
-* **Shown Offers** – The number of viewers on that product shown a retention offer.
+* **Shown Offers**: The number of viewers on that product shown a retention offer.
 
-* **Accept Offers** – The number of viewers on that product who accepted the offer.
+* **Accept Offers**: The number of viewers on that product who accepted the offer.
 
 The table shows the top seven products individually; the remaining products roll up into an "Other" row.
 
@@ -90,14 +95,14 @@ The table shows the top seven products individually; the remaining products roll
 
 Use this table to assess how discount offers are performing against different products, so you can tell whether the discount itself is what's driving the save, over the last 30 days.
 
-* **Product** – The subscription plan the redeemed offer applied to.
+* **Product**: The subscription plan the redeemed offer applied to.
 
-* **Offer Duration** – The length of the discount interval, in months.
+* **Offer Duration**: The length of the discount interval, in months.
 
-* **Renewal Cadence** – How often the underlying plan renews, Monthly or Yearly.
+* **Renewal Cadence**: How often the underlying plan renews, Monthly or Yearly.
 
-* **Country** – The viewer's country.
+* **Country**: The viewer's country.
 
-* **SKU** – A per-product identifier.
+* **SKU**: A per-product identifier.
 
-* **Total Redemptions** – The number of times that product/duration/cadence/country combination was redeemed in the period.
+* **Total Redemptions**: The number of times that product/duration/cadence/country combination was redeemed in the period.

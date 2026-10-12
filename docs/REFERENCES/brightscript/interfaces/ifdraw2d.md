@@ -46,7 +46,7 @@ Coordinates (x,y) for this interface are based on an origin (0,0) at the top, le
 ## Implemented by
 
 | Name     | Description                                                                                                                  |
-| -------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| :------- | :--------------------------------------------------------------------------------------------------------------------------- |
 | [roBitmap](doc:robitmap) | The roBitmap component contains image data and provides an interface (ifDraw2D) for drawing                                  |
 | [roRegion](doc:roregion) | The roRegion component is used to represent a subsection of a bitmap                                                         |
 | [roScreen](doc:roscreen) | The roScreen component provides a full screen drawing surface that can be stacked and that you can receive input events from |
@@ -65,7 +65,7 @@ Clears the bitmap, and fills it with the specified RGBA color.
 ##### Parameters
 
 | Name | Type    | Description                                   |
-| ---- | ------- | --------------------------------------------- |
+| :--- | :------ | :-------------------------------------------- |
 | rgba | Integer | The RGBA color to be used to fill the bitmap. |
 
 
@@ -104,7 +104,7 @@ Gets the RGBA pixel values for the specified rectangle.
 ##### Parameters
 
 | Name   | Type    | Description                        |
-| ------ | ------- | ---------------------------------- |
+| :----- | :------ | :--------------------------------- |
 | x      | Integer | The x-coordinate of the rectangle. |
 | y      | Integer | The y-coordinate of the rectangle. |
 | width  | Integer | The width of the rectangle.        |
@@ -123,7 +123,7 @@ Gets PNG image data for the specified area of the bitmap. The PNG is in 32-bit R
 ##### Parameters
 
 | Name   | Type    | Description                        |
-| ------ | ------- | ---------------------------------- |
+| :----- | :------ | :--------------------------------- |
 | x      | Integer | The x-coordinate of the rectangle. |
 | y      | Integer | The y-coordinate of the rectangle. |
 | width  | Integer | The width of the rectangle.        |
@@ -169,7 +169,7 @@ By default, alpha blending is off. Even when alpha blending is off, the alpha va
 ##### Parameters
 
 | Name   | Type    | Description                                          |
-| ------ | ------- | ---------------------------------------------------- |
+| :----- | :------ | :--------------------------------------------------- |
 | enable | Boolean | A flag specifying whether alpha blending is enabled. |
 
 ##### Example
@@ -211,7 +211,7 @@ Fills the specified rectangle from left (x), top (y) to right (x + width), botto
 ##### Parameters
 
 | Name   | Type    | Description                                      |
-| ------ | ------- | ------------------------------------------------ |
+| :----- | :------ | :----------------------------------------------- |
 | x      | Integer | The x-coordinate of the rectangle.               |
 | y      | Integer | The y-coordinate of the rectangle.               |
 | width  | Integer | The width of the rectangle.                      |
@@ -231,7 +231,7 @@ Draws a point at (x,y) with the given size and RGBA color.
 ##### Parameters
 
 | Name | Type    | Description                    |
-| ---- | ------- | ------------------------------ |
+| :--- | :------ | :----------------------------- |
 | x    | Integer | The x-coordinate of the point. |
 | y    | Integer | The y-coordinate of the point. |
 | size | Float   | The size of the point. The maximum point size is 100. |
@@ -250,7 +250,7 @@ Draws a line from (xStart, yStart) to (xEnd, yEnd) with RGBA color.
 ##### Parameters
 
 | Name   | Type    | Description                                 |
-| ------ | ------- | ------------------------------------------- |
+| :----- | :------ | :------------------------------------------ |
 | xStart | Integer | The x-coordinate of the line's start point. |
 | yStart | Integer | The y-coordinate of the line's start point. |
 | xEnd   | Integer | The x-coordinate of the line's end point.   |
@@ -270,7 +270,7 @@ Draws the source object, where src is an [roBitmap](doc:robitmap) or an [roRegio
 ##### Parameters
 
 | Name | Type    | Description                                                  |
-| ---- | ------- | ------------------------------------------------------------ |
+| :--- | :------ | :----------------------------------------------------------- |
 | x    | Integer | The x-coordinate of the source object.                       |
 | y    | Integer | The y-coordinate of the source object.                       |
 | src  | Object  | The [roBitmap](doc:robitmap) or an [roRegion](doc:roregion) object to be drawn. |
@@ -288,7 +288,7 @@ Draws the source object, where src is an [roBitmap](doc:robitmap) or an [roRegio
 ##### Parameters
 
 | Name   | Type    | Description                                                  |
-| ------ | ------- | ------------------------------------------------------------ |
+| :----- | :------ | :----------------------------------------------------------- |
 | x      | Integer | The x-coordinate of the source object.                       |
 | y      | Integer | The y-coordinate of the source object.                       |
 | scaleX | Float   | The x direction in which the source object is to be scaled.  |
@@ -308,7 +308,7 @@ Draws the source object, where src is an [roBitmap](doc:robitmap) or an [roRegio
 ##### Parameters
 
 | Name   | Type    | Description                                                  |
-| ------ | ------- | ------------------------------------------------------------ |
+| :----- | :------ | :----------------------------------------------------------- |
 | x      | Integer | The x-coordinate of the source object.                       |
 | y      | Integer | The y-coordinate of the source object.                       |
 | scaleX | Float   | The x direction in which the source object is to be scaled.  |
@@ -329,7 +329,7 @@ Draws the source object, where src is an [roBitmap](doc:robitmap) or an [roRegio
 ##### Parameters
 
 | Name  | Type    | Description                                                  |
-| ----- | ------- | ------------------------------------------------------------ |
+| :---- | :------ | :----------------------------------------------------------- |
 | x     | Integer | The x-coordinate of the source object.                       |
 | y     | Integer | The y-coordinate of the source object.                       |
 | Theta | Float   | The position which to rotate the source object. This may be 0, 90, 180, and 270 degrees. |
@@ -348,7 +348,7 @@ Draws and then scales and rotates the source object, where src is an [roBitmap](
 ##### Parameters
 
 | Name   | Type    | Description                                                  |
-| ------ | ------- | ------------------------------------------------------------ |
+| :----- | :------ | :----------------------------------------------------------- |
 | x      | Integer | The x-coordinate of the source object.                       |
 | y      | Integer | The y-coordinate of the source object.                       |
 | Theta  | Float   | The position which to rotate the source object. This may be 0, 90, 180, and 270 degrees. |
@@ -369,7 +369,7 @@ Draws and then scales and rotates the source object, where src is an [roBitmap](
 ##### Parameters
 
 | Name   | Type    | Description                                                  |
-| ------ | ------- | ------------------------------------------------------------ |
+| :----- | :------ | :----------------------------------------------------------- |
 | x      | Integer | The x-coordinate of the source object.                       |
 | y      | Integer | The y-coordinate of the source object.                       |
 | Theta  | Float   | The position which to rotate the source object. This may be 0, 90, 180, and 270 degrees. |
@@ -391,7 +391,7 @@ Draws and rotates the source object, where src is an [roBitmap](doc:robitmap) or
 ##### Parameters
 
 | Name  | Type    | Description                                                  |
-| ----- | ------- | ------------------------------------------------------------ |
+| :---- | :------ | :----------------------------------------------------------- |
 | x     | Integer | The x-coordinate of the source object.                       |
 | y     | Integer | The y-coordinate of the source object.                       |
 | Theta | Float   | The position which to rotate the source object. This may be 0, 90, 180, and 270 degrees. |
@@ -411,7 +411,7 @@ Draws the text at position (x,y) using the specified RGBA color and [roFont](doc
 ##### Parameters
 
 | Name | Type    | Description                                                  |
-| ---- | ------- | ------------------------------------------------------------ |
+| :--- | :------ | :----------------------------------------------------------- |
 | text | String  | The text to be drawn.                                        |
 | x    | Integer | The x-coordinate of the source object.                       |
 | y    | Integer | The y-coordinate of the source object.                       |

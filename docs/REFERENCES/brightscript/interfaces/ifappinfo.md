@@ -16,7 +16,7 @@ next:
 ## Implemented by
 
 | Name      | Description                               |
-| --------- | ----------------------------------------- |
+| :-------- | :---------------------------------------- |
 | [roAppInfo](doc:roappinfo) | Returns information about the application |
 
 
@@ -83,7 +83,7 @@ Returns the named manifest value, or an empty string if the entry is does not ex
 ##### Parameters
 
 | Name | Type   | Description                        |
-| ---- | ------ | ---------------------------------- |
+| :--- | :----- | :--------------------------------- |
 | Key  | String | The manifest value to be returned. |
 
 ##### Return Value

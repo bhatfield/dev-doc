@@ -26,7 +26,7 @@ If the device registry does not contain a valid access token, you check whether 
 The following table summarizes the logic to be used for Automatic Account Link; the subsequent flow chart illustrates this workflow.
 
 | Valid Access Token in Device Registry ? | Valid Access Token in Roku Cloud? | Next Steps                                                   |
-| :-------------------------------------- | --------------------------------- | :----------------------------------------------------------- |
+| :-------------------------------------- | :-------------------------------- | :----------------------------------------------------------- |
 | YES                                     | —                                 | Get a refresh token from your entitlement server and store it in the device registry and Roku cloud. Grant access to content. |
 | NO                                      | YES                               | Store the access token in the device registry. Grant access to content. |
 | NO                                      | NO                                | Display your app UI, get the customer's email address, and have them sign up or sign back in. Once the customer has successfully authenticated, generate a new access token from your entitlement server and store it in the device registry and Roku cloud. Grant access to content. |

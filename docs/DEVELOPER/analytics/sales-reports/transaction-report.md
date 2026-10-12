@@ -158,7 +158,7 @@ You can use the Transaction Report to estimate the monthly payouts from subscrip
 The following table demonstrates how the **product_name**, **product_code**, and **net_amount** fields may be used to identify monthly subscriptions and then how to calculate the amount of revenue that will be paid out the following month. Only the first 3 of 300 hypothetical monthly subscriptions are shown.
 
 | product_name | product_code | net_amount | 80% Revenue Share (paid out next month) |
-| ------------ | ------------ | ---------- | --------------------------------------- |
+| :----------- | :----------- | :--------- | :-------------------------------------- |
 | App 1        | monthly_sub  | $5.00      | $4.00                                   |
 | App 1        | monthly_sub  | $5.00      | $4.00                                   |
 | App 1        | free_trial   | $0.00      | $0.00                                   |
@@ -179,7 +179,7 @@ The following table demonstrates how the **product_name**, **product_code**, and
 The following example demonstrates how new annual subscriptions are attributed to monthly revenue for a new app launched in January. The two left-most columns in the table record the new annual subscription revenue generated for each month within a year. The month columns to the right list the pro-rated annual subscription revenue that is attributed to the subsequent months. For example, the table shows $3,600 new annual subscription revenue for January, which is paid out in equal $300 installments from February to the next January (not shown).
 
 | New Annual Subscription Revenue |        | Jan | Feb      | Mar      | Apr      | May        | June       | July       | Aug        | Sep        | Oct        | Nov        | Dec        |
-| ------------------------------- | ------ | --- | -------- | -------- | -------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- |
+| :------------------------------ | :----- | :-- | :------- | :------- | :------- | :--------- | :--------- | :--------- | :--------- | :--------- | :--------- | :--------- | :--------- |
 | January                         | $3,600 |     | $300     | $300     | $300     | $300       | $300       | $300       | $300       | $300       | $300       | $300       | $300       |
 | February                        | $2,400 |     |          | $200     | $200     | $200       | $200       | $200       | $200       | $200       | $200       | $200       | $200       |
 | March                           | $1,200 |     |          |          | $100     | $100       | $100       | $100       | $100       | $100       | $100       | $100       | $100       |
@@ -197,7 +197,7 @@ The following example demonstrates how new annual subscriptions are attributed t
 5. Use the calculations from steps 3 and 4 to add the monthly and pro-rated annual subscription revenue to estimate the expected payout for a month. The following table uses the first three months of a year to demonstrate how to do this:
 
 | Month    | Monthly Subscription Revenue <br />(from previous month) | Pro-Rated Annual Subscription Revenue<br />(from previous 12 months) | Total Expected Payout |
-| -------- | -------------------------------------------------------- | -------------------------------------------------------------------- | --------------------- |
+| :------- | :------------------------------------------------------- | :------------------------------------------------------------------- | :-------------------- |
 | February | $1,200                                                   | $300                                                                 | $1,500                |
 | March    | $1,000                                                   | $500                                                                 | $1,600                |
 | April    | $1,100                                                   | $600                                                                 | $1,700                |

@@ -55,7 +55,7 @@ To get started with the RCE, follow these steps:
 4. For each device, the following information is listed:
 
 | Field       | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| :---------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Device name | The user-specified name of the virtual device.                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | Device type | Indicates whether the device is a player (a Roku Streaming Stick or streaming player, for example) or a TV.                                                                                                                                                                                                                                                                                                                                                              |
 | Status      | The status of the virtual device: running, stopped, or pending.                                                                                                                                                                                                                                                                                                                                                                                                          |
@@ -168,7 +168,7 @@ Click a device to open the **Device details** page. This page lets you view devi
 You can view the following information for each device:
 
 | Field            | Description                                                            |
-| ---------------- | ---------------------------------------------------------------------- |
+| :--------------- | :--------------------------------------------------------------------- |
 | Device name      | The user-specified name of the virtual device.                         |
 | Device type      | Indicates whether the device is a Roku streaming player (STB) or a TV. |
 | Current run time | The amount of time the virtual device has been running.                |
@@ -180,7 +180,7 @@ You can view the following information for each device:
 You can view the following information for each device snapshot:
 
 | Field        | Description                                                                                                      |
-| ------------ | ---------------------------------------------------------------------------------------------------------------- |
+| :----------- | :--------------------------------------------------------------------------------------------------------------- |
 | Name         | The user-entered name of the snapshot.                                                                           |
 | Note         | Any user-specified notes about the snapshot.                                                                     |
 | Date created | The date the snapshot was created.                                                                               |
@@ -192,7 +192,7 @@ You can view the following information for each device snapshot:
 You can view the activity log for the device, which includes the following information for each device run:
 
 | Field            | Description                                                   |
-| ---------------- | ------------------------------------------------------------- |
+| :--------------- | :------------------------------------------------------------ |
 | Log ID           | The unique ID generated for the run.                          |
 | User             | The email address of the user running the device.             |
 | Snapshot         | The snapshot used for the device run.                         |
@@ -249,7 +249,7 @@ To set up a device outside the US, use a VPN with a US exit node.
 The RCE can play unprotected content and content with the following DRM protection:
 
 | DRM      | Level | Resolution                 |
-| -------- | ----- | -------------------------- |
+| :------- | :---- | :------------------------- |
 | Widevine | L3    | HD content (1080p or 720p) |
 
 ## Troubleshooting

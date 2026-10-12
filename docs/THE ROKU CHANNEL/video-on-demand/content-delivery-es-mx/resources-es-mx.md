@@ -9,7 +9,7 @@ metadata:
 ## Plantillas, esquemas y ejemplos de metadatos
 
 | Recurso                                                | Enlace                                                                       |
-| ------------------------------------------------------ | ---------------------------------------------------------------------------- |
+| :----------------------------------------------------- | :--------------------------------------------------------------------------- |
 | Plantilla de Excel de metadatos de película            | [go.roku.com/film-excel-template](https://go.roku.com/film-excel-template)   |
 | Plantilla de Excel de metadatos de TV                  | [go.roku.com/tv-excel-template](https://go.roku.com/tv-excel-template)       |
 | Plantilla de Excel de metadatos de clip                | [go.roku.com/clip-excel-template](https://go.roku.com/clip-excel-template)   |
@@ -27,14 +27,14 @@ metadata:
 ## Mejores prácticas y guías
 
 | Recurso                                               | Enlace                                                                                                                             |
-| ----------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| :---------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------- |
 | Mejores prácticas: etiquetas de contenido y metadatos | [developer.roku.com — content-tags-and-metadata](https://developer.roku.com/trc-docs/video-on-demand/content-tags-and-metadata.md) |
 | Envío de hoja de referencia musical                   | [go.roku.com/music-cue-sheet-submission](https://go.roku.com/music-cue-sheet-submission)                                           |
 
 ## Herramientas de entrega
 
 | Recurso                                                       | Enlace                                                                                                                                                                                                                               |
-| ------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| :------------------------------------------------------------ | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Cliente de Aspera (IBM Fix Central)                           | [IBM Fix Central — Aspera Desktop Client](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm~Other%20software\&product=ibm/Other%20software/IBM%20Aspera%20Desktop%20Client\&release=All\&platform=All\&function=all) |
 | IBM Aspera para escritorio                                    | [ibmaspera.com/help/downloads/desktop](https://ibmaspera.com/help/downloads/desktop)                                                                                                                                                 |
 | URL de Aspera Shares de Roku                                  | [aspera.sr.roku.com](https://aspera.sr.roku.com)                                                                                                                                                                                     |
@@ -47,27 +47,27 @@ metadata:
 ## Avails
 
 | Recurso                         | Enlace                                                                   |
-| ------------------------------- | ------------------------------------------------------------------------ |
+| :------------------------------ | :----------------------------------------------------------------------- |
 | Especificación de Avail de Roku | [go.roku.com/trc-avail-spec](https://go.roku.com/trc-avail-spec)         |
 | Plantilla de Avail de Roku      | [go.roku.com/trc-avail-template](https://go.roku.com/trc-avail-template) |
 
 ## Normativa de la FCC
 
 | Recurso                                                                | Enlace                                                                                                                                       |
-| ---------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| :--------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------- |
 | Descripción de audio de la FCC                                         | [fcc.gov/audio-description](https://www.fcc.gov/audio-description)                                                                           |
 | Subtítulos descriptivos de la FCC — Programación de video por internet | [fcc.gov/consumers/guides/captioning-internet-video-programming](https://www.fcc.gov/consumers/guides/captioning-internet-video-programming) |
 
 ## Normativa del CRTC (Canadá)
 
 | Recurso                                                                                           | Enlace                                                                                     |
-| ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| :------------------------------------------------------------------------------------------------ | :----------------------------------------------------------------------------------------- |
 | Política regulatoria de radiodifusión CRTC 2026-98 (Subtítulos descriptivos — Streaming en línea) | [crtc.gc.ca/eng/archive/2026/2026-98.htm](https://crtc.gc.ca/eng/archive/2026/2026-98.htm) |
 
 ## MovieLabs
 
 | Recurso                              | Enlace                                                                                                           |
-| ------------------------------------ | ---------------------------------------------------------------------------------------------------------------- |
+| :----------------------------------- | :--------------------------------------------------------------------------------------------------------------- |
 | Sitio de metadatos de MovieLabs      | [movielabs.com/md](https://www.movielabs.com/md/)                                                                |
 | Especificación de EMA Avails         | [movielabs.com/md/avails](https://movielabs.com/md/avails/)                                                      |
 | Esquema MEC — Nodo Keyword           | [MEC v2.9 schema — Keyword](https://movielabs.com/md/mec/v2.9/mdmec-v2.9/mdmec-v2.9.html#Link116)                |
@@ -80,7 +80,7 @@ metadata:
 ## Autoridades de clasificación
 
 | Recurso                               | Enlace                                                                                                                            |
-| ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| :------------------------------------ | :-------------------------------------------------------------------------------------------------------------------------------- |
 | Clasificaciones MPAA (EE. UU.)        | [filmratings.com](https://www.filmratings.com/)                                                                                   |
 | Clasificaciones de TV (EE. UU.)       | [tvguidelines.org](http://tvguidelines.org/)                                                                                      |
 | Clasificaciones BBFC (Reino Unido)    | [bbfc.co.uk](https://bbfc.co.uk/)                                                                                                 |
@@ -90,13 +90,13 @@ metadata:
 ## Referencias de estándares
 
 | Recurso                           | Enlace                                                                                 |
-| --------------------------------- | -------------------------------------------------------------------------------------- |
+| :-------------------------------- | :------------------------------------------------------------------------------------- |
 | Códigos de país ISO 3166-1 alfa-2 | [iso.org/iso-3166-country-codes](https://www.iso.org/iso-3166-country-codes.html)      |
 | RFC 5646 (etiquetas de idioma)    | [datatracker.ietf.org/doc/html/rfc5646](https://datatracker.ietf.org/doc/html/rfc5646) |
 
 ## Contactos de soporte
 
 | Contacto                                                                | Propósito                                                                 |
-| ----------------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| :---------------------------------------------------------------------- | :------------------------------------------------------------------------ |
 | [deliverynotifications@roku.com](mailto:deliverynotifications@roku.com) | Notificaciones de entrega                                                 |
 | [contentoperations@roku.com](mailto:contentoperations@roku.com)         | Consultas de asset_id, soporte para actualizaciones de metadatos/archivos |

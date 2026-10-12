@@ -16,7 +16,7 @@ next:
 ## Implemented by
 
 | Name           | Description                               |
-| -------------- | ----------------------------------------- |
+| :------------- | :---------------------------------------- |
 | [roFontRegistry](doc:rofontregistry) | The roFontRegistry object allows you to create roFont objects, either using the default font or using fonts in TrueType or OpenType files packaged with your application |
 
 
@@ -54,7 +54,7 @@ Returns a font from the specified family, selected from the fonts previously reg
 ##### Parameters
 
 | Name   | Type    | Description                                                  |
-| ------ | ------- | ------------------------------------------------------------ |
+| :----- | :------ | :----------------------------------------------------------- |
 | family | String  | The font family name.                                        |
 | size   | Integer | The requested font size, in pixels, not points.              |
 | bold   | Boolean | "bold" specifies a font variant that may be (but is not always) supported by the font file. |
@@ -83,7 +83,7 @@ Returns the system font. The system font is always available, even if the [Regis
 ##### Parameters
 
 | Name   | Type    | Description                                                  |
-| ------ | ------- | ------------------------------------------------------------ |
+| :----- | :------ | :----------------------------------------------------------- |
 | size   | Integer | The requested font size, in pixels, not points.              |
 | bold   | Boolean | "bold" specifies a font variant that may be (but is not always) supported by the font file. |
 | italic | Boolean | "italic" specifies a font variant that may be (but is not always) supported by the font file. |
@@ -111,7 +111,7 @@ Returns a valid font string.
 ##### Parameters
 
 | Name   | Type    | Description                                                  |
-| ------ | ------- | ------------------------------------------------------------ |
+| :----- | :------ | :----------------------------------------------------------- |
 | family | String  | The font family name.                                        |
 | size   | Integer | The requested font size, in pixels, not points.              |
 | bold   | Boolean | "bold" specifies a font variant that may be (but is not always) supported by the font file. |

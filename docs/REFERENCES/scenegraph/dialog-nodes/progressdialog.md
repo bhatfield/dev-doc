@@ -31,7 +31,7 @@ The message, bulleted text, graphic, and button regions of the dialog should all
 ## Fields
 
 | Field       | Type        | Default        | Access Permission | Description                                                                                                                               |
-| ----------- | ----------- | -------------- | ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| :---------- | :---------- | :------------- | :---------------- | :---------------------------------------------------------------------------------------------------------------------------------------- |
 | busySpinner | BusySpinner | system default | READ_WRITE        | Provides access to the BusySpinner node used by the ProgressDialog node so that the spinner icon and rotation direction can be customized |
 
 ## Sample app

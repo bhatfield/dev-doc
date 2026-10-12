@@ -32,7 +32,7 @@ Checks whether the microphone is open. This method returns true when the microph
 Returns the information regarding a particular microphone recording session. This method returns an roAssociativeArray containing the following information:
 
 | Key           | Type        | Value                                                                            |
-| ------------- | ----------- | -------------------------------------------------------------------------------- |
+| :------------ | :---------- | :------------------------------------------------------------------------------- |
 | format        | string      | The audio data format (ex. pcm-s16-le)                                           |
 | num_channels  | integer     | The number of channels (ex. 1 for mono)                                          |
 | sample_rate   | integer     | The audio sample rate (ex. 16000 for 16kHz)                                      |

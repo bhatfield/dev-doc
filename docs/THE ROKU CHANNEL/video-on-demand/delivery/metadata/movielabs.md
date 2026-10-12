@@ -139,7 +139,7 @@ Ad break, intro credit, and end credit cue points are supplied in the MovieLabs 
 Roku-specific image files are identified using the MovieLabs MEC `ArtReference` `purpose` attribute:
 
 | `purpose` Attribute Value | Roku Artwork Type                                                                                            |
-| ------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| :------------------------ | :----------------------------------------------------------------------------------------------------------- |
 | `keyart`                  | 16:9 texted key art with title treatment for movies/shortform/series **OR** 16:9 textless image for episodes |
 | `boxcover`                | 4:3 or 3:4 texted box art with title treatment                                                               |
 | `poster`                  | 2:3 texted poster art with title treatment                                                                   |
@@ -208,7 +208,7 @@ ERROR StatusLogger Log4j2 could not find a logging implementation. Please add lo
 ## Glossary
 
 | Term             | Definition                                                                                                                              |
-| ---------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| :--------------- | :-------------------------------------------------------------------------------------------------------------------------------------- |
 | **MEC**          | Media Entertainment Core — the MovieLabs metadata schema describing the content itself.                                                 |
 | **MMC**          | Media Manifest Core — the MovieLabs schema describing the manifest of deliverable assets (video, audio, images) tied to a title.        |
 | **EMA Avails**   | The MovieLabs/EMA specification expressing licensing and availability terms for content.                                                |

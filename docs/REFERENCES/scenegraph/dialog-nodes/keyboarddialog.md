@@ -35,7 +35,7 @@ Another typical usage of the KeyboardDialog node class adds a "Hide Text" button
 ## Fields
 
 | Field    | Type          | Default        | Access Permission | Description                                                                                                                                                                                                                |
-| -------- | ------------- | -------------- | ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :------- | :------------ | :------------- | :---------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | text     | string        | ""             | READ_WRITE        | Can be used to explicitly set the internal Keyboard node text string, as well as to access the string entered by the user                                                                                                  |
 | keyboard | Keyboard node | system default | READ_ONLY         | Provides access to the internal Keyboard node. The field is read-only, but the fields of the Keyboard node it refers to can be read and written, allowing you to fully customize the Keyboard node appearance and behavior |
 

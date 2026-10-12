@@ -17,7 +17,7 @@ Interface equivalent for intrinsic type Boolean.
 ## Implemented by
 
 | Name      | Description                               |
-| --------- | ----------------------------------------- |
+| :-------- | :---------------------------------------- |
 | [roBoolean](doc:roboolean) | Object equivalent for intrinsic type Boolean |
 
 
@@ -42,5 +42,5 @@ Sets the calling boolean object to the specified true/false value.
 ##### Parameters
 
 | Name  | Type    | Description |
-| ----- | ------- | ----------- |
+| :---- | :------ | :---------- |
 | value | Boolean | True/false. |

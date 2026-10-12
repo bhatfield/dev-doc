@@ -56,7 +56,7 @@ The following models are currently being manufactured and are supported:
 The following models are no longer manufactured, but can run the latest Roku OS:
 
 | Device Name              | Code Name        | roDeviceInfo.GetModel() | CPU                              | Accelerated Graphics API | RAM    | Max UI Resolution | Max Playback Resolution | HDR Support                                             | Year Released |
-| :----------------------- | :--------------- | :---------------------- | :------------------------------- | ------------------------ | :----- | :---------------- | :---------------------- | :------------------------------------------------------ | ------------- |
+| :----------------------- | :--------------- | :---------------------- | :------------------------------- | :----------------------- | :----- | :---------------- | :---------------------- | :------------------------------------------------------ | :------------ |
 | Roku Smart Soundbar      | Fruitland        | 9100X                   | ARM Cortex A53                   | OpenGL ES 2.0            | 1 GB   | 1080p             | 4K60fps, HDR            | HDR10                                                   | 2019          |
 | Roku Streambar           | Chico            | 9102X                   | ARM Cortex A53                   | OpenGL ES 2.0            | 1 GB   | 1080p/60fps       | 4K60fps, HDR            | HDR10 and HLG                                           | 2020          |
 | Roku Ultra LT            | Benjamin-W       | 4800X                   | ARM Cortex A55                   | OpenGL ES 2.0            | 2 GB   | 1080p/60fps       | 4K60fps, HDR            | HDR10/10+, HLG, and DolbyVision                         | 2021          |

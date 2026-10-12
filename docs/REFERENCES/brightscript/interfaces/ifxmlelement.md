@@ -15,7 +15,7 @@ next:
 ## Implemented by
 
 | Name         | Description |
-| ------------ | ----------- |
+| :----------- | :---------- |
 | [roXMLElement](doc:roxmlelement) | roXMLElement is used to contain an XML tree |
 
 
@@ -30,7 +30,7 @@ Parses a string of XML.
 ##### Parameters
 
 | Name | Type   | Description |
-| ---- | ------ | ----------- |
+| :--- | :----- | :---------- |
 | xml  | String | The XML string to be parsed |
 
 ##### Return Value
@@ -108,7 +108,7 @@ Returns an [roXMLList](doc:roxmllist) representing all child elements of this el
 ##### Parameters
 
 | Name | Type   | Description |
-| ---- | ------ | ----------- |
+| :--- | :----- | :---------- |
 | name  | String | The parent element containing the child elements to be listed. Matching of the parent element name is case-sensitive.|
 
 ##### Return Value
@@ -124,7 +124,7 @@ Returns an [roXMLList](doc:roxmllist) representing all child elements of this el
 ##### Parameters
 
 | Name | Type   | Description                                                  |
-| ---- | ------ | ------------------------------------------------------------ |
+| :--- | :----- | :----------------------------------------------------------- |
 | name | String | The parent element containing the child elements to be listed. Matching of the parent element name is case-sensitive. |
 
 ##### Return Value
@@ -140,7 +140,7 @@ Checks whether the element has the specified name.
 ##### Parameters
 
 | Name | Type   | Description |
-| ---- | ------ | ----------- |
+| :--- | :----- | :---------- |
 | name  | String | The element name to be verified.|
 
 ##### Return Value
@@ -154,7 +154,7 @@ Checks whether the element has the specified attribute.
 ##### Parameters
 
 | Name | Type   | Description |
-| ---- | ------ | ----------- |
+| :--- | :----- | :---------- |
 | attr  | String | The element attribute to be verified.|
 
 ##### Return Value
@@ -170,7 +170,7 @@ Sets the element text from the specified string
 ##### Parameters
 
 | Name | Type   | Description |
-| ---- | ------ | ----------- |
+| :--- | :----- | :---------- |
 | body  | Object | The string to be used to set the element text.|
 
 ### AddBodyElement() as Object
@@ -192,7 +192,7 @@ Adds a new child element with the specified name and returns the new element.
 ##### Parameters
 
 | Name | Type   | Description |
-| ---- | ------ | ----------- |
+| :--- | :----- | :---------- |
 | name  | String | The name of the child element to be added.|
 
 ##### Return Value
@@ -208,7 +208,7 @@ Adds a new child element with the specified name and text from the specified bod
 ##### Parameters
 
 | Name | Type   | Description |
-| ---- | ------ | ----------- |
+| :--- | :----- | :---------- |
 | name  | String | The name of the child element to be added.|
 | body  | Object | The text of the child element to be added (via the body string).|
 
@@ -225,7 +225,7 @@ Adds text to the element.
 ##### Parameters
 
 | Name | Type   | Description |
-| ---- | ------ | ----------- |
+| :--- | :----- | :---------- |
 | text  | String | The text to be added to the element.|
 
 ### AddAttribute(attr as String, value as String) as Void
@@ -237,7 +237,7 @@ Adds an attribute value to the element. If an attribute of the same name already
 ##### Parameters
 
 | Name | Type   | Description |
-| ---- | ------ | ----------- |
+| :--- | :----- | :---------- |
 | attr  | String | The name of the attribute to be added to the element.|
 | value  | Object | The value of the attribute being added to the element.|
 
@@ -250,7 +250,7 @@ Sets the name of the element.
 ##### Parameters
 
 | Name | Type   | Description |
-| ---- | ------ | ----------- |
+| :--- | :----- | :---------- |
 | name  | String | The name of the element.|
 
 ### GenXML(gen_header as Boolean) as String
@@ -262,7 +262,7 @@ Serializes the element to XML document text.
 ##### Parameters
 
 | Name | Type   | Description |
-| ---- | ------ | ----------- |
+| :--- | :----- | :---------- |
 | gen_header  | Boolean | Specifies whether the output begins with a standard XML declaration specifying UTF-8 encoding. |
 
 ##### Return Value
@@ -278,7 +278,7 @@ Serializes the element to XML document text. The specified header is used to beg
 ##### Parameters
 
 | Name | Type   | Description |
-| ---- | ------ | ----------- |
+| :--- | :----- | :---------- |
 | hdr  | String | Specify the header with which the output begins.|
 
 ##### Return Value

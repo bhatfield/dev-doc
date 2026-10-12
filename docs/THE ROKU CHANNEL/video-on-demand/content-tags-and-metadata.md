@@ -22,7 +22,7 @@ Include **at least 2 relevant Roku Provided Tags** from the menu below on _every
 Examples:
 
 |       Title      | Baseline<br />(2 Roku tags)<br />Preferred |      Rich Tags<br />(2 Roku Tags +)<br />Preferred     |     | Mismatched Tags -<br />Not Preferred |
-| :--------------: | :----------------------------------------: | :----------------------------------------------------: | :-: | :----------------------------------: |
+| :--------------- | :----------------------------------------- | :----------------------------------------------------- | :-- | :----------------------------------- |
 |    Mean Girls    |          comedy<br />coming of age         | comedy, coming of age, romantic comedy, leading ladies |     |          action, documentary         |
 | Schindler's List |           drama<br />world war 2           |       drama, world war 2, war, history, biography      |     |        comedy, romance, action       |
 |     Hoarders     |         reality tv<br />documentary        |          reality tv, documentary, bingeworthy          |     |  romance, ensemble tv shows, cooking |
@@ -67,7 +67,7 @@ These are level 2 tags. Used to add an additional layer of description not cover
 Examples:
 
 | Title         | Core Tag | Niche Tag     |
-| ------------- | -------- | ------------- |
+| :------------ | :------- | :------------ |
 | Terminator    | action   | cyborgs       |
 | Downton Abbey | drama    | period pieces |
 

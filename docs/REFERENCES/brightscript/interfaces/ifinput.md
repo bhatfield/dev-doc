@@ -16,7 +16,7 @@ next:
 ## Implemented by
 
 | Name      | Description                               |
-| --------- | ----------------------------------------- |
+| :-------- | :---------------------------------------- |
 | [roInput](doc:roinput)   | An roInput object can be used to receive events sent from a network client using the External Control Protocol (ECP), as described in External Control API |
 
 
@@ -41,7 +41,7 @@ Sets the roMessagePort to be used to receive events.
 ##### Parameters
 
 | Name | Type   | Description                            |
-| ---- | ------ | -------------------------------------- |
+| :--- | :----- | :------------------------------------- |
 | port | Object | The port to be used to receive events. |
 
 ### EnableTransportEvents() as Boolean

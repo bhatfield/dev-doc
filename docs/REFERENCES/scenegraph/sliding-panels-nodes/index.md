@@ -77,7 +77,7 @@ for panel node classes should be set to one of four width sizes:
 <div class="table-wrap">
 
 | Size   | Description                                     |
-| ------ | ----------------------------------------------- |
+| :----- | :---------------------------------------------- |
 | narrow | Approximately a third of the panel set width    |
 | medium | Approximately one half the panel set width      |
 | wide   | Approximately two-thirds of the panel set width |
@@ -96,7 +96,7 @@ follows:
 <div class="table-wrap">
 
 | Panel Field  | Panel Size | SD Value         | HD Value         |
-| ------------ | ---------- | ---------------- | ---------------- |
+| :----------- | :--------- | :--------------- | :--------------- |
 | height       | all        | 403              | 605              |
 | width        | narrow     | 218              | 388              |
 |              | medium     | 292              | 520              |

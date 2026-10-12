@@ -9,7 +9,7 @@ metadata:
 Roku admite los siguientes valores de género, a los que se hace referencia mediante el campo `genre`/`genres` en cualquier lugar donde se entreguen metadatos de género (consulta las referencias de metadatos en XML y Excel para película, serie de TV y clip). Cada título **debe** entregarse con **al menos un** género admitido, y **no más de 10** géneros por título.
 
 |                     |                          |                     |                  |
-| ------------------- | ------------------------ | ------------------- | ---------------- |
+| :------------------ | :----------------------- | :------------------ | :--------------- |
 | 3x3 basketball      | consumer                 | how-to              | rowing           |
 | action              | cooking                  | hunting             | rugby            |
 | action sports       | cricket                  | hurling             | running          |

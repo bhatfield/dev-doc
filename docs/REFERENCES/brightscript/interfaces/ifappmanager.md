@@ -5,7 +5,7 @@ hidden: false
 ## Implemented by
 
 | Name                             | Description                               |
-| -------------------------------- | ----------------------------------------- |
+| :------------------------------- | :---------------------------------------- |
 | [roAppManager](doc:roappmanager) | Returns information about the application |
 
 ## Supported methods
@@ -39,7 +39,7 @@ This method allows an app to tell Roku when the user is signed in or signed out 
 ##### Parameters
 
 | Name     | Type    | Description                                                                                          |
-| -------- | ------- | ---------------------------------------------------------------------------------------------------- |
+| :------- | :------ | :--------------------------------------------------------------------------------------------------- |
 | signedIn | Boolean | Set to true to indicate that the user is signed in; set to false to indicate the user is signed out. |
 
 ### SetAutomaticAudioGuideEnabled(enabled as Boolean) as Void
@@ -51,7 +51,7 @@ Enables or disables the automatic screen reader and override any manifest settin
 ##### Parameters
 
 | Name    | Type    | Description                                                                 |
-| ------- | ------- | --------------------------------------------------------------------------- |
+| :------ | :------ | :-------------------------------------------------------------------------- |
 | enabled | Boolean | A flag indicating whether to enable or disable the automatic screen reader. |
 
 ### IsAppInstalled(channelID as String, version As String) as Boolean
@@ -63,7 +63,7 @@ This method returns true if an app with the specified channelID and the minimum 
 ##### Parameters
 
 | Name      | Type   | Description                                                     |
-| --------- | ------ | --------------------------------------------------------------- |
+| :-------- | :----- | :-------------------------------------------------------------- |
 | channelID | String | The unique id of the app.                                       |
 | version   | String | The minimum version number of the app to be used for the query. |
 
@@ -80,7 +80,7 @@ Updates video or audio [content metadata](doc:content-metadata) during playback.
 ##### Parameters
 
 | Name            | Type               | Description                                                                                                                   |
-| --------------- | ------------------ | ----------------------------------------------------------------------------------------------------------------------------- |
+| :-------------- | :----------------- | :---------------------------------------------------------------------------------------------------------------------------- |
 | contentMetaData | roAssociativeArray | The video or audio [content metadata](doc:content-metadata) parameters to be updated (for example, the title and contentType) |
 
 ##### Example

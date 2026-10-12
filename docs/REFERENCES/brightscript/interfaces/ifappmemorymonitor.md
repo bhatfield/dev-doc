@@ -14,7 +14,7 @@ next:
 ## Implemented by
 
 | Name                                         | Description                                                                                                                                                                                                                                                                |
-| -------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [roAppMemoryMonitor](doc:roappmemorymonitor) | Subscribes apps to low-memory notifications. As of [Roku OS 15.2](doc:release-notes#roku-os-152), subscribed apps receive [roAppMemoryNotificationEvent](doc:roappmemorynotificationevent)  alerts when memory usage exceeds or falls below thresholds (currently 80%, 85%, 90%, 95% of the per-app limit). |
 
 > The roAppMemoryMonitor functions are supported on all [current and updatable device models](doc:hardware), except for Liberty, Austin, Mustang and Littlefield.

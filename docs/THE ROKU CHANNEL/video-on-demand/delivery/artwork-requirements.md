@@ -28,7 +28,7 @@ Beyond these shared rules:
 ## Image Types
 
 | Image Type         | Aspect Ratio | Preferred Resolution   | Min Resolution | Max Resolution | Metadata Field |
-| ------------------ | ------------ | ---------------------- | -------------- | -------------- | -------------- |
+| :----------------- | :----------- | :--------------------- | :------------- | :------------- | :------------- |
 | Key Art            | 16:9         | 1920×1080 or 3840×2160 | 1920×1080      | 3840×2160      | `keyart`       |
 | Box Cover (Series) | 4:3          | 2560×1920              | 1600×1200      | 2560×1920      | `boxcover`     |
 | Box Cover (Movies) | 3:4          | 1920×2560              | 1200×1600      | 1920×2560      | `boxcover`     |
@@ -67,7 +67,7 @@ _The Metadata Field column reflects the field name used to tag each image type i
 ## Minimum Art Requirements by Content Type
 
 | Image Type                   | Clip         | Movie        | Series       | Episode      |
-| ---------------------------- | ------------ | ------------ | ------------ | ------------ |
+| :--------------------------- | :----------- | :----------- | :----------- | :----------- |
 | 16:9 Key Art                 | **Required** | **Required** | **Required** | —            |
 | 2:3 Poster Art               | —            | **Required** | **Required** | —            |
 | 3:4 Box Cover                | —            | **Optional** | —            | —            |
@@ -143,7 +143,7 @@ For Episode content, delivered Background Art:
 ## Glossary
 
 | Term                | Definition                                                                                                        |
-| ------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| :------------------ | :---------------------------------------------------------------------------------------------------------------- |
 | **Title treatment** | A stylized graphic rendering of a title's name, designed to appear directly on key art/poster/box cover images.   |
 | **Texted image**    | An image that includes text (typically the title treatment).                                                      |
 | **Textless image**  | An image with no text or title treatment overlaid.                                                                |

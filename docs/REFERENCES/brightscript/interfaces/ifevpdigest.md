@@ -15,7 +15,7 @@ next:
 ## Implemented by
 
 | Name        | Description                               |
-| ----------- | ----------------------------------------- |
+| :---------- | :---------------------------------------- |
 | [roEVPDigest](doc:roevpdigest) | The EVP Digest component provides an interface to the OpenSSL EVP library of message digest algorithms |
 
 
@@ -30,7 +30,7 @@ Initializes a new message digest context.
 ##### Parameters
 
 | Name       | Type   | Description                                                  |
-| ---------- | ------ | ------------------------------------------------------------ |
+| :--------- | :----- | :----------------------------------------------------------- |
 | digestType | String | The supported digest algorithm from openssl, listed at roEVPDigest. |
 
 ##### Return Value
@@ -56,7 +56,7 @@ Digests the provided data.
 ##### Parameters
 
 | Name  | Type   | Description                                                  |
-| ----- | ------ | ------------------------------------------------------------ |
+| :---- | :----- | :----------------------------------------------------------- |
 | bytes | Object | An [roByteArray](doc:robytearray) containing digested data |
 
 ##### Return Value
@@ -86,7 +86,7 @@ Adds more data to be digested.
 ##### Parameters
 
 | Name  | Type   | Description                                                  |
-| ----- | ------ | ------------------------------------------------------------ |
+| :---- | :----- | :----------------------------------------------------------- |
 | bytes | Object | An [roByteArray](doc:robytearray) containing data to be added to the current digest |
 
 ### Final() as String

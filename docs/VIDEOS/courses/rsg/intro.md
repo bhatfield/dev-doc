@@ -21,7 +21,7 @@ This lesson introduces the Roku SceneGraph development course. It lists the requ
 ## Resources
 
 | Item                                                         | Description                                                  |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| :----------------------------------------------------------- | :----------------------------------------------------------- |
 | [Roku user account signup page](https://my.roku.com/signup)  | Create a Roku customer account, which is needed to enroll in the Roku developer program. |
 | [Roku developer account enrollment page](https://developer.roku.com/enrollment/standard) | Enroll in the Roku Developer program to read and accept the Roku application distribution agreement and then access the Developer Dashboard, which enables you to create, manage, and publish Roku apps. |
 | [Roku TV and player products](https://www.roku.com/products) | Purchase a Roku device for app development and testing.  |

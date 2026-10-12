@@ -23,7 +23,7 @@ The default appearance of a Keyboard node is very transparent, allowing the keyb
 ## Fields
 
 | Field             | Type             | Default        | Access Permission | Description                                                  |
-| ----------------- | ---------------- | -------------- | ----------------- | ------------------------------------------------------------ |
+| :---------------- | :--------------- | :------------- | :---------------- | :----------------------------------------------------------- |
 | text              | string           | ""             | READ_WRITE        | Contains the string of characters that has been entered      |
 | keyColor          | color            | 0xffffffff     | READ_WRITE        | Specifies the color of the key labels and icons when the Keyboard node does not have the focus |
 | focusedKeyColor   | color            | 0xffffffff     | READ_WRITE        | Specifies the color of the key labels and icons when the Keyboard node has the focus |

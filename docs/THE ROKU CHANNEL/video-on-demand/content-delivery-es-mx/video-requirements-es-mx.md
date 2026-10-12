@@ -87,7 +87,7 @@ Roku admite una gran variedad de velocidades de fotogramas y tipos de escaneo. T
 ## Resolución de video
 
 | Tipo  | Ancho | Alto | Relación de aspecto de pixeles   |
-| ----- | ----- | ---- | -------------------------------- |
+| :---- | :---- | :--- | :------------------------------- |
 | SD    | 720   | 480  | 4:3 o 16:9 (pixeles anamórficos) |
 | SD    | 640   | 480  | 1:1 (pixeles cuadrados)          |
 | SD    | 853   | 480  | 1:1 (pixeles cuadrados)          |
@@ -105,7 +105,7 @@ Roku admite una gran variedad de velocidades de fotogramas y tipos de escaneo. T
 ## Formatos de video
 
 | Nombre        | Códecs                                                                                                     | Extensión | Tasa de bits                                 |
-| ------------- | ---------------------------------------------------------------------------------------------------------- | --------- | -------------------------------------------- |
+| :------------ | :--------------------------------------------------------------------------------------------------------- | :-------- | :------------------------------------------- |
 | Apple® ProRes | ProRes 444 (todos los perfiles)<br />ProRes 4444 (todos los perfiles)<br />ProRes 422 (todos los perfiles) | .mov      | 50 Mbps o más                                |
 | XDCam         |                                                                                                            | .mxf      | 50 Mbps o más                                |
 | MPEG-2        | MPEG-2                                                                                                     | .ts, .mpg | HD = 15 Mbps o más<br />SD = 3.75 Mbps o más |
@@ -116,7 +116,7 @@ Roku admite una gran variedad de velocidades de fotogramas y tipos de escaneo. T
 ## Glosario
 
 | Término                                | Definición                                                                                                                                         |
-| -------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Archivo sidecar**                    | Un archivo de subtítulos o audio entregado junto al (no incrustado en el) archivo de video, vinculado a este mediante los metadatos.               |
 | **Archivo mezzanine**                  | Un archivo maestro de alta calidad, típicamente casi sin pérdida, utilizado como fuente para una codificación posterior.                           |
 | **Píxeles anamórficos**                | Píxeles no cuadrados utilizados para ajustar una imagen panorámica a un tamaño de cuadro estándar.                                                 |

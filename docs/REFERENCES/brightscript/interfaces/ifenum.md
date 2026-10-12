@@ -15,7 +15,7 @@ next:
 ## Implemented by
 
 | Name               | Description |
-| ------------------ | ----------- |
+| :----------------- | :---------- |
 | [roArray](doc:roarray)            | An array stores an indexed collection of BrightScript objects |
 | [roAssociativeArray](doc:roassociativearray) | An associative array (also known as a map, dictionary or hash table) allows objects to be associated with string keys |
 | [roByteArray](doc:robytearray)        | The byte array component is used to contain and manipulate an arbitrary array of bytes |

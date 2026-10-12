@@ -15,7 +15,7 @@ next:
 ## Implemented by
 
 | Name      | Description                                  |
-| --------- | -------------------------------------------- |
+| :-------- | :------------------------------------------- |
 | [roInt](doc:roint)     | Object equivalent for intrinsic type Integer |
 
 > To verify whether an object is of an integer type, you can pass the object and this interface into the [GetInterface() method](doc:global-utility-functions):

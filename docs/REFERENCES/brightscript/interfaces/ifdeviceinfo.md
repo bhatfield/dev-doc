@@ -17,7 +17,7 @@ next:
 ## Implemented by
 
 | Name                             | Description                                                                            |
-| -------------------------------- | -------------------------------------------------------------------------------------- |
+| :------------------------------- | :------------------------------------------------------------------------------------- |
 | [roDeviceInfo](doc:rodeviceinfo) | The roDeviceInfo component provides an interface to obtain attributes about the device |
 
 ## Supported methods
@@ -68,7 +68,7 @@ Returns detailed information about the device model.
 An associative array containing the following information about the device model:
 
 | Name          | Type   | Description               |
-| ------------- | ------ | ------------------------- |
+| :------------ | :----- | :------------------------ |
 | VendorName    | String | The model vendor.         |
 | ModelNumber   | String | The model number.         |
 | VendorUSBName | String | The USB vendor.           |
@@ -96,7 +96,7 @@ Returns an roAssociativeArray containing the **major**, **minor**, **revision**,
 An roAssociativeArray containing the following fields:
 
 | Name     | Type   | Description                                   |
-| -------- | ------ | --------------------------------------------- |
+| :------- | :----- | :-------------------------------------------- |
 | major    | string | The major version number (for example, 9)     |
 | minor    | string | The minor version number (for example, 2)     |
 | revision | string | The firmware revision number (for example, 6) |
@@ -219,7 +219,7 @@ An ISO 3166-1 (2-letter) country code.
 > If the app owner entered into an additional agreement to have the app published to a curated [Roku Powered Streaming Store](https://www.roku.com/roku-powered) instead of the user country, a Roku Powered Streaming Store Identifier will instead be returned:
 
 | Roku Powered Streaming Store | Roku Powered Streaming Store Identifier | Country |
-| ---------------------------- | --------------------------------------- | ------- |
+| :--------------------------- | :-------------------------------------- | :------ |
 | Sky Germany                  | skyde                                   | DE      |
 | Sky Ireland                  | skyie                                   | IE      |
 | Sky Italy                    | skyit                                   | IT      |
@@ -406,7 +406,7 @@ Checks if the current device/firmware supports the passed in feature string.
 ##### Parameters
 
 | Name    | Type   | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| ------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :------ | :----- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | feature | String | The feature to be checked, which may be one of the following values: <ul><li>"5.1\_surround\_sound"</li><li>"can\_output\_5.1\_surround\_sound"</li><li>"sd\_only\_hardware"</li><li>"usb\_hardware"</li><li>"sdcard\_hardware"</li><li>"ethernet\_hardware"</li><li>"gaming\_hardware"</li><li>"energy\_star\_compliant"</li><li>"soundbar\_hardware". Check whether the device has soundbar hardware (for example, speakers).</li><li>"voice\_remote" (). Checks whether a Roku device is paired with a Roku voice remote. This enables developers to tailor the in-app user experience for viewers with Roku voice remote controls.</li><li>"handsfree\_voice" (). Checks whether a Roku device is paired with a hands-free Roku remote control such as the Roku Voice Remote Pro. This enables developers to tailor the in-app user experience for viewers with hands-free Roku remote controls (for example, displaying voice tips and tricks in the UI).</li></ul><blockquote><p>The "1080p\_hardware" argument is deprecated. Apps should use the GetVideoMode() and CanDecodeVideo() functions instead</p></blockquote> |
 
 ##### Return Values
@@ -424,7 +424,7 @@ Gets the current locale value based on the user's language setting.
 A string representing the current locale based on the user's language setting. The string is an ISO 639-1 (2-letter) language code followed by an underscore and a ISO 3166-1 (2-letter) country code. This may be one of the following values:
 
 | String   | Locale                |
-| -------- | --------------------- |
+| :------- | :-------------------- |
 | "en\_US" | US English            |
 | "en\_GB" | British English       |
 | "en\_CA" | Canadian English      |
@@ -447,7 +447,7 @@ Checks for the country code of the app.
 A value that indicates the Streaming Store associated with a user’s Roku account. Typically, the value returned will be an ISO 3166-1 (2-letter) country code representing the country. Alternatively, if the app owner entered into an additional agreement to have the app published to a curated [Roku Powered Streaming Store](https://www.roku.com/roku-powered) instead of the user country, then a Roku Powered Streaming Store Identifier will instead be returned. This may be one of the following values:
 
 | Value     | Country                            | Roku Powered Streaming Store (if applicable) |
-| --------- | ---------------------------------- | -------------------------------------------- |
+| :-------- | :--------------------------------- | :------------------------------------------- |
 | "AR"      | Argentina                          |                                              |
 | "AU"      | Australia                          |                                              |
 | "BR"      | Brazil                             |                                              |
@@ -490,7 +490,7 @@ Checks the two-letter ISO 639-1 language terminology code of the preferred capti
 The two-letter ISO 639-1 language terminology code, which may be one of the following values:
 
 | Language   | Code |
-| ---------- | ---- |
+| :--------- | :--- |
 | English    | en   |
 | Spanish    | sp   |
 | French     | fr   |
@@ -596,7 +596,7 @@ Sets the current global setting for the Mode property.
 ##### Parameters
 
 | Name | Type   | Description                                                                                                                                                                           |
-| ---- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :--- | :----- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | mode | String | The current global setting for the Mode property, which may be one of the following values: <ul><li>On</li><li>Off</li><li>Instant replay</li><li>When mute (Roku TVs only)</li></ul> |
 
 ##### Return Values
@@ -612,7 +612,7 @@ Checks the current value of the specified global setting property.
 ##### Parameters
 
 | Name   | Type   | Description                                                                                                                                                                                                                                                                                                                                                                            |
-| ------ | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :----- | :----- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Option | String | The global setting property to be checked, which may be one of the following values: <ul><li>Mode</li><li>Text/Font</li><li>Text/Effect</li><li>Text/Size</li><li>Text/Color</li><li>Text/Opacity</li><li>Background/Color</li><li>Background/Opacity</li><li>Window/Color</li><li>Window/Opacity</li><li>Track</li><li>Track\_Composite</li><li>Track\_Analog</li><li>Muted</li></ul> |
 
 ##### Return Values
@@ -620,7 +620,7 @@ Checks the current value of the specified global setting property.
 The value of the specified global setting property, which may be as follows:
 
 | Queried Property   | Possible Values                                                                                                                                                                                 |
-| ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :----------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Mode               | <ul><li>On</li><li>Off</li><li>Instant replay</li><li>When mute (Roku TVs only)</li></ul>                                                                                                       |
 | Text style         | <ul><li>Default</li><li>Serif Fixed Width</li><li>Serif Proportional</li><li>Sans Serif Fixed Width</li><li>Sans Serif Proportional</li><li>Casual</li><li>Cursive</li><li>Small Caps</li></ul> |
 | Text edge effect   | <ul><li>Default</li><li>None</li><li>Raised</li><li>Depressed</li><li>Uniform</li><li>Drop shadow (left)</li><li>Drop shadow (right)</li></ul>                                                  |
@@ -684,7 +684,7 @@ Notifies the app when the device's system clock becomes valid.
 ##### Parameters
 
 | Name   | Type    | Description                                                    |
-| ------ | ------- | -------------------------------------------------------------- |
+| :----- | :------ | :------------------------------------------------------------- |
 | enable | Boolean | A flag specifying whether to enable valid system clock events. |
 
 ##### Return Values
@@ -700,7 +700,7 @@ Notifies the app when a system overlay event (such as the [confirm partner butto
 ##### Parameters
 
 | Name   | Type    | Description                                                                     |
-| ------ | ------- | ------------------------------------------------------------------------------- |
+| :----- | :------ | :------------------------------------------------------------------------------ |
 | enable | Boolean | A flag specifying whether to enable/disable system overlay event notifications. |
 
 ##### Return Values
@@ -718,7 +718,7 @@ To receive events, you must have first called [SetMessagePort](doc:ifsetmessagep
 ##### Parameters
 
 | Name   | Type    | Description                                                                       |
-| ------ | ------- | --------------------------------------------------------------------------------- |
+| :----- | :------ | :-------------------------------------------------------------------------------- |
 | enable | Boolean | A flag specifying whether to enable/disable screensaver exit event notifications. |
 
 ##### Return Values
@@ -746,7 +746,7 @@ A flag indicating whether an HDMI connection to a TV has been detected.
 ##### Parameters
 
 | Name   | Type    | Description                                                                            |
-| ------ | ------- | -------------------------------------------------------------------------------------- |
+| :----- | :------ | :------------------------------------------------------------------------------------- |
 | enable | Boolean | A flag specifying whether to enable/disable lowGeneralMemoryLevel event notifications. |
 
 ##### Return Values
@@ -798,7 +798,7 @@ Notifies the app when a network connection status event occurs. This function en
 ##### Parameters
 
 | Name   | Type    | Description                                                                                |
-| ------ | ------- | ------------------------------------------------------------------------------------------ |
+| :----- | :------ | :----------------------------------------------------------------------------------------- |
 | enable | Boolean | A flag specifying whether to enable/disable network connection status event notifications. |
 
 ##### Return Values
@@ -898,7 +898,7 @@ Checks for the information associated with the hardware's connection
 An associative array with the following key-value pairs:
 
 | Key                                                                                    | Value                                                                                                                                                                                                                                                                                   |
-| -------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | type                                                                                   | Same as the value returned from GetConnectionType(). Indicated whether the device is using a WiFiConnection or WiredConnection.                                                                                                                                                         |
 | name                                                                                   | Name of the connection interface.                                                                                                                                                                                                                                                       |
 | ip                                                                                     | IP address used by the connection.                                                                                                                                                                                                                                                      |
@@ -987,7 +987,7 @@ Checks the video playback resolution.
 The video playback resolution, which maybe one of the following values:
 
 | String       | Resolution  | Aspect Ratio | Refresh Rate | Bit Depth |
-| ------------ | ----------- | ------------ | ------------ | --------- |
+| :----------- | :---------- | :----------- | :----------- | :-------- |
 | "480i"       | 720x480     | 4:3          | 60 Hz        | 8 Bit     |
 | "480p"       | 720x480     | 4:3          | 60 Hz        | 8 Bit     |
 | "576i25"     | 720x576     | 4:3          | 25 Hz        | 8 Bit     |
@@ -1030,7 +1030,7 @@ Checks for the display properties of the screen.
 An associative array with the following key/value pairs for the display properties of the screen:
 
 | Key         | Type    | Value                                                                                                                                                                                                                                                                                                                            |
-| ----------- | ------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :---------- | :------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Width       | Integer | Physical width of the attached display in centimeters                                                                                                                                                                                                                                                                            |
 | Height      | Integer | Physical height of the attached display in centimeters                                                                                                                                                                                                                                                                           |
 | Internal    | Boolean | Set to true if the display is part of the Roku Player (such as a Roku TV), false otherwise                                                                                                                                                                                                                                       |
@@ -1053,7 +1053,7 @@ Checks the supported graphics resolutions.
 A list of associative arrays. Each associative array contains the following key/value pairs for the graphics resolutions:
 
 | Key       | Type    | Value                                                                                               |
-| --------- | ------- | --------------------------------------------------------------------------------------------------- |
+| :-------- | :------ | :-------------------------------------------------------------------------------------------------- |
 | width     | integer | The pixel width of the supported resolution                                                         |
 | height    | integer | The pixel height of the supported resolution                                                        |
 | name      | string  | Either SD, HD, or FHD                                                                               |
@@ -1069,7 +1069,7 @@ Checks whether the device can decode and play the specified video format.
 ##### Parameters
 
 | Name          | Type   | Description                                                                                                                                                                                                                                                                                                      |
-| ------------- | ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :------------ | :----- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | video\_format | Object | An associative array with the following key/value pairs specifying the video format to be checked.<br /><br />As of Roku OS 14.1, the keys in the associative array are fully case-insensitive. For older OS versions, use lower-case letters for the keys when specified within double quotes ("").<br /><br /> |
 
 ##### Return Values
@@ -1093,7 +1093,7 @@ Checks for the UI resolution of the screen.
 An associative array with the following key-value pairs describing the current UI resolution:
 
 | Key    | Value                                                        |
-| ------ | ------------------------------------------------------------ |
+| :----- | :----------------------------------------------------------- |
 | name   | The possible values are: <table><thead><tr><th>Value</th><th>Meaning</th></tr></thead><tbody><tr><td>SD</td><td>standard definition (720x480 screen pixel dimensions)</td></tr><tr><td>HD</td><td>high-definition (1280x720 screen pixel dimensions)</td></tr><tr><td>FHD</td><td>full high-definition (1920x1080 screen pixel dimensions)</td></tr></tbody></table> |
 | width  | The possible values are: <table><thead><tr><th>Value</th><th>Meaning</th></tr></thead><tbody><tr><td>720</td><td>standard definition screen pixel width</td></tr><tr><td>1280</td><td>high-definition screen pixel width</td></tr><tr><td>1920</td><td>full high-definition screen pixel width</td></tr></tbody></table> |
 | height | The possible values are: <table><thead><tr><th>Value</th><th>Meaning</th></tr></thead><tbody><tr><td>480</td><td>standard definition screen pixel height</td></tr><tr><td>720</td><td>high-definition screen pixel height</td></tr><tr><td>1080</td><td>full high-definition screen pixel height</td></tr></tbody></table> |
@@ -1134,7 +1134,7 @@ Notifies the app when the audio or video codec changes. This function enables th
 ##### Parameters
 
 | Name   | Type    | Description                                                                   |
-| ------ | ------- | ----------------------------------------------------------------------------- |
+| :----- | :------ | :---------------------------------------------------------------------------- |
 | enable | Boolean | A flag indicating whether to enable/disable codec change event notifications. |
 
 ##### Return Values
@@ -1199,7 +1199,7 @@ Checks if the device can decode and play the specified audio format.
 ##### Parameters
 
 | Name          | Type   | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| ------------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :------------ | :----- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | audio\_format | Object | An associative array with the audio format to be checked. The general format of the associative arrays for CanDecodeAudio() is similar to the parameter and return associative arrays used in <a href="#candecodevideovideo_format-as-object-as-object">CanDecodeVideo()</a>. <br /><br />As of Roku OS 14.1, the keys in the associative array are fully case-insensitive. For older OS versions, use lower-case letters for the keys when specified within double quotes ("").<br /><br /> |
 
 ##### Return Values
@@ -1253,7 +1253,7 @@ Notifies the app when the screen reader changes. This function enables the sendi
 ##### Parameters
 
 | Name   | Type    | Description                                                                           |
-| ------ | ------- | ------------------------------------------------------------------------------------- |
+| :----- | :------ | :------------------------------------------------------------------------------------ |
 | enable | Boolean | A flag indicating whether to enable/disable screen reader change event notifications. |
 
 ##### Return Values

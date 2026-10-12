@@ -15,7 +15,7 @@ next:
 ## Implemented by
 
 | Name                                                         | Description                                                  |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| :----------------------------------------------------------- | :----------------------------------------------------------- |
 | [roArray](doc:roarray) | An array stores an indexed collection of BrightScript objects. Each entry of an array can be a different type, or they may all of the same type. |
 
 
@@ -30,7 +30,7 @@ next:
 ##### Parameters
 
 | Name  | Type    | Description                                                  |
-| ----- | ------- | ------------------------------------------------------------ |
+| :---- | :------ | :----------------------------------------------------------- |
 | flags | Dynamic | Items are arbitrarily grouped by comparable type of number or string, and are sorted within the group with a logical comparison.<br/><br/>If "r" is included in flags, a reverse sort is performed. If "i" is included in flags, a case-insensitive sort is performed. If invalid flags are specified, the sort is not performed. |
 
 ##### Examples
@@ -71,7 +71,7 @@ Performs a stable sort of an array of associative arrays by value of a common fi
 ##### Parameters
 
 | Name      | Type    | Description                                                  |
-| --------- | ------- | ------------------------------------------------------------ |
+| :-------- | :------ | :----------------------------------------------------------- |
 | fieldName | String  | The field to be used for sorting.                            |
 | flags     | Dynamic | Items are arbitrarily grouped by comparable type of number or string, and are sorted within the group with a logical comparison.<br/><br/>If "r" is included in flags, a reverse sort is performed. If "i" is included in flags, a case-insensitive sort is performed. If invalid flags are specified, the sort is not performed. |
 

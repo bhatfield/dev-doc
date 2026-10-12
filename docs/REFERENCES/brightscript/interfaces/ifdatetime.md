@@ -14,7 +14,7 @@ next:
 ## Implemented by
 
 | Name       | Description                                                                                                   |
-| ---------- | ------------------------------------------------------------------------------------------------------------- |
+| :--------- | :------------------------------------------------------------------------------------------------------------ |
 | [roDateTime](doc:rodatetime) | The roDateTime provides an interface to obtain the current date/time for the player and manipulate date/times |
 
 
@@ -75,7 +75,7 @@ Sets the date/time value using the number of seconds from the Unix epoch.
 ##### Parameters
 
 | Name       | Type    | Description                                |
-| ---------- | ------- | ------------------------------------------ |
+| :--------- | :------ | :----------------------------------------- |
 | numSeconds | Integer | The number of seconds from the Unix epoch. |
 
 ### FromSecondsLong(numSeconds as LongInteger) as Void
@@ -87,7 +87,7 @@ Sets the date/time value using the number of seconds from the Unix epoch.
 ##### Parameters
 
 | Name    | Type                   | Description                                |
-| ------- | ---------------------- | ------------------------------------------ |
+| :------ | :--------------------- | :----------------------------------------- |
 | seconds | Integer or LongInteger | The number of seconds from the Unix epoch. |
 
 ### ToISOString() as String
@@ -111,7 +111,7 @@ Returns an ISO 8601 representation of the date/time value with milliseconds prec
 ##### Parameters
 
 | Name   | Type   | Format      |
-| ------ | ------ | ----------- |
+| :----- | :----- | :---------- |
 | format | String | The format of the date string to be returned, which is "milliseconds" |
 
 ##### Return Value
@@ -129,7 +129,7 @@ Sets the date/time using a string in the ISO 8601 format. For example "YYYY-MM-D
 ##### Parameters
 
 | Name       | Type   | Description                                              |
-| ---------- | ------ | -------------------------------------------------------- |
+| :--------- | :----- | :------------------------------------------------------- |
 | dateString | String | The ISO-8601 string to be used to set the date and time. |
 
 ### asDateStringLoc(format as String) as String
@@ -165,7 +165,7 @@ Returns the localized date of the device.
 ##### Custom date formatting values
 
 | Date symbol |                       Description                       |
-| :---------: | :-----------------------------------------------------: |
+| :---------- | :------------------------------------------------------ |
 |     EEE     |                Day of week, abbreviated                 |
 |    EEEE     |                  Day of week long name                  |
 |      d      |          Day of month, numeric, minimum digits          |
@@ -253,7 +253,7 @@ Returns the date/time formatted string.
 ##### Parameters
 
 | Name   | Type   | Description                     |
-| ------ | ------ | ------------------------------- |
+| :----- | :----- | :------------------------------ |
 | format | String | <table><thead><tr><th>Format</th></tr></thead><tbody><tr><td>long-date</td></tr><tr><td>short-weekday</td></tr><tr><td>no-weekday</td></tr><tr><td>short-month</td></tr><tr><td>short-month-short-weekday</td></tr><tr><td>short-month-no-weekday</td></tr><tr><td>short-date</td></tr><tr><td>short-date-dashes</td></tr></tbody></table> |
 
 
@@ -262,7 +262,7 @@ Returns the date/time formatted string.
 A dateString corresponding to the specified format.
 
 | Format                    | Example dateString      |
-| ------------------------- | ----------------------- |
+| :------------------------ | :---------------------- |
 | long-date                 | Tuesday October 9, 2012 |
 | short-weekday             | Tue October 9, 2012     |
 | no-weekday                | October 9, 2012         |
@@ -275,7 +275,7 @@ A dateString corresponding to the specified format.
 > The order of the fields in both short-date formats is changed depending on the current locale:
 
 | Locale               | Field Order |
-| -------------------- | ----------- |
+| :------------------- | :---------- |
 | Canada               | YYYY/MM/DD  |
 | United States        | MM/DD/YY    |
 | UK and rest of world | DD/MM/YY    |

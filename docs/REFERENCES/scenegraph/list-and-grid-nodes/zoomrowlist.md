@@ -445,7 +445,7 @@ A ZoomRowList node should have a single ContentNode as the root node stored in i
 ##### Row ContentNode data bindings
 
 | Attribute | Type   | Description                                         |
-|-----------|--------|-----------------------------------------------------|
+|:----------|:-------|:----------------------------------------------------|
 | title     | string | This is used as the string display in the Row Title |
 
 ##### Item ContentNode data bindings

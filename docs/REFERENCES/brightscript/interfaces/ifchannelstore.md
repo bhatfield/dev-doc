@@ -13,7 +13,7 @@ next:
 ## Implemented by
 
 | Name                                 | Description                                                                         |
-| ------------------------------------ | ----------------------------------------------------------------------------------- |
+| :----------------------------------- | :---------------------------------------------------------------------------------- |
 | [roChannelStore](doc:rochannelstore) | allows the application to perform a purchase of an in-app product or upgrade an app |
 
 ## Supported methods
@@ -41,7 +41,7 @@ Requests the list of in-app products that are linked to the running app.
 If successful, a subsequent [roChannelStoreEvent](doc:rochannelstoreevent) will be received that contains an roList of roAssociativeArray items. Each associative array will contain the following parameter names with specified value type:
 
 | Parameter         | Type    | Description                                                                                                                                           |
-| ----------------- | ------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :---------------- | :------ | :---------------------------------------------------------------------------------------------------------------------------------------------------- |
 | code              | string  | The **Product Identifier** that was entered in the [In-App Products page in the Developer Dashboard](doc:product-catalog).                        |
 | name              | string  | The item name (this name will also be set as the description).                                                                                        |
 | quantity          | Integer | For one-time purchase/consumable products only. The number of the product purchased (for example "1000" game points, "3" viewings of a movie rental). |
@@ -64,7 +64,7 @@ Requests the list of globally available in-app products, which are available to 
 If successful, a subsequent [roChannelStoreEvent](doc:rochannelstoreevent) will be received that contains an roList of roAssociativeArray items. Each associative array will contain the following parameter names with specified value type:
 
 | Parameter   | Type   | Description                                                |
-| ----------- | ------ | ---------------------------------------------------------- |
+| :---------- | :----- | :--------------------------------------------------------- |
 | code        | string | The product identifier                                     |
 | cost        | String | The localized cost of the item with local currency symbol. |
 | name        | string | The item name                                              |
@@ -223,7 +223,7 @@ Sets the current Order (shopping cart) to the elements specified in the paramete
 ### ClearOrder() as Void
 
 | Name       | Return Type | Description                                                                   |
-| ---------- | ----------- | ----------------------------------------------------------------------------- |
+| :--------- | :---------- | :---------------------------------------------------------------------------- |
 | ClearOrder | Void        | Clears the current Order (shopping cart). After this call, the Order is empty |
 
 ### DeltaOrder(code as Object, qty as Integer) as Integer
@@ -238,7 +238,7 @@ Applies a change in quantity to one item in the current Order (shopping cart).
 ##### Parameters
 
 | Name | Type    | Description                                            |
-| ---- | ------- | ------------------------------------------------------ |
+| :--- | :------ | :----------------------------------------------------- |
 | code | String  | The product identifier.                                |
 | qty  | Integer | The quantity purchased. This may be a negative number. |
 
@@ -257,7 +257,7 @@ Retrieves the current Order.
 The returned object is an roList of roAssociativeArray items, where each item contains the following parameter names with specified value type:
 
 | Name | Type    | Description             |
-| ---- | ------- | ----------------------- |
+| :--- | :------ | :---------------------- |
 | code | String  | The product identifier. |
 | qty  | Integer | The quantity purchased. |
 
@@ -286,7 +286,7 @@ This test mode short circuits communication to the Streaming Store. It makes oth
 ##### Parameters
 
 | Name   | Type    | Description                                                              |
-| ------ | ------- | ------------------------------------------------------------------------ |
+| :----- | :------ | :----------------------------------------------------------------------- |
 | enable | Boolean | If enable is true, enables a test mode for the roChannelStore component. |
 
 To use this test method, create a **csFake** folder and add the following XML files to it in order to simulate web service request and response data:
@@ -430,7 +430,7 @@ Stores an access token, oAuth token, or other authentication artifact that can b
 ##### Parameters
 
 | Name | Type   | Description                                                      |
-| ---- | ------ | ---------------------------------------------------------------- |
+| :--- | :----- | :--------------------------------------------------------------- |
 | data | String | An OAuth token, custom token, or other custom data to be stored. |
 
 ##### Return Value

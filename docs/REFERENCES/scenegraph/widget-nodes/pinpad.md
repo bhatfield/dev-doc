@@ -37,7 +37,7 @@ When creating your own keyboard background artwork, you must maintain the size o
 ## Fields
 
 | Field               | Type    | Default    | Access Permission | Description                                                  |
-| ------------------- | ------- | ---------- | ----------------- | ------------------------------------------------------------ |
+| :------------------ | :------ | :--------- | :---------------- | :----------------------------------------------------------- |
 | pin                 | string  | ""         | READ_WRITE        | Contains the string of numbers that have been entered        |
 | pinLength           | integer | 4          | READ_WRITE        | Contains the maximum number of digits that can be entered    |
 | secureMode          | boolean | true       | READ_WRITE        | When set to true, each digit entered is displayed briefly, then replaced with an asterisk. When false, the entered digits always remain visible |

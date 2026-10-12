@@ -16,7 +16,7 @@ next:
 The ifSGNodeBoundingRect interface can be used to query the bounding rectangle of subject node. The ifSGNodeBoundingRect interface methods return a node bounding rectangle as an associative array with four elements:
 
 | Name   | Value                                                |
-| ------ | ---------------------------------------------------- |
+| :----- | :--------------------------------------------------- |
 | x      | x-coordinate of the origin of the bounding rectangle |
 | y      | y-coordinate of the origin of the bounding rectangle |
 | width  | width of the bounding rectangle                      |
@@ -28,7 +28,7 @@ The ifSGNodeBoundingRect interface can be used to query the bounding rectangle o
 ## Implemented by
 
 | Name     | Description                                                                             |
-| -------- | --------------------------------------------------------------------------------------- |
+| :------- | :-------------------------------------------------------------------------------------- |
 | [roSGNode](doc:rosgnode) | The roSGNode object is the BrightScript equivalent of SceneGraph XML file node creation |
 
 
@@ -81,7 +81,7 @@ If the node is not connected to a Scene node, this will return the same value as
 ##### Parameters
 
 | Name     | Type     | Description                       |
-| -------- | -------- | --------------------------------- |
+| :------- | :------- | :-------------------------------- |
 | ancestor | roSGNode | The ancestor of the subject node. |
 
 ##### Return Value

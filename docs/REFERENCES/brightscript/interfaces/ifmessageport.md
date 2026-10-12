@@ -13,7 +13,7 @@ next:
 ## Implemented by
 
 | Name                               | Description                                            |
-| ---------------------------------- | ------------------------------------------------------ |
+| :--------------------------------- | :----------------------------------------------------- |
 | [roMessagePort](doc:romessageport) | A Message Port is the place messages (events) are sent |
 
 ## Supported methods

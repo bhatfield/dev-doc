@@ -134,7 +134,7 @@ For example, if starting video playback is slow or seems to cause memory leaks, 
 These profiling commands exist on port 8080 ([Roku OS Versions 9](doc:release-notes#roku-os-9) and later):
 
 | **Command**   | **Purpose**                              |
-|---------------|------------------------------------------|
+|:--------------|:-----------------------------------------|
 | bsprof-status | Get the status of BrightScript profiling |
 | bsprof-pause  | Pause the generation of profiling data   |
 | bsprof-resume | Resume the generation of profiling data  |
@@ -288,7 +288,7 @@ functions as a whole or for individuals lines of code in the functions
 ### Values from memory profiling
 
 | Calls                                                                                                                         | Number of times a function was called                                                                        |
-|-------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
+|:------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------|
 | Cpu.self                                                                                                                      | CPU* used in a function, itself                                                                              |
 | Cpu.callees                                                                                                                   | CPU* used in functions called by a function                                                                  |
 | Cpu.total                                                                                                                     | Cpu.self + cpu.callees                                                                                       |

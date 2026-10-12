@@ -141,7 +141,7 @@ Los puntos de referencia de corte publicitario, créditos iniciales y créditos 
 Los archivos de imagen específicos de Roku se identifican mediante el atributo `purpose` de `ArtReference` del MEC de MovieLabs:
 
 | Valor del atributo `purpose` | Tipo de ilustración de Roku                                                                                                              |
-| ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| :--------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------- |
 | `keyart`                     | Arte clave en 16:9 con texto y tratamiento del título para películas/formato corto/series, **O** imagen en 16:9 sin texto para episodios |
 | `boxcover`                   | Carátula en 4:3 o 3:4 con texto y tratamiento del título                                                                                 |
 | `poster`                     | Portada en 2:3 con texto y tratamiento del título                                                                                        |
@@ -210,7 +210,7 @@ ERROR StatusLogger Log4j2 could not find a logging implementation. Please add lo
 ## Glosario
 
 | Término          | Definición                                                                                                                                                             |
-| ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :--------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **MEC**          | Media Entertainment Core: el esquema de metadatos de MovieLabs que describe el contenido en sí.                                                                        |
 | **MMC**          | Media Manifest Core: el esquema de MovieLabs que describe el manifiesto de activos entregables (video, audio, imágenes) vinculados a un título.                        |
 | **EMA Avails**   | La especificación de MovieLabs/EMA que expresa los términos de licenciamiento y disponibilidad de un contenido.                                                        |

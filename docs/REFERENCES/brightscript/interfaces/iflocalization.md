@@ -13,7 +13,7 @@ next:
 ## Implemented by
 
 | Name                                 | Description                                                            |
-| ------------------------------------ | ---------------------------------------------------------------------- |
+| :----------------------------------- | :--------------------------------------------------------------------- |
 | [roLocalization](doc:rolocalization) | The roLocalization object provides functions to assist in localization |
 
 ## Supported methods
@@ -27,7 +27,7 @@ Replaces `"^n"` in pluralString with count and returns the result.
 ##### Parameters
 
 | Name         | Type    |
-| ------------ | ------- |
+| :----------- | :------ |
 | count        | Integer |
 | zeroString   | String  |
 | oneString    | String  |
@@ -54,7 +54,7 @@ A list of currently supported locales can be found at [ifDeviceInfo.GetCurrentLo
 ##### Parameters
 
 | Name     | Type   | Description                                                                                                 |
-| -------- | ------ | ----------------------------------------------------------------------------------------------------------- |
+| :------- | :----- | :---------------------------------------------------------------------------------------------------------- |
 | dirName  | String | The name of a subdirectory in the directory pkg:/locale/XX_YY/ where XX_YY is the current language setting. |
 | fileName | String | The name of the file.                                                                                       |
 

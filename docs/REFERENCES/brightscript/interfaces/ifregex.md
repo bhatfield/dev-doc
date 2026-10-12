@@ -19,7 +19,7 @@ next:
 ## Implemented by
 
 | Name    | Description                                                                                                           |
-| ------- | --------------------------------------------------------------------------------------------------------------------- |
+| :------ | :-------------------------------------------------------------------------------------------------------------------- |
 | [roRegex](doc:roregex) | The roRegex component provides the powerful regular expression processing of the PCRE library to BrightScript strings |
 
 
@@ -34,7 +34,7 @@ Checks if a string matches the matching pattern.
 ##### Parameters
 
 | Name | Type   | Description               |
-| ---- | ------ | ------------------------- |
+| :--- | :----- | :------------------------ |
 | str  | String | The string to be checked. |
 
 ##### Return Value
@@ -50,7 +50,7 @@ If the matching pattern contains N parenthetical substrings, the relevant substr
 ##### Parameters
 
 | Name | Type   | Description                                        |
-| ---- | ------ | -------------------------------------------------- |
+| :--- | :----- | :------------------------------------------------- |
 | str  | String | The string to be searched for matching substrings. |
 
 ##### Return Value
@@ -77,7 +77,7 @@ Returns all matches of the specific regular expression pattern in the target str
 ##### Parameters
 
 | Name | Type   | Description                                        |
-| ---- | ------ | -------------------------------------------------- |
+| :--- | :----- | :------------------------------------------------- |
 | str  | String | The string to be searched for matching substrings. |
 
 ##### Return Value
@@ -103,7 +103,7 @@ Replaces the first occurrence of a matching pattern in str with replacement and 
 ##### Parameters
 
 | Name        | Type   | Description                                                |
-| ----------- | ------ | ---------------------------------------------------------- |
+| :---------- | :----- | :--------------------------------------------------------- |
 | str         | String | The string to be searched.                                 |
 | replacement | String | The string to be used to replace matches in source string. |
 
@@ -128,7 +128,7 @@ Replaces all occurrences of a matching pattern in str with replacement and retur
 ##### Parameters
 
 | Name        | Type   | Description                                                |
-| ----------- | ------ | ---------------------------------------------------------- |
+| :---------- | :----- | :--------------------------------------------------------- |
 | str         | String | The string to be searched.                                 |
 | replacement | String | The string to be used to replace matches in source string. |
 
@@ -157,7 +157,7 @@ Uses the matching pattern as a separator and splits the string on the separator 
 ##### Parameters
 
 | Name | Type   | Description             |
-| ---- | ------ | ----------------------- |
+| :--- | :----- | :---------------------- |
 | str  | String | The string to be split. |
 
 ##### Return Value

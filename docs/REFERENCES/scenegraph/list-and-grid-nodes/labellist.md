@@ -284,7 +284,7 @@ The data model for the LabelList node should have a single ContentNode as the ro
 If the list items are not to be grouped into sections, one child ContentNode should be added to the root node for each item in the list (these child nodes can be thought of as _item nodes_). Item nodes should have their ContentNode attributes set as shown in the table below.
 
 | Attribute                   | Type   | Description                                                                                                      |
-| --------------------------- | ------ | ---------------------------------------------------------------------------------------------------------------- |
+| :-------------------------- | :----- | :--------------------------------------------------------------------------------------------------------------- |
 | `TITLE`                     | string | The label for the list item                                                                                      |
 | `HDLISTITEMICONURL`         | uri    | The image file for the icon to be displayed to the left of the list item label when the list item is not focused |
 | `HDLISTITEMICONSELECTEDURL` | uri    | The image file for the icon to be displayed to the left of the list item label when the list item is focused     |
@@ -296,7 +296,7 @@ If the list items are to be grouped into sections, one child ContentNode should 
 The section root ContentNodes use the following attributes:
 
 | Attribute         | Type   | Description                                                                                                           |
-| ----------------- | ------ | --------------------------------------------------------------------------------------------------------------------- |
+| :---------------- | :----- | :-------------------------------------------------------------------------------------------------------------------- |
 | `CONTENTTYPE`     | string | Must be set to `SECTION`                                                                                              |
 | `TITLE`           | string | Label for the section divider                                                                                         |
 | `HDGRIDPOSTERURL` | uri    | The image file for the icon to be displayed to the left of the section label when the screen resolution is set to HD. |

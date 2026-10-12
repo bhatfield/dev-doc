@@ -24,7 +24,7 @@ Roku supports three distinct text-track types: **Closed Captions/SDH**, **Full S
 ## Track Types Compared
 
 |                            | Closed Captions / SDH                                                                                                         | Full Subtitles                                                                                                                                                | Forced Narrative Subtitles                                                                                                             |
-| -------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| :------------------------- | :---------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------- |
 | **Purpose**                | Accessibility for deaf/hard-of-hearing viewers                                                                                | Localization — translates dialogue/text for viewers who don't understand the audio language                                                                   | Localization for specific moments unintelligible to the viewer (foreign-language snippets, unreadable on-screen text, inaudible audio) |
 | **Viewer toggle**          | Can be turned on/off                                                                                                          | Can be turned on/off                                                                                                                                          | **Cannot** be turned on/off — displays automatically                                                                                   |
 | **Language/audio pairing** | Must match the language and locale of its companion audio track; unavailable if no matching-language audio track is delivered | Available regardless of which audio track(s) are delivered                                                                                                    | Tied to whichever audio track the viewer has selected; automatically displays when that track includes unintelligible content          |
@@ -72,7 +72,7 @@ For content intended for the US, Roku adheres to **FCC closed captioning rules f
 **Exemption codes:**
 
 | Code | Definition                                                                                                                            |
-| ---- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| :--- | :------------------------------------------------------------------------------------------------------------------------------------ |
 | 1    | The content has never aired on television in the United States.                                                                       |
 | 2    | The content has only aired on television in the United States without captions.                                                       |
 | 3    | The content has not aired on television in the United States with captions since September 30, 2012.                                  |
@@ -115,7 +115,7 @@ Roku **prefers** a human-readable sidecar file (`.ttml`, `.dfxp`, `.vtt`, or `.s
 ### Supported Formats
 
 | Format Name                                 | Positional Data | Style Data | Extension           | Encoding | Delivery Type           | Languages                                        |
-| ------------------------------------------- | --------------- | ---------- | ------------------- | -------- | ----------------------- | ------------------------------------------------ |
+| :------------------------------------------ | :-------------- | :--------- | :------------------ | :------- | :---------------------- | :----------------------------------------------- |
 | Timed Text Markup Language (TTML)           | Y               | Y          | `.ttml`             | UTF-8    | Sidecar                 | Follows audio language of video file or dub file |
 | Web Video Text Track (WebVTT)               | Y               | Y          | `.vtt` or `.webvtt` | UTF-8    | Sidecar                 | Follows audio language of video file or dub file |
 | Distribution Format Exchange Profile (DFXP) | N               | N          | `.dfxp`             | UTF-8    | Sidecar                 | Follows audio language of video file or dub file |
@@ -128,7 +128,7 @@ Roku **prefers** a human-readable sidecar file (`.ttml`, `.dfxp`, `.vtt`, or `.s
 #### Legacy Format (supported, not preferred)
 
 | Format Name                                           | Positional Data | Style Data | Extension | Encoding | Delivery Type | Languages                                        |
-| ----------------------------------------------------- | --------------- | ---------- | --------- | -------- | ------------- | ------------------------------------------------ |
+| :---------------------------------------------------- | :-------------- | :--------- | :-------- | :------- | :------------ | :----------------------------------------------- |
 | ~~SCC~~ _(legacy — use a format above when possible)_ | N               | N          | `.scc`    | ASCII    | Sidecar       | Follows audio language of video file or dub file |
 
 ***
@@ -156,7 +156,7 @@ Both Closed Captions/SDH and Full Subtitles are limited to the same styling supp
 ### Supported Formats
 
 | Format Name                                 | Positional Data | Style Data | Extension           | Encoding | Delivery Type | Languages                                                                                        |
-| ------------------------------------------- | --------------- | ---------- | ------------------- | -------- | ------------- | ------------------------------------------------------------------------------------------------ |
+| :------------------------------------------ | :-------------- | :--------- | :------------------ | :------- | :------------ | :----------------------------------------------------------------------------------------------- |
 | Timed Text Markup Language (TTML)           | Y               | Y          | `.ttml`             | UTF-8    | Sidecar       | Must conform to a supported [language code](#language-codes); include region code where possible |
 | Web Video Text Track (WebVTT)               | Y               | Y          | `.vtt` or `.webvtt` | UTF-8    | Sidecar       | Must conform to a supported [language code](#language-codes); include region code where possible |
 | Distribution Format Exchange Profile (DFXP) | N               | N          | `.dfxp`             | UTF-8    | Sidecar       | Must conform to a supported [language code](#language-codes); include region code where possible |
@@ -170,7 +170,7 @@ Both Closed Captions/SDH and Full Subtitles are limited to the same styling supp
 ## Glossary
 
 | Term                                | Definition                                                                                                                                                                        |
-| ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :---------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **SDH**                             | Subtitles for the Deaf or Hard of hearing — functionally identical to closed captions in this spec.                                                                               |
 | **EIA-608/CEA-708**                 | Broadcast caption standards embedded directly in the video stream (in-stream), as opposed to a sidecar file.                                                                      |
 | **Forced narrative**                | A non-toggleable text track that displays only for specific unintelligible moments (foreign dialogue, unreadable text, inaudible audio) within the viewer's selected audio track. |

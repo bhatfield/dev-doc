@@ -71,7 +71,7 @@ To use this feature, get the appropriate role assigned to your account.
 
 
 | Key   | Page component                                                                                                                                                                                                                                    |
-| ----- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :---- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **A** | **Feature navigation:** Displays the available features within the portal and allows users to switch between them. Organizes functionality into sections so users can quickly access different areas such as Title Tracking, Creatives, and more. |
 | **B** | **Page header and feature description:** Displays the current page title and a brief description of the feature. Provides context on what the page is used for and what actions users can take.                                                   |
 | **C** | **Title status cards:** Displays a summary of titles by status and acts as a primary filter for the table below.                                                                                                                                  |
@@ -150,7 +150,7 @@ From most restrictive to least restrictive:
 **Examples**
 
 | Scenario                                | Result      |
-| --------------------------------------- | ----------- |
+| :-------------------------------------- | :---------- |
 | Some territories Live, some Failed      | Failed      |
 | Some territories Live, some Unfulfilled | Unfulfilled |
 | Some territories Live, some Expired     | Live        |

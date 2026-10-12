@@ -27,7 +27,7 @@ At this point, if the user presses the **Left** key (or **Back** key), the panel
 For consistency, it is recommended that panels be set to the default height. Similarly, panels should be set to one of four default width sizes. For each panel width, the default defines a corresponding left position for the panel. This is summarized in the table below, along with the default values for each of these fields:
 
 | Panel Field  | Panel Size | SD Value | HD Value |
-|--------------|------------|----------|----------|
+|:-------------|:-----------|:---------|:---------|
 | height       | all        | 403      | 605      |
 | width        | narrow     | 218      | 388      |
 |              | medium     | 292      | 520      |
@@ -63,7 +63,7 @@ The PanelSet node assumes that:
 ## Fields
 
 | Field         | Type    | Default | Access Permission | Description                                                                                                                                                      |
-|---------------|---------|---------|-------------------|---------------------------------------------------------------------------------------------------------------------------------------|
+|:--------------|:--------|:--------|:------------------|:--------------------------------------------------------------------------------------------------------------------------------------|
 | width         | float   | 1280    | READ_WRITE        | Specifies the width of the PanelSet node. In most cases, this is set to the display width (such as 1280 for HD).                                         |
 | height        | float   | 605     | READ_WRITE        | Specifies the height of the PanelSet node. In most cases, this is set to the display height minus the overhang height.                               |
 | slideDuration | integer | 500     | READ_WRITE        | Milliseconds of the slide transition. The default is 1/2 second.                                                                                         |

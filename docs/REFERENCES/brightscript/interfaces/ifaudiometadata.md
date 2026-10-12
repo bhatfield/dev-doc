@@ -15,7 +15,7 @@ next:
 ## Implemented by 
 
 | Name            | Description                               |
-| --------------- | ----------------------------------------- |
+| :-------------- | :---------------------------------------- |
 | [roAudioMetadata](doc:roaudiometadata) | This component provides developers access to audio file metadata included in many audio files |
 
 
@@ -30,7 +30,7 @@ Sets the URL to the audio file. Only file URLs are initially supported
 ##### Parameters
 
 | Name | Type   | Description                |
-| ---- | ------ | -------------------------- |
+| :--- | :----- | :------------------------- |
 | url  | String | The URL of the audio file. |
 
 ### GetTags() as Object
@@ -44,7 +44,7 @@ Returns an associative array that contains a simple set of tags that are common 
 An associative array that may be set to one of the following values:
 
 | Name     | Type        | Notes                                                                            |
-| -------- | ----------- | -------------------------------------------------------------------------------- |
+| :------- | :---------- | :------------------------------------------------------------------------------- |
 | title    | String      |                                                                                  |
 | artist   | String      | Returns the first artist found even though many titles have multiple artists     |
 | album    | String      |                                                                                  |
@@ -65,7 +65,7 @@ Returns an associative array with a simple set of audio properties.
 An associative array that may be set to one of the following values (these are values that may involve reading a larger portion of the file and thus may take longer to retrieve than tags):
 
 | Name       | Type    | Description                                               |
-| ---------- | ------- | --------------------------------------------------------- |
+| :--------- | :------ | :-------------------------------------------------------- |
 | length     | Integer | Duration in seconds                                       |
 | bitrate    | Integer | In kilobytes per second                                   |
 | samplerate | Integer | Samples per second. For example: 44100 for CD sample rate |

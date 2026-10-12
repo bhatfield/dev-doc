@@ -37,7 +37,7 @@ The network format of the protocol adheres to the following rules:
 * String values are encoded as UTF-8.
 
 | Data Type     | Definition                                          |
-| ------------- | --------------------------------------------------- |
+| :------------ | :-------------------------------------------------- |
 | binary32float | IEEE-754 32-bit floating-point value                |
 | binary64float | IEEE-754 64-bit floating-point value                |
 | bool          | 8-bit unsigned integer (0 = false; nonzero = true)  |
@@ -659,7 +659,7 @@ struct BreakpointErrorUpdateData {
 ```
 
 | Field              | Type                      | Summary                                                                                           |
-| ------------------ | ------------------------- | ------------------------------------------------------------------------------------------------- |
+| :----------------- | :------------------------ | :------------------------------------------------------------------------------------------------ |
 | flags              | bool                      | This field is always set to 0. It is reserved for future use.                                     |
 | breakpoint_id      | uint8                     | The unique ID of the breakpoint (values greater than 0 are valid; a value of 0 denotes an error). |
 | num_compile_errors | uint32                    | The number of compile-time errors.                                                                |
@@ -684,7 +684,7 @@ struct CompileErrorUpdateData {
 ```
 
 | Field  | Type         | Summary                                                                                                                                                                                                                                                                  |
-| ------ | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| :----- | :----------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | flags  | bool         | This field is always set to 0 (reserved for future use).                                                                                                                                                                                                                 |
 | utf8z  | error_string | A text message describing the compiler error.                                                                                                                                                                                                                            |
 | utf8z  | file_spec    | A simple file path indicating where the compiler error occurred. It maps to all matching file paths in the app or its libraries <br /><br />`"pkg:/<filepath>"` specifies a file in the app<br /><br />`"lib:/<library_name>/<filepath>"` specifies a file in a library. |
@@ -927,7 +927,7 @@ struct ExceptionBreakpointErrorUpdateData {
 The BrightScript debugger supports the following debug commands:
 
 | Debug Command               | Description                                                                                                     | Access Scope                                                                                                                                                                                                                                                                                | Arguments                                                                               | Response                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| --------------------------- | --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :-------------------------- | :-------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :-------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | STOP                        | Stop all threads in application. Enter into debugger.<br /><br />Individual threads can not be stopped/started. | Application is running                                                                                                                                                                                                                                                                      | none                                                                                    | No response (OK or Error if successful).                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | CONTINUE                    | Exit from debugger and continue execution of all threads.                                                       | Debugger is active. All threads are stopped                                                                                                                                                                                                                                                 | none                                                                                    | [DebuggerResponse](#debugger-response-format) with no payload (OK or Error if successful).                                                                                                                                                                                                                                                                                                                                                                                                    |
 | THREADS                     | Application threads info                                                                                        | Debugger is active. All threads are stopped.                                                                                                                                                                                                                                                | none                                                                                    | A [ThreadsResponse](#threadsresponse) struct.                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
@@ -1401,7 +1401,7 @@ struct VariablesResponse{
 ### Execute arguments
 
 | Argument    | Type   | Summary                                               |
-| ----------- | ------ | ----------------------------------------------------- |
+| :---------- | :----- | :---------------------------------------------------- |
 | thread_idx  | uint32 | The index of the thread to be executed.               |
 | stack_id    | uint32 | The stack frame containing the thread to be executed. |
 | source_code | utf8z  | The source code to be executed.                       |
@@ -1413,7 +1413,7 @@ struct VariablesResponse{
   If the error_code is `ErrorCode::OK`, the following fields are also included:
 
   | Field              | Type                      | Summary                                                             |
-  | ------------------ | ------------------------- | ------------------------------------------------------------------- |
+  | :----------------- | :------------------------ | :------------------------------------------------------------------ |
   | execute_success    | bool                      | Indicates whether the code ran and completed without errors (true). |
   | runtime_stop_code  | uint8                     | A StopReason enum.                                                  |
   | num_compile_errors | uint32                    | The number of compile-time errors.                                  |
@@ -1678,7 +1678,7 @@ struct RemoveBreakpointsRequestArgs {
 ```
 
 | Field           | Type     | Summary                                                                |
-| --------------- | -------- | ---------------------------------------------------------------------- |
+| :-------------- | :------- | :--------------------------------------------------------------------- |
 | num_breakpoints | uint32   | The number of breakpoints in the **breakpoint_ids** array.             |
 | breakpoint_ids  | uint32[] | An array of breakpoint IDs representing the breakpoints to be removed. |
 
@@ -2171,7 +2171,7 @@ To run the Roku Remote Debugger, follow these steps:
 4. Enter **help** to view a list of the available debug commands, which are as follows:
 
    | Command                | Abbreviation | Description                                     |
-   | ---------------------- | ------------ | ----------------------------------------------- |
+   | :--------------------- | :----------- | :---------------------------------------------- |
    | addbreak               | break, ab    | Adds a breakpoint                               |
    | backtrace              | bt           | Print stack backtrace of selected thread.       |
    | continue               | c            | Continue all threads.                           |

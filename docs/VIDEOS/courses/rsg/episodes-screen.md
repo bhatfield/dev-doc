@@ -23,7 +23,7 @@ This lesson shows how to use new components such as the [MarkupList](doc:markupl
 ## Resources
 
 | Item                                                         | Description                                                  |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| :----------------------------------------------------------- | :----------------------------------------------------------- |
 | [Episodes Screen sample app](https://github.com/rokudev/scenegraph-master-sample/tree/master/EpisodesScreen) | Download and review the code used in this lesson to create an episodes screen. |
 | [Sideloading  Roku apps](doc:developer-setup) | Sideload and test the Episodes Screen app created in this lesson. |
 

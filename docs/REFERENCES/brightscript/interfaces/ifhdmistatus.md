@@ -15,7 +15,7 @@ next:
 ## Implemented by
 
 | Name                                                         | Description                                                  |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| :----------------------------------------------------------- | :----------------------------------------------------------- |
 | [roHdmiStatus](doc:rohdmistatus) | The HDMI status component provides an interface to the current HDMI operational status of Roku streaming players (or set-top boxes [STBs]). This interface is not applicable for Roku TVs. |
 
 ## Supported methods
@@ -53,7 +53,7 @@ Checks if the current established HDCP link is the specified version or higher
 ##### Parameters
 
 | Name    | Type   | Description                                                  |
-| ------- | ------ | ------------------------------------------------------------ |
+| :------ | :----- | :----------------------------------------------------------- |
 | version | String | The HDCP link version to be checked (for example, "1.4" or "2.2"). |
 
 ##### Return Value

@@ -27,7 +27,7 @@ Returns the event type of the WebSocket event.
 ##### Event types
 
 | Type | Value | Description |
-| --- | --- | --- |
+| :-- | :-- | :-- |
 | Opened | 1 | The WebSocket is opened and ready to send and receive messages. |
 | Closed | 2 | The WebSocket is closed. |
 | Error | 3 | An error has occurred. |
@@ -162,7 +162,7 @@ The event-info associative array.
 ##### Opened event (type: 1)
 
 | Name | Type | Description |
-| --- | --- | --- |
+| :-- | :-- | :-- |
 | Protocol | String | The protocol selected by the WebSocket server during opening. |
 | TargetIPAddr | String | The IP address of the connected WebSocket server. |
 | EffectiveUrl | String | The effective URL after all redirections. |
@@ -170,7 +170,7 @@ The event-info associative array.
 ##### Closed event (type: 2)
 
 | Name | Type | Description |
-| --- | --- | --- |
+| :-- | :-- | :-- |
 | Code | Int | The WebSocket status code. |
 | Reason | String | The reason why the WebSocket was closed. |
 | Error | Int | Internal error code. A non-zero value indicates that the WebSocket was closed because of an error. |
@@ -179,14 +179,14 @@ The event-info associative array.
 ##### Error event (type: 3)
 
 | Name | Type | Description |
-| --- | --- | --- |
+| :-- | :-- | :-- |
 | Error | Int | Internal error code. A non-zero value indicates that the WebSocket was closed because of an error. |
 | ErrorMsg | String | A brief error description, which is useful for debugging. |
 
 ##### MsgSent event (type: 4)
 
 | Name | Type | Description |
-| --- | --- | --- |
+| :-- | :-- | :-- |
 | Opcode | Int | The WebSocket opcode of the sent message. |
 | Msg | Int | The message ID, which is a unique identifier assigned when the message was created. It provides tracking when a specific message has been sent. |
 | Size | Int | The size of the message sent. |
@@ -194,33 +194,33 @@ The event-info associative array.
 ##### TextReceived event (type: 5)
 
 | Name | Type | Description |
-| --- | --- | --- |
+| :-- | :-- | :-- |
 | Text | String | The text data of the text message received. |
 
 ##### DataReceived event (type: 6)
 
 | Name | Type | Description |
-| --- | --- | --- |
+| :-- | :-- | :-- |
 | Data | ByteArray | The binary data of the binary message received. |
 
 ##### PingReceived event (type: 7)
 
 | Name | Type | Description |
-| --- | --- | --- |
+| :-- | :-- | :-- |
 | Text | String | The text data of the received Ping message (if valid). |
 | Data | ByteArray | The binary data of the received Ping message (if valid). |
 
 ##### PongReceived event (type: 8)
 
 | Name | Type | Description |
-| --- | --- | --- |
+| :-- | :-- | :-- |
 | Text | String | The text data of the received Pong message (if valid). |
 | Data | ByteArray | The binary data of the received Pong message (if valid). |
 
 ##### Timer event (type: 9)
 
 | Name | Type | Description |
-| --- | --- | --- |
+| :-- | :-- | :-- |
 | TimerId | String | The timer ID string assigned by the [**roWebSocket.SetTimer()**](doc:rowebsocket) method. |
 | Occur | Int | The timer occurrence, which indicates how many times the timer event has fired since being set up. |
 

@@ -13,7 +13,7 @@ next:
 ## Implemented by
 
 | Name                             | Description                                                                                                                                                                      |
-| -------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [roPerfetto](doc:roperfetto)     | Adds custom events and heap graph captures to a Perfetto trace of your app.                                                                                                      |
 
 > The ifPerfetto methods record events only when tracing is enabled for the app and a trace is being captured. For the requirements and the steps to enable and record a trace, see [Roku app tracing (with Perfetto)](doc:app-tracing).
@@ -33,7 +33,7 @@ Records the start of an event that has a duration, such as a long function. Call
 ##### Parameters
 
 | Name   | Type               | Description                                                                                          |
-| ------ | ------------------ | ---------------------------------------------------------------------------------------------------- |
+| :----- | :----------------- | :--------------------------------------------------------------------------------------------------- |
 | name   | String             | The name of the event in the trace.                                                                  |
 | params | roAssociativeArray | Key-value pairs to attach to the event. In the Perfetto UI, select the event to view these values. |
 
@@ -68,7 +68,7 @@ Each capture takes a couple of seconds to write to the trace, and the call does 
 ##### Parameters
 
 | Name | Type   | Description                                                                                                                              |
-| ---- | ------ | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| :--- | :----- | :--------------------------------------------------------------------------------------------------------------------------------------- |
 | name | String | A name that identifies the heap graph. In the current release, this value is ignored and is not included in the captured trace. |
 
 ##### Return Value
@@ -95,7 +95,7 @@ Keep a reference to the returned object for as long as you want to measure. If t
 ##### Parameters
 
 | Name   | Type               | Description                                                                                          |
-| ------ | ------------------ | ---------------------------------------------------------------------------------------------------- |
+| :----- | :----------------- | :--------------------------------------------------------------------------------------------------- |
 | name   | String             | The name of the event in the trace.                                                                  |
 | params | roAssociativeArray | Key-value pairs to attach to the event. In the Perfetto UI, select the event to view these values. |
 
@@ -140,7 +140,7 @@ Call flowEvent() with the same flow ID in each place the flow passes through. En
 ##### Parameters
 
 | Name   | Type    | Description                                                                |
-| ------ | ------- | -------------------------------------------------------------------------- |
+| :----- | :------ | :------------------------------------------------------------------------- |
 | flowId | Integer | A unique unsigned integer that you choose to identify the flow.            |
 | name   | String  | The name of the event in the trace.                                        |
 
@@ -159,7 +159,7 @@ Records an event that has no duration, such as a key press.
 ##### Parameters
 
 | Name | Type   | Description                         |
-| ---- | ------ | ----------------------------------- |
+| :--- | :----- | :---------------------------------- |
 | name | String | The name of the event in the trace. |
 
 ##### Return Value
@@ -184,7 +184,7 @@ Records an event that has no duration, and attaches additional data to the event
 ##### Parameters
 
 | Name   | Type                  | Description                                                                                          |
-| ------ | --------------------- | ---------------------------------------------------------------------------------------------------- |
+| :----- | :-------------------- | :--------------------------------------------------------------------------------------------------- |
 | name   | String                | The name of the event in the trace.                                                                  |
 | params | roAssociativeArray    | Key-value pairs to attach to the event. In the Perfetto UI, select the event to view these values. |
 
@@ -210,7 +210,7 @@ Records the final event of a flow and ends the flow.
 ##### Parameters
 
 | Name   | Type    | Description                                                     |
-| ------ | ------- | --------------------------------------------------------------- |
+| :----- | :------ | :-------------------------------------------------------------- |
 | flowId | Integer | The unique unsigned integer that identifies the flow to end.    |
 | name   | String  | The name of the event in the trace.                             |
 

@@ -15,7 +15,7 @@ next:
 ## Implemented by
 
 | Name       | Description                                                                                               |
-| ---------- | --------------------------------------------------------------------------------------------------------- |
+| :--------- | :-------------------------------------------------------------------------------------------------------- |
 | [roRegistry](doc:roregistry) | The Registry is an area of non-volatile storage where a small number of persistent settings can be stored |
 
 ## Supported methods
@@ -59,7 +59,7 @@ Deletes the specified registry section.
 ##### Parameters
 
 | Name    | Type   | Description                         |
-| ------- | ------ | :---------------------------------- |
+| :------ | :----- | :---------------------------------- |
 | section | String | The registry section to be deleted. |
 
 ##### Return Value

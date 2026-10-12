@@ -16,7 +16,7 @@ next:
 ## Implemented by
 
 | Name                                   | Description                                                  |
-| -------------------------------------- | ------------------------------------------------------------ |
+| :------------------------------------- | :----------------------------------------------------------- |
 | [roAnimatedImage](doc:roanimatedimage) | Provides software-decoded playback of an animated image, such as an animated WebP, a Lottie animation, or a small VP9-encoded MP4 via the [ifDraw2D](doc:ifdraw2d) drawing model. |
 
 **roAnimatedImage** enables you to render animated GIFs, stickers, and small videos. It is designed for low-frame-rate, simple animations that reside in a small area.

@@ -488,7 +488,7 @@ A RowList node should have a single ContentNode as the root node in its content 
 ### Row node data bindings
 
 | Attribute          | Type        | Description       |
-| ------------------ | ----------- | ----------------- |
+| :----------------- | :---------- | :---------------- |
 | TITLE              | string      | The label for the row  |
 
 ## Item node data bindings
@@ -542,7 +542,7 @@ A RowList node should have a single ContentNode as the root node in its content 
 The follow sample apps can be installed on your local device for testing and reviewing the code.
 
 | Sample download          | Description        |
-| ------------------------ | ------------------ |
+| :----------------------- | :----------------- |
 | [SimpleRowList](https://github.com/rokudev/samples/tree/master/ux%20components/lists%20and%20grids)            | Simple example app using the RowList node class. This sample creates a two row RowList node using an item component definition, that is, it specifies custom markup for the individual items in the row.      |
 | [RowListFocusStyleTest](https://github.com/rokudev/samples/tree/master/ux%20components/lists%20and%20grids)    | A more complex example app that demonstrates a number of different focus styles, as well as ways to mix different sized images in different RowList rows.      |
 | [AdvancedRowList](https://github.com/rokudev/samples/tree/master/ux%20components/lists%20and%20grids)          | Example demonstrating use of RowList in a PanelSet. This example includes RowList loading real data from a JSON file, mixed aspect ratio posters, and the use of focusPercent to overlay annotations.      |

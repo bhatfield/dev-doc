@@ -16,7 +16,7 @@ next:
 ## Implemented by
 
 | Name      | Description |
-| --------- | ----------- |
+| :-------- | :---------- |
 | [roList](doc:rolist)    | The list object implements the interfaces: ifList, ifArray, ifEnum and therefore can behave like an array that can dynamically add members |
 | [roXMLList](doc:roxmllist) | Contains a list of roXML objects |
 
@@ -42,7 +42,7 @@ Adds an element to the tail of the list.
 ##### Parameters
 
 | Name    | Type    | Description                      |
-| ------- | ---- | -------------------------------- |
+| :------ | :--- | :------------------------------- |
 | AddTail | Dynamic | The element to be added to the tail of the list. |
 
 ### AddHead(tval As Dynamic) As Void
@@ -54,7 +54,7 @@ Adds an element to the head of the list.
 ##### Parameters
 
 | Name    | Type    | Description                                      |
-| ------- | ------- | ------------------------------------------------ |
+| :------ | :------ | :----------------------------------------------- |
 | AddHead | Dynamic | The element to be added to the head of the list. |
 
 ### RemoveIndex() As Dynamic

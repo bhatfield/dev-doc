@@ -68,7 +68,7 @@ Algunos campos deben actualizarse en conjunto, en grupos completos — **deben p
 **Grupo de metadatos:**
 
 | Campo               | ¿Obligatorio? |
-| ------------------- | ------------- |
+| :------------------ | :------------ |
 | Idioma              | Obligatorio   |
 | Título              | Obligatorio   |
 | Descripción breve   | Obligatorio   |
@@ -77,7 +77,7 @@ Algunos campos deben actualizarse en conjunto, en grupos completos — **deben p
 **Grupo de disponibilidad:**
 
 | Campo                 | ¿Obligatorio? |
-| --------------------- | ------------- |
+| :-------------------- | :------------ |
 | Tipo de licencia      | Obligatorio   |
 | País                  | Obligatorio   |
 | Fecha de inicio       | Obligatorio   |
@@ -143,7 +143,7 @@ Si los derechos cambian después de que el contenido se haya entregado a Roku, y
 ## Glosario
 
 | Término             | Definición                                                                                                                                                                                  |
-| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **MDU**             | Metadata Update (actualización de metadatos): una actualización automatizada de los campos de metadatos de un título, sin modificar ningún archivo entregado.                               |
 | **Asset ID**        | El identificador inmutable, asignado por la empresa socia, para una pieza de contenido; obligatorio, sin cambios, en cada actualización de ese contenido.                                   |
 | **Grupo de campos** | Un conjunto de campos que deben proporcionarse todos juntos para que una actualización a ese grupo se procese correctamente — proporcionar solo algunos campos de un grupo no se procesará. |

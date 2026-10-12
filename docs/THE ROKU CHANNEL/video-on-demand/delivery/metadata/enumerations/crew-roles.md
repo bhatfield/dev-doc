@@ -11,7 +11,7 @@ Roku supports the following crew member role values, referenced by the `role` fi
 > **Cross-format note:** Director is currently the **only** crew role supported for **Excel** metadata ingest. The full list below applies to **XML** delivery.
 
 | Crew Role    |
-| ------------ |
+| :----------- |
 | Actor        |
 | Anchor       |
 | Host         |

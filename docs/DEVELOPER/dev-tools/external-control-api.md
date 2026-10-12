@@ -707,7 +707,7 @@ One of the most common ways that app developers encounter ECP is deep linking. D
 The standard for deep linking uses parameters:
 
 | Parameter | Description                                                       | Possible Values                                                                                 |
-| --------- | ----------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| :-------- | :---------------------------------------------------------------- | :---------------------------------------------------------------------------------------------- |
 | contentID | Partner defined unique identifier for a specific piece of content | Any value \< 255 characters long and not using "&" or other characters that are not URL encoded |
 | mediaType | Parameter to give context to the type of contentID passed         | "series", "season", "episode", movie", "shortFormVideo", and "tvSpecial"                        |
 

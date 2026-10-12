@@ -17,7 +17,7 @@ The Tax Withholding Report lists the monthly payouts you have received from Roku
 ![tax-withhold-report](https://image.roku.com/ZHZscHItMTc2/tax-withhold-report.png)
 
 | **Field**                                        | **Description**                                              |
-| ------------------------------------------------ | ------------------------------------------------------------ |
+| :----------------------------------------------- | :----------------------------------------------------------- |
 | Paycheck month                                   | The month in which the developer received a payout from Roku. |
 | Paycheck currency code                           | The three-letter country code of the currency used to pay for the in-app products. |
 | Subscription amount (in paycheck currency)       | The amount of revenue generated from sales of your in-app products. |

@@ -15,7 +15,7 @@ next:
 ## Implemented by
 
 | Name            | Description                                                                                                            |
-| --------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| :-------------- | :--------------------------------------------------------------------------------------------------------------------- |
 | [roSocketAddress](doc:rosocketaddress) | The roSocketAddress is used by the roStreamSocket and roDataGramSocket components for TCP and UDP traffic respectively |
 
 
@@ -30,7 +30,7 @@ Sets the IPV4 address.
 ##### Parameters
 
 | Name    | Type   | Description|
-| ------- | ------ |------------|
+| :------ | :----- |:-----------|
 | address | String |The string consists of a hostname, optionally followed by a colon and a decimal port number. The hostname may be either dotted quad (such as "192.168.1.120") or a DNS name (such as "roku.com"). If a name is given, a DNS lookup is performed to convert it to dotted quad. Use IsAddressValid() to determine the result of the DNS lookup. Example: "192.168.1.120:8888" or "roku.com".|
 
 ##### Return Value
@@ -54,7 +54,7 @@ Sets the hostname. The port number is unchanged.
 ##### Parameters
 
 | Name     | Type   | Description              |
-| -------- | ------ | ------------------------ |
+| :------- | :----- | :----------------------- |
 | hostname | String | The hostname to be used. |
 
 ##### Return Value
@@ -82,7 +82,7 @@ Sets the port number. The hostname is unchanged.
 ##### Parameters
 
 | Name | Type    | Description                 |
-| ---- | ------- | --------------------------- |
+| :--- | :------ | :-------------------------- |
 | port | Integer | The port number to be used. |
 
 ##### Return Value

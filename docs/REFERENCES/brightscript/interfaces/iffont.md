@@ -14,7 +14,7 @@ next:
 ## Implemented by
 
 | Name                                                                                                            | Description                                                                                                                                         |
-| --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :-------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <Anchor label="roFont" title="roFont" href="https://developer.roku.com/dev/docs/rofont">roFont</Anchor> | roFont represents a particular font, from a font-family (eg. Arial), with a particular pixel size (e.g 20), and a particular boldness or italicness |
 
 ## Supported methods
@@ -22,7 +22,7 @@ next:
 ### GetOneLineHeight() as Integer
 
 | Name             | Type    | Possible Values              | Description                                                                        |
-| ---------------- | ------- | ---------------------------  | ---------------------------------------------------------------------------------- |
+| :--------------- | :------ | :--------------------------  | :--------------------------------------------------------------------------------- |
 | GetOneLineHeight | Integer | Number of pixels) as Integer | Returns the number of pixels from one line to the next when drawing with this font |
 
 ### GetOneLineWidth(text as String, MaxWidth as Integer) as Integer
@@ -36,13 +36,13 @@ Each glyph and the needed spacing between glyphs is measured. The returned numbe
 ### GetAscent() as Integer
 
 | Name      | Type    | Possible Values       | Description                       |
-| --------- | ------- | --------------------- | --------------------------------- |
+| :-------- | :------ | :-------------------- | :-------------------------------- |
 | GetAscent | Integer | Pixel value as Intger | Returns the font ascent in pixels |
 
 ### GetDescent() as Integer
 
 | Name       | Type    | Possible Values        | Description                        |
-| ---------- | ------- | ---------------------- | ---------------------------------- |
+| :--------- | :------ | :--------------------- | :--------------------------------- |
 | GetDescent | Integer | Pixel value as Integer | Returns the font descent in pixels |
 
 ### GetMaxAdvance() as Integer

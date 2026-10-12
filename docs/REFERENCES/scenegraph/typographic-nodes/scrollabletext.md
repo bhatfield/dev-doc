@@ -57,7 +57,7 @@ In most cases, the vertAlign field should remain set to top.
 ## Fields
 
 | Field                   | Type              | Default                                   | Access Permission | Description           |
-| ----------------------- | ----------------- | ----------------------------------------- | ----------------- | --------------------- |
+| :---------------------- | :---------------- | :---------------------------------------- | :---------------- | :-------------------- |
 | text | string | "" | READ_WRITE | Specifies the text to be displayed |
 | color                   | color             | 0xddddddff                                | READ_WRITE        | Specifies the text color |
 | font | Font | system default | READ_WRITE | Specifies the Font node to be used |

@@ -63,13 +63,13 @@ Los archivos de video fuente, subtítulos descriptivos e ilustraciones entregado
 ### Caracteres permitidos en los nombres de archivo
 
 | Conjunto de caracteres |
-| ---------------------- |
+| :--------------------- |
 | `0-9`                  |
 | `a-z`                  |
 | `A-Z`                  |
 
 | Nombre del carácter | Carácter |
-| ------------------- | -------- |
+| :------------------ | :------- |
 | Guion               | `-`      |
 | Punto               | `.`      |
 | Guion bajo          | `_`      |
@@ -77,7 +77,7 @@ Los archivos de video fuente, subtítulos descriptivos e ilustraciones entregado
 ### Caracteres prohibidos en los nombres de archivo
 
 | Nombre del carácter  | Carácter | Nombre del carácter        | Carácter |
-| -------------------- | -------- | -------------------------- | -------- |
+| :------------------- | :------- | :------------------------- | :------- |
 | Símbolo arroba       | `@`      | Corchete izquierdo         | `[`      |
 | Ampersand            | `&`      | Menos que                  | `<`      |
 | Asterisco            | `*`      | Porcentaje                 | `%`      |
@@ -105,7 +105,7 @@ Los archivos de video fuente, subtítulos descriptivos e ilustraciones entregado
 ## Glosario
 
 | Término                  | Definición                                                                                                                                                                                                        |
-| ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :----------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Ingesta**              | El proceso automatizado mediante el cual Roku incorpora los archivos y metadatos entregados a la biblioteca de contenido de Roku Channel.                                                                         |
 | **Ubicación de entrega** | La(s) carpeta(s) temporal(es) de preparación (`/prod`, `/testing`) a las que cargan las empresas socias; distinta de la ubicación de archivo permanente a la que se mueven los archivos tras una ingesta exitosa. |
 | **Archivo sidecar**      | Un archivo de subtítulos, subtítulos descriptivos o audio entregado junto al (no incrustado en el) archivo de video, referenciado por los metadatos.                                                              |

@@ -26,7 +26,7 @@ The [roTextToSpeech](doc:rotexttospeech) component sends the roTextToSpeechEvent
 Returns the description of the speech, which may be one of the following values:
 
 | ID   | Interpretation                      |
-| ---- | ----------------------------------- |
+| :--- | :---------------------------------- |
 | 0    | Started speech                      |
 | 1    | Speech has completed                |
 | 2    | Speech has been interrupted/flushed |
@@ -40,7 +40,7 @@ Returns the description of the speech, which may be one of the following values:
 Returns an associative array with the following key-value pairs, depending the value returned by the [GetData()](doc:rotexttospeechevent)") method:
 
 | Key      | Type    | Value                                                                            |
-| -------- | ------- | -------------------------------------------------------------------------------- |
+| :------- | :------ | :------------------------------------------------------------------------------- |
 | Enabled  | Boolean | If GetData() returned 3, indicates the enabled/disabled status of text to speech |
 | Language | String  | If GetData() returned 4, indicates the new language                              |
 | Voice    | String  | If GetData() returned 5, indicates the new voice                                 |

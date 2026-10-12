@@ -11,7 +11,7 @@ metadata:
 ## Metadata Templates, Schemas, and Samples
 
 | Resource                                | Link                                                                         |
-| --------------------------------------- | ---------------------------------------------------------------------------- |
+| :-------------------------------------- | :--------------------------------------------------------------------------- |
 | Film Metadata Excel Template            | [go.roku.com/film-excel-template](https://go.roku.com/film-excel-template)   |
 | TV Metadata Excel Template              | [go.roku.com/tv-excel-template](https://go.roku.com/tv-excel-template)       |
 | Clip Metadata Excel Template            | [go.roku.com/clip-excel-template](https://go.roku.com/clip-excel-template)   |
@@ -29,14 +29,14 @@ metadata:
 ## Best Practices and Guides
 
 | Resource                                  | Link                                                                                                                               |
-| ----------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| :---------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------- |
 | Best Practices: Content Tags and Metadata | [developer.roku.com — content-tags-and-metadata](https://developer.roku.com/trc-docs/video-on-demand/content-tags-and-metadata.md) |
 | Music Cue Sheet Submission                | [go.roku.com/music-cue-sheet-submission](https://go.roku.com/music-cue-sheet-submission)                                           |
 
 ## Delivery Tools
 
 | Resource                                      | Link                                                                                                                                                                                                                                 |
-| --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| :-------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Aspera Client (IBM Fix Central)               | [IBM Fix Central — Aspera Desktop Client](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm~Other%20software\&product=ibm/Other%20software/IBM%20Aspera%20Desktop%20Client\&release=All\&platform=All\&function=all) |
 | IBM Aspera for Desktop                        | [ibmaspera.com/help/downloads/desktop](https://ibmaspera.com/help/downloads/desktop)                                                                                                                                                 |
 | Roku's Aspera Shares URL                      | [aspera.sr.roku.com](https://aspera.sr.roku.com)                                                                                                                                                                                     |
@@ -49,27 +49,27 @@ metadata:
 ## Avails
 
 | Resource            | Link                                                                     |
-| ------------------- | ------------------------------------------------------------------------ |
+| :------------------ | :----------------------------------------------------------------------- |
 | Roku Avail Spec     | [go.roku.com/trc-avail-spec](https://go.roku.com/trc-avail-spec)         |
 | Roku Avail Template | [go.roku.com/trc-avail-template](https://go.roku.com/trc-avail-template) |
 
 ## FCC Regulatory
 
 | Resource                                           | Link                                                                                                                                         |
-| -------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| :------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------- |
 | FCC Audio Description                              | [fcc.gov/audio-description](https://www.fcc.gov/audio-description)                                                                           |
 | FCC Closed Captioning — Internet Video Programming | [fcc.gov/consumers/guides/captioning-internet-video-programming](https://www.fcc.gov/consumers/guides/captioning-internet-video-programming) |
 
 ## CRTC Regulatory (Canada)
 
 | Resource                                                                           | Link                                                                                       |
-| ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| :--------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------- |
 | CRTC Broadcasting Regulatory Policy 2026-98 (Closed Captioning — Online Streaming) | [crtc.gc.ca/eng/archive/2026/2026-98.htm](https://crtc.gc.ca/eng/archive/2026/2026-98.htm) |
 
 ## MovieLabs
 
 | Resource                        | Link                                                                                                             |
-| ------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| :------------------------------ | :--------------------------------------------------------------------------------------------------------------- |
 | MovieLabs Metadata Site         | [movielabs.com/md](https://www.movielabs.com/md/)                                                                |
 | EMA Avails Specification        | [movielabs.com/md/avails](https://movielabs.com/md/avails/)                                                      |
 | MEC Schema — Keyword Node       | [MEC v2.9 schema — Keyword](https://movielabs.com/md/mec/v2.9/mdmec-v2.9/mdmec-v2.9.html#Link116)                |
@@ -82,7 +82,7 @@ metadata:
 ## Rating Authorities
 
 | Resource              | Link                                                                                                                              |
-| --------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| :-------------------- | :-------------------------------------------------------------------------------------------------------------------------------- |
 | US MPAA Ratings       | [filmratings.com](https://www.filmratings.com/)                                                                                   |
 | US TV Ratings         | [tvguidelines.org](http://tvguidelines.org/)                                                                                      |
 | UK BBFC Ratings       | [bbfc.co.uk](https://bbfc.co.uk/)                                                                                                 |
@@ -92,13 +92,13 @@ metadata:
 ## Standards References
 
 | Resource                         | Link                                                                                   |
-| -------------------------------- | -------------------------------------------------------------------------------------- |
+| :------------------------------- | :------------------------------------------------------------------------------------- |
 | ISO 3166-1 alpha-2 Country Codes | [iso.org/iso-3166-country-codes](https://www.iso.org/iso-3166-country-codes.html)      |
 | RFC 5646 (Language Tags)         | [datatracker.ietf.org/doc/html/rfc5646](https://datatracker.ietf.org/doc/html/rfc5646) |
 
 ## Support Contacts
 
 | Contact                                                                 | Purpose                                        |
-| ----------------------------------------------------------------------- | ---------------------------------------------- |
+| :---------------------------------------------------------------------- | :--------------------------------------------- |
 | [deliverynotifications@roku.com](mailto:deliverynotifications@roku.com) | Delivery notifications                         |
 | [contentoperations@roku.com](mailto:contentoperations@roku.com)         | Asset ID lookups, metadata/file update support |

@@ -15,7 +15,7 @@ next:
 ## Implemented by
 
 | Name     | Description                                                          |
-| -------- | -------------------------------------------------------------------- |
+| :------- | :------------------------------------------------------------------- |
 | [roRegion](doc:roregion) | The roRegion component is used to represent a subsection of a bitmap |
 
 
@@ -80,7 +80,7 @@ Adds the passed parameters x,y, w, and h to the values of those roRegion fields.
 ##### Parameters
 
 | Name | Type    | Description                     |
-| ---- | ------- | ------------------------------- |
+| :--- | :------ | :------------------------------ |
 | x    | Dynamic | The x-coordinate of the region. |
 | y    | Dynamic | The y-coordinate of the region. |
 | w    | Dynamic | The width of the region.        |
@@ -95,7 +95,7 @@ Initializes the fields of this region to be the same as the values of the fields
 ##### Parameters
 
 | Name      | Type   | Description         |
-| --------- | ------ | ------------------- |
+| :-------- | :----- | :------------------ |
 | srcRegion | Object | An roRegion object. |
 
 ### Copy() as Object
@@ -117,7 +117,7 @@ Wraps any part of a region that extends beyond the bounds of its bitmap to the o
 ##### Parameters
 
 | Name | Type    | Description                                                  |
-| ---- | ------- | ------------------------------------------------------------ |
+| :--- | :------ | :----------------------------------------------------------- |
 | wrap | Boolean | A flag specifying whether wrapping of the region is enabled. If this flag is set to false, the part of the region beyond the bounds of its bitmap is not rendered. |
 
 ### GetWrap() as Boolean
@@ -141,13 +141,13 @@ Sets the duration of each frame of any animated sprite that uses this region.
 A flag indicating whether wrapping of region is enabled. 
 
 | Name | Type    | Description                            |
-| ---- | ------- | -------------------------------------- |
+| :--- | :------ | :------------------------------------- |
 | time | Integer | The "frame hold time" in milliseconds. |
 
 ### GetTime() as Integer
 
 | Name    | Return Type    | Return Value        | Description           |
-| ------- | ------- | ---------------------- | --------------------- |
+| :------ | :------ | :--------------------- | :-------------------- |
 | GetTime | Integer | Milliseconds - Integer | Returns the "frame hold time" in milliseconds |
 
 ### SetPretranslation(x as Integer, y as Integer) as Void
@@ -159,7 +159,7 @@ Sets the pre-translation for DrawObject, DrawRotatedObject, and DrawScaledObject
 ##### Parameters
 
 | Name | Type    | Description                  |
-| ---- | ------- | ---------------------------- |
+| :--- | :------ | :--------------------------- |
 | x    | Integer | The pre-translation x-value. |
 | y    | Integer | The pre-translation y-value. |
 
@@ -275,7 +275,7 @@ Sets the collision rectangle used for type-1 collision tests. The upper left cor
 ##### Parameters
 
 | Name    | Type    | Description                                   |
-| ------- | ------- | --------------------------------------------- |
+| :------ | :------ | :-------------------------------------------- |
 | xOffset | Integer | The  offset for the x position of the sprite. |
 | yOffset | Integer | The  offset for the y position of the sprite. |
 | width   | Integer | The width of the rectangle.                   |

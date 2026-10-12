@@ -15,7 +15,7 @@ next:
 ## Implemented by
 
 | Name         | Description |
-| ------------ | ----------- |
+| :----------- | :---------- |
 | [roMicrophone](doc:romicrophone) | The roMicrophone API allows apps to receive audio data from the user’s microphone-supported remote control device or mobile phone            |
 
 
@@ -40,7 +40,7 @@ Sets the text to be displayed in the system microphone UI.
 ##### Parameters
 
 | Name   | Type   | Description                                           |
-| ------ | ------ | ----------------------------------------------------- |
+| :----- | :----- | :---------------------------------------------------- |
 | prompt | String | The text to be displayed in the system microphone UI. |
 
 ### RecordToFile(wavFilePath as String) as Boolean
@@ -52,7 +52,7 @@ Opens the microphone and records to create a WAV file at the specified output fi
 ##### Parameters
 
 | Name        | Type   | Description                                       |
-| ----------- | ------ | ------------------------------------------------- |
+| :---------- | :----- | :------------------------------------------------ |
 | wavFilePath | String | The file path where the WAV file is to be stored. |
 
 ##### Return Value

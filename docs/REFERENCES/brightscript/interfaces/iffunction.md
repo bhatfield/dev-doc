@@ -18,7 +18,7 @@ Interface equivalent for intrinsic type Function.
 ## Implemented by
 
 | Name       | Description                               |
-| ---------- | ----------------------------------------- |
+| :--------- | :---------------------------------------- |
 | [roFunction](doc:rofunction) | Object equivalent for intrinsic type Function |
 
 

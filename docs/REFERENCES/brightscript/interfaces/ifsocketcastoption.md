@@ -15,7 +15,7 @@ next:
 ## Implemented by
 
 | Name             | Description                                                                              |
-| ---------------- | ---------------------------------------------------------------------------------------- |
+| :--------------- | :--------------------------------------------------------------------------------------- |
 | [roDataGramSocket](doc:rodatagramsocket) | The roDataGramSocket component enables BrightScript apps to send and receive UDP packets |
 
 ## Supported methods
@@ -41,7 +41,7 @@ Enables broadcast messages to be sent or received.
 ##### Parameters
 
 | Name   | Type    | Description                                                  |
-| ------ | ------- | ------------------------------------------------------------ |
+| :----- | :------ | :----------------------------------------------------------- |
 | enable | Boolean | A flag specifying whether broadcast messages may be sent or received. |
 
 ##### Return Value
@@ -57,7 +57,7 @@ Joins a specific multicast group.
 ##### Parameters
 
 | Name      | Type   | Description                                                  |
-| --------- | ------ | ------------------------------------------------------------ |
+| :-------- | :----- | :----------------------------------------------------------- |
 | ipAddress | Object | An [roSocketAddress](doc:rostreamsocket) representing the group to be joined. IPV4 multicast addresses are in the range of 224.0.0.0 through 239.255.255.255. |
 
 ##### Return Value
@@ -73,7 +73,7 @@ Drops out of a specific multicast group.
 ##### Parameters
 
 | Name      | Type   | Description                                                  |
-| --------- | ------ | ------------------------------------------------------------ |
+| :-------- | :----- | :----------------------------------------------------------- |
 | ipAddress | Object | An [roSocketAddress](doc:rostreamsocket) representing the group to leave. IPV4 multicast addresses are in the range of 224.0.0.0 through 239.255.255.255. |
 
 ##### Return Value
@@ -99,7 +99,7 @@ Enables local loopback of multicast messages.
 ##### Parameters
 
 | Name   | Type    | Description                                                  |
-| ------ | ------- | ------------------------------------------------------------ |
+| :----- | :------ | :----------------------------------------------------------- |
 | enable | Boolean | A flag specifying whether local loopback of multicast messages; otherwise do not send or receive broadcast messages. |
 
 ##### Return Value
@@ -125,7 +125,7 @@ Sets the TTL integer value for multicast messages.
 ##### Parameters
 
 | Name | Type    | Description                                                  |
-| ---- | ------- | ------------------------------------------------------------ |
+| :--- | :------ | :----------------------------------------------------------- |
 | ttl  | Integer | The number of hops a packet is allowed before a router drops the packet |
 
 ##### Return Value

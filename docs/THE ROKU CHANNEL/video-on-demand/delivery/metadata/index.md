@@ -124,7 +124,7 @@ Short-form, stand-alone or ancillary titles intended as a companion to a longer 
 * **⚠️ Spaces or special characters in any ID will fail ingestion**
 
 | ID          | Identifies                       | Uniqueness / Consistency Rule                                                                                   | Required For |
-| ----------- | -------------------------------- | --------------------------------------------------------------------------------------------------------------- | ------------ |
+| :---------- | :------------------------------- | :-------------------------------------------------------------------------------------------------------------- | :----------- |
 | `asset_id`  | A single clip, episode, or movie | Immutable, unique per asset                                                                                     | All content  |
 | `series_id` | A series                         | Immutable; must be consistent across **all** episodes of that series; cannot equal the season or episode ID     | TV content   |
 | `season_id` | A season of a series             | Immutable; must be consistent across all episodes **within that season**; cannot equal the series or episode ID | TV content   |
@@ -141,7 +141,7 @@ Short-form, stand-alone or ancillary titles intended as a companion to a longer 
 This lead time allows for processing and QC before the content goes live. Delivery capacity is coordinated after signing.
 
 | Document            | Link                                                        |
-| ------------------- | ----------------------------------------------------------- |
+| :------------------ | :---------------------------------------------------------- |
 | Roku Avail Spec     | [View specification](https://go.roku.com/trc-avail-spec)    |
 | Roku Avail Template | [Download template](https://go.roku.com/trc-avail-template) |
 
@@ -154,14 +154,14 @@ By default, content becomes available at **12:00 AM (midnight)** and expires at 
 Roku supports two time designations:
 
 | Type         | Behavior                                                                              | Example                                                                                                                                                                             |
-| ------------ | ------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :----------- | :------------------------------------------------------------------------------------ | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Relative** | Content goes into window at the specified time in **each user's own local time zone** | A Saturday 9:00 PM premiere is available at 9:00 PM Eastern for Eastern-zone users, and separately at 9:00 PM Pacific for Pacific-zone users (i.e., three hours later in real time) |
 | **Absolute** | Content goes into window at a **single fixed moment worldwide**                       | A new episode set for 9:00 PM Eastern (absolute) becomes available to Pacific users at 6:00 PM their local time — the same real-world instant                                       |
 
 ### Time Value Format
 
 | Time Type      | Format                 | Example                |
-| -------------- | ---------------------- | ---------------------- |
+| :------------- | :--------------------- | :--------------------- |
 | Relative       | `yyyy-mm-ddThh:mm:ss`  | `2019-11-01T21:00:00`  |
 | Absolute (UTC) | `yyyy-mm-ddThh:mm:ssZ` | `2019-11-02T01:00:00Z` |
 
@@ -186,7 +186,7 @@ Roku uses **CDATA sections** to allow special characters (e.g., `! @ # $ % ^ & *
 **For every other node** (i.e., any field not in the list above), certain characters will render the XML document unreadable to Roku's ingest platform unless properly escaped. These characters **must** be provided in their escaped form:
 
 | Character Name | Character | Escaped Form |
-| -------------- | --------- | ------------ |
+| :------------- | :-------- | :----------- |
 | Ampersand      | `&`       | `&amp;`      |
 | Less-than      | `<`       | `&lt;`       |
 | Greater-than   | `>`       | `&gt;`       |
@@ -204,7 +204,7 @@ Roku uses **CDATA sections** to allow special characters (e.g., `! @ # $ % ^ & *
 * Metadata **must** be delivered via Aspera to the **same folder location** as its associated video, captions, and artwork files.
 
 | Format            | Extension | Encoding | Package Version(s)                                                                                   |
-| ----------------- | --------- | -------- | ---------------------------------------------------------------------------------------------------- |
+| :---------------- | :-------- | :------- | :--------------------------------------------------------------------------------------------------- |
 | XML _(preferred)_ | `.xml`    | UTF-8    | `clip1.0`, `film5.0`, `tv1.0`, `Cablelabs ADI 1.1` _(additional XML schemas supported case-by-case)_ |
 | Excel             | `.xlsx`   | —        | See [Roku Excel Metadata Guidelines](#roku-excel-metadata-guidelines-and-templates) and templates    |
 
@@ -213,7 +213,7 @@ Roku uses **CDATA sections** to allow special characters (e.g., `! @ # $ % ^ & *
 ## Glossary
 
 | Term                 | Definition                                                                                                                                                               |
-| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| :------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Transform engine** | Roku's internal system that normalizes differently-named metadata fields from partner formats into Roku's ingest schema.                                                 |
 | **CDATA section**    | An XML construct (`<![CDATA[ ... ]]>`) that tells a parser to treat enclosed content as literal text, allowing special characters without requiring them to be escaped.  |
 | **Avail / Title ID** | The identifier for a title as declared in the Avails (licensing/availability) document — this must match the `asset_id` used in ingest metadata to link the two records. |

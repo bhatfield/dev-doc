@@ -31,7 +31,7 @@ The Roku Channel is looking for ad-supported content that is appropriate for our
 Additional tags can be provided to help categorize kids-directed content around age demographics. Please use these tags to define different content directed age groups:
 
 | Ages     | Tags        |
-| -------- | ----------- |
+| :------- | :---------- |
 | Ages 1-3 | ages_1-3    |
 | Ages 4-6 | ages_4-6    |
 | Ages 7-9 | ages_7-9    |
@@ -96,7 +96,7 @@ When submitting avails and Committed Title Lists via Excel workbook, all require
 
 
 | **Field** | **Description** | **Type** | **Accepted Values** | **Required** |
-| --- | --- | --- | --- | --- |
+| :-- | :-- | :-- | :-- | :-- |
 | Content Partner | Name of content owner/studio/network availing the content to The Roku Channel | string | Example:<br />Roku Originals | required |
 | Content Type | Describes the content type of the program as defined below:<br />- **episode**  - TV program that is structured in a series/season/episode hierarchy<br />- **movie**  - Full length, long form, stand-alone program that is not intended to be nested in a series/season/episode hierarchy and exceeds roughly 15 minutes run time including stand-alone TV Specials<br />- **shortForm**  - Short duration, stand-alone program that does not exceed roughly 15 minutes run time and is not intended to be nested in a series/season/episode hierarchy | enum | movie, episode, shortForm | required |
 | License Type | Available distribution rights for the content. Multiple rights may be submitted on the same row so long as all availability attributes are identical across the rights listed. The License Type provided in the Avails or Committed Title List must adhere to the distribution rights for the content as it pertains to the agreement signed with The Roku Channel.<br />- **AVOD**  – Ad-Supported Video on Demand. Video will play for free for all users and will contain advertisements<br />- **SVOD**  – Subscription Video on Demand. Video will play for users with an active subscription.  *Only to be used by Premium Subscriptions Partners on The Roku Channel*<br />- **FVOD**  – Free Video on Demand. Video will play for free for all users without monetization. FVOD windows must fall within an active SVOD window.  *Only to be used by Premium Subscriptions Partners on The Roku Channel*<br />- **Linear OTT**  - Over-the-top linear streaming rights for inclusion on Roku-built channels | enum | AVOD, SVOD, FVOD, Linear OTT | required |
@@ -114,7 +114,7 @@ When submitting avails and Committed Title Lists via Excel workbook, all require
 
 
 | **Field** | **Description** | **Type** | **Accepted Values** | **Required** |
-| --- | --- | --- | --- | --- |
+| :-- | :-- | :-- | :-- | :-- |
 | Series Title | Title of series for episodic TV content.  Include only the name of the series as it should appear on platform. Do not include non-title parentheticals such as indicator of original/remake, year of release, or video format. Examples: (Classic), (1987), or (Season #) | string | Example:<br />Die Hart | required for tv |
 | Series ID | Immutable, unique identifier for a TV series. IDs are to be generated and supplied by the Partner for content that is availed and delivered to Roku. The IDs in the avails and Committed Title List document should match the IDs provided in the metadata at the time of ingest into The Roku Channel.<br />- Must not be the same as the unique episode ID<br />- Must be included with all episodes of a series<br />- Must be consistent for all episodes of a series<br />- Must not exceed 50 characters<br />- Allowable characters:  alphanumeric characters, hyphens, and underscores only | string | Example:<br />diehartshow | required for tv<br />50 characters maximum |
 | Title | Title of the movie, episode, or shortForm video.  Include only the name of the content as it should appear on platform. Do not include non-title parentheticals such as indicator of original/remake, year of release, season, or video format. Examples: (Classic), (1987), (Season 1), or (HD) | string | Example:<br />Pilot | required |
@@ -157,7 +157,7 @@ A valid film or TV rating from the rating authority (Rating Source) of the Terri
 
 
 | **Ratings Authority and Territory** | **Country** | **ratingSystem** | **Rating Value** |  |  |
-| --- | --- | --- | --- | --- | --- |
+| :-- | :-- | :-- | :-- | :-- | :-- |
 | British Board of Film Classification<br />United Kingdom | GB | BBFC | U<br />PG<br />12A | 12-A<br />12<br />15 | 18<br />NR [*](#unrated-vs-not-rated)<br />R18<br />R-1 |
 | Canadian Home Video Rating System<br />Canada | CA | CHVRS | G<br />PG<br />14A | 14-A<br />18A<br />18-A | NR<br />RE |
 | Motion Picture Associate of America<br />United States | US | MPAA | G<br />PG<br />PG13 | PG-13<br />R<br />NC-17 | NC17<br />NR |
@@ -172,7 +172,7 @@ Below is the complete list of supported Genres for The Roku Channel
 
 
 | action<br />action sports<br />adventure<br />aerobics<br />agriculture<br />animals<br />animated<br />anime<br />anthology<br />archery<br />arm wrestling<br />art<br />arts/crafts<br />auction<br />auto<br />auto racing<br />aviation<br />awards<br />badminton<br />ballet<br />baseball<br />basketball<br />beach soccer<br />beach volleyball<br />biathlon<br />bicycle<br />bicycle racing<br />billiards<br />biography<br />blackjack<br />boat<br />boat racing<br />bobsled<br />bodybuilding<br />bowling<br />boxing<br />bullfighting<br />bus./financial<br />canoe<br />card games<br />cheerleading<br />children<br />children-music<br />children-special<br />children-talk<br />collectibles<br />comedy<br />comedy drama<br />community<br />computers<br />consumer<br />cooking<br />cricket | crime<br />crime drama<br />curling<br />dance<br />dark comedy<br />darts<br />debate<br />diving<br />docudrama<br />documentary<br />dog racing<br />dog show<br />dog sled<br />drag racing<br />drama<br />educational<br />entertainment<br />environment<br />equestrian<br />erotic<br />event<br />exercise<br />fantasy<br />faith<br />fashion<br />fencing<br />field hockey<br />figure skating<br />fishing<br />football<br />food<br />fundraiser<br />gaelic football<br />game show<br />gaming<br />gay/lesbian<br />golf<br />gymnastics<br />handball<br />health<br />historical drama<br />history<br />hockey<br />holiday<br />holiday music<br />holiday music special<br />holiday special<br />holiday-children<br />holiday-children special<br />home improvement<br />horror<br />horse | house/garden<br />how-to<br />hunting<br />hurling<br />hydroplane racing<br />indoor soccer<br />interview<br />intl soccer<br />kayaking<br />lacrosse<br />law<br />luge<br />martial arts<br />medical<br />military<br />miniseries<br />mixed martial arts<br />motorcycle<br />motorcycle racing<br />motorsports<br />mountain biking<br />music<br />music special<br />music talk<br />musical<br />musical comedy<br />mystery<br />nature<br />news<br />newsmagazine<br />olympics<br />opera<br />outdoors<br />parade<br />paranormal<br />parenting<br />performing arts<br />playoff<br />sports<br />poker<br />politics<br />polo<br />pool<br />pro wrestling<br />public affairs<br />racquet<br />reality<br />religious<br />ringuette<br />rodeo<br />roller derby<br />romance<br />romance comedy | rowing<br />rugby<br />running<br />sailing<br />science<br />science fiction<br />self improvement<br />shooting<br />shopping<br />sitcom<br />skateboarding<br />skating<br />skeleton<br />skiing<br />snooker<br />snowboarding<br />snowmobile<br />soap<br />soap special<br />soap talk<br />soccer<br />softball<br />special<br />speed skating<br />sports<br />sports talk<br />squash<br />standup<br />sumo wrestling<br />surfing<br />suspense<br />swimming<br />table tennis<br />talk<br />technology<br />tennis<br />theater<br />thriller<br />track/field<br />travel<br />triathlon<br />variety<br />volleyball<br />war<br />water polo<br />water skiing<br />watersports<br />weather<br />weightlifting<br />western<br />wrestling<br />yacht racing |
-| --- | --- | --- | --- |
+| :-- | :-- | :-- | :-- |
 
 
 ### Language codes
@@ -180,7 +180,7 @@ Below is the complete list of supported Genres for The Roku Channel
 The below list is the full set of language codes Roku currently supports for content ingest. This list is a simplified version of the [RFC 5646](https://datatracker.ietf.org/doc/html/rfc5646) specification.
 
 | Language Code | Language                 | Language Code | Language                       |
-| ------------- | ------------------------ | ------------- | ------------------------------ |
+| :------------ | :----------------------- | :------------ | :----------------------------- |
 | af            | Afrikaans                | km            | Khmer                          |
 | sq            | Albanian                 | rw            | Kinyarwanda                    |
 | am            | Amharic                  | ko            | Korean                         |
@@ -289,7 +289,7 @@ The below list is the full set of language codes Roku currently supports for con
 ##  Resources
 
 | Title                                               | Link                                                         |
-| --------------------------------------------------- | ------------------------------------------------------------ |
+| :-------------------------------------------------- | :----------------------------------------------------------- |
 | Roku Avails and Committed Title List Excel Template | [https://go.roku.com/trc-avail-template](https://go.roku.com/trc-avail-template) |
 | US MPAA Ratings                                     | [https://www.filmratings.com/](https://www.filmratings.com/) |
 | US TV Ratings                                       | [http://tvguidelines.org/](http://tvguidelines.org/)         |

@@ -45,7 +45,7 @@ There are three general categories of layouts.
 2. All the items are aligned in rows and columns, but the rows and columns (or the spacing between them) varies.<br /><br /> To specify this type of layout, use the columnWidths, columnSpacings, rowHeights, and rowSpacings fields. Each of these fields takes an array of values, specifying the values for each row width, column height or spacing between rows and columns. If there are more rows or columns in the grid than specified in the arrays for these fields., the corresponding simple layout field values are used for the missing values (e.g. basePosterSize[0] for missing columnWidth, etc.)<br /><br />For example, suppose a grid is designed with 4 columns where each item was 80 pixels wide and had 4 pixels space between them. The grid data includes 10 rows, where the first 4 rows have items that are 120 pixel tall and the remaining 6 rows have items are 80 pixels tall. All the rows should have 6 pixels of space between them. To specify this layout, you'd set up the fields like this:
 
 | Field          | Example                                        |
-| -------------- | ---------------------------------------------- |
+| :------------- | :--------------------------------------------- |
 | basePosterSize | [ 80, 80 ]                                     |
 | itemSpacings   | [ 4, 6 ]                                       |
 | rowHeights     | [ 120, 120, 120, 120, 80, 80, 80, 80, 80, 80 ] |
@@ -494,7 +494,7 @@ If the grid items are to be grouped into sections, one child ContentNode should 
 The section root ContentNodes use the following attributes:
 
 | Attribute            | Type    | Description                                                                                                                                                                                                 |
-| -------------------- | ------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :------------------- | :------ | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | CONTENTTYPE          | string  | Must be set to `SECTION`                                                                                                                                                                                    |
 | TITLE                | string  | Label for the section divider                                                                                                                                                                               |
 | HDGRIDPOSTERURL      | uri     | The image file for the icon to be displayed to the left of the section label when the screen resolution is set to HD.                                                                                       |

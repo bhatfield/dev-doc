@@ -17,7 +17,7 @@ Roku's Robot Framework Library enables keyword-driven testing of apps. The libra
 To create an instance of the Roku Framework Robot Library, provide the following four arguments:
 
 | Argument   | Description                                                                                                         |
-| ---------- | ------------------------------------------------------------------------------------------------------------------- |
+| :--------- | :------------------------------------------------------------------------------------------------------------------ |
 | ip         | The IP address of the device to be used for testing.                                                                |
 | path       | The path to the Roku WebDriver.                                                                                     |
 | timeout    | The amount of time (in milliseconds) that commands are allowed to run.                                              |
@@ -354,7 +354,7 @@ The Roku's Robot Framework Library includes the following keywords:
 (_available since release 2.0_)
 
 | Keyword    | Description       | Example      |
-| :--------- | :---------------- | ------------ |
+| :--------- | :---------------- | :----------- |
 | Mark timer | Starts the timer. | `Mark timer` |
 
 ### Get timer
@@ -362,7 +362,7 @@ The Roku's Robot Framework Library includes the following keywords:
 (_available since release 2.0_)
 
 | Keyword   | Description                                                                  | Example               |
-| :-------- | :--------------------------------------------------------------------------- | --------------------- |
+| :-------- | :--------------------------------------------------------------------------- | :-------------------- |
 | Get timer | Returns the number of milliseconds elapsed since the timer was last started. | `${time} = Get timer` |
 
 ### Verify is playback started
@@ -591,7 +591,7 @@ The Roku's Robot Framework Library includes the following keywords:
 ### Get focused element
 
 | Keyword             | Description                                                                                                                                                                                                                                     | Example                           |
-| :------------------ | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------- |
+| :------------------ | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------- |
 | Get focused element | Return the element on the screen that currently has focus. See the [WebDriver active element command](/docs/developer/dev-tools/automated-channel-testing/web-driver.md#get-v1/session/:sessionId/element/active) for more information. | `&{element}=	Get focused element` |
 
 ### Verify is channel loaded

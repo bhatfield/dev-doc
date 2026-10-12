@@ -48,7 +48,7 @@ In addition, to keep the app demonstration segments in this lesson concise and m
 ## Resources
 
 | Item                                                         | Description                                                  |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| :----------------------------------------------------------- | :----------------------------------------------------------- |
 | [Subscriptions sample app](https://github.com/rokudev/scenegraph-master-sample/tree/master/Subscriptions) | Download and review the code used in this lesson to implement Roku Pay in an app. |
 | [Sideloading apps](doc:developer-setup) | Sideload and test the Subscriptions app created in this lesson. |
 | [SceneGraph ChannelStore node](doc:channelstore) | Read about the SceneGraph ChannelStore APIs, which are used to get subscription products from the app's catalog, pre-populate dialogs with customers' user information, purchase products, and store and retrieve user credentials. |

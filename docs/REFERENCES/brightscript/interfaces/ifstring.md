@@ -15,7 +15,7 @@ next:
 ## Implemented by
 
 | Name                | Description                                                                                                            |
-| ------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| :------------------ | :--------------------------------------------------------------------------------------------------------------------- |
 | [roChannelStoreEvent](doc:rochannelstoreevent) | The roChannelStore sends an roChannelStoreEvent in response to a call to any of several Get* methods in ifChannelStore |
 | [roPath](doc:ropath)            | The roPath component provides developers an easy way to create valid file system paths                                 |
 | [roString](doc:rostring)            | Object equivalent for intrinsic type 'String'                                                                          |
@@ -46,7 +46,7 @@ Sets the calling String object to the specified string value.
 ##### Parameters
 
 | Name  | Type   | Description                                              |
-| ----- | ------ | -------------------------------------------------------- |
+| :---- | :----- | :------------------------------------------------------- |
 | value | String | The string value to be set on the calling String object. |
 
 ### IsEmpty() as Boolean

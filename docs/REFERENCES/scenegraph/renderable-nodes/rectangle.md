@@ -57,7 +57,7 @@ Rotation of Rectangles is supported. On platforms that do not support OpenGL, on
 [Fields](doc:group) derived from the Group base class can also be used.
 
 | Field                  | Type                                          | Default                                   | Access Permission | Description           |
-| ---------------------- | --------------------------------------------- | ----------------------------------------- | ----------------- | --------------------- |
+| :--------------------- | :-------------------------------------------- | :---------------------------------------- | :---------------- | :-------------------- |
 | width | float | 0.0 | READ_WRITE | Specifies the width of the rectangle in local coordinates |
 | height | float | 0.0 | READ_WRITE | Specifies the height of rectangle in local coordinates |
 | color                  | color (string containing hex value e.g. RGBA) | 0xFFFFFFFF                                | READ_WRITE        | Specifies the color of the rectangle |

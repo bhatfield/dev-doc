@@ -15,7 +15,7 @@ next:
 ## Implemented by
 
 | Name                                         | Description                                                                             |
-| -------------------------------------------- | --------------------------------------------------------------------------------------- |
+| :------------------------------------------- | :-------------------------------------------------------------------------------------- |
 | [roAssociativeArray](doc:roassociativearray) | An associative array allows objects to be associated with string keys                   |
 | [roSGNode](doc:rosgnode)                     | The roSGNode object is the BrightScript equivalent of SceneGraph XML file node creation |
 
@@ -30,7 +30,7 @@ Adds a new entry to the array associating the supplied value with the supplied k
 ##### Parameters
 
 | Name  | Type    | Description                                                |
-| ----- | ------- | ---------------------------------------------------------- |
+| :---- | :------ | :--------------------------------------------------------- |
 | value | Dynamic | The value of the key to be added to the associative array. |
 | key   | String  | The key to be added to the associative array.              |
 
@@ -43,7 +43,7 @@ Returns the value in the array associated with the specified key. The key compar
 ##### Parameters
 
 | Name | Type   | Description                                                                   |
-| ---- | ------ | ----------------------------------------------------------------------------- |
+| :--- | :----- | :---------------------------------------------------------------------------- |
 | key  | String | The key associated with the value to be retrieved from the associative array. |
 
 ##### Return Value
@@ -59,7 +59,7 @@ Same as the [Lookup()](#lookupkey-as-string-as-dynamic) method except that the k
 ##### Parameters
 
 | Name | Type   | Description                                                                                      |
-| ---- | ------ | ------------------------------------------------------------------------------------------------ |
+| :--- | :----- | :----------------------------------------------------------------------------------------------- |
 | key  | String | The key (case-insensitive) associated with the value to be retrieved from the associative array. |
 
 ##### Return Value
@@ -75,7 +75,7 @@ Looks for an entry in the associative array associated with the specified key.
 ##### Parameters
 
 | Name | Type   | Description                                      |
-| ---- | ------ | ------------------------------------------------ |
+| :--- | :----- | :----------------------------------------------- |
 | key  | String | The key associated with the entry to be checked. |
 
 ##### Return Value
@@ -91,7 +91,7 @@ Deletes an entry from an associative array based on the key.
 ##### Parameters
 
 | Name | Type   | Description                                      |
-| ---- | ------ | ------------------------------------------------ |
+| :--- | :----- | :----------------------------------------------- |
 | key  | String | The key associated with the entry to be deleted. |
 
 ##### Return Value
@@ -149,7 +149,7 @@ Appends an associative array to this calling object. If any key in the **aa** pa
 ##### Parameters
 
 | Name | Type   | Description                                                 |
-| ---- | ------ | ----------------------------------------------------------- |
+| :--- | :----- | :---------------------------------------------------------- |
 | aa   | Object | The associative array to be appended to the calling object. |
 
 ### Count() As Integer

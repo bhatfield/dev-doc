@@ -17,7 +17,7 @@ The ifSGNodeDict interface allows you access information about the nodes in a Sc
 ## Implemented by
 
 | Name     | Description                                                                             |
-| -------- | --------------------------------------------------------------------------------------- |
+| :------- | :-------------------------------------------------------------------------------------- |
 | [roSGNode](doc:rosgnode) | The roSGNode object is the BrightScript equivalent of SceneGraph XML file node creation |
 
 
@@ -32,7 +32,7 @@ Returns the node that is a descendant of the nearest component ancestor of the s
 ##### Parameters
 
 | Name | Type   | Description                           |
-| ---- | ------ | ------------------------------------- |
+| :--- | :----- | :------------------------------------ |
 | name | String | The name of the node to be retrieved. |
 
 ##### Return Value
@@ -60,7 +60,7 @@ Returns the subtype of the parent of the nodeType in the SceneGraph node class h
 ##### Parameters
 
 | Name     | Type   | Description                       |
-| -------- | ------ | --------------------------------- |
+| :------- | :----- | :-------------------------------- |
 | nodeType | String | The node type of the parent node. |
 
 ##### Return Value
@@ -76,7 +76,7 @@ Checks whether the subtype of the subject node is a descendant of the subtype no
 ##### Parameters
 
 | Name     | Type   | Description                        |
-| -------- | ------ | ---------------------------------- |
+| :------- | :----- | :--------------------------------- |
 | nodeType | String | The node type of the subject node. |
 
 ##### Return Value
@@ -92,7 +92,7 @@ Checks whether a specific roSGNode refers to the same SceneGraph node object as 
 This can be useful when the RoSGNode objects come from two different sources, for example when one is stored in an associative array, and the other is obtained from an RoSGNode interface method that returns an RoSGNode object, like getChild(). It may be that the application needs to know whether the two RoSGNode objects are actually referring to the same underlying SceneGraph node.
 
 | Name       | Return Type    | Parameters              | Return Value | Description           |
-| ---------- | ------- | ----------------------- | --------------- | --------------------- |
+| :--------- | :------ | :---------------------- | :-------------- | :-------------------- |
 | isSameNode | Boolean | <table><thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>RoSGNode</td><td>Object</td><td>The roSGNode to be checked.</td></tr></tbody></table> | True/False      | Returns a Boolean value indicating whether the RoSGNode parameter refers to the same SceneGraph node object as the subject node |
 
 

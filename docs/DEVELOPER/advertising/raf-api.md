@@ -29,7 +29,7 @@ Triggers event tracking, including parameter substitution for Nielsen DAR, when 
 ##### Parameters
 
 | Name        | Type   | Description                                                                                                                                                                                                                       |
-| ----------- | ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :---------- | :----- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | adStructure | Object | Can refer to a pod (array) of ads or a single ad. Must at least contain a Tracking array member (see [Ad Structure example](doc:integrating-roku-advertising-framework)), and may optionally contain an ‘adServer’ member string. |
 | ctx         | Object | Structure to capture context-specific trigger conditions. ‘type’ key-value pair used to trigger events of a specific type. ‘time’ key-value pair used to trigger time-dependent events at or prior to this time                   |
 
@@ -131,7 +131,7 @@ Sets the ad URL to be used for a new [getAds()](doc:raf-api) request.
 ##### Parameters
 
 | Argument | Type   | Description                                                                                                                                                                     |
-| -------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :------- | :----- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | url      | String | The URL to be set as the current ad service request. Since version 2.14, supports parsing ads from local xml files in tmp:/, e.g., raf.setAdURL("tmp:/myVASTorVMAPorSMRX.xml"). |
 
 ### getAdUrl() as String
@@ -235,7 +235,7 @@ The content length can also be set independently via [setContentLength()](doc:ra
 ##### Parameters
 
 | Argument      | Type    | Description                                                                        |
-| ------------- | ------- | ---------------------------------------------------------------------------------- |
+| :------------ | :------ | :--------------------------------------------------------------------------------- |
 | contentLength | Integer | Total length of video content (in seconds).                                        |
 | adBreakTimes  | Integer | Array of suggested offsets into content playback to insert ad breaks (in seconds). |
 
@@ -254,7 +254,7 @@ The application is responsible for ensuring that the ad pods in the array contai
 ##### Parameters
 
 | Argument   | Type   | Description                                                                                                             |
-| ---------- | ------ | ----------------------------------------------------------------------------------------------------------------------- |
+| :--------- | :----- | :---------------------------------------------------------------------------------------------------------------------- |
 | adPodArray | Object | Array of ad pods structured in accordance with the required [Ad Structure](doc:integrating-roku-advertising-framework). |
 
 ### enableJITPods(enabled as Boolean)
@@ -272,7 +272,7 @@ When enabled, ad call redirects for midrolls are deferred until a certain time b
 ##### Parameters
 
 | Argument | Type    | Description                                                                                                              |
-| -------- | ------- | ------------------------------------------------------------------------------------------------------------------------ |
+| :------- | :------ | :----------------------------------------------------------------------------------------------------------------------- |
 | enabled  | Boolean | Enables “Just In Time” fetching of midroll ads. By default, JIT is disabled and must be explicitly enabled via this API. |
 
 ### enableInPodStitching(isIPS as Boolean)
@@ -336,7 +336,7 @@ sub CallbackFunc(obj = invalid as Dynamic, eventType = invalid as Dynamic, ctx =
 ##### Parameters
 
 | Argument | Type     | Description                                         |
-| -------- | -------- | --------------------------------------------------- |
+| :------- | :------- | :-------------------------------------------------- |
 | callback | Function | Function matching the required function signature . |
 | obj      | Object   | The object to be passed to the callback function.   |
 
@@ -349,7 +349,7 @@ Enables a library client to configure extended debug output, which is disabled b
 ##### Parameters
 
 | Argument | Type    | Description                     |
-| -------- | ------- | ------------------------------- |
+| :------- | :------ | :------------------------------ |
 | enabled  | Boolean | Enables extended debug logging. |
 
 ### getLibVersion() as String
@@ -377,7 +377,7 @@ Applications using audience measurement features must explicitly enable the fram
 ##### Parameters
 
 | Argument | Type    | Description                                       |
-| -------- | ------- | ------------------------------------------------- |
+| :------- | :------ | :------------------------------------------------ |
 | enabled  | Boolean | Enables audience identifiers in measurement tags. |
 
 ### setContentGenre(genres as String, kidsContent as Boolean)
@@ -425,7 +425,7 @@ Passing an empty string or omitting the **id** parameter will clear the content 
 ##### Parameters
 
 | Argument | Type   | Description                                                              |
-| -------- | ------ | ------------------------------------------------------------------------ |
+| :------- | :----- | :----------------------------------------------------------------------- |
 | id       | string | The content video item on which ad targeting may potentially be allowed. |
 
 ### setContentLength(length as Integer)
@@ -441,7 +441,7 @@ Omitting the **length** parameter will clear any  content length that was previo
 ##### Parameters
 
 | Argument | Type    | Description                           |
-| -------- | ------- | ------------------------------------- |
+| :------- | :------ | :------------------------------------ |
 | length   | integer | Total length of content (in seconds). |
 
 ## Nielsen DAR
@@ -462,7 +462,7 @@ Enables ad campaign measurement using Nielsen DAR tags by specifying a primary g
 ##### Parameters
 
 | Argument | Type   | Description                                                   |
-| -------- | ------ | ------------------------------------------------------------- |
+| :------- | :----- | :------------------------------------------------------------ |
 | genre    | String | The primary content genre to be passed into Nielsen DAR tags. |
 
 ### setNielsenAppId(id as String)
@@ -474,7 +474,7 @@ The value of this application ID is uniquely assigned to your application by Nie
 ##### Parameters
 
 | Argument | Type   | Description                          |
-| -------- | ------ | ------------------------------------ |
+| :------- | :----- | :----------------------------------- |
 | id       | String | The Nielsen-assigned application ID. |
 
 ## Nielsen DCR
@@ -581,7 +581,7 @@ This method is used in conjunction with [stitchedAdHandledEvent()](doc:raf-api) 
 ##### Parameters
 
 | Argument   | Type    | Description                                                                                                           |
-| ---------- | ------- | --------------------------------------------------------------------------------------------------------------------- |
+| :--------- | :------ | :-------------------------------------------------------------------------------------------------------------------- |
 | adPodArray | roArray | Set of ad pods structured in accordance with the required [Ad Structure](doc:integrating-roku-advertising-framework). |
 
 ### stitchedAdHandledEvent(msg as Object, player as Object) as roAssociativeArray
@@ -656,7 +656,7 @@ Enables the client application to set metadata for the content populating the de
 ##### Parameters
 
 | Argument        | Type               | Description                                                                                 |
-| --------------- | ------------------ | ------------------------------------------------------------------------------------------- |
+| :-------------- | :----------------- | :------------------------------------------------------------------------------------------ |
 | contentMetaData | roAssociativeArray | Contains metadata representing information to be displayed in the default ad buffer screen. |
 
 ### enableAdBufferMessaging(enableMsg as Boolean, enableProgressBar as Boolean)
@@ -668,7 +668,7 @@ Enables the client application to display messaging text and a progress bar on t
 ##### Parameters
 
 | Argument          | Type    | Description                                                                                      |
-| ----------------- | ------- | ------------------------------------------------------------------------------------------------ |
+| :---------------- | :------ | :----------------------------------------------------------------------------------------------- |
 | enableMsg         | Boolean | Enables ad messaging text on the default ad buffer screen. The default value is true.            |
 | enableProgressBar | Boolean | Enables an ad buffering progress bar on the default ad buffer screen. The default value is true. |
 
@@ -683,7 +683,7 @@ The values that can be passed in the **zOrder** and **contentMetaData** paramete
 ##### Parameters
 
 | Argument        | Type               | Description                                                |
-| --------------- | ------------------ | ---------------------------------------------------------- |
+| :-------------- | :----------------- | :--------------------------------------------------------- |
 | zOrder          | Integer            | Layer index to be used to display the **contentMetaData**. |
 | contentMetaData | roAssociativeArray | The metadata for this UI layer.                            |
 

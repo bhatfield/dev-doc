@@ -22,5 +22,5 @@ Returns the string "ready" if the animation was loaded successfully; otherwise r
 Returns an associative array with the following key/value pair:
 
 | Name | Description                          |
-| ---- | ------------------------------------ |
+| :--- | :----------------------------------- |
 | Id   | The unique ID of the animated image. |

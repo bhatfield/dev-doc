@@ -15,7 +15,7 @@ next:
 ## Implemented by
 
 | Name      | Description |
-| --------- | ----------- |
+| :-------- | :---------- |
 | [roList](doc:rolist) | The list object implements the interfaces: ifList, ifArray, ifEnum and therefore can behave like an array that can dynamically add members |
 | [roXMLList](doc:roxmllist)| Contains a list of roXML objects |
 

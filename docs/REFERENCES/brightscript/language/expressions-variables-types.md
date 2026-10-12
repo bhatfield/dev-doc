@@ -280,7 +280,7 @@ separate types are separate variables. For example, a, a$, and a% are
 all different variables.
 
 | Character | Type        | Examples            | Notes                                        |
-| --------- | ----------- | ------------------- | -------------------------------------------- |
+| :-------- | :---------- | :------------------ | :------------------------------------------- |
 | $         | String      | A$, STR$            |                                              |
 | %         | Integer     | A%, SUM%, 125%      |                                              |
 | !         | Float       | A!, value!, 125!    | Single-precision                             |
@@ -809,7 +809,7 @@ Right shifting treats the value as an unsigned integer, e.g. &hFFFFFFFF >> 1 is 
 This table describes the comparison operators. All operate on either numeric values (integer, float or double) or strings.
 
 | Operator | Numeric                     | String                                              |
-| -------- | --------------------------- | --------------------------------------------------- |
+| :------- | :-------------------------- | :-------------------------------------------------- |
 | A = B    | true if A equals B          | true if strings A and B are identical               |
 | A \<\> B | true if A is not equal to B | true if strings A and B are different               |
 | A \< B   | true if A is less than B    | true if string A is lexically less than string B    |

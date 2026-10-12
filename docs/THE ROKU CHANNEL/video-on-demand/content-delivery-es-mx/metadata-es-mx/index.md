@@ -126,7 +126,7 @@ Los títulos de formato corto, independientes o auxiliares, pensados como comple
 * **⚠️ Los espacios o caracteres especiales en cualquier ID provocarán un error en la ingesta**
 
 | ID          | Identifica                        | Regla de unicidad/consistencia                                                                                               | Obligatorio para  |
-| ----------- | --------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ----------------- |
+| :---------- | :-------------------------------- | :--------------------------------------------------------------------------------------------------------------------------- | :---------------- |
 | `asset_id`  | Un solo clip, episodio o película | Inmutable, único por activo                                                                                                  | Todo el contenido |
 | `series_id` | Una serie                         | Inmutable; debe ser consistente en **todos** los episodios de esa serie; no puede ser igual al ID de temporada o de episodio | Contenido de TV   |
 | `season_id` | Una temporada de una serie        | Inmutable; debe ser consistente en todos los episodios **de esa temporada**; no puede ser igual al ID de serie o de episodio | Contenido de TV   |
@@ -143,7 +143,7 @@ Los títulos de formato corto, independientes o auxiliares, pensados como comple
 Este tiempo de anticipación permite el procesamiento y el control de calidad antes de que el contenido salga al aire. La capacidad de entrega se coordina después de la firma.
 
 | Documento                       | Enlace                                                        |
-| ------------------------------- | ------------------------------------------------------------- |
+| :------------------------------ | :------------------------------------------------------------ |
 | Especificación de Avail de Roku | [Ver especificación](https://go.roku.com/trc-avail-spec)      |
 | Plantilla de Avail de Roku      | [Descargar plantilla](https://go.roku.com/trc-avail-template) |
 
@@ -156,14 +156,14 @@ De forma predeterminada, el contenido pasa a estar disponible a las **12:00 a. m
 Roku admite dos tipos de designación horaria:
 
 | Tipo         | Comportamiento                                                                                               | Ejemplo                                                                                                                                                                                                                                                       |
-| ------------ | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :----------- | :----------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **Relativo** | El contenido entra en la ventana a la hora especificada en **la zona horaria local de cada persona usuaria** | Un estreno el sábado a las 9:00 p. m. está disponible a las 9:00 p. m., hora del este, para las personas usuarias en esa zona horaria, y por separado a las 9:00 p. m., hora del Pacífico, para las de esa zona (es decir, tres horas después en tiempo real) |
 | **Absoluto** | El contenido entra en la ventana en **un único momento fijo a nivel mundial**                                | Un nuevo episodio programado para las 9:00 p. m., hora del este (absoluto), pasa a estar disponible para las personas usuarias del Pacífico a las 6:00 p. m., hora local — el mismo instante real                                                             |
 
 ### Formato del valor de hora
 
 | Tipo de hora   | Formato                | Ejemplo                |
-| -------------- | ---------------------- | ---------------------- |
+| :------------- | :--------------------- | :--------------------- |
 | Relativo       | `yyyy-mm-ddThh:mm:ss`  | `2019-11-01T21:00:00`  |
 | Absoluto (UTC) | `yyyy-mm-ddThh:mm:ssZ` | `2019-11-02T01:00:00Z` |
 
@@ -188,7 +188,7 @@ Roku utiliza **secciones CDATA** para permitir caracteres especiales (por ejempl
 **Para cualquier otro nodo** (es decir, cualquier campo que no esté en la lista anterior), ciertos caracteres harán que el documento XML sea ilegible para la plataforma de ingesta de Roku, a menos que se manipulen (escapen) correctamente. Estos caracteres **deben** proporcionarse en su forma de escape:
 
 | Nombre del carácter | Carácter | Forma de escape |
-| ------------------- | -------- | --------------- |
+| :------------------ | :------- | :-------------- |
 | Ampersand           | `&`      | `&amp;`         |
 | Signo de menor que  | `<`      | `&lt;`          |
 | Signo de mayor que  | `>`      | `&gt;`          |
@@ -206,7 +206,7 @@ Roku utiliza **secciones CDATA** para permitir caracteres especiales (por ejempl
 * Los metadatos **deben** entregarse por Aspera en la **misma ubicación de carpeta** que sus archivos asociados de video, subtítulos e ilustraciones.
 
 | Formato           | Extensión | Codificación | Versión(es) del paquete                                                                                             |
-| ----------------- | --------- | ------------ | ------------------------------------------------------------------------------------------------------------------- |
+| :---------------- | :-------- | :----------- | :------------------------------------------------------------------------------------------------------------------ |
 | XML _(preferido)_ | `.xml`    | UTF-8        | `clip1.0`, `film5.0`, `tv1.0`, `Cablelabs ADI 1.1` _(esquemas XML adicionales admitidos caso por caso)_             |
 | Excel             | `.xlsx`   | —            | Consulta las [Pautas de metadatos en Excel de Roku](#roku-excel-metadata-guidelines-and-templates) y las plantillas |
 
@@ -215,7 +215,7 @@ Roku utiliza **secciones CDATA** para permitir caracteres especiales (por ejempl
 ## Glosario
 
 | Término                     | Definición                                                                                                                                                                                                |
-| --------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :-------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Motor de transformación** | Sistema interno de Roku que normaliza campos de metadatos con distintos nombres provenientes de formatos de empresas socias, para adaptarlos al esquema de ingesta de Roku.                               |
 | **Sección CDATA**           | Una construcción de XML (`<![CDATA[ ... ]]>`) que indica a un analizador que trate el contenido incluido como texto literal, lo que permite caracteres especiales sin necesidad de escaparlos.            |
 | **Avail / Title ID**        | El identificador de un título declarado en el documento de Avails (licenciamiento/disponibilidad) — debe coincidir con el `asset_id` utilizado en los metadatos de ingesta para vincular ambos registros. |

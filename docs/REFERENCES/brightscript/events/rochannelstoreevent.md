@@ -31,7 +31,7 @@ Returns an roList of roAssociativeArray items for the previous GET method invoca
 In the case of a successfully completed ifChannelStore.DoOrder() initiated purchase transaction, the object returned by GetResponse() is an associative array containing the following information:
 
 | Name       | Description                                                                                                                                                      |
-| ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :--------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | amount     | Price of each purchased item                                                                                                                                     |
 | code       | Product code. This corresponds to the product identifier that the developer assigns to the specific in-app purchase product                                      |
 | purchaseID | Contains the unique transaction ID of the transaction. Apps often use this value to entitle users to purchased subscriptions, etc. in their back end systems |
@@ -51,7 +51,7 @@ Returns a unique number that can be matched with the value returned by ifChannel
 Checks for the reason for failure. This method returns one of the following codes that indicate the reason for failure:
 
 | Integer code | Failure reason |
-| ------------ | -------------- |
+| :----------- | :------------- |
 | 2            | Interrupted    |
 | -1           | HTTP timeout   |
 | -2           | Other timeouts |

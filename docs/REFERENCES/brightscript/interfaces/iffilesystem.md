@@ -16,7 +16,7 @@ next:
 ## Implemented by
 
 | Name                                                         | Description                                                  |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| :----------------------------------------------------------- | :----------------------------------------------------------- |
 | [roFileSystem](doc:rofilesystem) | The roFilesystem component implements common filesystem inspection and modification routines |
 
 
@@ -43,7 +43,7 @@ Returns the file names in the specified directory path.
 ##### Parameters
 
 | Name    | Type   | Description                                                |
-| ------- | ------ | ---------------------------------------------------------- |
+| :------ | :----- | :--------------------------------------------------------- |
 | dirPath | String | The directory path from which to get a list of file names. |
 
 ##### Return Value
@@ -59,7 +59,7 @@ Returns the file names in the specified directory path matching the provided reg
 ##### Parameters
 
 | Name    | Type   | Description                                                |
-| ------- | ------ | ---------------------------------------------------------- |
+| :------ | :----- | :--------------------------------------------------------- |
 | dirPath | String | The directory path from which to get a list of file names. |
 | regex   | String | The regex to be used to search for files.                  |
 
@@ -76,7 +76,7 @@ Returns the file names in the specified directory path and any sudirectories mat
 ##### Parameters
 
 | Name    | Type   | Description                                                |
-| ------- | ------ | ---------------------------------------------------------- |
+| :------ | :----- | :--------------------------------------------------------- |
 | dirPath | String | The directory path from which to get a list of file names. |
 | regex   | String | The regex to be used to search for files.                  |
 
@@ -93,7 +93,7 @@ Returns the file names in the specified directory path matching the provided she
 ##### Parameters
 
 | Name    | Type   | Description                                                  |
-| ------- | ------ | ------------------------------------------------------------ |
+| :------ | :----- | :----------------------------------------------------------- |
 | path    | String | The directory path from which to get a list of file names.   |
 | pattern | String | The shell-like pattern to be used to search for files. The pattern may contain wildcards such as `* `and `?`. |
 
@@ -110,7 +110,7 @@ Checks if the specified directory path exists on the device.
 ##### Parameters
 
 | Name | Type   | Description                       |
-| ---- | ------ | --------------------------------- |
+| :--- | :----- | :-------------------------------- |
 | path | String | The directory path to be checked. |
 
 ##### Return Value
@@ -126,7 +126,7 @@ Returns the keys in the specified directory path.
 ##### Parameters
 
 | Name | Type   | Description                       |
-| ---- | ------ | --------------------------------- |
+| :--- | :----- | :-------------------------------- |
 | path | String | The directory path to be checked. |
 
 ##### Return Value
@@ -173,7 +173,7 @@ Returns information about the specified volume. The function can only be called 
 ##### Parameters
 
 | Name | Type   | Description                                                  |
-| ---- | ------ | ------------------------------------------------------------ |
+| :--- | :----- | :----------------------------------------------------------- |
 | path | String | The external volume for which to get information. This should be specified as the volume name plus a directory separator (for example, "ext1:/"). |
 
 ##### Return Value
@@ -181,7 +181,7 @@ Returns information about the specified volume. The function can only be called 
 An roAssociativeArray containing the following key-value pairs about the specified external volume:
 
 | Name        | Type    | Values                                                       |
-| ----------- | ------- | ------------------------------------------------------------ |
+| :---------- | :------ | :----------------------------------------------------------- |
 | blocksize   | Integer | The size of the filesystem blocks in bytes.                  |
 | blocks      | Integer | The number of blocks in the filesystem.                      |
 | free-blocks | Integer | The number of unused blocks in the filesystem.               |
@@ -198,7 +198,7 @@ Creates the directory specified by the path parameter. All directories in path e
 ##### Parameters
 
 | Name | Type   | Description                              |
-| ---- | ------ | ---------------------------------------- |
+| :--- | :----- | :--------------------------------------- |
 | path | String | The path of the directory to be created. |
 
 ##### Return Value
@@ -214,7 +214,7 @@ Permanently removes the file or directory specified by the path parameter. If pa
 ##### Parameters
 
 | Name | Type   | Description                              |
-| ---- | ------ | ---------------------------------------- |
+| :--- | :----- | :--------------------------------------- |
 | path | String | The path of the directory to be deleted. |
 
 ##### Return Value
@@ -230,7 +230,7 @@ Copies the files from one directory to another.
 ##### Parameters
 
 | Name     | Type   | Description                                        |
-| -------- | ------ | -------------------------------------------------- |
+| :------- | :----- | :------------------------------------------------- |
 | fromPath | String | The source path containing the files to be copied. |
 | toPath   | String | The target path to which files are to be copied.   |
 
@@ -247,7 +247,7 @@ Renames the directory.
 ##### Parameters
 
 | Name     | Type   | Description                                 |
-| -------- | ------ | ------------------------------------------- |
+| :------- | :----- | :------------------------------------------ |
 | fromPath | String | The current name of the path to be renamed. |
 | toPath   | String | The new name of the path.                   |
 

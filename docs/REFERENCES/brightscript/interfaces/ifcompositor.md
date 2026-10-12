@@ -15,7 +15,7 @@ next:
 ## Implemented by
 
 | Name         | Description                                                                               |
-| ------------ | ----------------------------------------------------------------------------------------- |
+| :----------- | :---------------------------------------------------------------------------------------- |
 | [roCompositor](doc:rocompositor) | The roCompositor allows the composition and animation of multiple roBitmaps and roRegions |
 
 
@@ -30,7 +30,7 @@ Sets the destBitmap ([roBitmap](doc:robitmap) or [roScreen](doc:roscreen)) and t
 ##### Parameters
 
 | Name           | Type    | Description                      |
-| -------------- | ------- | -------------------------------- |
+| :------------- | :------ | :------------------------------- |
 | destBitmap     | Object  | The bitmap to be drawn.          |
 | rgbaBackground | Integer | The background color to be used. |
 
@@ -55,7 +55,7 @@ Creates a new sprite, using an roRegion to define the sprite's bitmap. Position 
 ##### Parameters
 
 | Name   | Type    | Description                                          |
-| ------ | ------- | ---------------------------------------------------- |
+| :----- | :------ | :--------------------------------------------------- |
 | x      | Integer | The x-coordinate of the sprite.                      |
 | y      | Integer | The y-coordinate of the sprite.                      |
 | region | Object  | The region to be used to define the sprite's bitmap. |
@@ -74,7 +74,7 @@ Creates a new sprite that consists of a sequence of frames to be animated. The f
 ##### Parameters
 
 | Name        | Type    | Description                     |
-| ----------- | ------- | ------------------------------- |
+| :---------- | :------ | :------------------------------ |
 | x           | Integer | The x-coordinate of the sprite. |
 | y           | Integer | The y-coordinate of the sprite. |
 | regionArray | Object  | The frames to be animated.      |
@@ -93,7 +93,7 @@ Moves all animated sprites. Sprites will not animate unless you call this functi
 ##### Parameters
 
 | Name     | Type    | Description                           |
-| -------- | ------- | ------------------------------------- |
+| :------- | :------ | :------------------------------------ |
 | duration | Integer | The number of ms since the last call. |
 
 ### ChangeMatchingRegions(oldRegion as Object, newRegion as Object) as Void
@@ -105,7 +105,7 @@ Provides a global search and replace of sprite [roRegions](doc:roregion). Replac
 ##### Parameters
 
 | Name      | Type   | Description                         |
-| --------- | ------ | ----------------------------------- |
+| :-------- | :----- | :---------------------------------- |
 | oldRegion | Object | The sprite roRegion to be replaced. |
 | newRegion | Object | The new sprite roRegion to be used. |
 

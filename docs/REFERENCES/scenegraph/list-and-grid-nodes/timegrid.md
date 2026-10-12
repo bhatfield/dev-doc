@@ -27,14 +27,14 @@ The TimeGrid node has a **content **field that can be used to store the informat
 ##### App attributes
 
 | Attribute      | Type   | Description                                                                                              |
-| -------------- | ------ | -------------------------------------------------------------------------------------------------------- |
+| :------------- | :----- | :------------------------------------------------------------------------------------------------------- |
 | TITLE          | string | The name of this channel, to be visible only if HDSMALLICONURL is not set or if the icon failed to load. |
 | HDSMALLICONURL | uri    | The image file for the channel logo.                                                                     |
 
 ##### Program attributes
 
 | Attribute      | Type       | Description                                                                  |
-| -------------- | ---------- | ---------------------------------------------------------------------------- |
+| :------------- | :--------- | :--------------------------------------------------------------------------- |
 | TITLE          | string     | Program title.                                                               |
 | PLAYSTART      | roDateTime | Start time for this program.                                                 |
 | PLAYDURATION   | roDateTime | Duration of this program.                                                    |
@@ -377,7 +377,7 @@ The following fields are used to configure the appearance of the rectangle that 
 <Image alt="roku815px - past time screen" border={false} src="https://image.roku.com/ZHZscHItMTc2/epg-past-time.jpg" title="past time screen" />
 
 | Field                    | Type    | Default    | Description                                                                                                                                                                                     |
-| ------------------------ | ------- | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :----------------------- | :------ | :--------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | showPastTimeScreen       | boolean | True       | If true, enables drawing a solid color background behind all the programs in the grid airing before the current time.                                                                           |
 | pastTimeScreenBlendColor | color   | 0xFFFFFFFF | Tints the past time screen by multiplying the color of each pixel by the specified value. If this value is not set to a value other than the default value, no color blending will be performed |
 | pastTimeScreenBitmapUri  | uri     | ""         | Displays the specified bitmap file in the background of the past time screen.                                                                                                                   |
@@ -494,7 +494,7 @@ The following fields are used to enable Now/Next mode, configure the Now and Nex
 <Image alt="roku815px - now-next-mode" border={false} src="https://image.roku.com/ZHZscHItMTc2/epg-now-next.jpg" title="now-next-mode" />
 
 | Field                          | Type       | Default    | Description                                                                                                                              |
-| ------------------------------ | ---------- | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| :----------------------------- | :--------- | :--------- | :--------------------------------------------------------------------------------------------------------------------------------------- |
 | nowNextMode                    | boolean    | False      | When set to true, the time grid displays two vertical columns of programs showing Now and Next for each channel                          |
 | nowBackgroundBitmapUri         | Poster.uri | ""         | Displays the specified bitmap file in the background of the Now grid within the Now Bar                                                  |
 | nextBackgroundBitmapUri        | Poster.url | ""         | Displays the specified bitmap file in the background of the Next grid within the Now Bar                                                 |

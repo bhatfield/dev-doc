@@ -16,7 +16,7 @@ next:
 ## Implemented by
 
 | Name                   | Description                                                                                                                                |
-| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| :--------------------- | :----------------------------------------------------------------------------------------------------------------------------------------- |
 | [roArray](doc:roarray) | Stores an indexed collection of BrightScript objects. Each entry of an array can be a different type, or they may all be of the same type. |
 
 ## Supported methods
@@ -30,7 +30,7 @@ Creates a string by joining all array elements together separated by the specifi
 ##### Parameters
 
 | Name      | Type   | Description                                       |
-| --------- | ------ | ------------------------------------------------- |
+| :-------- | :----- | :------------------------------------------------ |
 | separator | String | The string used to separate elements in an array. |
 
 ##### Return Value

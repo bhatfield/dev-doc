@@ -20,7 +20,7 @@ next:
 ## Implemented by
 
 | Name           | Description                                                           |
-| -------------- |-----------------------------------------------------------------------|
+| :------------- |:----------------------------------------------------------------------|
 | [roTextToSpeech](doc:rotexttospeech) | The roTextToSpeech component provides text to speech capabilities to applications  |
 
 
@@ -68,7 +68,7 @@ This can be used to add clarity for longer spoken text that may have pauses that
 ##### Parameters
 
 | Name     | Type    | Description                                                 |
-| -------- | ------- | ----------------------------------------------------------- |
+| :------- | :------ | :---------------------------------------------------------- |
 | duration | Integer | The amount of time to suppress application background sound |
 
 ##### Return Value
@@ -110,7 +110,7 @@ Sets the language specified by `name` for text to speech, from one of the availa
 ##### Parameters
 
 | Name  | Type    | Description |
-| ----  | ------- | -------------- |
+| :---  | :------ | :------------- |
 | name | String  | The text-to-speech language to be used. |
 
 ### GetLanguage() as String
@@ -142,7 +142,7 @@ Sets the voice specified by name for text to speech, from one of the available v
 ##### Parameters
 
 | Name  | Type    | Description |
-| ----  | ------- | -------------- |
+| :---  | :------ | :------------- |
 | name | String  | The available text-to-speech voice to be used  |
 
 ### GetVoice() as String
@@ -174,7 +174,7 @@ Sets the volume at which text is spoken.
 ##### Parameters
 
 | Name  | Type    | Description |
-| ----  | ------- | -------------- |
+| :---  | :------ | :------------- |
 | volume | Integer  | The volume at which text is spoken. The value ranges from 0 for muted to 1000 for the highest volume. The default value is 1000.   |
 
 ### GetRate() as Integer
@@ -196,7 +196,7 @@ Sets the rate at which text is spoken.
 ##### Parameters
 
 | Name  | Type    | Description |
-| ----  | ------- | -------------- |
+| :---  | :------ | :------------- |
 | rate | Integer  | The rate at which text is to be spoken. The possible values range from -40 to 200. |
 
 ### GetPitch() as Integer

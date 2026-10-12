@@ -41,7 +41,7 @@ As described in the [document for the Subscriptions video](doc:subscriptions), y
 ## Resources
 
 | Item                                                         | Description                                                  |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| :----------------------------------------------------------- | :----------------------------------------------------------- |
 | [Deep linking sample app](https://github.com/rokudev/scenegraph-master-sample/tree/master/DeepLinking) | Download and review the code used in this lesson to accept and process deep links into an app. |
 | [Sideloading apps](doc:developer-setup) | Sideload and test the DeepLinking app created in this lesson. |
 | [Deep linking implementation guide](doc:implementing-deep-linking) | Read how to implement deep linking in an app. This document highlights how deep linking works, details the required app behavior based on the media type included in the deep link, and provides code samples demonstrating how to handle deep links upon launching the app and while it is already running. It explains how to use the Deep Linking Tester and cURL commands to verify that an app is programmed correctly to handle deep links. |

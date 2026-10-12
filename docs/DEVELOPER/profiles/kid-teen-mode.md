@@ -51,7 +51,7 @@ When an app receives the "kids" **profileType**, the publisher is solely respons
 If your app includes a dedicated kids experience, it is recommended that you do the following upon launching your app:
 
 | Profile                                            | Recommendation                                                                                            |
-| -------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| :------------------------------------------------- | :-------------------------------------------------------------------------------------------------------- |
 | Single Kids Profile already exists                 | Take user directly into existing Kids Profile in app                                                      |
 | Multiple Kids Profiles already exist               | Take user directly into last used Kids Profile, OR show profile picker with only Kids Profiles as options |
 | App supports a Kids Profile but no profile created | Show profile picker                                                                                       |

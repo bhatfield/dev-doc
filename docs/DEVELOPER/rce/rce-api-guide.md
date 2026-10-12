@@ -25,7 +25,7 @@ The Roku Cloud Emulator (RCE) REST API enables you to manage virtual devices pro
 ## Core API reference
 
 | Item             | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| ---------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :--------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Endpoint**     | The base URL for the RCE Core APIs is `api.rce.roku.com`.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | **Protocol**     | RCE Core API calls use only HTTPS to send requests.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | **Methods**      | The RCE Core APIs support the following REST methods for adding, running, managing, and deleting virtual devices: **POST** (add, manage, and stop devices; save snapshots), **GET** (get a project ID, run devices, check device status, retrieve device activity logs), **PATCH** (update devices and snapshots), and **DELETE** (remove a device).                                                                                                                                                                                                                                                                                                                                                                                                                                                |
@@ -36,7 +36,7 @@ The Roku Cloud Emulator (RCE) REST API enables you to manage virtual devices pro
 ## Device API reference
 
 | Item         | Description                                                                                                                                                                                                                                                               |
-| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :----------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **Endpoint** | The base URL for the RCE Device APIs is `device.rce.roku.com/instance/{instance_uuid}`. You can retrieve the `instance_uuid` from the RCE web interface with the **Copy device API URL** button, or programmatically with the `GET /api/v1/devices/{device_id}` endpoint. |
 | **Protocol** | RCE Device API calls use HTTPS (`https://`) for ECP key commands, and WebSocket (`wss://`) for telnet interactions and log streaming.                                                                                                                                     |
 | **Methods**  | The RCE Device APIs support the following REST methods: **GET** and **POST**, both used to send ECP commands to the virtual device.                                                                                                                                       |
@@ -73,7 +73,7 @@ POST /api/v1/devices
 ```
 
 | Field         | Type   | Description                                                                |
-| ------------- | ------ | -------------------------------------------------------------------------- |
+| :------------ | :----- | :------------------------------------------------------------------------- |
 | `name`        | string | A unique, descriptive name for your device that makes it easy to identify. |
 | `device_type` | string | Whether you are creating a Roku TV (`tv`) or a streaming player (`stb`).   |
 
@@ -167,7 +167,7 @@ To launch and run a device, you need a build and a snapshot.
    ```
 
    | Field                 | Type    | Description                                     |
-   | --------------------- | ------- | ----------------------------------------------- |
+   | :-------------------- | :------ | :---------------------------------------------- |
    | `snapshot_id`         | integer | The unique ID generated for a snapshot.         |
    | `firmware_version_id` | string  | The unique ID of the firmware version to run.   |
    | `max_runtime`         | integer | The maximum runtime for the device, in seconds. |
@@ -281,7 +281,7 @@ POST /sideload/plugin_install
 **Headers**
 
 | Header            | Value                                                                                                                                        |
-| ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| :---------------- | :------------------------------------------------------------------------------------------------------------------------------------------- |
 | `Content-Type`    | `multipart/form-data`                                                                                                                        |
 | `X-Authorization` | `Bearer {RCE_TOKEN}`                                                                                                                         |
 | `Authorization`   | Digest (realm `rokudev`, algorithm `MD5`, qop `auth`). Digest credentials: username `rokudev`; password set when developer mode was enabled. |
@@ -289,7 +289,7 @@ POST /sideload/plugin_install
 **Form fields**
 
 | Field      | Type   | Description                                                                                                      |
-| ---------- | ------ | ---------------------------------------------------------------------------------------------------------------- |
+| :--------- | :----- | :--------------------------------------------------------------------------------------------------------------- |
 | `mysubmit` | string | One of the following values: `Install` (install a dev app) or `Delete` (remove the currently installed dev app). |
 | `archive`  | binary | The app `.zip` file. Omit for `Delete` operations.                                                               |
 
@@ -372,7 +372,7 @@ POST /api/v1/devices/{device_id}/snapshots
 ```
 
 | Field  | Type   | Description                                                                                  |
-| ------ | ------ | -------------------------------------------------------------------------------------------- |
+| :----- | :----- | :------------------------------------------------------------------------------------------- |
 | `name` | string | A unique, descriptive name for the snapshot that makes it easy to identify the device state. |
 
 **Response**

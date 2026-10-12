@@ -67,7 +67,7 @@ Roku offers a number of integrations that enable apps to provide customers with 
 Some integrations are required only if your app meets the stated streaming thresholds; however, implementing all of these integrations is recommended for all apps.
 
 | Integration                                                | Streaming threshold                                                                                                                           |
-| ---------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| :--------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------- |
 | [On-device authentication](#on-device-authentication)      | Required for all SVOD and TVOD apps.                                                                                                          |
 | [On-device upgrade/downgrade](#on-device-upgradedowngrade) | Required for all SVOD and TVOD apps.                                                                                                          |
 | [Automatic Account Link](#automatic-account-link)          | Required for all apps with user accounts that have streamed more than an average of **1 million hours** per month over the last three months. |

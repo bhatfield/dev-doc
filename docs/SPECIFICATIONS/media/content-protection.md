@@ -13,7 +13,7 @@ next:
 ## DRM
 
 |        | PlayReady | AES-128 | Widevine |
-| ------ | --------- | ------- | -------- |
+| :----- | :-------- | :------ | :------- |
 | HLS    |           | Y       | Y        |
 | Smooth | Y         |         |          |
 | DASH   | Y         | Y       | Y        |
@@ -61,7 +61,7 @@ While PlayReady 3 is expected to be backward compatible with PlayReady 2.5, we e
 The following devices contain MStar chips:
 
 | Product Name                                             | Device Code Name | Model Number        |
-| -------------------------------------------------------- | ---------------- | ------------------- |
+| :------------------------------------------------------- | :--------------- | :------------------ |
 | 2016 Roku Premiere, 2016 Roku Premiere+, 2016 Roku Ultra | Cooper           | 4620X, 4630X, 4640X |
 | 2017 Roku Express, 2017 Roku Express+                    | Gilbert          | 3900X, 3910X        |
 | 2017 Roku Streaming Stick, 2017 Roku Streaming Stick+    | Amarillo         | 3800X, 3810X        |
@@ -71,7 +71,7 @@ The following devices contain MStar chips:
 ##### Supported security levels
 
 | Device Code Name                          | Security level supported |
-| ----------------------------------------- | ------------------------ |
+| :---------------------------------------- | :----------------------- |
 | Liberty, Austin, Briscoe, Sugarland, Giga | SL2000                   |
 | Bryan, Amarillo 4K and Longview, Midland  | SL3000                   |
 
@@ -141,7 +141,7 @@ version depends on the Roku Model and the Display Type that it's
 currently set to.
 
 |      | Roku 4K capable devices | All other Roku devices |
-| ---- | ----------------------- | ---------------------- |
+| :--- | :---------------------- | :--------------------- |
 | TEE  | Yes                     | No                     |
 | HDCP | 2.2 <sup>1</sup>        | 1.4                    |
 

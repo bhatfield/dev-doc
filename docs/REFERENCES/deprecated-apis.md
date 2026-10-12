@@ -107,7 +107,7 @@ Several properties of ifDeviceInfo were deprecated with the release of [Roku OS 
 Those deprecated methods of [ifDeviceInfo](doc:ifdeviceinfo) were replaced with similar methods in [Roku OS 8.1](doc:release-notes#roku-os-81) (May 2018).
 
 | **Deprecated method**          | **Replacement method**                   |
-| ------------------------------ | ---------------------------------------- |
+| :----------------------------- | :--------------------------------------- |
 | GetDrmInfo()                   | [GetDrmInfoEx()](doc:ifdeviceinfo)       |
 | GetAdvertisingId()             | [GetRIDA()](doc:ifdeviceinfo)            |
 | IsAdIdTrackingDisabled()       | [IsRIDADisabled()](doc:ifdeviceinfo)     |
@@ -160,7 +160,7 @@ As of this date, all newly published or re-published apps were required to use S
 Below is the list of relevant sunset components and events:
 
 | **Legacy component**     | **Associated event**          |
-| ------------------------ | ----------------------------- |
+| :----------------------- | :---------------------------- |
 | roCaptionRenderer        | roCaptionRendererEvent        |
 | roCodeRegistrationScreen | roCodeRegistrationScreenEvent |
 | roFontMetrics            |                               |

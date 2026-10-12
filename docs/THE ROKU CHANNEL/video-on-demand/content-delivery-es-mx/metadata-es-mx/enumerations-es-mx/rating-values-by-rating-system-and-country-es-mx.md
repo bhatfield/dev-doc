@@ -23,7 +23,7 @@ Si un título no ha sido clasificado por la autoridad de clasificación oficial 
 > **Nota:** Canadá y Estados Unidos aparecen **dos veces** cada uno a continuación, bajo dos sistemas de clasificación distintos. Esto es intencional: cada país cuenta con más de una autoridad de clasificación reconocida según el contexto (por ejemplo, video doméstico/cine vs. autoclasificación de TV/V-Chip), y no se trata de una entrada duplicada.
 
 | Autoridades de clasificación y territorio                                     | País | `ratingSystem` | Valores de clasificación                                                                               |
-| ----------------------------------------------------------------------------- | ---- | -------------- | ------------------------------------------------------------------------------------------------------ |
+| :---------------------------------------------------------------------------- | :--- | :------------- | :----------------------------------------------------------------------------------------------------- |
 | British Board of Film Classification<br />(Reino Unido)                       | GB   | `BBFC`         | `U`, `PG`, `12A`, `12-A`, `12`, `15`, `18`, `NR`, `R18`                                                |
 | Canadian Home Video Rating System<br />(Canadá)                               | CA   | `CHVRS`        | `G`, `PG`, `14A`, `14-A`, `18A`, `18-A`, `NR`, `R`, `E`                                                |
 | Motion Picture Association of America<br />(Estados Unidos)                   | US   | `MPAA`         | `G`, `PG`, `PG13`, `PG-13`, `R`, `NC-17`, `NC17`, `NR`                                                 |

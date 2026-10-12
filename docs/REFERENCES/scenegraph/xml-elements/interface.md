@@ -213,7 +213,7 @@ The following attributes define each \<field> XML element:
 The following attributes define each \<function> XML element:
 
 | Attribute | Required | Description                                                                                                                                                          |
-| --------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :-------- | :------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | name      | required | A string containing the name of the function which can be called using the [callFunc() function](doc:ifsgnodedict). |
 
 ## Examples

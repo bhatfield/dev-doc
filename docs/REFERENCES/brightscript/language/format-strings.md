@@ -37,7 +37,7 @@ See the [ifToStr interface](doc:iftostr) for more examples.
 The required type field specifies the type of conversion.
 
 | Type Character | Description                                                  |
-| -------------- | ------------------------------------------------------------ |
+| :------------- | :----------------------------------------------------------- |
 | %              | Use '%%' to encode a literal percent character.              |
 | d              | Signed decimal integer.                                      |
 | x, X           | Unsigned hexadecimal integer. 'x' uses lowercase letters, 'X' uses uppercase. |
@@ -51,7 +51,7 @@ The required type field specifies the type of conversion.
 ## flags
 
 | Flag        | Description                                                  |
-| ----------- | ------------------------------------------------------------ |
+| :---------- | :----------------------------------------------------------- |
 | 0           | Zero-pads the value. For integer and floating point number conversions (d, o, x, X, e, E, f, F, g, and G), the converted value is padded on the left with zeros rather than blanks.<br /><br />If a precision is given with a numeric conversion (d, o, x, and X), the 0 flag is ignored. |
 | +           | Inserts a sign ('+' or '-') before signed numbers. By default a sign is only placed before negative numbers. |
 | -           | Left adjusts the converted value on the field boundary (the default is right justification). |

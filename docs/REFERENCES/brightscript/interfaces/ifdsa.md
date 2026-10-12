@@ -17,7 +17,7 @@ next:
 ## Implemented by
 
 | Name                                                       | Description                                                  |
-| ---------------------------------------------------------- | ------------------------------------------------------------ |
+| :--------------------------------------------------------- | :----------------------------------------------------------- |
 | [roDsa](doc:rodsa) | The **roDSA** component provides support for the ECDSA and EdDSA (with Ed25519 form) digital signature algorithms. It is used to provide cryptographically signed evidence that an ad request originated from an actual Roku device. |
 
 ## Supported methods
@@ -51,7 +51,7 @@ Specifies the private key to be used for signing.
 ##### Parameters
 
 | Name |        Type        |                         Description                          |
-| :--: | :----------------: | :----------------------------------------------------------: |
+| :--- | :----------------- | :----------------------------------------------------------- |
 | key  | roByteArray Object | Specifies the ECDSA or Ed25519 private key to be used for signing. |
 
 ##### Return Value

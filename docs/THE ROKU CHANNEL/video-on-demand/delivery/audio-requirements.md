@@ -35,7 +35,7 @@ All channels **must** be clearly labeled for position and language (label format
 ### 5.1 Surround + 2.0 Stereo (preferred)
 
 | Channel   | Label               |
-| --------- | ------------------- |
+| :-------- | :------------------ |
 | Channel 1 | Left Front (L)      |
 | Channel 2 | Right Front (R)     |
 | Channel 3 | Center (C)          |
@@ -50,7 +50,7 @@ All channels **must** be clearly labeled for position and language (label format
 _Acceptable if 5.1 + Stereo is not available._
 
 | Channel   | Label               |
-| --------- | ------------------- |
+| :-------- | :------------------ |
 | Channel 1 | Left Front (L)      |
 | Channel 2 | Right Front (R)     |
 | Channel 3 | Center (C)          |
@@ -63,7 +63,7 @@ _Acceptable if 5.1 + Stereo is not available._
 _Acceptable if 5.1 + Stereo and 5.1 Surround only are not available._
 
 | Channel   | Label             |
-| --------- | ----------------- |
+| :-------- | :---------------- |
 | Channel 1 | Stereo Left (SL)  |
 | Channel 2 | Stereo Right (SR) |
 
@@ -85,7 +85,7 @@ Deliver sidecar audio at the highest bitrate and sampling rate available.
 ### Supported Sidecar Audio Formats
 
 | Container                                          | Codecs                     | Extension |
-| -------------------------------------------------- | -------------------------- | --------- |
+| :------------------------------------------------- | :------------------------- | :-------- |
 | WAV _(preferred)_                                  | PCM<br />GSM               | .wav      |
 | MOV<br />(must not include a video track)          | AAC<br />MP3<br />PCM      | .mov      |
 | MP4 (MPEG-4)<br />(must not include a video track) | AAC<br />FLAC              | .mp4      |
@@ -110,7 +110,7 @@ Descriptive audio is an alternative audio track for the visually impaired, per [
 If video files cannot be created with proper audio channel labels embedded, an **audio layout hint must be provided in the metadata** for the delivered video file. This applies to muxed audio only where in-file labeling is not possible; it does not replace the labeling requirement for sidecar files.
 
 | Descriptor           | Definition                                                                                  |
-| -------------------- | ------------------------------------------------------------------------------------------- |
+| :------------------- | :------------------------------------------------------------------------------------------ |
 | `stereoOnly`         | 2-channel stereo audio only. May be delivered on a single track or 2 discrete tracks.       |
 | `surroundOnly`       | 6-channel 5.1 surround audio only. May be delivered on a single track or 6 discrete tracks. |
 | `stereoPlusSurround` | 8-channel audio with stereo on channels 1–2, followed by 5.1 surround on channels 3–8.      |
@@ -121,7 +121,7 @@ If video files cannot be created with proper audio channel labels embedded, an *
 ## Glossary
 
 | Term                    | Definition                                                                                                 |
-| ----------------------- | ---------------------------------------------------------------------------------------------------------- |
+| :---------------------- | :--------------------------------------------------------------------------------------------------------- |
 | **Muxed / Multiplexed** | Audio combined into the same file container as the video, rather than delivered separately.                |
 | **Sidecar file**        | An audio or subtitle file delivered alongside (not embedded in) the video file, mapped to it via metadata. |
 | **Interleaved**         | Multiple audio channels combined into a single file, as opposed to separate discrete files per channel.    |

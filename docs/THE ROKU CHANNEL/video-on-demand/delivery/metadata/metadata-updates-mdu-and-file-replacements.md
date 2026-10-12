@@ -68,7 +68,7 @@ Some fields must be updated together, in complete groups — **all required fiel
 **Metadata group:**
 
 | Field             | Required?    |
-| ----------------- | ------------ |
+| :---------------- | :----------- |
 | Language          | Required     |
 | Title             | Required     |
 | Short description | Required     |
@@ -77,7 +77,7 @@ Some fields must be updated together, in complete groups — **all required fiel
 **Availability group:**
 
 | Field        | Required? |
-| ------------ | --------- |
+| :----------- | :-------- |
 | License Type | Required  |
 | Country      | Required  |
 | Start Date   | Required  |
@@ -143,7 +143,7 @@ If rights change after content has been delivered to Roku, and content needs to 
 ## Glossary
 
 | Term            | Definition                                                                                                                                          |
-| --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :-------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **MDU**         | Metadata Update — an automated update to a title's metadata fields without changing any delivered files.                                            |
 | **Asset ID**    | The immutable, partner-assigned identifier for a piece of content; required, unchanged, on every update to that content.                            |
 | **Field group** | A set of fields that must all be supplied together for an update to that group to succeed — providing only some fields in a group will not process. |

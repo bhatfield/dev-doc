@@ -18,7 +18,7 @@ next:
 ## Implemented by
 
 | Name                         | Description                                                                                         |
-| ---------------------------- | --------------------------------------------------------------------------------------------------- |
+| :--------------------------- | :-------------------------------------------------------------------------------------------------- |
 | [roTimespan](doc:rotimespan) | The Timespan object provides an interface to a simple timer for tracking the duration of activities |
 
 ## Supported methods
@@ -106,7 +106,7 @@ The date provided and the current time calculations are all done assuming UTC. T
 ##### Parameters
 
 | Parameters | Type   | Description                   |
-| ---------- | ------ | ----------------------------- |
+| :--------- | :----- | :---------------------------- |
 | date       | String | The ISO8601date to be parsed. |
 
 ##### Return Value

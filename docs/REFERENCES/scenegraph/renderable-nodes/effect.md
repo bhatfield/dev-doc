@@ -23,7 +23,7 @@ On platforms without a shader-capable GPU, or when disabled by configuration, th
 ## Fields
 
 | Field | Type | Default | Access Permission | Description |
-| ------------------- | -------------- | ------------------ | ----------------- | ------------------------------------------------------------ |
+| :------------------ | :------------- | :----------------- | :---------------- | :----------------------------------------------------------- |
 | supported | boolean | Platform-dependent | READ\_ONLY | Indicates whether effects are supported on the device platform. |
 | borderRadius | array of float | `[]` | READ\_WRITE | 0, 1, or 4 floats specifying corner radii clockwise from the top right, in pixels. Other lengths are silently truncated to length 1 or 4. |
 | borderWidth | float | 0.0 | READ\_WRITE | The width in pixels of a border drawn around the edge. |

@@ -71,7 +71,7 @@ To get started, users must have the appropriate access role, typically **busines
 <br />
 
 | Key   | Page component                                                                                                                                                                                                                                                    |
-| ----- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :---- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **A** | **Documentation and help guides:** Access the Content Partner documentation space, including feature guides and help topics.                                                                                                                                      |
 | **B** | **Contact us _(partner support)_:** Opens support options for reaching out to Roku for assistance.                                                                                                                                                                |
 | **C** | **Dashboard navigation _(top nav)_:** Navigates to the main Dashboard view from the top navigation bar.                                                                                                                                                           |

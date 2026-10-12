@@ -223,7 +223,7 @@ You can query the data in a trace using [PerfettoSQL](https://perfetto.dev/docs/
 The following examples demonstrate some of the use cases for querying your trace data:
 
 | **Use case**                                                                                                                           | **Query**                                                                 |
-| -------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| :------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------ |
 | Find all rendezvous in order of duration (long rendezvous often cause dropped frames and may indicate inefficient observer functions). | `SELECT * FROM slices WHERE name = 'rendezvous' ORDER BY dur DESC;`       |
 | Find long executions of swapBuffers which indicate places where the app may be dropping frames                                         | `SELECT * FROM slice WHERE name = 'swapBuffers' ORDER BY dur DESC;`       |
 | Find places where the app is handling a key press with `OnKeyEvent()`                                                                  | `SELECT * FROM slice WHERE name = 'keyEvent' ORDER BY dur DESC;`          |
@@ -235,7 +235,7 @@ The following examples demonstrate some of the use cases for querying your trace
 Roku's Perfetto-based app tracing solution exposes a number of terms that Roku developers may be unfamiliar with:
 
 | Term               | Definition                                                                                                                                                                                                                                       |
-| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| :----------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | SdkLauncher        | A Roku OS plugin that provides an environment for running SDK apps in a sandboxed process.                                                                                                                                                       |
 | PR_ui              | The main BrightScript thread.                                                                                                                                                                                                                    |
 | RenderThread       | The primary SceneGraph render thread.                                                                                                                                                                                                            |

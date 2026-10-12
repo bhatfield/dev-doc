@@ -15,7 +15,7 @@ next:
 ## Implemented by
 
 | Name         | Description                                                           |
-|--------------|-----------------------------------------------------------------------|
+|:-------------|:----------------------------------------------------------------------|
 |[roVideoPlayer](doc:rovideoplayer) |The roVideoPlayer component implements a video player with more programmatic control, but less user control than the roVideoScreen component  |
 
 
@@ -57,7 +57,7 @@ Adds a new [Content Meta-Data](doc:content-metadata) item to the end of the cont
 ##### Parameters
 
 | Name        | Type   | Description                                                  |
-| ----------- | ------ | ------------------------------------------------------------ |
+| :---------- | :----- | :----------------------------------------------------------- |
 | contentItem | Object | The [content metadata](doc:content-metadata) item to be added to the content list. |
 
 ### ClearContent() as Void
@@ -128,7 +128,7 @@ Automatically replays the content list. This method buffers on every loop to the
 ##### Parameters
 
 | Name | Type    | Description                                          |
-| ---- | ------- | ---------------------------------------------------- |
+| :--- | :------ | :--------------------------------------------------- |
 | loop | Boolean | Enables the automatic replaying of the content list. |
 
 ### SetNext(item as Integer) as Void
@@ -140,7 +140,7 @@ Sets the next item in the Content List to be played.
 ##### Parameters
 
 | Name | Type    | Description                                          |
-| ---- | ------- | ---------------------------------------------------- |
+| :--- | :------ | :--------------------------------------------------- |
 | item | Integer | The unique ID of the content item to be played next. |
 
 ### setEnableAudio(enable as Boolean) as Void
@@ -154,7 +154,7 @@ Mutes the audio during video playback. This is useful, for example, for implemen
 ##### Parameters
 
 | Name   | Type    | Description                            |
-| ------ | ------- | -------------------------------------- |
+| :----- | :------ | :------------------------------------- |
 | enable | Boolean | Mutes the audio during video playback. |
 
 ### Seek(offsetMs as Integer) as Boolean
@@ -166,7 +166,7 @@ Sets the start point of playback for the current video to a specific offset.
 ##### Parameters
 
 | Name     | Type    | Description                                                  |
-| -------- | ------- | ------------------------------------------------------------ |
+| :------- | :------ | :----------------------------------------------------------- |
 | offsetMs | Integer | The number of milliseconds to offset the playback of the current content item. |
 
 ### SetPositionNotificationPeriod(period as Integer) as Void
@@ -178,7 +178,7 @@ Sets the interval to receive playback position events from the roVideoPlayer.
 ##### Parameters
 
 | Name   | Type    | Description                                                  |
-| ------ | ------- | ------------------------------------------------------------ |
+| :----- | :------ | :----------------------------------------------------------- |
 | period | Integer | The notification period for receiving playback position events in seconds. Notification events sent to the script specify the position in seconds relative to the beginning of the stream. If the value is 0, position notifications are never sent. The default value is 0. |
 
 ### SetCGMS(level as Integer) as Void
@@ -245,7 +245,7 @@ Sets the target display window for the video. This is similar to the [SetDestina
 ##### Parameters
 
 | Name | Type    | Description                                         |
-| ---- | ------- | --------------------------------------------------- |
+| :--- | :------ | :-------------------------------------------------- |
 | x    | Integer | The x coordinate of the target display window.      |
 | y    | Integer | The y coordinate of the target display window.      |
 | w    | Integer | The width of the target display window.             |
@@ -266,7 +266,7 @@ This API enables applications that want to use both the 2D APIs and video playba
 ##### Parameters
 
 | Name   | Type    | Description                                |
-| ------ | ------- | ------------------------------------------ |
+| :----- | :------ | :----------------------------------------- |
 | width  | Integer | The maximum height required by your video. |
 | height | Integer | The maximum width required by your video.  |
 
@@ -344,7 +344,7 @@ Changes the currently playing audio track. For content with multiple audio track
 ##### Parameters
 
 | Name    | Type   | Description                                              |
-| ------- | ------ | -------------------------------------------------------- |
+| :------ | :----- | :------------------------------------------------------- |
 | trackID | String | The audio track identifier returned by GetAudioTracks(). |
 
 ### SetTimedMetaDataForKeys(keys[] as Dynamic) as Void

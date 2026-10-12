@@ -15,7 +15,7 @@ next:
 ## Implemented by
 
 | Name                                                         | Description                                                  |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| :----------------------------------------------------------- | :----------------------------------------------------------- |
 | [roSGScreen](doc:rosgscreen) | The roSGScreen object is a SceneGraph canvas that displays the contents of a SceneGraph Scene node tree |
 
 
@@ -30,7 +30,7 @@ Specifies the roMessagePort object for the roSGScreen object
 ##### Parameters
 
 | Name | Type          | Description                                            |
-| ---- | ------------- | ------------------------------------------------------ |
+| :--- | :------------ | :----------------------------------------------------- |
 | port | roMessagePort | The roMessagePort to be used for the SceneGraph scene. |
 
 ### GetMessagePort() as roMessagePort
@@ -108,7 +108,7 @@ Creates the SceneGraph scene object based on the specified sceneType object.
 ##### Parameters
 
 | Name      | Type   | Description                                                 |
-| --------- | ------ | ----------------------------------------------------------- |
+| :-------- | :----- | :---------------------------------------------------------- |
 | sceneType | String | The sceneType object to be used to create the scene object. |
 
 ##### Return Value

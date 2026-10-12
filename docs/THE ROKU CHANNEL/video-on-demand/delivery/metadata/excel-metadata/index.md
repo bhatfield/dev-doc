@@ -19,7 +19,7 @@ Excel metadata **can only be accepted** if delivered using one of Roku's approve
 ## Templates
 
 | Excel Metadata               | Download Link                                                           |
-| ---------------------------- | ----------------------------------------------------------------------- |
+| :--------------------------- | :---------------------------------------------------------------------- |
 | Film Metadata Excel Template | [Film Metadata Excel Template](https://go.roku.com/film-excel-template) |
 | TV Metadata Excel Template   | [TV Metadata Excel Template](https://go.roku.com/tv-excel-template)     |
 | Clip Metadata Excel Template | [Clip Metadata Excel Template](https://go.roku.com/clip-excel-template) |

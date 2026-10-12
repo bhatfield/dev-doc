@@ -29,7 +29,7 @@ Key event handling is easy to set up in XML by including an `onKeyEvent()` funct
 The `key` parameter contains a string, which is case-sensitive, that identifies which button was pressed. The `key` strings supported by the `onKeyEvent()` function, and the corresponding remote key, are as follows:
 
 | String      | Key               | Appearance/Icon                                              |
-| ----------- | ----------------- | ------------------------------------------------------------ |
+| :---------- | :---------------- | :----------------------------------------------------------- |
 | back        | **Back**          | left-pointing arrow at top of remote                         |
 | up          | **Up**            | up-pointing caret of remote directional pad                  |
 | down        | **Down**          | down-pointing caret of remote directional pad                |

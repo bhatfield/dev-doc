@@ -82,7 +82,7 @@ In addition to this example, a much simpler, complete example, including the sce
 ## Fields
 
 | Field        | Type              | Default                                   | Access Permission | Description           |
-| ------------ | ----------------- | ----------------------------------------- | ----------------- | --------------------- |
+| :----------- | :---------------- | :---------------------------------------- | :---------------- | :-------------------- |
 | functionName | string            | ""                                        | READ_WRITE        | The name of the function in the Task node component to be executed when the state field changes to RUN. The function must be declared within the scope of the Task node component |
 | control      | option string     | init                                      | WRITE_ONLY        | Requests a change in the run state of the spawned task. The valid options are the same as for the state field, but case-insensitive (i.e. can set "RUN" or "run") |
 | state        | value string      | init                                      | READ_ONLY         | Inquires about the run state of the spawned task. Note that the values are in lowercase: "init", "stop", "run", "done" |

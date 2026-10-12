@@ -23,7 +23,7 @@ The ButtonGroup node class manages the layout, visual attributes, and focus mana
 ## Fields
 
 | Field                   | Type             | Default                      | Access Permission | Description                                                  |
-| ----------------------- | ---------------- | ---------------------------- | ----------------- | ------------------------------------------------------------ |
+| :---------------------- | :--------------- | :--------------------------- | :---------------- | :----------------------------------------------------------- |
 | textColor               | color            | 0xffffffff                   | READ_WRITE        | Specifies the button label color for all unfocused Button nodes in the group. Only set to override the system default |
 | focusedTextColor        | color            | 0xffffffff                   | READ_WRITE        | Specifies the button label color for the Button node that has focus, if any. Only set to override the system default |
 | textFont                | Font             | system: MediumSystemFont     | READ_WRITE        | Specifies the [Font](doc:font) node for all unfocused Button nodes in the group. Only set to override the system default. See Font for a list of all system fonts available |

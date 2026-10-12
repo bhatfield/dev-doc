@@ -61,13 +61,13 @@ Source video, closed caption, and artwork files delivered for ingest **must** ad
 ### Characters Allowed in File Names
 
 | Character Set |
-| ------------- |
+| :------------ |
 | `0-9`         |
 | `a-z`         |
 | `A-Z`         |
 
 | Character Name | Character |
-| -------------- | --------- |
+| :------------- | :-------- |
 | Hyphen         | `-`       |
 | Period         | `.`       |
 | Underscore     | `_`       |
@@ -75,7 +75,7 @@ Source video, closed caption, and artwork files delivered for ingest **must** ad
 ### Characters Forbidden in File Names
 
 | Character Name    | Character | Character Name               | Character |
-| ----------------- | --------- | ---------------------------- | --------- |
+| :---------------- | :-------- | :--------------------------- | :-------- |
 | "At" symbol       | `@`       | Left square bracket          | `[`       |
 | Ampersand         | `&`       | Less than                    | `<`       |
 | Asterisk          | `*`       | Percent                      | `%`       |
@@ -103,7 +103,7 @@ Source video, closed caption, and artwork files delivered for ingest **must** ad
 ## Glossary
 
 | Term                  | Definition                                                                                                                                                    |
-| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :-------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **Ingest**            | The automated process by which Roku pulls delivered files and metadata into the Roku Channel content library.                                                 |
 | **Delivery location** | The temporary staging folder(s) (`/prod`, `/testing`) partners upload to; distinct from the permanent archive location files move to after successful ingest. |
 | **Sidecar file**      | A subtitle, caption, or audio file delivered alongside (not embedded in) the video file, referenced by the metadata.                                          |

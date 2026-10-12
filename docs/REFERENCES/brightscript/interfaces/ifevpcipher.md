@@ -15,7 +15,7 @@ next:
 ## Implemented by
 
 | Name                                                         | Description                                                  |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| :----------------------------------------------------------- | :----------------------------------------------------------- |
 | [roEVPCipher](doc:roevpcipher) | The EVP Cipher component provides an interface to the OpenSSL EVP library of symmetric cipher commands |
 
 
@@ -30,7 +30,7 @@ Configures and initializes a new cipher context.
 ##### Parameters
 
 | Name    | Type    | Description                                                  |
-| ------- | ------- | ------------------------------------------------------------ |
+| :------ | :------ | :----------------------------------------------------------- |
 | encrypt | Boolean | True for encryption; false for decryption                    |
 | format  | String  | Cipher format string, from openssl, listed at roEVPCipher    |
 | key     | String  | A hex-encoded key                                            |
@@ -61,7 +61,7 @@ Processes the included [roByteArray](doc:robytearray) containing encrypted/decry
 ##### Parameters
 
 | Name  | Type   | Description                                                  |
-| ----- | ------ | ------------------------------------------------------------ |
+| :---- | :----- | :----------------------------------------------------------- |
 | bytes | Object | An [roByteArray](doc:robytearray) containing data that is encrypted or decrypted. |
 
 ##### Return Value
@@ -91,7 +91,7 @@ Updates the included [roByteArray](doc:robytearray) containing encrypted/decrypt
 ##### Parameters
 
 | Name  | Type   | Description                                                  |
-| ----- | ------ | ------------------------------------------------------------ |
+| :---- | :----- | :----------------------------------------------------------- |
 | bytes | Object | An [roByteArray](doc:robytearray) containing data that is encrypted or decrypted. |
 
 ##### Return Value

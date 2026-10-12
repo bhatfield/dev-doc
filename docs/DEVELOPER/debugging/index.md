@@ -46,7 +46,7 @@ publication.
 ## Debug ports
 
 | Telnet Port | Thread               | Description                                 |
-| ----------- | -------------------- | ------------------------------------------- |
+| :---------- | :------------------- | :------------------------------------------ |
 | 8080        | debug server         | debug server containing a host of utilities |
 | 8085        | BrightScript console | BrightScript runtime environment            |
 | 8087        | Screensaver          | The starting point for screensavers         |
@@ -54,7 +54,7 @@ publication.
 ## BrightScript console (port 8085) commands
 
 | Command                      | Description                                                                                       |
-| ---------------------------- | ------------------------------------------------------------------------------------------------- |
+| :--------------------------- | :------------------------------------------------------------------------------------------------ |
 | `bsc`                        | Print current BrightScript component instances                                                    |
 | `bscs`                       | Print a summary of BrightScript component instance counts by component type                       |
 | `brkd`                       | Toggle whether BrightScript should break into the debugger after non-fatal diagnostic messages    |

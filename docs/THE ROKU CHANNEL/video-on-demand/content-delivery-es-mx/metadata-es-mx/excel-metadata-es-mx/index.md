@@ -21,7 +21,7 @@ Los metadatos de Excel **solo se aceptarán** si se entregan utilizando una de l
 ## Plantillas
 
 | Metadatos de Excel                             | Enlace de descarga                                        |
-| ---------------------------------------------- | --------------------------------------------------------- |
+| :--------------------------------------------- | :-------------------------------------------------------- |
 | Plantilla de metadatos de Excel para películas | [Descargar aquí](https://go.roku.com/film-excel-template) |
 | Plantilla de metadatos de Excel para TV        | [Descargar aquí](https://go.roku.com/tv-excel-template)   |
 | Plantilla de metadatos de Excel para clips     | [Descargar aquí](https://go.roku.com/clip-excel-template) |

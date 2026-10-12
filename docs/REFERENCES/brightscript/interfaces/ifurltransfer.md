@@ -16,7 +16,7 @@ next:
 ## Implemented by
 
 | Name         | Description                                                           |
-|--------------|-----------------------------------------------------------------------|
+|:-------------|:----------------------------------------------------------------------|
 |[roUrlTransfer](doc:rourltransfer) | A roUrlTransfer object transfers data to or from remote servers specified by URLs. It can perform mutual authentication with a web server |
 
 
@@ -70,7 +70,7 @@ Sets the URL to use for the transfer request.
 ##### Parameters
 
 | Name  | Type   | Description |
-| ----- | -----  | -------------- |
+| :---- | :----  | :------------- |
 | url   | String | The URL to be used for the transfer request |
 
 ### GetUrl() as String
@@ -94,7 +94,7 @@ Changes the request method from the normal GET, HEAD or POST to the value passed
 ##### Parameters
 
 | Name  | Type    | Description |
-| ----  | ------- | -------------- |
+| :---  | :------ | :------------- |
 | req   | String  | The request method to be used |
 
 ### GetRequest() as String
@@ -126,7 +126,7 @@ Connect to the remote service as specified in the URL and write the response bod
 ##### Parameters
 
 | Name     | Type    | Description |
-| ----     | ------- | -------------- |
+| :---     | :------ | :------------- |
 | filename | String  | The file on the Roku device's filesystem to which the response body is to be written |
 
 ##### Return Value
@@ -154,7 +154,7 @@ Starts a transfer without waiting for it to complete, similar to the [AsyncGetTo
 When the GET request completes, an [roUrlEvent](doc:rourlevent) will be sent to the message port associated with the object. If false is returned then the request could not be issued and no events will be delivered.
 
 | Name  | Type    | Description |
-| ----  | ------- | -------------- |
+| :---  | :------ | :------------- |
 | filename | String  | The file on the Roku device's filesystem to which the response body is to be written |
 
 ##### Return Value
@@ -190,7 +190,7 @@ Uses the HTTP POST method to send the supplied string to the current URL. The HT
 ##### Parameters
 
 | Name  | Type    | Description |
-| ----  | ------- | -------------- |
+| :---  | :------ | :------------- |
 | request | String  | The POST request to be sent |
 
 ##### Return Value
@@ -206,7 +206,7 @@ Uses the HTTP POST method to send the contents of the specified file to the curr
 ##### Parameters
 
 | Name  | Type    | Description |
-| ----  | ------- | -------------- |
+| :---  | :------ | :------------- |
 | filename | String  | The file containing the POST request to be sent |
 
 ##### Return Value
@@ -222,7 +222,7 @@ Uses the HTTP POST method to send the supplied string to the current URL. When t
 ##### Parameters
 
 | Name  | Type    | Description |
-| ----  | ------- | -------------- |
+| :---  | :------ | :------------- |
 | request | String  | The POST request to be sent asynchronously|
 
 ##### Return Value
@@ -238,7 +238,7 @@ Uses the HTTP POST method to send the contents of the specified file to the curr
 ##### Parameters
 
 | Name     | Type    | Description |
-| ----     | ------- | -------------- |
+| :---     | :------ | :------------- |
 | filename | String  | The file containing the POST request to be sent asynchronously|
 
 ##### Return Value
@@ -254,7 +254,7 @@ Uses the HTTP POST method to send the contents of the specified file (fromFile) 
 ##### Parameters
 
 | Name     | Type    | Description |
-| ----     | ------- | -------------- |
+| :---     | :------ | :------------- |
 | fromFile | String  | The file containing the POST request to be sent asynchronously |
 | toFile   | String  | The file on the Roku device's filesystem to which the response body is to be written |
 
@@ -265,7 +265,7 @@ A flag indicating whether the request was issued.
 ### AsyncCancel() as Boolean
 
 | Name        | Type    | Possible Value | Description                                                       |
-| ----------- | ------- | -------------- |------------------------------------------------------------------ |
+| :---------- | :------ | :------------- |:----------------------------------------------------------------- |
 | AsyncCancel | Boolean | True/False     | Cancel any outstanding async requests on the roUrlEvent object |
 
 ### RetainBodyOnError(retain as Boolean) as Boolean
@@ -277,7 +277,7 @@ Returns the body of the response even if the HTTP status code indicates that an 
 ##### Parameters
 
 | Name   | Type     | Description |
-| ----   | -------  | -------------- |
+| :---   | :------  | :------------- |
 | retain | Boolean  | A flag specifying whether to return the response body when there is an HTTP error response code. |
 
 ##### Return Value
@@ -295,7 +295,7 @@ Enables HTTP authentication using the specified user name and password.
 ##### Parameters
 
 | Name     | Type    | Description |
-| ----     | ------- | -------------- |
+| :---     | :------ | :------------- |
 | user     | String  | The user name to be authenticated|
 | password | String  | The password to be authenticated|
 
@@ -358,7 +358,7 @@ Enables gzip encoding of transfers
 ##### Parameters
 
 | Name  | Type    | Description |
-| ----  | ------- | -------------- |
+| :---  | :------ | :------------- |
 | retain | Boolean  | A flag specifying whether to enable gzip encoding of transfers |
 
 ##### Return Value
@@ -374,7 +374,7 @@ URL encodes the specified string per [RFC 3986](https://www.ietf.org/rfc/rfc3986
 ##### Parameters
 
 | Name  | Type    | Description |
-| ----  | ------- | -------------- |
+| :---  | :------ | :------------- |
 | text | String  | The string to be URL-encoded|
 
 ##### Return Value
@@ -390,7 +390,7 @@ Decodes the specified string per [RFC 3986](https://www.ietf.org/rfc/rfc3986.txt
 ##### Parameters
 
 | Name  | Type    | Description |
-| ----  | ------- | -------------- |
+| :---  | :------ | :------------- |
 | text  | String  | The string to be URL-decoded|
 
 ##### Return Value
@@ -431,7 +431,7 @@ URL encodes the specified string per RFC 3986 and return the encoded string
 ##### Parameters
 
 | Name  | Type    | Description |
-| ----  | ------- | -------------- |
+| :---  | :------ | :------------- |
 | text | String  | The string to be URL-encoded|
 
 ##### Return Value
@@ -447,7 +447,7 @@ Enables automatic resumption of `AsyncGetToFile` and `GetToFile` requests
 ##### Parameters
 
 | Name  | Type    | Description |
-| ----  | ------- | -------------- |
+| :---  | :------ | :------------- |
 | enable | Boolean  | A flag specifying whether to automatically resume `AsyncGetToFile` and `GetToFile` requests |
 
 ##### Return Value
@@ -463,7 +463,7 @@ Verifies that the certificate has a chain of trust up to a valid root certificat
 ##### Parameters
 
 | Name  | Type    | Description |
-| ----  | ------- | -------------- |
+| :---  | :------ | :------------- |
 | enable | Boolean  | A flag specifying whether to verify a certificate has a chain-of-trust up to a valid root certificate |
 
 ##### Return Value
@@ -479,7 +479,7 @@ Verifies that the certificate belongs to the host using CURLOPT_SSL_VERIFYHOST.
 ##### Parameters
 
 | Name  | Type    | Description |
-| ----  | ------- | -------------- |
+| :---  | :------ | :------------- |
 | enable | Boolean  | A flag specifying whether to verify a certificate belonging to the host. |
 
 ##### Return Value
@@ -497,7 +497,7 @@ Enables a fresh connection using CURLOPT_FRESH_CONNECT.
 ##### Parameters
 
 | Name   | Type    | Description |
-| ----   | ------- | -------------- |
+| :---   | :------ | :------------- |
 | enable | Boolean | A flag specifying whether to enable fresh connections. |
 
 ##### Return Value
@@ -518,7 +518,7 @@ For the HTTP/2 connection sharing feature, all roUrlTransfers should be made fro
 ##### Parameters
 
 | Name    | Type    | Description |
-| ----    | ------- | -------------- |
+| :---    | :------ | :------------- |
 | version | String  | The http version to be used (for example, "http2" for HTTP/2). `"AUTO"` is the default value, which causes the roUrlTransfer connection to auto-negotiate HTTP/1.x or HTTP/2, depending on the agreement reached by client and server. |
 
 > SetHttpVersion does not impact the connection made by the Roku Media player, which will always use HTTP/1.x.

@@ -277,37 +277,37 @@ m.channelStore.deltaOrder = { "code": "UPC4321", "qty": 1}
 ##### orderStatus
 
 | Field       | Type        | Default | Access Permission | Description                                                  |
-| ----------- | ----------- | ------- | ----------------- | ------------------------------------------------------------ |
+| :---------- | :---------- | :------ | :---------------- | :----------------------------------------------------------- |
 | orderStatus | ContentNode | invalid | READ_WRITE        | Contains the results of the [**doOrder**](#doorder) command. |
 
 ##### purchases
 
 | Field     | Type        | Default | Access Permission | Description                                                                                                     |
-| --------- | ----------- | ------- | ----------------- | --------------------------------------------------------------------------------------------------------------- |
+| :-------- | :---------- | :------ | :---------------- | :-------------------------------------------------------------------------------------------------------------- |
 | purchases | ContentNode | invalid | READ_WRITE        | Contains the results of a [**getPurchases**](#getpurchases) or [**getAllPurchases**](#getallpurchases) command. |
 
 ##### catalog
 
 | Field   | Type        | Default | Access Permission | Description                                                      |
-| ------- | ----------- | ------- | ----------------- | ---------------------------------------------------------------- |
+| :------ | :---------- | :------ | :---------------- | :--------------------------------------------------------------- |
 | catalog | ContentNode | invalid | READ_WRITE        | Contains the results of a [**getCatalog**](#getcatalog) command. |
 
 ##### storeCatalog
 
 | Field        | Type        | Default | Access Permission | Description                                                                |
-| ------------ | ----------- | ------- | ----------------- | -------------------------------------------------------------------------- |
+| :----------- | :---------- | :------ | :---------------- | :------------------------------------------------------------------------- |
 | storeCatalog | ContentNode | invalid | READ_WRITE        | Contains the results of a [**getStoreCatalog**](#getstorecatalog) command. |
 
 ##### requestPartnerOrderStatus
 
 | Field                     | Type        | Default | Access Permission | Description                                                                        |
-| ------------------------- | ----------- | ------- | ----------------- | ---------------------------------------------------------------------------------- |
+| :------------------------ | :---------- | :------ | :---------------- | :--------------------------------------------------------------------------------- |
 | requestPartnerOrderStatus | ContentNode | invalid | READ_WRITE        | Contains the results of a [**requestPartnerOrder**](#requestpartnerorder) command. |
 
 ##### confirmPartnerOrderStatus
 
 | Field                     | Type        | Default | Access Permission | Description                                                                        |
-| ------------------------- | ----------- | ------- | ----------------- | ---------------------------------------------------------------------------------- |
+| :------------------------ | :---------- | :------ | :---------------- | :--------------------------------------------------------------------------------- |
 | confirmPartnerOrderStatus | ContentNode | invalid | READ_WRITE        | Contains the results of a [**confirmPartnerOrder**](#confirmpartnerorder) command. |
 
 ##### fakeServer
@@ -453,7 +453,7 @@ The **getUserRegionData** command retrieves the state, zip code, and country ass
 When this command is invoked, the ContentNode stored in the **userRegionData** field contains the following fields:
 
 | Field   | Type   | Description                                               |
-| ------- | ------ | --------------------------------------------------------- |
+| :------ | :----- | :-------------------------------------------------------- |
 | state   | string | The state associated with the customer's Roku account.    |
 | zip     | string | The zip code associated with the customer's Roku account. |
 | country | String | The country associated with the customer's Roku account.  |
@@ -487,7 +487,7 @@ Lists the [In-App Products](/dev/docs/in-channel-products) that are linked to th
 If the command is successful, the **catalog** or **storeCatalog** ContentNode contains a child ContentNode for each product available for purchase. Each child ContentNode includes the following information related to the product:
 
 | Field             | Type    | Description                                                                                                                                                                                       |
-| ----------------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :---------------- | :------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | code              | string  | The product identifier, as entered in the **Product Identifier** field on the [In-App Product page in the Developer Dashboard](https://developer.roku.com/products) when the product was created. |
 | name              | string  | The item name (this name will also be set as the description).                                                                                                                                    |
 | quantity          | Integer | For one-time purchase/consumable products only. The number of the product purchased (for example "1000" game points, "3" viewings of a movie rental).                                             |
@@ -533,7 +533,7 @@ When the command completes, the [**orderStatus** field](#orderstatus) is set to 
 If this command is successful, the [**orderStatus** field](#orderstatus) ContentNode will have child ContentNodes for each item purchased. The fields for each child ContentNode include the same information when the [**getPurchases** command](#getpurchases) is sent, but only the following fields are populated when the transaction is made:
 
 | Field      | Type    | Description                                                                                                                                                                                       |
-| ---------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :--------- | :------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | amount     | string  | Localized amount of the item purchased (post transaction) with local currency symbol                                                                                                              |
 | code       | string  | The product identifier, as entered in the **Product Identifier** field on the [In-App Product page in the Developer Dashboard](https://developer.roku.com/products) when the product was created. |
 | purchaseId | string  | The transaction ID                                                                                                                                                                                |
@@ -976,13 +976,13 @@ You can use the **rokuCustomerId** to identify Roku customers consistently acros
 **Request**
 
 | Field   | Type   | Description         |
-| ------- | ------ | ------------------- |
+| :------ | :----- | :------------------ |
 | command | string | "GetRokuCustomerId" |
 
 **Result fields**
 
 | Field          | Type               | Description                      |
-| -------------- | ------------------ | -------------------------------- |
+| :------------- | :----------------- | :------------------------------- |
 | result         | roAssociativeArray | Wraps the response data          |
 | rokuCustomerId | string             | The Roku customer ID for the app |
 

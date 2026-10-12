@@ -15,7 +15,7 @@ next:
 ## Implemented by 
 
 | Name            | Description                               |
-| --------------- | ----------------------------------------- |
+| :-------------- | :---------------------------------------- |
 | [roAudioResource](doc:roaudioresource) | The roAudioResource allows .wav files to be cached to memory and quickly played at any time |
 
 
@@ -30,7 +30,7 @@ This method triggers the start of the audio resource sound playback. The effect 
 ##### Parameters
 
 | Name   | Type    | Description                                                  |
-| ------ | ------- | ------------------------------------------------------------ |
+| :----- | :------ | :----------------------------------------------------------- |
 | volume | Integer | The volume is a number between 0 and 100 (percentage of full volume). A value of 50 should be used for normal volume. |
 
 ### Trigger(volume as Integer, index as Integer) as Void
@@ -42,7 +42,7 @@ Triggers the start of the audio resource sound playback. This method will interr
 ##### Parameters
 
 | Name   | Type    | Description                                                  |
-| ------ | ------- | ------------------------------------------------------------ |
+| :----- | :------ | :----------------------------------------------------------- |
 | volume | Integer | The volume is a number between 0 and 100 (percentage of full volume). 50 should be used for normal volume. |
 | index  | Integer | The index is a value between 0  and [MaxSimulStreams()](#maxsimulstreams-as-integer) allowing for multiple sounds to be mixed. |
 

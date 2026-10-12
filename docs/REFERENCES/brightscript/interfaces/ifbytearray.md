@@ -15,7 +15,7 @@ next:
 ## Implemented by
 
 | Name        | Description                               |
-| ----------- | ----------------------------------------- |
+| :---------- | :---------------------------------------- |
 | [roByteArray](doc:robytearray) | The byte array component is used to contain and manipulate an arbitrary array of bytes |
 
 
@@ -30,7 +30,7 @@ Writes the bytes contained in the Byte Array to the specified file.
 ##### Parameters
 
 | Name | Type   | Description                                                |
-| ---- | ------ | ---------------------------------------------------------- |
+| :--- | :----- | :--------------------------------------------------------- |
 | path | String | The path to the file to which the bytes are to be written. |
 
 ##### Return Value
@@ -46,7 +46,7 @@ Writes a subset of the bytes contained in the Byte Array to the specified file.
 ##### Parameters
 
 | Name        | Type    | Description                                                  |
-| ----------- | ------- | ------------------------------------------------------------ |
+| :---------- | :------ | :----------------------------------------------------------- |
 | path        | String  | The path to the file to which the bytes are to be written.   |
 | start_index | Integer | The index of the calling ByteArray from which to start writing bytes. |
 | length      | Integer | The length of the bytes to be written to the file, starting from the specified index. |
@@ -64,7 +64,7 @@ Reads the specified file into the Byte Array. Any data currently in the Byte Arr
 ##### Parameters
 
 | Name | Type   | Description                      |
-| ---- | ------ | -------------------------------- |
+| :--- | :----- | :------------------------------- |
 | path | String | The path to the file to be read. |
 
 ##### Return Value
@@ -80,7 +80,7 @@ Reads the specified file into the Byte Array. Any data currently in the Byte Arr
 ##### Parameters
 
 | Name      | Type    | Description                                                  |
-| --------- | ------- | ------------------------------------------------------------ |
+| :-------- | :------ | :----------------------------------------------------------- |
 | path      | String  | The path to the file to be read.                             |
 | start_pos | Integer | The index of the file from which to start reading bytes.     |
 | length    | Integer | The length of the bytes to be read from the file, starting from the specified starting position. |
@@ -142,7 +142,7 @@ Appends the contents of the Byte Array to the specified file.
 ##### Parameters
 
 | Name | Type   | Description                                           |
-| ---- | ------ | ----------------------------------------------------- |
+| :--- | :----- | :---------------------------------------------------- |
 | path | String | The path to the file to be appended to the ByteArray. |
 
 ##### Return Value
@@ -159,7 +159,7 @@ Appends the contents of the Byte Array to the specified file.
 ##### Parameters
 
 | Name      | Type    | Description                                                  |
-| --------- | ------- | ------------------------------------------------------------ |
+| :-------- | :------ | :----------------------------------------------------------- |
 | path      | String  | The path to the file to be appended to the Byte Array.       |
 | start_pos | Integer | The position in the file from which to start appending bytes. |
 | length    | Integer | The length of the bytes to be appended to the Byte Array, starting from the specified starting position. |
@@ -177,7 +177,7 @@ If the size of the Byte Array is less than min_size, expands the Byte Array to m
 ##### Parameters
 
 | Name        | Type    | Description                                                  |
-| ----------- | ------- | ------------------------------------------------------------ |
+| :---------- | :------ | :----------------------------------------------------------- |
 | min_size    | Integer | The minimum size to which the calling Byte Array is to be expanded. |
 | auto_resize | Boolean | A flag specifying whether auto resize is enabled on the calling Byte Array. |
 
@@ -200,7 +200,7 @@ Sets the contents of the Byte Array to the specified value. Any data currently i
 ##### Parameters
 
 | Name      | Type   | Description                                                  |
-| --------- | ------ | ------------------------------------------------------------ |
+| :-------- | :----- | :----------------------------------------------------------- |
 | hexstring | String | An even number of hexadecimal digits. The string must contain valid hexadecimal digits, or the result is undefined |
 
 ### ToBase64String() As String
@@ -222,7 +222,7 @@ Sets the contents of the Byte Array to the specified value. Any data currently i
 ##### Parameters
 
 | Name | Type   | Description              |
-| ---- | ------ | ------------------------ |
+| :--- | :----- | :----------------------- |
 | s    | String | A valid base-64 encoding |
 
 ### ToAsciiString() As String
@@ -244,7 +244,7 @@ Sets the contents of the Byte Array to the specified string using UTF-8 encoding
 ##### Parameters
 
 | Name | Type   | Description                                     |
-| ---- | ------ | ----------------------------------------------- |
+| :--- | :----- | :---------------------------------------------- |
 | s    | String | The string to which the ByteArray is to be set. |
 
 ### GetSignedByte(index as Integer) As Integer
@@ -256,7 +256,7 @@ Returns the signed byte at the specified zero-based index in the Byte Array<br /
 ##### Parameters
 
 | Name  | Type    | Description                                  |
-| ----- | ------- | -------------------------------------------- |
+| :---- | :------ | :------------------------------------------- |
 | index | Integer | The index of the signed byte to be returned. |
 
 ##### Return Value
@@ -272,7 +272,7 @@ Returns the signed long (four bytes) starting at the specified zero-based index 
 ##### Parameters
 
 | Name  | Type    | Description                                                  |
-| ----- | ------- | ------------------------------------------------------------ |
+| :---- | :------ | :----------------------------------------------------------- |
 | index | Integer | The index of the ByteArray from which to start retrieving the signed long. |
 
 ##### Return Value
@@ -308,7 +308,7 @@ Calculates a CRC-32 of a subset of bytes within the Byte Array.
 ##### Parameters
 
 | Name   | Type    | Description                                                  |
-| ------ | ------- | ------------------------------------------------------------ |
+| :----- | :------ | :----------------------------------------------------------- |
 | start  | Integer | The starting index of the subset of bytes to be used in the CRC-32 calculation. |
 | length | Integer | The length of the bytes to be included.                      |
 

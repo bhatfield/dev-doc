@@ -11,7 +11,7 @@ La siguiente lista es el conjunto completo de códigos de idioma que Roku admite
 Cuando exista una variante específica de una región (por ejemplo, `es-mx` para español (México) frente a `es-es` para español (España)), incluir el código de región es una práctica recomendada siempre que la descripción del campo así lo sugiera. Consulta las referencias de campo individuales en las páginas de metadatos en XML y Excel para película, serie de TV y clip.
 
 | Código de idioma | Idioma                    | Código de idioma | Idioma                         |
-| ---------------- | ------------------------- | ---------------- | ------------------------------ |
+| :--------------- | :------------------------ | :--------------- | :----------------------------- |
 | af               | Afrikáans                 | km               | Jemer                          |
 | sq               | Albanés                   | rw               | Kinyarwanda                    |
 | am               | Amhárico                  | ko               | Coreano                        |

@@ -16,7 +16,7 @@ next:
 ## Implemented by
 
 | Name            | Description                                                           |
-|-----------------|-----------------------------------------------------------------------|
+|:----------------|:----------------------------------------------------------------------|
 |[roTextureManager](doc:rotexturemanager) | The Texture Manager provides a set of API's for managing an roBitmap cache   |
 
 ## Supported methods
@@ -30,7 +30,7 @@ Makes a request for an roBitmap with the attributes specified by the roTextureRe
 ##### Parameters
 
 | Name  | Type    | Description |
-| ----  | ------- | -------------- |
+| :---  | :------ | :------------- |
 | req | Object  | The roTextureRequest |
 
 ### CancelRequest(req as Object) as Void
@@ -42,7 +42,7 @@ Cancels the request specified by req, which should be an roTextureRequest previo
 ##### Parameters
 
 | Name  | Type    | Description |
-| ----  | ------- | -------------- |
+| :---  | :------ | :------------- |
 | req | Object  | The previously passed roTextureRequest to be cancelled. |
 
 ### UnloadBitmap(url as String) as Void
@@ -54,7 +54,7 @@ Removes a bitmap from the roTextureManager with the specified URL.
 ##### Parameters
 
 | Name  | Type    | Description |
-| ----  | ------- | -------------- |
+| :---  | :------ | :------------- |
 | url | String  | The URL of the bitmap to be removed from the roTextureManager |
 
 ### Cleanup() as Void

@@ -31,7 +31,7 @@ In order for your app to support the enhanced voice controls, which include "see
 To support the voice controls, add the following flags in the [manifest](doc:channel-manifest):
 
 | Feature                                                 | Manifest Entry           |
-| ------------------------------------------------------- | ------------------------ |
+| :------------------------------------------------------ | :----------------------- |
 | App supports voice controls.                            | supports_voice_roinput=1 |
 | App handles the "seek" and "start over" voice commands. | supports_etc_seek=1      |
 | App handles the "next" voice command.                   | supports_etc_next=1      |
@@ -212,7 +212,7 @@ If your app has content organized in a playlist, and it is using standard trick 
 The following table summarizes which apps need to implement handling for enhanced voice commands:
 
 | App implementation          | Handling "seek" and "start over" commands required? | Handling "next" command required (content is in a playlist)? |
-| --------------------------- | --------------------------------------------------- | ------------------------------------------------------------ |
+| :-------------------------- | :-------------------------------------------------- | :----------------------------------------------------------- |
 | Standard trick mode         | no                                                  | yes                                                          |
 | Custom trick mode           | yes                                                 | yes                                                          |
 | Client-side RAF integration | no                                                  | yes                                                          |

@@ -21,7 +21,7 @@ The roScreen object sends the roUniversalControlEvent with the following related
 Returns an integer representing pressed or released keys on the remote. This table can be accessed at runtime by calling `bslCore.brs: bslUniversalControlEventCodes()`: 
 
 | Button         | When Pressed | When Released |
-| -------------- | ------------ | ------------- |
+| :------------- | :----------- | :------------ |
 | Back           | 0            | 100           |
 | Up             | 2            | 102           |
 | Down           | 3            | 103           |

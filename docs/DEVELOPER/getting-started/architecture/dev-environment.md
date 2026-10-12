@@ -143,7 +143,7 @@ launched from. The values and their meanings are in the table
 below.
 
 | Value of "Source"  | Launched from                                                                                                                                          |
-| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| :----------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------- |
 | "homescreen"       | "home" section of the main Roku app selection page                                                                                                     |
 | "homescreen-menu"  | Launched from a left-hand menu other than Featured Free or Roku Search                                                                                 |
 | "ad"               | Banner ads (for example, a home screen ad, mini ad, or screensaver ad)                                                                                 |

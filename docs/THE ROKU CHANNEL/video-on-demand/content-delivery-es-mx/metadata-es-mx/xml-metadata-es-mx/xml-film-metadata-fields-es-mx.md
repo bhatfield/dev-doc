@@ -21,7 +21,7 @@ Los campos se agrupan a continuación en: **Información del paquete**, **Descri
 Define el tipo de versión del paquete.
 
 | Xpath XML           | Valores aceptados | Obligatorio |
-| ------------------- | ----------------- | ----------- |
+| :------------------ | :---------------- | :---------- |
 | `/package/@version` | `film5.0`         | Obligatorio |
 
 ```xml
@@ -33,7 +33,7 @@ Define el tipo de versión del paquete.
 Nombre del propietario del contenido/estudio/cadena.
 
 | Xpath XML           | Ejemplo        | Obligatorio |
-| ------------------- | -------------- | ----------- |
+| :------------------ | :------------- | :---------- |
 | `/package/provider` | Roku Originals | Obligatorio |
 
 ```xml
@@ -45,7 +45,7 @@ Nombre del propietario del contenido/estudio/cadena.
 Idioma principal de los metadatos del paquete. Como mínimo, el valor **debe** ajustarse a un [código de idioma](#language-codes) admitido. Como práctica recomendada, **incluye también un código de región** — por ejemplo, para distinguir el español que se habla en México (`es-MX`) del que se habla en España (`es-ES`).
 
 | Xpath XML           | Valores aceptados                                                                                                     | Obligatorio |
-| ------------------- | --------------------------------------------------------------------------------------------------------------------- | ----------- |
+| :------------------ | :-------------------------------------------------------------------------------------------------------------------- | :---------- |
 | `/package/language` | [Valor de idioma](#language-codes) válido (`en`, `es`, etc.); puede incluir código de región (`en-US`, `es-MX`, etc.) | Obligatorio |
 
 ```xml
@@ -57,7 +57,7 @@ Idioma principal de los metadatos del paquete. Como mínimo, el valor **debe** a
 Define el tipo de contenido del paquete.
 
 | Xpath XML             | Valores aceptados | Obligatorio |
-| --------------------- | ----------------- | ----------- |
+| :-------------------- | :---------------- | :---------- |
 | `/package/video/type` | `film`            | Obligatorio |
 
 ```xml
@@ -69,7 +69,7 @@ Define el tipo de contenido del paquete.
 Identificador único e inalterable de una película. Los ID son generados y suministrados **por la empresa socia**. El ID en los metadatos de ingesta **debería** coincidir con el ID proporcionado en el documento de Avails — esto facilita el seguimiento a lo largo del proceso de Roku, desde el envío de Avails hasta la publicación. **Límite de 50 caracteres.**
 
 | Xpath XML                 | Valores aceptados                                                                  | Obligatorio |
-| ------------------------- | ---------------------------------------------------------------------------------- | ----------- |
+| :------------------------ | :--------------------------------------------------------------------------------- | :---------- |
 | `/package/video/asset_id` | Solo caracteres alfanuméricos, guiones y guiones bajos. 50 caracteres como máximo. | Obligatorio |
 
 ```xml
@@ -81,7 +81,7 @@ Identificador único e inalterable de una película. Los ID son generados y sumi
 ID de EIDR, si existe uno.
 
 | Xpath XML             | Valores aceptados           | Obligatorio |
-| --------------------- | --------------------------- | ----------- |
+| :-------------------- | :-------------------------- | :---------- |
 | `/package/video/eidr` | Cualquier ID de EIDR válido | Opcional    |
 
 ```xml
@@ -93,7 +93,7 @@ ID de EIDR, si existe uno.
 ID de Gracenote, si existe uno.
 
 | Xpath XML              | Valores aceptados          | Obligatorio |
-| ---------------------- | -------------------------- | ----------- |
+| :--------------------- | :------------------------- | :---------- |
 | `/package/video/tmsId` | Cualquier ID de TMS válido | Opcional    |
 
 ```xml
@@ -109,7 +109,7 @@ ID de Gracenote, si existe uno.
 Título de la película. Incluye **únicamente** el nombre del contenido tal y como debe aparecer en la plataforma — **no** incluyas datos entre paréntesis ajenos al título, como un indicador de versión original/nueva, el año de estreno, la temporada o el formato de video (por ejemplo, `(Clásica)`, `(1987)`, `(Temporada 1)`, `(HD)`).
 
 | Xpath XML              | Ejemplo               | Obligatorio |
-| ---------------------- | --------------------- | ----------- |
+| :--------------------- | :-------------------- | :---------- |
 | `/package/video/title` | Título de la película | Obligatorio |
 
 ```xml
@@ -121,7 +121,7 @@ Título de la película. Incluye **únicamente** el nombre del contenido tal y c
 Una sinopsis breve del contenido. Sección CDATA compatible. **Límite de 250 caracteres.**
 
 | Xpath XML                       | Valores aceptados          | Obligatorio |
-| ------------------------------- | -------------------------- | ----------- |
+| :------------------------------ | :------------------------- | :---------- |
 | `/package/video/short_synopsis` | Sinopsis de 250 caracteres | Obligatorio |
 
 ```xml
@@ -133,7 +133,7 @@ Una sinopsis breve del contenido. Sección CDATA compatible. **Límite de 250 ca
 Una sinopsis larga del contenido. Sección CDATA compatible. **Límite de 500 caracteres.**
 
 | Xpath XML                      | Valores aceptados          | Obligatorio |
-| ------------------------------ | -------------------------- | ----------- |
+| :----------------------------- | :------------------------- | :---------- |
 | `/package/video/long_synopsis` | Sinopsis de 500 caracteres | Opcional    |
 
 ```xml
@@ -145,7 +145,7 @@ Una sinopsis larga del contenido. Sección CDATA compatible. **Límite de 500 ca
 El idioma original de producción del título. Como mínimo, el valor **debe** ajustarse a un [código de idioma](#language-codes) admitido. Como práctica recomendada, **incluye también un código de región** (consulta [language](#language) arriba para el ejemplo `es-MX` / `es-ES`).
 
 | Xpath XML                                 | Valores aceptados                                                                            | Obligatorio |
-| ----------------------------------------- | -------------------------------------------------------------------------------------------- | ----------- |
+| :---------------------------------------- | :------------------------------------------------------------------------------------------- | :---------- |
 | `/package/video/original_spoken_language` | [Valor de idioma](#language-codes) válido (`en`, `es`, etc.); puede incluir código de región | Obligatorio |
 
 ```xml
@@ -157,7 +157,7 @@ El idioma original de producción del título. Como mínimo, el valor **debe** a
 El país principal donde se produjo la película y donde están establecidos los principales creadores, el equipo de filmación y los productores. El valor **debe** ajustarse a un código de país de 2 caracteres admitido según [ISO 3166-1 alfa-2](https://www.iso.org/iso-3166-country-codes.html).
 
 | Xpath XML                          | Valores aceptados                                                                                                | Obligatorio |
-| ---------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ----------- |
+| :--------------------------------- | :--------------------------------------------------------------------------------------------------------------- | :---------- |
 | `/package/video/country_of_origin` | Código de país válido de 2 caracteres según [ISO 3166-1 alfa-2](https://www.iso.org/iso-3166-country-codes.html) | Preferido   |
 
 ```xml
@@ -169,7 +169,7 @@ El país principal donde se produjo la película y donde están establecidos los
 Indica si el título entregado contiene subtítulos descriptivos. **Obligatorio para todo el contenido destinado a Roku Channel en EE. UU.**
 
 | Xpath XML                       | Valores aceptados | Obligatorio                           |
-| ------------------------------- | ----------------- | ------------------------------------- |
+| :------------------------------ | :---------------- | :------------------------------------ |
 | `/package/video/closedCaptions` | `Y` o `N`         | Obligatorio para contenido en EE. UU. |
 
 ```xml
@@ -181,7 +181,7 @@ Indica si el título entregado contiene subtítulos descriptivos. **Obligatorio 
 Código de exención de la FCC para el requisito de subtítulos descriptivos. **Obligatorio si&#x20;**`closedCaptions`**&#x20;=&#x20;**`N`**.**
 
 | Código | Definición                                                                                                                                                |
-| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :----- | :-------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1      | El contenido nunca se emitió por televisión en Estados Unidos.                                                                                            |
 | 2      | El contenido solo se emitió por televisión en Estados Unidos sin subtítulos descriptivos.                                                                 |
 | 3      | El contenido no se ha emitido por televisión en Estados Unidos con subtítulos descriptivos desde el 30 de septiembre de 2012.                             |
@@ -190,7 +190,7 @@ Código de exención de la FCC para el requisito de subtítulos descriptivos. **
 | 6      | La FCC o el Congreso de EE. UU. concedieron una exención de los requisitos de subtítulos descriptivos para este contenido.                                |
 
 | Xpath XML                                | Valores aceptados            | Obligatorio                           |
-| ---------------------------------------- | ---------------------------- | ------------------------------------- |
+| :--------------------------------------- | :--------------------------- | :------------------------------------ |
 | `/package/video/closedCaptionsExemption` | `1`, `2`, `3`, `4`, `5`, `6` | Obligatorio si `closedCaptions` = `N` |
 
 ```xml
@@ -202,7 +202,7 @@ Código de exención de la FCC para el requisito de subtítulos descriptivos. **
 Fecha original en la que el contenido estuvo disponible por primera vez en cualquier presentación. Debe incluir, como mínimo, un **año de estreno** correcto.
 
 | Xpath XML                     | Valores aceptados              | Obligatorio |
-| ----------------------------- | ------------------------------ | ----------- |
+| :---------------------------- | :----------------------------- | :---------- |
 | `/package/video/release_date` | Formato ISO 8601: `YYYY-MM-DD` | Obligatorio |
 
 ```xml
@@ -214,7 +214,7 @@ Fecha original en la que el contenido estuvo disponible por primera vez en cualq
 Duración total del contenido, en **minutos enteros**.
 
 | Xpath XML                | Valores aceptados    | Obligatorio |
-| ------------------------ | -------------------- | ----------- |
+| :----------------------- | :------------------- | :---------- |
 | `/package/video/runtime` | Solo números enteros | Obligatorio |
 
 ```xml
@@ -226,7 +226,7 @@ Duración total del contenido, en **minutos enteros**.
 Clasificación por género del contenido. Cada película **debe** entregarse con **al menos un** género admitido. Consulta la [lista enumerada de géneros](#genres).
 
 | Xpath XML                     | Valores aceptados                                                        | Obligatorio |
-| ----------------------------- | ------------------------------------------------------------------------ | ----------- |
+| :---------------------------- | :----------------------------------------------------------------------- | :---------- |
 | `/package/video/genres/genre` | Consulta la [lista enumerada](#genres). No más de 10 géneros por título. | Obligatorio |
 
 ```xml
@@ -241,7 +241,7 @@ Clasificación por género del contenido. Cada película **debe** entregarse con
 Clasificación de contenido/edades de una fuente de clasificación. Se **debe** proporcionar, para cada película, una clasificación válida de cine o TV emitida por la autoridad de clasificación (`ratingSystem`) del territorio en el que estará disponible el contenido. Si el título no ha sido clasificado por la autoridad oficial de ese territorio, incluye en su lugar una clasificación válida del sistema `USA_PR` — no existe un organismo oficial de clasificación para `USA_PR`; usa las pautas de [tvguidelines.org](http://tvguidelines.org/) para asignar la clasificación adecuada.
 
 | Xpath XML                                                           | Valores aceptados                                                                                                                                          | Obligatorio |
-| ------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| :------------------------------------------------------------------ | :--------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------- |
 | `/package/video/ratings/rating` (debe incluir el atributo `system`) | Consulta [valores de clasificación por sistema y país](#rating-values-by-rating-system-and-country). Se permiten múltiples pares de clasificación/sistema. | Obligatorio |
 
 ```xml
@@ -259,7 +259,7 @@ Un campo de formato libre para categorizar el contenido más allá del conjunto 
 * Las etiquetas **distinguen entre mayúsculas y minúsculas** — `"Rom-Com"` y `"rom-com"` son dos etiquetas distintas. Entrega las etiquetas de forma **consistente**.
 
 | Xpath XML                 | Valores aceptados                          | Obligatorio                         |
-| ------------------------- | ------------------------------------------ | ----------------------------------- |
+| :------------------------ | :----------------------------------------- | :---------------------------------- |
 | `/package/video/tags/tag` | Cualquier cadena de menos de 50 caracteres | Opcional, pero **muy recomendable** |
 
 ```xml
@@ -279,7 +279,7 @@ Un campo de formato libre para categorizar el contenido más allá del conjunto 
 Se utiliza para determinar los [cortes publicitarios del contenido financiado con anuncios](#ad-policy). Los valores **deben** tener una precisión de milisegundos. Si el video incluye negros comerciales, proporciona el código de tiempo en el **punto medio** del negro comercial. No es obligatorio para contenido SVOD, pero se pueden ingerir datos de adBreak con precisión de fotogramas si están disponibles.
 
 | Xpath XML                                    | Valores aceptados | Obligatorio                   |
-| -------------------------------------------- | ----------------- | ----------------------------- |
+| :------------------------------------------- | :---------------- | :---------------------------- |
 | `/package/video/adBreaks/adBreak/start_time` | `HH:MM:SS.sss`    | Preferido para contenido AVOD |
 
 ```xml
@@ -299,7 +299,7 @@ Se utiliza para determinar los [cortes publicitarios del contenido financiado co
 Se utiliza para identificar los puntos de entrada/salida de los créditos iniciales, resúmenes de contenido, créditos finales y material detrás de cámaras. Las etiquetas `cuePoint` **deben** incluir el atributo `type`. Los valores **deben** tener una precisión de milisegundos.
 
 | Xpath XML                                      | Valores aceptados | Obligatorio |
-| ---------------------------------------------- | ----------------- | ----------- |
+| :--------------------------------------------- | :---------------- | :---------- |
 | `/package/video/cuePoints/cuePoint/start_time` | `HH:MM:SS.sss`    | Preferido   |
 | `/package/video/cuePoints/cuePoint/end_time`   | `HH:MM:SS.sss`    | Preferido   |
 
@@ -333,7 +333,7 @@ Se utiliza para identificar los puntos de entrada/salida de los créditos inicia
 Define el tipo de un `cuePoint` dado. El nombre del atributo **debe** ser `type`, con uno de los siguientes valores. **Para cada tipo indicado abajo: si se proporciona ese cuePoint,&#x20;**`start_time`**&#x20;y&#x20;**`end_time`**&#x20;son ambos obligatorios.**
 
 | Valor del tipo      | Descripción                                                                                  |
-| ------------------- | -------------------------------------------------------------------------------------------- |
+| :------------------ | :------------------------------------------------------------------------------------------- |
 | `ad overlay`        | El punto dentro del video para anuncios de posicionamiento de productos dentro del programa. |
 | `behind the scenes` | Material detrás de cámaras, normalmente al final de un video.                                |
 | `intro`             | Los créditos iniciales del programa.                                                         |
@@ -341,7 +341,7 @@ Define el tipo de un `cuePoint` dado. El nombre del atributo **debe** ser `type`
 | `end`               | Los créditos finales del programa.                                                           |
 
 | Xpath XML                           | Valores aceptados             | Obligatorio                              |
-| ----------------------------------- | ----------------------------- | ---------------------------------------- |
+| :---------------------------------- | :---------------------------- | :--------------------------------------- |
 | `/package/video/cuePoints/cuePoint` | Uno de los valores anteriores | Obligatorio si se proporcionan cuePoints |
 
 ```xml
@@ -357,7 +357,7 @@ Define el tipo de un `cuePoint` dado. El nombre del atributo **debe** ser `type`
 Nombre de un miembro del reparto. Sección CDATA compatible.
 
 | Xpath XML                                      | Valores aceptados | Obligatorio |
-| ---------------------------------------------- | ----------------- | ----------- |
+| :--------------------------------------------- | :---------------- | :---------- |
 | `/package/video/cast/cast_member/display_name` | Nombre y apellido | Opcional    |
 
 ```xml
@@ -374,7 +374,7 @@ Nombre de un miembro del reparto. Sección CDATA compatible.
 Nombre de un miembro del equipo de filmación. Sección CDATA compatible.
 
 | Xpath XML                                      | Valores aceptados | Obligatorio                                 |
-| ---------------------------------------------- | ----------------- | ------------------------------------------- |
+| :--------------------------------------------- | :---------------- | :------------------------------------------ |
 | `/package/video/crew/crew_member/display_name` | Nombre y apellido | Obligatorio si se proporciona `crew_member` |
 
 ```xml
@@ -390,7 +390,7 @@ Función del miembro del equipo de filmación indicado en `display_name`. Todo m
 > **Nota entre formatos:** como se indicó arriba, por el momento Director es la única función de `crew_member` admitida para la ingesta en Excel.
 
 | Xpath XML                                    | Valores aceptados                          | Obligatorio                                 |
-| -------------------------------------------- | ------------------------------------------ | ------------------------------------------- |
+| :------------------------------------------- | :----------------------------------------- | :------------------------------------------ |
 | `/package/video/crew/crew_member/roles/role` | Consulta la [lista enumerada](#crew-roles) | Obligatorio si se proporciona `crew_member` |
 
 ```xml
@@ -406,7 +406,7 @@ Función del miembro del equipo de filmación indicado en `display_name`. Todo m
 Inicia el bloque que proporciona metadatos localizados para paquetes multilingües — idioma, título traducido, `short_synopsis` y `long_synopsis`.
 
 | Xpath XML                      | Valores aceptados | Obligatorio |
-| ------------------------------ | ----------------- | ----------- |
+| :----------------------------- | :---------------- | :---------- |
 | `/package/video/localizations` | —                 | Obligatorio |
 
 ```xml
@@ -418,7 +418,7 @@ Inicia el bloque que proporciona metadatos localizados para paquetes multilingü
 Define el idioma de los campos localizados dentro de un bloque `localization`. El nombre del atributo **debe** ser `name`, y su valor **debe**, como mínimo, ajustarse a un [código de idioma](#language-codes) admitido — incluye un código de región como práctica recomendada (consulta [language](#language) arriba).
 
 | Xpath XML                                   | Valores aceptados                                                          | Obligatorio |
-| ------------------------------------------- | -------------------------------------------------------------------------- | ----------- |
+| :------------------------------------------ | :------------------------------------------------------------------------- | :---------- |
 | `/package/video/localizations/localization` | [Código de idioma](#language-codes) válido; puede incluir código de región | Obligatorio |
 
 ```xml
@@ -430,7 +430,7 @@ Define el idioma de los campos localizados dentro de un bloque `localization`. E
 Título localizado de la película, en el idioma especificado por el atributo `name` del bloque `localization` que lo contiene. Mismas restricciones de datos entre paréntesis ajenos al título que en [title](#title) arriba. **Debe ir acompañado** de una `short_synopsis` y `long_synopsis` localizadas.
 
 | Xpath XML                                         | Valores aceptados                | Obligatorio |
-| ------------------------------------------------- | -------------------------------- | ----------- |
+| :------------------------------------------------ | :------------------------------- | :---------- |
 | `/package/video/localizations/localization/title` | Título localizado de la película | Obligatorio |
 
 ```xml
@@ -442,7 +442,7 @@ Título localizado de la película, en el idioma especificado por el atributo `n
 Sinopsis breve localizada, en el idioma especificado por el bloque `localization` que la contiene. Sección CDATA compatible. **Límite de 250 caracteres.** Debe ir acompañada de un `title` y `long_synopsis` localizados.
 
 | Xpath XML                                                  | Valores aceptados | Obligatorio |
-| ---------------------------------------------------------- | ----------------- | ----------- |
+| :--------------------------------------------------------- | :---------------- | :---------- |
 | `/package/video/localizations/localization/short_synopsis` | 250 caracteres    | Obligatorio |
 
 ```xml
@@ -454,7 +454,7 @@ Sinopsis breve localizada, en el idioma especificado por el bloque `localization
 Sinopsis larga localizada, en el idioma especificado por el bloque `localization` que la contiene. Sección CDATA compatible. **Límite de 500 caracteres.** Debe ir acompañada de un `title` y `short_synopsis` localizados.
 
 | Xpath XML                                                 | Valores aceptados | Obligatorio |
-| --------------------------------------------------------- | ----------------- | ----------- |
+| :-------------------------------------------------------- | :---------------- | :---------- |
 | `/package/video/localizations/localization/long_synopsis` | 500 caracteres    | Opcional    |
 
 ```xml
@@ -470,7 +470,7 @@ Sinopsis larga localizada, en el idioma especificado por el bloque `localization
 Inicia el bloque que proporciona la información de disponibilidad del paquete: disponibilidad por país/territorio, tipo de monetización, y fechas de inicio/fin de disponibilidad.
 
 | Xpath XML                    | Valores aceptados | Obligatorio |
-| ---------------------------- | ----------------- | ----------- |
+| :--------------------------- | :---------------- | :---------- |
 | `/package/video/playOptions` | —                 | Opcional    |
 
 ```xml
@@ -482,7 +482,7 @@ Inicia el bloque que proporciona la información de disponibilidad del paquete: 
 Código de país del territorio en el que el contenido está disponible. Se permiten múltiples nodos `country`, siempre que `vodType`, `licensePeriodStart` y `licensePeriodEnd` sean idénticos entre ellos.
 
 | Xpath XML                                       | Valores aceptados      | Obligatorio |
-| ----------------------------------------------- | ---------------------- | ----------- |
+| :---------------------------------------------- | :--------------------- | :---------- |
 | `/package/video/playOptions/playOption/country` | `US`, `CA`, `GB`, `MX` | Preferido   |
 
 ```xml
@@ -497,7 +497,7 @@ Código de país del territorio en el que el contenido está disponible. Se perm
 Tipo de monetización de la película. Se permiten múltiples nodos `vodType`, siempre que `country`, `licensePeriodStart` y `licensePeriodEnd` sean idénticos entre ellos.
 
 | Xpath XML                                       | Valores aceptados | Obligatorio |
-| ----------------------------------------------- | ----------------- | ----------- |
+| :---------------------------------------------- | :---------------- | :---------- |
 | `/package/video/playOptions/playOption/vodType` | `AVOD`, `SVOD`    | Preferido   |
 
 ```xml
@@ -512,7 +512,7 @@ Tipo de monetización de la película. Se permiten múltiples nodos `vodType`, s
 Fecha de inicio de la disponibilidad del contenido para las personas usuarias de Roku Channel. **Una** `licensePeriodStart` por `playOption`. Debe ser cronológicamente **anterior** a `licensePeriodEnd`; ambas **no deben** ser idénticas.
 
 | Xpath XML                                                  | Valores aceptados                       | Obligatorio |
-| ---------------------------------------------------------- | --------------------------------------- | ----------- |
+| :--------------------------------------------------------- | :-------------------------------------- | :---------- |
 | `/package/video/playOptions/playOption/licensePeriodStart` | Formato ISO 8601: `YYYY-MM-DDTHH:MM:SS` | Opcional    |
 
 ```xml
@@ -526,7 +526,7 @@ Fecha de inicio de la disponibilidad del contenido para las personas usuarias de
 Fecha de finalización de la disponibilidad del contenido para las personas usuarias de Roku Channel. **Una** `licensePeriodEnd` por `playOption`. Debe ser cronológicamente **posterior** a `licensePeriodStart`; ambas **no deben** ser idénticas.
 
 | Xpath XML                                                | Valores aceptados                       | Obligatorio |
-| -------------------------------------------------------- | --------------------------------------- | ----------- |
+| :------------------------------------------------------- | :-------------------------------------- | :---------- |
 | `/package/video/playOptions/playOption/licensePeriodEnd` | Formato ISO 8601: `YYYY-MM-DDTHH:MM:SS` | Opcional    |
 
 ```xml
@@ -546,7 +546,7 @@ El bloque `assets` hace referencia a todos los archivos entregados como parte de
 Inicia el bloque de activos.
 
 | Xpath XML               | Valores aceptados    | Obligatorio |
-| ----------------------- | -------------------- | ----------- |
+| :---------------------- | :------------------- | :---------- |
 | `/package/video/assets` | `media_type="video"` | Obligatorio |
 
 ```xml
@@ -558,7 +558,7 @@ Inicia el bloque de activos.
 Describe el archivo de video fuente. El atributo de la etiqueta `asset` debe ser `type="full"`, y el atributo de la etiqueta `data_file` debe ser `role="source"`. `<locale>` y `<file_name>` también son obligatorios.
 
 | Xpath XML                               | Valores aceptados                              | Obligatorio |
-| --------------------------------------- | ---------------------------------------------- | ----------- |
+| :-------------------------------------- | :--------------------------------------------- | :---------- |
 | `/package/video/assets/asset/data_file` | `asset type="full"`; `data_file role="source"` | Obligatorio |
 
 ```xml
@@ -571,7 +571,7 @@ Describe el archivo de video fuente. El atributo de la etiqueta `asset` debe ser
 Describe los subtítulos descriptivos del archivo de video fuente. `asset type="full"`; `data_file role="captions"`. `<locale>` y `<file_name>` también son obligatorios.
 
 | Xpath XML                               | Valores aceptados                                | Obligatorio            |
-| --------------------------------------- | ------------------------------------------------ | ---------------------- |
+| :-------------------------------------- | :----------------------------------------------- | :--------------------- |
 | `/package/video/assets/asset/data_file` | `asset type="full"`; `data_file role="captions"` | Obligatorio en EE. UU. |
 
 ```xml
@@ -586,7 +586,7 @@ Describe el audio sidecar del archivo de video fuente — ya sea un doblaje de a
 **El audio sidecar puede requerirse** cuando se necesitan activos localizados (es decir, el audio original de la fuente no es nativo del territorio de distribución) o para cumplir con las regulaciones de la FCC.
 
 | Xpath XML                               | Valores aceptados                                                          | Obligatorio                                            |
-| --------------------------------------- | -------------------------------------------------------------------------- | ------------------------------------------------------ |
+| :-------------------------------------- | :------------------------------------------------------------------------- | :----------------------------------------------------- |
 | `/package/video/assets/asset/data_file` | `asset type="full"`; `data_file role="audio"` o `role="audio description"` | Opcional\* — se prefiere fuertemente audio description |
 
 ```xml
@@ -601,7 +601,7 @@ Describe los subtítulos sidecar del archivo de video fuente. `asset type="full"
 **Los subtítulos sidecar pueden requerirse** cuando se necesitan activos localizados (es decir, el audio original de la fuente no es nativo del territorio de distribución).
 
 | Xpath XML                               | Valores aceptados                                 | Obligatorio |
-| --------------------------------------- | ------------------------------------------------- | ----------- |
+| :-------------------------------------- | :------------------------------------------------ | :---------- |
 | `/package/video/assets/asset/data_file` | `asset type="full"`; `data_file role="subtitles"` | Opcional\*  |
 
 ```xml
@@ -614,7 +614,7 @@ Describe los subtítulos sidecar del archivo de video fuente. `asset type="full"
 Describe los subtítulos narrativos forzados sidecar del archivo de video fuente. `asset type="full"`; `data_file role="forced subtitles"`. `<locale>` y `<file_name>` también son obligatorios.
 
 | Xpath XML                               | Valores aceptados                                        | Obligatorio |
-| --------------------------------------- | -------------------------------------------------------- | ----------- |
+| :-------------------------------------- | :------------------------------------------------------- | :---------- |
 | `/package/video/assets/asset/data_file` | `asset type="full"`; `data_file role="forced subtitles"` | Opcional\*  |
 
 ```xml
@@ -627,7 +627,7 @@ Describe los subtítulos narrativos forzados sidecar del archivo de video fuente
 Describe el o los archivos de ilustración. `asset type="artwork"`. `<locale>` y `<file_name>` también son obligatorios. Consulta [Ilustraciones](#artwork) para las especificaciones completas de entrega de imágenes.
 
 | Xpath XML                               | Valores aceptados      | Obligatorio |
-| --------------------------------------- | ---------------------- | ----------- |
+| :-------------------------------------- | :--------------------- | :---------- |
 | `/package/video/assets/asset/data_file` | `asset type="artwork"` | Obligatorio |
 
 ```xml
@@ -651,7 +651,7 @@ Describe el o los archivos de ilustración. `asset type="artwork"`. `<locale>` y
 Identifica el idioma del `data_file`. Como mínimo, el valor **debe** ajustarse a un [código de idioma](#language-codes) admitido; incluye un código de región como práctica recomendada. Aplica a las funciones de `data_file` `source`, `captions`, `audio`, `subtitles`, y al tipo de activo `artwork`.
 
 | Xpath XML                                      | Valores aceptados                            | Obligatorio |
-| ---------------------------------------------- | -------------------------------------------- | ----------- |
+| :--------------------------------------------- | :------------------------------------------- | :---------- |
 | `/package/video/assets/asset/data_file/locale` | [Código de idioma](#language-codes) admitido | Obligatorio |
 
 ```xml
@@ -663,7 +663,7 @@ Identifica el idioma del `data_file`. Como mínimo, el valor **debe** ajustarse 
 Nombre de archivo del activo indicado en el atributo `role` o `type` del `data_file` que lo contiene. Todos los valores de `file_name` **distinguen entre mayúsculas y minúsculas** y **deben** incluir la extensión de archivo adecuada.
 
 | Tipo de activo                                                                                 | Obligatorio                            |
-| ---------------------------------------------------------------------------------------------- | -------------------------------------- |
+| :--------------------------------------------------------------------------------------------- | :------------------------------------- |
 | Video/subtítulos descriptivos/audio/subtítulos/subtítulos forzados (activos fuente en general) | Obligatorio para cada activo entregado |
 | Ilustración — predeterminada/sin etiquetar                                                     | Obligatorio                            |
 | Ilustración — `type="background_image"`                                                        | Preferido                              |
@@ -679,7 +679,7 @@ Nombre de archivo del activo indicado en el atributo `role` o `type` del `data_f
 [Descriptor de diseño de audio](#audio-channel-layout-hints) para el archivo de video entregado.
 
 | Xpath XML                                     | Valores aceptados                                                        | Obligatorio |
-| --------------------------------------------- | ------------------------------------------------------------------------ | ----------- |
+| :-------------------------------------------- | :----------------------------------------------------------------------- | :---------- |
 | `/package/video/assets/asset/data_file/audio` | `stereoOnly`, `surroundOnly`, `stereoPlusSurround`, `surroundPlusStereo` | Opcional    |
 
 ```xml

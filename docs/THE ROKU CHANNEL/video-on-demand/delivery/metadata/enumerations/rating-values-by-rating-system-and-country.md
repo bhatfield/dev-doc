@@ -21,7 +21,7 @@ If a title has not been rated by that territory's official rating authority, a r
 > **Note:** Canada and the United States each appear **twice** below, under two different rating systems. This is intentional — each country has more than one recognized rating authority depending on context (e.g., home video/theatrical vs. TV/V-Chip self-rating), not a duplicate entry.
 
 | Ratings Authority and Territory                                       | Country | `ratingSystem` | Rating Values                                                                                          |
-| --------------------------------------------------------------------- | ------- | -------------- | ------------------------------------------------------------------------------------------------------ |
+| :-------------------------------------------------------------------- | :------ | :------------- | :----------------------------------------------------------------------------------------------------- |
 | British Board of Film Classification<br />(United Kingdom)            | GB      | `BBFC`         | `U`, `PG`, `12A`, `12-A`, `12`, `15`, `18`, `NR`, `R18`                                                |
 | Canadian Home Video Rating System<br />(Canada)                       | CA      | `CHVRS`        | `G`, `PG`, `14A`, `14-A`, `18A`, `18-A`, `NR`, `R`, `E`                                                |
 | Motion Picture Association of America<br />(United States)            | US      | `MPAA`         | `G`, `PG`, `PG13`, `PG-13`, `R`, `NC-17`, `NC17`, `NR`                                                 |

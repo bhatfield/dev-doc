@@ -417,7 +417,7 @@ the video playback features introduced in this
 section.
 
 | Sample App                                                                                                                                                  | Description                                                   |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
+| :---------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------ |
 | [Simple_Grid_and_Video](https://github.com/rokudev/samples/blob/master/ux%20components/lists%20and%20grids/Simple_Grid_and_Video)                           | Video player in a simple grid UI.                             |
 | [Simple_Grid_with_Details_and_Video](https://github.com/rokudev/samples/blob/master/ux%20components/lists%20and%20grids/Simple_Grid_with_Details_and_Video) | Video player in a simple grid UI with details page.           |
 | [PanelSet_and_Video](https://github.com/rokudev/samples/blob/master/media/PanelSet_and_Video)                                                               | Video player in a simple PanelSet UI.                         |

@@ -233,7 +233,7 @@ Roku devices support the following audio file types:
 The most common audio codecs for video content are AAC, AC3, E-AC3, and DTS. It is strongly recommended that content with multichannel audio (i.e., 5.1, 7.1 channels) be made available in Dolby Digital Plus (E-AC3). This is the preferred multichannel format for streaming on Roku's Dolby Digital Plus-enabled devices.
 
 |                    | AAC                   | AC3/E-AC3            | DTS         |
-| ------------------ | --------------------- | -------------------- | ----------- |
+| :----------------- | :-------------------- | :------------------- | :---------- |
 | Decode/Passthrough | Decode on all devices | Device specific      | Passthrough |
 | Sampling Rate      | 44.1 Khz, 48 Khz      | 48 Khz               | Passthrough |
 | Sample Size        | 16-bit                | 16-bit               | Passthrough |
@@ -312,7 +312,7 @@ UHD encodings should provide the complete bitrate ladder with the same codec. Th
 Encoding in Dolby Digital Plus (instead of Dolby Digital) is recommended with the following bit rates:
 
 | Channels          | Bit rate |
-| ----------------- | -------- |
+| :---------------- | :------- |
 | Stereo 2.0        | 96 kbps  |
 | Multi-channel 5.1 | 192 kbps |
 | Multi-channel 7.1 | 384 kbps |
@@ -322,7 +322,7 @@ You can encode video content using services like Azure or [Encoding.com](http://
 ### 4K UHD video streaming requirements
 
 | Specification | Requirement |
-| ------------- | ----------- |
+| :------------ | :---------- |
 | HDMI Version  | 2.0         |
 | HDCP Version  | 2.2         |
 

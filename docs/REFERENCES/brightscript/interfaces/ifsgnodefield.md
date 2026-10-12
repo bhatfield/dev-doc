@@ -15,7 +15,7 @@ The ifSGNodeField interface allows querying, getting, setting, and performing ot
 ## Implemented by
 
 | Name                     | Description                                                                             |
-| ------------------------ | --------------------------------------------------------------------------------------- |
+| :----------------------- | :-------------------------------------------------------------------------------------- |
 | [roSGNode](doc:rosgnode) | The roSGNode object is the BrightScript equivalent of SceneGraph XML file node creation |
 
 ## Supported methods
@@ -29,7 +29,7 @@ Checks whether a field exists in the node.
 ##### Parameters
 
 | Name      | Type   | Description                                                            |
-| --------- | ------ | ---------------------------------------------------------------------- |
+| :-------- | :----- | :--------------------------------------------------------------------- |
 | fieldName | String | The name of the field to be checked for whether it exists in the node. |
 
 ##### Return Value
@@ -45,7 +45,7 @@ Returns the type of a specific field of the subject node.
 ##### Parameters
 
 | Name      | Type   | Description                                       |
-| --------- | ------ | ------------------------------------------------- |
+| :-------- | :----- | :------------------------------------------------ |
 | fieldName | String | The name of the field to have its type retrieved. |
 
 ##### Return Value
@@ -63,7 +63,7 @@ Returns the names and types of all the fields in the node.
 An roAssociativeArray containing key-value pairs with the element names and types.
 
 | Name          | Return Type | Return Value       | Description                                                                                                                       |
-| ------------- | ----------- | ------------------ | --------------------------------------------------------------------------------------------------------------------------------- |
+| :------------ | :---------- | :----------------- | :-------------------------------------------------------------------------------------------------------------------------------- |
 | getFieldTypes | Object      | roAssociatve Array | Returns an roAssociativeArray for the subject node containing key-value pairs with the field names and field types, respectively. |
 
 ### getField(fieldName as String) as Object
@@ -77,7 +77,7 @@ You can also use the node.field syntax to get the same result as getField(). Spe
 ##### Parameters
 
 | Name      | Type   | Description                            |
-| --------- | ------ | -------------------------------------- |
+| :-------- | :----- | :------------------------------------- |
 | fieldName | String | The name of the field to be retrieved. |
 
 ##### Return Value
@@ -105,7 +105,7 @@ You can also use the node.field syntax to get the same result as setField(). Spe
 ##### Parameters
 
 | Name      | Type   | Description                          |
-| --------- | ------ | ------------------------------------ |
+| :-------- | :----- | :----------------------------------- |
 | fieldName | String | The name of the field to be updated. |
 | value     | Object | The updated value for the field.     |
 
@@ -126,7 +126,7 @@ Sets the values for one or more fields.
 ##### Parameters
 
 | Name   | Type   | Description                                                                    |
-| ------ | ------ | ------------------------------------------------------------------------------ |
+| :----- | :----- | :----------------------------------------------------------------------------- |
 | fields | Object | An roAssociativeArray containing key-value pairs for the fields to be updated. |
 
 ##### Return Value
@@ -181,7 +181,7 @@ Adds the field(s) and corresponding field value(s) defined as key-value pair(s) 
 ##### Parameters
 
 | Name   | Type   | Description                                                                  |
-| ------ | ------ | ---------------------------------------------------------------------------- |
+| :----- | :----- | :--------------------------------------------------------------------------- |
 | fields | Object | An roAssociativeArray containing key-value pairs for the fields to be added. |
 
 ##### Return Value
@@ -197,7 +197,7 @@ Removes a field from the subject node. Fields defined in [content metadata](doc:
 ##### Parameters
 
 | Name      | Type   | Description                          |
-| --------- | ------ | ------------------------------------ |
+| :-------- | :----- | :----------------------------------- |
 | fieldName | String | The name of the field to be removed. |
 
 ##### Return Value
@@ -223,7 +223,7 @@ From this message in the callback function, you can get the node ID, the field n
 ##### Parameters
 
 | Name         | Type                  | Description                                                                                              |
-| ------------ | --------------------- | -------------------------------------------------------------------------------------------------------- |
+| :----------- | :-------------------- | :------------------------------------------------------------------------------------------------------- |
 | fieldName    | String                | The name of the field to be monitored.                                                                   |
 | functionName | String                | The name of the method to be executed when the value of the field   changes.                             |
 | infoFields   | Object (String array) | Optional. Names of "context" field values to be reported via getInfo() when the monitored field changes. |
@@ -247,7 +247,7 @@ This allows other threads to react to field changes, and avoids missing a value 
 ##### Parameters
 
 | Name       | Type                  | Description                                                                                                                    |
-| ---------- | --------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| :--------- | :-------------------- | :----------------------------------------------------------------------------------------------------------------------------- |
 | fieldName  | String                | The name of the field to be monitored.                                                                                         |
 | port       | Object                | The [roMessagePort](doc:romessageport) to receive a [roSGNodeEvent](doc:rosgnode) message when the value of the field changes. |
 | infoFields | Object (String array) | Optional. Names of "context" field values to be reported via getInfo() when the monitored field changes.                       |
@@ -265,7 +265,7 @@ Removes the previously established connections between the subject node field id
 ##### Parameters
 
 | Name      | Type   | Description                                      |
-| --------- | ------ | ------------------------------------------------ |
+| :-------- | :----- | :----------------------------------------------- |
 | fieldName | String | The name of the field to no longer be monitored. |
 
 ##### Return Value
@@ -285,7 +285,7 @@ The callback will be on the thread that owns the observed node. This is usually 
 ##### Parameters
 
 | Name         | Type                  | Description                                                                                              |
-| ------------ | --------------------- | -------------------------------------------------------------------------------------------------------- |
+| :----------- | :-------------------- | :------------------------------------------------------------------------------------------------------- |
 | fieldName    | String                | The name of the field to be monitored.                                                                   |
 | functionName | String                | The name of the method to be executed when the value of the field   changes.                             |
 | infoFields   | Object (String array) | Optional. Names of "context" field values to be reported via getInfo() when the monitored field changes. |
@@ -309,7 +309,7 @@ The message will be received on the thread that owns the port. This is either a 
 ##### Parameters
 
 | Name       | Type                  | Description                                                                                                                    |
-| ---------- | --------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| :--------- | :-------------------- | :----------------------------------------------------------------------------------------------------------------------------- |
 | fieldName  | String                | The name of the field to be monitored.                                                                                         |
 | port       | Object                | The [roMessagePort](doc:romessageport) to receive a [roSGNodeEvent](doc:rosgnode) message when the value of the field changes. |
 | infoFields | Object (String array) | Optional. Names of "context" field values to be reported via getInfo() when the monitored field changes.                       |
@@ -333,7 +333,7 @@ The message will be received on the thread that owns the port. This is either a 
 ##### Parameters
 
 | Name       | Type                  | Description                                                                                                                    |
-| ---------- | --------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| :--------- | :-------------------- | :----------------------------------------------------------------------------------------------------------------------------- |
 | fieldName  | String                | The name of the field to be monitored.                                                                                         |
 | port       | Object                | The [roMessagePort](doc:romessageport) to receive a [roSGNodeEvent](doc:rosgnode) message when the value of the field changes. |
 | infoFields | Object (String array) | Optional. Names of "context" field values to be reported via getInfo() when the monitored field changes.                       |
@@ -355,7 +355,7 @@ This method looks for and removes the implicit connection state stored in the ob
 ##### Parameters
 
 | Name      | Type   | Description                                      |
-| --------- | ------ | ------------------------------------------------ |
+| :-------- | :----- | :----------------------------------------------- |
 | fieldName | String | The name of the field to no longer be monitored. |
 
 ##### Return Value
@@ -375,7 +375,7 @@ This method should not be used on a node that is not owned by the render thread,
 ##### Parameters
 
 | Name      | Type    | Description                          |
-| --------- | ------- | ------------------------------------ |
+| :-------- | :------ | :----------------------------------- |
 | queueNode | Boolean | A flag enabling queuing on the node. |
 
 ##### Return Value
@@ -632,7 +632,7 @@ m.top.signalBeacon("EPGLaunchComplete")
 The following table summarizes when to fire the `AppLaunchComplete`, `AppDialogInitiate/AppDialogComplete`,  and `EPGLauchInitiate`/`EPGLauchComplete` beacons and when their timestamps are recorded:
 
 | Launch Event      | **Placement**                                                                                                                                                                                                                                                                                   | **Timestamping**                                                                                                      |
-| ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| :---------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------- |
 | AppLaunchComplete | When the app home page is fully rendered, or when video playback starts and the app can responds to commands sent via the remote control (if your app is launched to direct playback).The system automatically fires an AppLaunchInitiated beacon to marks when your app is initially launched. | The first render pass completes after the stop point has been signaled.                                               |
 | AppDialogInitiate | Before signaling AppLaunchComplete, when the app enters a login dialog, user selection screen, network error dialog or any other dialog/screen where the app waits for user input.                                                                                                              | The dialog is fully displayed and ready for user interaction.                                                         |
 | AppDialogComplete | The app exits the last dialog before the home screen is rendered.                                                                                                                                                                                                                               | The user dismisses the dialog or a timeout occurs that forces the dialog to exit.                                     |
@@ -644,7 +644,7 @@ The following table summarizes when to fire the `AppLaunchComplete`, `AppDialogI
 When you fire a launch event, the system will return an integer indicating the result of its signaling:
 
 | **Return Code** | **Description**  |                                                                                                                                                |
-| --------------- | ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| :-------------- | :--------------- | :--------------------------------------------------------------------------------------------------------------------------------------------- |
 | 0               | Success          | The event was successfully signaled.                                                                                                           |
 | 1               | Not Ready        | The event cannot be fired until after the AppLaunchComplete beacon has been completed.                                                         |
 | 2               | Invalid          | An invalid string was passed into the signalBeacon function.                                                                                   |

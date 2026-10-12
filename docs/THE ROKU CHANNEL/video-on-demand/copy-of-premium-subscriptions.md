@@ -323,7 +323,7 @@ Below is a list of details, best practices, and dimensions sizes for each partne
 ### Back-of-box copy
 
 | Details                                                      | Example                                                      |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| :----------------------------------------------------------- | :----------------------------------------------------------- |
 | **Back-of-Box (BoB) Copy**: 30 characters (including spaces) | ![roku400px - premium-asset-72](https://image.roku.com/ZHZscHItMTc2/premium-asset-72-v2.jpg) |
 
 ## Delivery of assets & copy

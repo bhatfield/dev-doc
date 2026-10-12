@@ -13,7 +13,7 @@ next:
 
 
 | Name   | Description                                                                            |
-| ------ | -------------------------------------------------------------------------------------- |
+| :----- | :------------------------------------------------------------------------------------- |
 | [roPath](doc:ropath) | The roPath component provides developers an easy way to create valid file system paths |
 
 ## Supported methods
@@ -50,7 +50,7 @@ Modifies or changes the current path via the specified relative or absolute path
 ##### Parameters
 
 | Name | Type   | Description                                               |
-| ---- | ------ | --------------------------------------------------------- |
+| :--- | :----- | :-------------------------------------------------------- |
 | path | String | The new relative or absolute file system path to be used. |
 
 ##### Return Value

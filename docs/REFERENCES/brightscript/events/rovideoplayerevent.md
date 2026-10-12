@@ -41,7 +41,7 @@ Returns a description of the message (for example, "Format Detected").
 Returns information about the video player event. This method returns an roAssociativeArray that contains the following keys:
 
 | Key      | Value                                     |
-| -------- | ----------------------------------------- |
+| :------- | :---------------------------------------- |
 | audio    | The format of the audio stream, if any    |
 | captions | The format of the captioning data, if any |
 | video    | The format of the video stream, if any    |
@@ -61,7 +61,7 @@ Returns a description of the message (for example, "Segment download started").
 Returns the error ID, which may be one of the following values:
 
 | Value | Description                                                                                              |
-| ----- | -------------------------------------------------------------------------------------------------------- |
+| :---- | :------------------------------------------------------------------------------------------------------- |
 | 0     | Network error : server down or unresponsive, server is unreachable, network setup problem on the client. |
 | -1    | HTTP error: malformed headers or HTTP error result.                                                      |
 | -2    | Connection timed out                                                                                     |
@@ -75,7 +75,7 @@ Returns the error ID, which may be one of the following values:
 Returns an associative array containing information about the event failure. The associative array contains the following key-value pairs:
 
 | Key     | Type    | Value                                                                                      |
-| ------- | ------- | ------------------------------------------------------------------------------------------ |
+| :------ | :------ | :----------------------------------------------------------------------------------------- |
 | ClipIdx | Integer | The zero starting index of the item in the content list this event is related to.          |
 | Ignored | Boolean | True if the error was ignored and the player skipped to the next item in the content list. |
 
@@ -94,7 +94,7 @@ Returns a description of the message (for example, "Segment download started").
 Returns an associative array containing the following information about the segment download event:
 
 | Key        | Value                                          |
-| ---------- | ---------------------------------------------- |
+| :--------- | :--------------------------------------------- |
 | Sequence   | Stream segment sequence number                 |
 | SegBitrate | Bitrate of the segment, in kilobits per second |
 | StartTime  | Timestamp of the start of the segment data     |
@@ -113,7 +113,7 @@ Returns the segment sequence number.
 Returns an associative array containing the following information about the stream started event:
 
 | Key             | Type    | Value                                                                    |
-| --------------- | ------- | ------------------------------------------------------------------------ |
+| :-------------- | :------ | :----------------------------------------------------------------------- |
 | Url             | String  | URL of video stream                                                      |
 | StreamBitrate   | Integer | average bitrate of stream, in bits per second                            |
 | MeasuredBitrate | Integer | measured network bandwidth in kibibits per second, used to select stream |
@@ -154,7 +154,7 @@ Returns a caption track name, such as: "eia608/1" ,"eia608/3", and so on.
 Returns the index of the captions mode, which may be one of the following values:
 
 | Index | Mode           |
-| ----- | -------------- |
+| :---- | :------------- |
 | 0     | Off            |
 | 1     | On             |
 | 2     | Instant replay |
@@ -162,7 +162,7 @@ Returns the index of the captions mode, which may be one of the following values
 ##### GetInfo() as Object
 
 | Name    | Return Type | Return Value | Description                         |
-| ------- | ----------- | ------------ | ----------------------------------- |
+| :------ | :---------- | :----------- | :---------------------------------- |
 | GetInfo | Object      | Invalid      | This method always returns invalid. |
 
 ##### Example: isCaptionModeChanged() Event
@@ -210,7 +210,7 @@ Returns the string "Timed Metadata".
 Returns the PTS timecode.
 
 | Name     | Return Type | Return Value  | Description |
-| -------- | ----------- | ------------- | ----------- |
+| :------- | :---------- | :------------ | :---------- |
 | GetIndex | Integer     | PTS timecode. |             |
 
 ##### GetInfo() as Object
@@ -230,7 +230,7 @@ Returns current position in the stream (in seconds) from the beginning.
 Returns an roAssociativeArray array with the following key-value pairs:
 
 | Member  | Type    | Value                                                                            |
-| ------- | ------- | -------------------------------------------------------------------------------- |
+| :------ | :------ | :------------------------------------------------------------------------------- |
 | ClipIdx | Integer | The zero starting index of the item in the content list this event is related to |
 | ClipPos | Integer | The player position relative to the start of the clip in milliseconds            |
 

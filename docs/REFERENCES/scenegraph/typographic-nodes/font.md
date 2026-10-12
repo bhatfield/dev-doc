@@ -69,7 +69,7 @@ label.font = font
 ## Fields
 
 | Field         | Type    | Default | Access Permission | Description                                                  |
-| ------------- | ------- | ------- | ----------------- | ------------------------------------------------------------ |
+| :------------ | :------ | :------ | :---------------- | :----------------------------------------------------------- |
 | uri           | uri     | ""      | READ_WRITE        | Specifies a TrueType or OpenType font file. Currently only font files included in the application can be specified |
 | size          | integer | 1       | READ_WRITE        | Specifies the size of the font in points                     |
 | fallbackGlyph | string  | ""      | READ_WRITE        | String representation of a Unicode character to display when an unsupported glyph is encountered. For example, "u0020" would render a space for any unrenderable characters |

@@ -13,7 +13,7 @@ next:
 ## Implemented by
 
 | Name                                     | Description                                                                                                                            |
-| ---------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| :--------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------- |
 | [roDataGramSocket](doc:rodatagramsocket) | The roDataGramSocket component enables BrightScript apps to send and receive UDP packets                                               |
 | [roStreamSocket](doc:rostreamsocket)     | The roStreamSocket component enables BrightScript apps to accept and connect to TCP streams as well as send and receive data with them |
 
@@ -30,7 +30,7 @@ Sends up to length bytes of data to the socket.
 ##### Parameters
 
 | Name       | Type    | Description                                                      |
-| ---------- | ------- | ---------------------------------------------------------------- |
+| :--------- | :------ | :--------------------------------------------------------------- |
 | data       | Object  | A [roByteArray](doc:robytearray) containing the data to be sent. |
 | startIndex | Integer | The index of the byte array from which to start sending data.    |
 | length     | Integer | The amount of data to be sent to the socket.                     |
@@ -48,7 +48,7 @@ Sends the whole string to the socket, if possible.
 ##### Parameters
 
 | Name | Type   | Description                              |
-| ---- | ------ | ---------------------------------------- |
+| :--- | :----- | :--------------------------------------- |
 | data | String | A string containing the data to be sent. |
 
 ##### Return Value
@@ -64,7 +64,7 @@ Reads data from the socket.
 ##### Parameters
 
 | Name       | Type    | Description                                                        |
-| ---------- | ------- | ------------------------------------------------------------------ |
+| :--------- | :------ | :----------------------------------------------------------------- |
 | data       | Object  | A [roByteArray](doc:robytearray) containing the data to be stored. |
 | startIndex | Integer | The index of the byte array from which to start reading data.      |
 | length     | Integer | The amount of data to be read from the socket.                     |
@@ -80,7 +80,7 @@ Reads data from the socket and stores the result in a string.
 ##### Parameters
 
 | Name   | Type    | Description                                    |
-| ------ | ------- | ---------------------------------------------- |
+| :----- | :------ | :--------------------------------------------- |
 | length | Integer | The amount of data to be read from the socket. |
 
 ##### Return Value
@@ -162,7 +162,7 @@ Sets the remote address for next message to be sent.
 ##### Parameters
 
 | Name     | Type   | Description         |
-| -------- | ------ | ------------------- |
+| :------- | :----- | :------------------ |
 | sockAddr | Object | An roSocketAddress. |
 
 ##### Return Value

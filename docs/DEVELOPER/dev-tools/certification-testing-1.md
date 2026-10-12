@@ -59,7 +59,7 @@ Once you start the certification testing tool, the **Status** field includes a s
 The **Certification Tests** table lists the status of each individual test being executed. This table includes the following columns:
 
 | Column                    | Description                                                                                                                            |
-| ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| :------------------------ | :------------------------------------------------------------------------------------------------------------------------------------- |
 | Status                    | The results of the test. Completed tests have a status of "Passed" or "Failed"; tests still to be performed have a status of "Queued". |
 | Severity                  | Any info messages, warnings, or errors related to a completed test.                                                                    |
 | Category                  | The type of test being performed: "Performance" or "Deep Linking".                                                                     |

@@ -18,7 +18,7 @@ next:
 ## Implemented by
 
 | Name         | Description                               |
-| ------------ | ----------------------------------------- |
+| :----------- | :---------------------------------------- |
 | [roAudioGuide](doc:roaudioguide) | Returns information about the application |
 
 ## Supported methods
@@ -32,7 +32,7 @@ Returns an ID for the spoken string to notify observer callbacks about a specifi
 ##### Parameters
 
 | Name        | Type    | Description                                                  |
-| ----------- | ------- | ------------------------------------------------------------ |
+| :---------- | :------ | :----------------------------------------------------------- |
 | text        | String  | The string to be spoken.<br /><br />Punctuation such as commas and periods can be used to add pauses to the speech playback.<br/><br />Typically, special characters are generally not spoken; however, you can pass in the appropriate text such as "question mark" to have a special character be spoken (do not use the symbol). |
 | flushSpeech | Boolean | Set to true to make the screen reader immediately stop speaking any other speech before speaking. <br /><br />Set to false to make the screen reader wait until any current speech is done before speaking. |
 | dontRepeat  | Boolean | Set to true to ignore calls to the say() method with the same text.<br /><br />Set to false to speak when calls to the say() method are sent with the same text. |
@@ -58,7 +58,7 @@ If the screen reader is enabled, causes text to speech to continue to suppress a
 ##### Parameters
 
 | Name     | Type    | Description                                                  |
-| -------- | ------- | ------------------------------------------------------------ |
+| :------- | :------ | :----------------------------------------------------------- |
 | duration | Integer | The number of milliseconds to suppress application background sounds. |
 
 ##### Return Value

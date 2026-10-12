@@ -51,7 +51,7 @@ be compatible with RACL.
 ##### Initialization attributes
 
 | Attribute | Type                          | Required | Description                                                                            |
-| --------- | ----------------------------- | -------- | -------------------------------------------------------------------------------------- |
+| :-------- | :---------------------------- | :------- | :------------------------------------------------------------------------------------- |
 | pcode     | String                        | Required | Ooyala [publisher code](https://help.ooyala.com/video-platform/concepts/api_keys.html) |
 | userinfo  | roAssociativeArray of Strings | Optional | [User information](https://apidocs.ooyala.com/iq_roku/IQ.html#toc17__anchor)           |
 | geoinfo   | roAssociativeArray of Strings | Optional | [Geographic information](https://apidocs.ooyala.com/iq_roku/IQ.html#toc16__anchor)     |
@@ -59,7 +59,7 @@ be compatible with RACL.
 ##### Vendor-specific attributes for `setContentMetadata`
 
 | Attribute | Type    | Required | Description                                                                                     |
-| --------- | ------- | -------- | ----------------------------------------------------------------------------------------------- |
+| :-------- | :------ | :------- | :---------------------------------------------------------------------------------------------- |
 | assetType | String  | Required | Possible values include "ooyala" or "external"                                                  |
 | assetID   | Integer | Optional | The video's embed code - If omitted, the ID attribute from the standard metadata is used        |
 | duration  | Integer | Optional | The duration of the video - If omitted, the length attribute from the standard metadata is used |
@@ -71,14 +71,14 @@ be compatible with RACL.
 ##### Initialization attributes
 
 | Attribute | Type   | Required | Description             |
-| --------- | ------ | -------- | ----------------------- |
+| :-------- | :----- | :------- | :---------------------- |
 | account   | String | Required | Brightcove account ID   |
 | user      | String | Optional | Unique ID for this user |
 
 ##### Vendor-specific attributes for `setContentMetadata`
 
 | Attribute      | Type    | Required | Description                                                                                                                                             |
-| -------------- | ------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :------------- | :------ | :------- | :------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | source         | String  | Optional | If omitted, the `url` attribute from the standard content metadata is used                                                                              |
 | destination    | String  | Optional | If omitted, the `url` attribute from the standard content metadata is used                                                                              |
 | video          | Integer | Optional | If omitted, the `id` attribute from the standard content metadata is used                                                                               |
@@ -90,7 +90,7 @@ be compatible with RACL.
 **Model #2**
 
 | Attribute       | Type               | Required | Description                                                                  |
-| --------------- | ------------------ | -------- | ---------------------------------------------------------------------------- |
+| :-------------- | :----------------- | :------- | :--------------------------------------------------------------------------- |
 | baseURL         | String             | Required | The URL of the Omniture suite that data should be sent to                    |
 | persitentParams | roAssociativeArray | Optional | A set of static parameters and values that should be sent with every request |
 
@@ -440,6 +440,6 @@ your Google analytics tracking ID in baseScene.brs under the folder
 components.
 
 | Model           | Download                                                                                  |
-| --------------- | ----------------------------------------------------------------------------------------- |
+| :-------------- | :---------------------------------------------------------------------------------------- |
 | Simple model #1 | [RokuAnalyticsComponent_Model1](https://github.com/rokudev/samples/tree/master/analytics) |
 | Simple model #2 | [RokuAnalyticsComponent_Model2](https://github.com/rokudev/samples/tree/master/analytics) |

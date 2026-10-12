@@ -9,7 +9,7 @@ metadata:
 Roku supports the following genre values, referenced by the `genre`/`genres` field wherever genre metadata is delivered (see the Film/TV/Clip XML and Excel metadata references). Each title **must** be delivered with **at least one** supported genre, and **no more than 10** genres per title.
 
 |                     |                          |                     |                  |
-| ------------------- | ------------------------ | ------------------- | ---------------- |
+| :------------------ | :----------------------- | :------------------ | :--------------- |
 | 3x3 basketball      | consumer                 | how-to              | rowing           |
 | action              | cooking                  | hunting             | rugby            |
 | action sports       | cricket                  | hurling             | running          |

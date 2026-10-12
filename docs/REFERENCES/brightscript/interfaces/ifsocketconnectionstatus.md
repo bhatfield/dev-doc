@@ -15,7 +15,7 @@ next:
 ## Implemented by
 
 | Name           | Description                                                                                                                            |
-| -------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| :------------- | :------------------------------------------------------------------------------------------------------------------------------------- |
 | [roStreamSocket](doc:rostreamsocket) | The roStreamSocket component enables BrightScript apps to accept and connect to TCP streams as well as send and receive data with them |
 
 ## Supported methods

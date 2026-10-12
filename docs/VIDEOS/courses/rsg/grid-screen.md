@@ -24,7 +24,7 @@ This lesson describes how to create the directory structure and manifest require
 ## Resources
 
 | Item                                                         | Description                                                  |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| :----------------------------------------------------------- | :----------------------------------------------------------- |
 | [Grid Screen sample app](https://github.com/rokudev/scenegraph-master-sample/tree/master/GridScreen) | Download and review the code used in this lesson to create a grid screen. |
 | [Sideloading  Roku apps](doc:developer-setup) | Sideload and test the Grid Screen app created in this lesson. |
 | [App directory](doc:developing-scenegraph-applications) | Learn to how to create the directory structure required by Roku apps. |

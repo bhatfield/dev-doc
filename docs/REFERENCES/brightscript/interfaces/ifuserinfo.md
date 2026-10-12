@@ -17,7 +17,7 @@ next:
 ## Implemented by
 
 | Name                          | Description                                                          |
-| ----------------------------- | -------------------------------------------------------------------- |
+| :---------------------------- | :------------------------------------------------------------------- |
 | [roUserInfo](doc:rouserinfo)  | The roUserInfo component provides access to the current active profile snapshot |
 
 ## Supported methods

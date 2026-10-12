@@ -21,7 +21,7 @@ matrix is specified by setting the values of four
 fields:
 
 | Field             | Description                                                                                                                                                                             |
-| ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :---------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | translation       | 2D vector that describes an \[x, y\] offset of the local coordinate system origin                                                                                                       |
 | scale             | 2D vectors that describes an \[x, y\] scaling of the local coordinate system                                                                                                            |
 | rotation          | Floating point value that describes a Z-axis rotation of the local coordinate system. The value is specified in radians with positive values representing a counter-clockwise rotation. |

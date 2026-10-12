@@ -15,7 +15,7 @@ next:
 ## Implemented by
 
 | Name                | Description                                                                                                            |
-| ------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| :------------------ | :--------------------------------------------------------------------------------------------------------------------- |
 | [roChannelStoreEvent](doc:rochannelstoreevent) | The roChannelStore sends an roChannelStoreEvent in response to a call to any of several Get* methods in ifChannelStore |
 | [roUrlEvent](doc:rourlevent)      | The roUrlTransfer component sends the roUrlEvent                                                                       |
 

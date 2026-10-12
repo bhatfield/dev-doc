@@ -17,7 +17,7 @@ next:
 ## Implemented by
 
 | Name         | Description                               |
-| ------------ | ----------------------------------------- |
+| :----------- | :---------------------------------------- |
 | [roAudioMetadata](doc:roaudiometadata)| The Audio Player object provides the ability to setup the playing of a series of audio streams |
 
 
@@ -42,7 +42,7 @@ Adds a new ContentMetaData item to the end of the content list for the Audio Pla
 ##### Parameters
 
 | Name        | Type   | Description                                                  |
-| ----------- | ------ | ------------------------------------------------------------ |
+| :---------- | :----- | :----------------------------------------------------------- |
 | contentItem | Object | The new ContentMetaData item to be added to the content list. |
 
 ### ClearContent() as Void
@@ -100,7 +100,7 @@ Enables/disables the automatic replaying of the Content List.
 ##### Parameters
 
 | Name   | Type    | Description                                                  |
-| ------ | ------- | ------------------------------------------------------------ |
+| :----- | :------ | :----------------------------------------------------------- |
 | enable | Boolean | Set to true to have the Audio Player automatically begin playing the first item in the content list after playing the last item.<br /><br />Set to false to have the Audio Player stop after playing the last item in the content list. |
 
 ### SetNext(item as Integer) as Void
@@ -112,7 +112,7 @@ Sets the next item in the Content List to be played.
 ##### Parameters
 
 | Name | Type    | Description                                                  |
-| ---- | ------- | ------------------------------------------------------------ |
+| :--- | :------ | :----------------------------------------------------------- |
 | item | Integer | Item is the zero-based index of the item in the content list. This item will be played after the currently playing item finishes. |
 
 ### Seek(offsetMs as Integer) as Boolean
@@ -127,7 +127,7 @@ Set the start point of playback for the current item to offsetMs milliseconds.
 ##### Parameters
 
 | Type    | Name     | Description                                                  |
-| ------- | -------- | ------------------------------------------------------------ |
+| :------ | :------- | :----------------------------------------------------------- |
 | Integer | offsetMs | The offset to be used to determine the start point of the current content item. |
 
 ##### Return Value
@@ -143,7 +143,7 @@ Specifies the timedMetaData keys that the app is interested in receiving from th
 ##### Parameters
 
 | Name   | Type    | Description                                                  |
-| ------ | ------- | ------------------------------------------------------------ |
+| :----- | :------ | :----------------------------------------------------------- |
 | keys[] | Dynamic | The set of keys to be received from the timedMetaData event.<br /><br />If the keys array is empty, all the timed metadata associated with the current stream is sent with the isTimedMetaData event.<br /><br />If the keys array is invalid, then do not return any keys to the BrightScript app.<br /><br />Any keys not specified with this method are deleted by the Roku OS and never returned to the BrightScript application. |
 
 

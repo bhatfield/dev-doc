@@ -20,7 +20,7 @@ The ifArraySet interface supports the array indexing operator [].
 ## Implemented by
 
 | Name        | Description |
-| ----------- | ----------- |
+| :---------- | :---------- |
 | [roArray](doc:roarray)     | An array stores an indexed collection of BrightScript objects. Each entry of an array can be a different type, or they may all of the same type            |
 | [roByteArray](doc:robytearray) | The byte array component is used to contain and manipulate an arbitrary array of bytes            |
 | [roList](doc:rolist)      | The list object implements the interfaces: ifList, ifArray, ifEnum and therefore can behave like an array that can dynamically add members            |
@@ -38,7 +38,7 @@ Sets an entry at a given index to the passed value. If index is beyond the bound
 ##### Parameters
 
 | Name   | Type    | Description                            |
-| ------ | ------- | -------------------------------------- |
+| :----- | :------ | :------------------------------------- |
 | index  | Integer | The entry to be updated.               |
 | tvalue | Dynamic | The new value for the specified entry. |
 

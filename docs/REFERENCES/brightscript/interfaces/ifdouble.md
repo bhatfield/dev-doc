@@ -18,7 +18,7 @@ next:
 ## Implemented by
 
 | Name      | Description                               |
-| --------- | ----------------------------------------- |
+| :-------- | :---------------------------------------- |
 | [roDouble](doc:rodouble)  | roDouble is a legacy object name, corresponding to the intrinsic Double object |
 
 
@@ -43,7 +43,7 @@ Sets the calling Double object to the specified double value.
 ##### Parameters
 
 | Name  | Type   | Description                                              |
-| ----- | ------ | -------------------------------------------------------- |
+| :---- | :----- | :------------------------------------------------------- |
 | value | Double | The double value to be set on the calling Double object. |
 
 

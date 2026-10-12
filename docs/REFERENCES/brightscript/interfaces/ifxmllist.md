@@ -15,7 +15,7 @@ next:
 ## Implemented by
 
 | Name      | Description |
-| --------- | ----------- |
+| :-------- | :---------- |
 | [roXMLList](doc:roxmllist) | Contains a list of roXML objects |
 
 
@@ -30,7 +30,7 @@ Returns a new XMLList that contains all roXMLElements that matched the passed in
 ##### Parameters
 
 | Name | Type   | Description                                 |
-| ---- | ------ | ------------------------------------------- |
+| :--- | :----- | :------------------------------------------ |
 | Name | String | The XML element to be used to find matches. |
 
 ##### Return Value
@@ -46,7 +46,7 @@ Returns a new XMLList that contains all roXMLElements that matched the passed in
 ##### Parameters
 
 | Name | Type   | Description                                 |
-| ---- | ------ | ------------------------------------------- |
+| :--- | :----- | :------------------------------------------ |
 | Name | String | The XML element to be used to find matches. |
 
 ##### Return Value

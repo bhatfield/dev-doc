@@ -32,7 +32,7 @@ Además de estas reglas compartidas:
 ## Tipos de imagen
 
 | Tipo de imagen      | Relación de aspecto | Resolución preferida  | Resolución mínima | Resolución máxima | Campo de metadatos |
-| ------------------- | ------------------- | --------------------- | ----------------- | ----------------- | ------------------ |
+| :------------------ | :------------------ | :-------------------- | :---------------- | :---------------- | :----------------- |
 | Arte clave          | 16:9                | 1920×1080 o 3840×2160 | 1920×1080         | 3840×2160         | `keyart`           |
 | Carátula (serie)    | 4:3                 | 2560×1920             | 1600×1200         | 2560×1920         | `boxcover`         |
 | Carátula (película) | 3:4                 | 1920×2560             | 1200×1600         | 1920×2560         | `boxcover`         |
@@ -71,7 +71,7 @@ Ilustración en 16:9 que representa un episodio sin spoilers — normalmente una
 ## Requisitos de ilustración mínimos por tipo de contenido
 
 | Tipo de imagen                       | Clip            | Película        | Serie           | Episodio        |
-| ------------------------------------ | --------------- | --------------- | --------------- | --------------- |
+| :----------------------------------- | :-------------- | :-------------- | :-------------- | :-------------- |
 | Arte clave en 16:9                   | **Obligatorio** | **Obligatorio** | **Obligatorio** | —               |
 | Portada en 2:3                       | —               | **Obligatorio** | **Obligatorio** | —               |
 | Carátula en 3:4                      | —               | **Opcional**    | —               | —               |
@@ -147,7 +147,7 @@ Imagen en 2:3 con texto y tratamiento del título, tal como se muestra en la exp
 ## Glosario
 
 | Término                    | Definición                                                                                                                                               |
-| -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Tratamiento del título** | Una representación gráfica estilizada del nombre de un título, diseñada para aparecer directamente sobre las imágenes de arte clave, portada o carátula. |
 | **Imagen con texto**       | Una imagen que incluye texto (normalmente el tratamiento del título).                                                                                    |
 | **Imagen sin texto**       | Una imagen sin texto ni tratamiento del título superpuesto.                                                                                              |

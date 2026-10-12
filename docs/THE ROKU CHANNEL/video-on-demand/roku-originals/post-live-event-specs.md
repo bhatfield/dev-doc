@@ -107,7 +107,7 @@ Production Number = As listed on Post Grids
 Air Order = Please list even if the Air Order is the same as the Production Number
 
 | **File Name Segment** | **File Name Abbreviation**                                                                          |
-| --------------------- | --------------------------------------------------------------------------------------------------- |
+| :-------------------- | :-------------------------------------------------------------------------------------------------- |
 | Version               | TXTD (Texted), TXLS (Textless), or PROXY                                                            |
 | Language              | enUS (American English) or esMX (Mexican Spanish)                                                   |
 | Resolution            | UHD or HD + Color Space = SDR or HDR                                                                |
@@ -134,7 +134,7 @@ MAMA_102_v03_20220919_esMX_FXSTEM_6ch_48k_24b_23976.R.wav
 MAMA_102_v02_20220919_esMX_ME_Nearfield_6ch_48k_24b_23976.C.wav
 
 | **Material Type**                             | **Abbreviation**                  |
-| --------------------------------------------- | --------------------------------- |
+| :-------------------------------------------- | :-------------------------------- |
 | Printmaster                                   | PM                                |
 | Music & Effects                               | ME                                |
 | Audio Stem                                    | FXStem, MXStem, DIAStem, FFFXStem |

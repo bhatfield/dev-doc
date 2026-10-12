@@ -21,7 +21,7 @@ The roUrlTransfer component sends the roUrlEvent with the following methods:
 Returns the type of event, which may be one of the following values:
 
 | Event Type | Description                                                                                 |
-| ---------- | ------------------------------------------------------------------------------------------- |
+| :--------- | :------------------------------------------------------------------------------------------ |
 | 1          | transfer complete                                                                           |
 | 2          | transfer started. Headers are available for suitable protocols. Sent when the first server event of a [server-sent event stream](doc:ifurltransfer#asyncgetssevents-as-boolean) is received (since [Roku OS 16.0](doc:release-notes#roku-os-160)); not sent for other transfers |
 
@@ -32,7 +32,7 @@ Returns the protocol response code associated with this event. For a successful 
 The following table lists some of the potential errors (not all of them can be generated):
 
 | Status | Name                           | Description                                                  |
-| ------ | ------------------------------ | ------------------------------------------------------------ |
+| :----- | :----------------------------- | :----------------------------------------------------------- |
 | -1     | CURLE_UNSUPPORTED_PROTOCOL     |                                                              |
 | -2     | CURLE_FAILED_INIT              |                                                              |
 | -3     | CURLE_URL_MALFORMAT            |                                                              |

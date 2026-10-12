@@ -15,7 +15,7 @@ next:
 ## Implemented by
 
 | Name  | Description                                                                              |
-| ----- | ---------------------------------------------------------------------------------------- |
+| :---- | :--------------------------------------------------------------------------------------- |
 | [roRSA](doc:rorsa) | The RSA component provides an interface to the OpenSSL RSA library of signing algorithms |
 
 
@@ -30,7 +30,7 @@ Specifies the private key to use for signing.
 ##### Parameters
 
 | Name        | Type   | Description                                                  |
-| ----------- | ------ | ------------------------------------------------------------ |
+| :---------- | :----- | :----------------------------------------------------------- |
 | keyFileName | String | Specifies the private key to be used for signing. The file name should specify a path, either in the package or a temp path. |
 
 ##### Return Value
@@ -46,7 +46,7 @@ Specifies the public key to be used for verification.
 ##### Parameters
 
 | Name        | Type   | Description                                                  |
-| ----------- | ------ | ------------------------------------------------------------ |
+| :---------- | :----- | :----------------------------------------------------------- |
 | keyFileName | String | Specifies the public key to be used for signing. The file name should specify a path, either in the package or a temp path. |
 
 ##### Return Value
@@ -60,7 +60,7 @@ Specifies the public key to be used for verification.
 Specifies the digest algorithm to use for signing and verification. 
 
 | Name            | Type   | Description                                                  |
-| --------------- | ------ | ------------------------------------------------------------ |
+| :-------------- | :----- | :----------------------------------------------------------- |
 | digestAlgorithm | String | An openssl string with the digest to be used. Common digest algorithms are "sha1", "ripemd160", and "md5". |
 
 ##### Return Value
@@ -76,7 +76,7 @@ Generates a signature based on the specified digest.
 ##### Parameters
 
 | Name   | Type               | Description                                                  |
-| ------ | ------------------ | ------------------------------------------------------------ |
+| :----- | :----------------- | :----------------------------------------------------------- |
 | digest | roByteArray Object | The roByteArray to be signed. Errors will be printed in the BrightScript console. If the digest algorithm is not set (using SetDigestAlgorithm) before calling Sign(), the digest is not encapsulated. This would be equivalent to simply calling the openssl function RSA_private_encrypt() |
 
 ##### Return Value
@@ -97,7 +97,7 @@ Verifies the given digest and signature. Both digest and signature should be roB
 ##### Parameters
 
 | Name      | Type   | Description |
-| --------- | ------ | ------ |
+| :-------- | :----- | :----- |
 | digest    | roByteArray Object | The digest to be verified. |
 | signature | roByteArray Object | The signature to be verified. |
 

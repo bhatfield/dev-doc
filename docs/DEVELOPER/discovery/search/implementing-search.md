@@ -364,7 +364,7 @@ When customers search for content, they can add the movies and TV shows that the
 The following table lists each region where Roku Search is available and the primary language:
 
 | Region            | Primary language |
-| ----------------- | ---------------- |
+| :---------------- | :--------------- |
 | **North America** |                  |
 | United States     | English          |
 | Canada            | English          |

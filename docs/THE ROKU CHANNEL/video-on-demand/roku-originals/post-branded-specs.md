@@ -168,7 +168,7 @@ Roku Originals content must fall within a TV-14 or TV-PG rating. Some general ra
 **Rating Tiers**
 
 |                        | VIOLENCE                                                                                     | SEX/NUDITY                                                                                                                                                                      | SUBSTANCE USE/ABUSE                                                                                                                             | LANGUAGE                                                                                                                                       |
-| ---------------------- | -------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| :--------------------- | :------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :---------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------- |
 | <strong>TV-PG</strong> | <strong>✔</strong> Shootings, brawls, fist fights<br /><strong>✖</strong> No blood           | <strong>✔</strong>  Limited to kissing, couples in bed, implied sexual situations<br /><strong>✖</strong> No nudity at all<br /><strong>✖</strong> No sexual violence           | <strong>✔</strong>  Implied drug use (not glorified or must show consequences)                                                                  | <strong>✔</strong>  Limited use of bleeping/dropping strong language. Ass, damn, hell, and bitch                                               |
 | <strong>TV-14</strong> | <strong>✔</strong>  Brief violence, OK with some blood shown<br /><strong>✕</strong> No gore | <strong>✔</strong>  Covered sex is allowed, brief thrusting, implied sexual abuse OK<br /><strong>✔</strong> Exposed butt/side breast OK<br /><strong>✖</strong> No full nudity | <strong>✔</strong>  Visuals/use of drug abuse (not glorified, must show consequences)<br /><strong>✖</strong> No smoking minors                 | <strong>✔</strong>  Shit, asshole, bastard (when used in a pejorative matter), goddamn, bitch, dick and pussy (as an insult)                   |
 | <strong>TV-MA</strong> | <strong>✔</strong>  On-screen graphic violence, gore                                         | <strong>✔</strong>  Depictions of graphic sexual activity or sexual violence<br /><strong>✔</strong>  Full male or female nudity                                                | <strong>✔</strong>  Graphic visuals of substance use/abuse, injection, etc. (both. minors and adults)<br /><strong>✖</strong> No smoking minors | <strong>✔</strong>  Use of fuck, tits, twat, cum, pussy, and cunt<br /><strong>✖</strong> Racial slurs and hate speech on a case-by-case basis |
@@ -517,7 +517,7 @@ Mixing Specifications:
 ##### 7.6.3 Texted video masters
 
 | <strong>Video Codec</strong> | <strong>ProRes</strong>                                 |
-| ---------------------------- | ------------------------------------------------------- |
+| :--------------------------- | :------------------------------------------------------ |
 | Container                    | MOV                                                     |
 | Profile                      | 422 HQ                                                  |
 | Minimum Bitrate              | 175 mbits or higher                                     |
@@ -546,7 +546,7 @@ Additionally, all episodes should be delivered with the same formatting; if one 
 Examples of what to remove for the Textless Masters:
 
 | Forced Narratives                                             | Credits                                                       | Text-Based Graphics                                            |
-| ------------------------------------------------------------- | ------------------------------------------------------------- | -------------------------------------------------------------- |
+| :------------------------------------------------------------ | :------------------------------------------------------------ | :------------------------------------------------------------- |
 | ![](https://image.roku.com/ZHZscHItMTc2/post-alt-specs-1.png) | ![](https://image.roku.com/ZHZscHItMTc2/post-alt-specs-2.png) | ![](https://image.roku.com/ZHZscHItMTc2/post-alt-specs-3.jpeg) |
 
 Roku Best Practices
@@ -561,7 +561,7 @@ Note that the TXLS video master is the deliverable that is ingested into the Rok
 <br />
 
 | <strong>Video Codec</strong> | <strong>ProRes</strong>                          |
-| ---------------------------- | ------------------------------------------------ |
+| :--------------------------- | :----------------------------------------------- |
 | Container                    | MOV                                              |
 | Profile                      | 422 HQ                                           |
 | Minimum Bitrate              | 175 mbits or higher                              |
@@ -600,7 +600,7 @@ Stitched Content Delivery requires:
 From each Texted Master created, please export the following proxy files:
 
 | <strong>Video Codec</strong> | <strong>H.264</strong>                                                                                                                                                                |
-| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :--------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Container                    | MOV or MP4                                                                                                                                                                            |
 | Picture                      | (1) Clean & (1) w/ visible timecode                                                                                                                                                   |
 | Bitrate                      | 5mbit/s (total file size \< 1gb)                                                                                                                                                      |
@@ -713,7 +713,7 @@ Production Number = As listed on Post Grids
 Air Order = Please list even if the Air Order is the same as the Production Number
 
 | File Name Segment | File Name Abbreviation                                                                     |
-| ----------------- | ------------------------------------------------------------------------------------------ |
+| :---------------- | :----------------------------------------------------------------------------------------- |
 | Text Version      | TXTD (Texted), TXLS (Textless), PROXY, or MAV                                              |
 | Language          | enUS (American English) or esMX (Mexican Spanish)                                          |
 | Resolution        | UHD or HD + Color Space = SDR or HDR                                                       |
@@ -740,7 +740,7 @@ MAMA_Nike_102_v03_20220919_esMX_FXSTEM_6ch_48k_24b_23976_R.wav
 MAMA_Nike_102_v02_20220919_esMX_ME_Nearfield_6ch_48k_24b_23976_C.wav
 
 | Material Type                                 | Abbreviation                     |
-| --------------------------------------------- | -------------------------------- |
+| :-------------------------------------------- | :------------------------------- |
 | Printmaster                                   | PM                               |
 | Music & Effects                               | ME                               |
 | Audio Stem                                    | FXStem, MXStem, DIAStem, SFXStem |

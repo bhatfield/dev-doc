@@ -16,7 +16,7 @@ The ifHttpAgent methods modify the way that URLs are accessed
 ## Implemented by
 
 | Name                                                         | Description                                                  |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| :----------------------------------------------------------- | :----------------------------------------------------------- |
 | [roAppManager](doc:roappmanager) | The Application Manager APIs set application level attributes, which mostly affect the look-and-feel of the application |
 | [roAudioPlayer](doc:roaudioplayer) | The Audio Player object provides the ability to setup the playing of a series of audio streams |
 | [roSGNode](doc:rosgnode) | The roSGNode object is the BrightScript equivalent of SceneGraph XML file node creation |
@@ -116,7 +116,7 @@ Set the certificates file used for SSL to the specified .pem file.
 ##### Parameters
 
 | Name | Type   | Description                                     |
-| ---- | ------ | ----------------------------------------------- |
+| :--- | :----- | :---------------------------------------------- |
 | path | String | The directory path of the .pem file to be used. |
 
 ##### Return Value
@@ -132,7 +132,7 @@ Sets the maximum depth of the certificate chain that will be accepted.
 ##### Parameters
 
 | Name  | Type    | Description                   |
-| ----- | ------- | ----------------------------- |
+| :---- | :------ | :---------------------------- |
 | depth | Integer | The maximum depth to be used. |
 
 ### EnableCookies() as Void
@@ -183,7 +183,7 @@ Returns any cookies from the cookie cache that match the specified domain and pa
 An roArray of roAssociativeArrays, where each associative array represents a cookie. The roAssociativeArrays contain the following key-value pairs:
 
 | Name | Type | Description |
-| - | - | - |
+| : | : | : |
 | Version | Integer | Cookie version number |
 | Domain | String |Domain to which cookie applies|
 | Path | String |Path to which cookie applies|

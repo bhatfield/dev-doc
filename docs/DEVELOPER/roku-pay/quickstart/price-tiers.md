@@ -13,7 +13,7 @@ next:
 To download the complete price tier list for a Roku Streaming Store (**.csv** format), click the link under the **Price tier file** column.
 
 | Roku Streaming Store | Price tier file                                                  |
-| -------------------- | ---------------------------------------------------------------- |
+| :------------------- | :--------------------------------------------------------------- |
 | Argentina            | [ar(usd)](https://devtools.web.roku.com/price-tiers/list_ar.csv) |
 | Austria              | [at(eur)](https://devtools.web.roku.com/price-tiers/list_at.csv) |
 | Australia            | [au(aud)](https://devtools.web.roku.com/price-tiers/list_au.csv) |

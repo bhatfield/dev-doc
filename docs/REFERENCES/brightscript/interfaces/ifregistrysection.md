@@ -15,7 +15,7 @@ next:
 ## Implemented by
 
 | Name              | Description                                                                 |
-| ----------------- | --------------------------------------------------------------------------- |
+| :---------------- | :-------------------------------------------------------------------------- |
 | [roRegistrySection](doc:roregistrysection) | A Registry Section enables the organization of settings within the registry |
 
 
@@ -30,7 +30,7 @@ Reads and returns the value of the specified key.
 ##### Parameters
 
 | Name | Type   | Description              |
-| ---- | ------ | ------------------------ |
+| :--- | :----- | :----------------------- |
 | key  | String | The key name to be read. |
 
 ##### Return Value
@@ -69,7 +69,7 @@ Reads multiple values from the registry.
 ##### Parameters
 
 | Name      | Type   | Description                                              |
-| --------- | ------ | -------------------------------------------------------- |
+| :-------- | :----- | :------------------------------------------------------- |
 | keysArray | Object | An array of strings containing the key names to be read. |
 
 ##### Return Value
@@ -85,7 +85,7 @@ Replaces the value of the specified key. Does not guarantee a commit to non-vola
 ##### Parameters
 
 | Name  | Type   | Description                                           |
-| ----- | ------ | ----------------------------------------------------- |
+| :---- | :----- | :---------------------------------------------------- |
 | key   | String | The name of the key to be updated.                    |
 | value | String | The updated value to be written to the specified key. |
 
@@ -102,7 +102,7 @@ Writes multiple values to the registry.
 ##### Parameters
 
 | Name               | Type   | Description                                              |
-| ------------------ | ------ | -------------------------------------------------------- |
+| :----------------- | :----- | :------------------------------------------------------- |
 | roAssociativeArray | Object | An associative array with key-value pairs to be updated. |
 
 ##### Return Value
@@ -116,7 +116,7 @@ Deletes the specified key.
 ##### Parameters
 
 | Name | Type   | Description            |
-| ---- | ------ | ---------------------- |
+| :--- | :----- | :--------------------- |
 | key  | String | The key to be deleted. |
 
 ##### Return Value
@@ -132,7 +132,7 @@ Checks if the specified key resides in the registry.
 ##### Parameters
 
 | Name | Type   | Description            |
-| ---- | ------ | ---------------------- |
+| :--- | :----- | :--------------------- |
 | key  | String | The key to be checked. |
 
 ##### Return Value

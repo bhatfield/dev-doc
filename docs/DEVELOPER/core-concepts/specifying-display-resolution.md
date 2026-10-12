@@ -22,7 +22,7 @@ The following describes how SceneGraph applications support different display sc
 Roku players support up to three screen resolutions for the application user interface, depending on the specific Roku player. Please note that SD-only apps are not supported on Roku.
 
 | Resolution           | Pixel Dimensions | Pixel Shape |
-| -------------------- | ---------------- | ----------- |
+| :------------------- | :--------------- | :---------- |
 | Full high-definition | 1920 x 1080      | square      |
 | High-definition      | 1280 x 720       | square      |
 | Standard definition  | 720 x 480        | non-square  |

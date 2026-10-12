@@ -37,7 +37,7 @@ Todos los canales **deben** estar claramente etiquetados por posición e idioma 
 ### Sonido envolvente 5.1 + estéreo 2.0 (preferido)
 
 | Canal   | Etiqueta                  |
-| ------- | ------------------------- |
+| :------ | :------------------------ |
 | Canal 1 | Frontal izquierdo (L)     |
 | Canal 2 | Frontal derecho (R)       |
 | Canal 3 | Central (C)               |
@@ -52,7 +52,7 @@ Todos los canales **deben** estar claramente etiquetados por posición e idioma 
 _Aceptable si no se dispone de 5.1 + estéreo._
 
 | Canal   | Etiqueta                  |
-| ------- | ------------------------- |
+| :------ | :------------------------ |
 | Canal 1 | Frontal izquierdo (L)     |
 | Canal 2 | Frontal derecho (R)       |
 | Canal 3 | Central (C)               |
@@ -65,7 +65,7 @@ _Aceptable si no se dispone de 5.1 + estéreo._
 _Aceptable si no se dispone de 5.1 + estéreo ni de solo 5.1 envolvente._
 
 | Canal   | Etiqueta               |
-| ------- | ---------------------- |
+| :------ | :--------------------- |
 | Canal 1 | Estéreo izquierdo (SL) |
 | Canal 2 | Estéreo derecho (SR)   |
 
@@ -87,7 +87,7 @@ Entrega el audio sidecar con la mayor tasa de bits y frecuencia de muestreo disp
 ### Formatos de audio sidecar admitidos
 
 | Contenedor                                             | Códecs                     | Extensión |
-| ------------------------------------------------------ | -------------------------- | --------- |
+| :----------------------------------------------------- | :------------------------- | :-------- |
 | WAV _(preferido)_                                      | PCM<br />GSM               | .wav      |
 | MOV<br />(no debe incluir una pista de video)          | AAC<br />MP3<br />PCM      | .mov      |
 | MP4 (MPEG-4)<br />(no debe incluir una pista de video) | AAC<br />FLAC              | .mp4      |
@@ -112,7 +112,7 @@ El audio descriptivo es una pista de audio alternativa para personas con discapa
 Si los archivos de video no pueden crearse con las etiquetas de canal de audio adecuadas incrustadas, se **debe proporcionar un consejo de diseño de audio en los metadatos** del archivo de video entregado. Esto aplica únicamente al audio multiplexado cuando el etiquetado dentro del archivo no es posible; no reemplaza el requisito de etiquetado para los archivos sidecar.
 
 | Descriptor           | Definición                                                                                               |
-| -------------------- | -------------------------------------------------------------------------------------------------------- |
+| :------------------- | :------------------------------------------------------------------------------------------------------- |
 | `stereoOnly`         | Solo audio en estéreo de 2 canales. Puede entregarse en una sola pista o en 2 pistas discretas.          |
 | `surroundOnly`       | Solo audio envolvente 5.1 de 6 canales. Puede entregarse en una sola pista o en 6 pistas discretas.      |
 | `stereoPlusSurround` | Audio de 8 canales, con estéreo en los canales 1–2, seguido de sonido envolvente 5.1 en los canales 3–8. |
@@ -123,7 +123,7 @@ Si los archivos de video no pueden crearse con las etiquetas de canal de audio a
 ## Glosario
 
 | Término                      | Definición                                                                                                                              |
-| ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| :--------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------- |
 | **Muxed / Multiplexado**     | Audio combinado dentro del mismo contenedor de archivo que el video, en lugar de entregarse por separado.                               |
 | **Archivo sidecar**          | Un archivo de audio o subtítulos entregado junto al (no incrustado en el) archivo de video, vinculado a este mediante los metadatos.    |
 | **Entrelazado**              | Múltiples canales de audio combinados en un único archivo, a diferencia de archivos discretos independientes por canal.                 |

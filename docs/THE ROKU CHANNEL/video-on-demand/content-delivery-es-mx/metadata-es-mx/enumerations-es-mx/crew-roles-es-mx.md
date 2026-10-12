@@ -11,7 +11,7 @@ Roku admite los siguientes valores de función para miembros del equipo de filma
 > **Nota entre formatos:** por el momento, Director es la **única** función del equipo de filmación admitida para la ingesta de metadatos en **Excel**. La lista completa a continuación aplica a la entrega en **XML**.
 
 | Función del equipo de filmación |
-| ------------------------------- |
+| :------------------------------ |
 | Actor                           |
 | Anchor                          |
 | Host                            |

@@ -164,7 +164,7 @@ Apps must implement an API that retrieves the images and description of the app 
 The images used for the app must meet the requirements for width, height, minimum resolution, and format.
 
 | Specification      | Requirement |
-| ------------------ | ----------- |
+| :----------------- | :---------- |
 | Width              | 213px       |
 | Height             | 120px       |
 | Minimum resolution | 72ppi       |
@@ -523,7 +523,7 @@ Apps can identify whether Roku Pay subscription purchase originated from Instant
 The ChannelStore node [**getPurchases**](doc:channelstore) and [**getAllPurchases**](doc:channelstore) commands, [**roChannelStore.getPurchases**](doc:ifchannelstore) function, [Roku Pay **validate-transaction** web service](doc:roku-web-service), and [Roku Pay **Sale** push notification](doc:push-notifications) include **purchaseChannel** and **purchaseContext** fields that indicate the source of the purchase.
 
 | Source                           | purchaseChannel | purchaseContext |
-| -------------------------------- | --------------- | --------------- |
+| :------------------------------- | :-------------- | :-------------- |
 | Instant Signup Web (my.roku.com) | "ISU"           | "WEB"           |
 | Instant Signup (on-device)       | "ISU"           | "DEVICE"        |
 | In-app purchase                  | "IAP"           | "DEVICE"        |

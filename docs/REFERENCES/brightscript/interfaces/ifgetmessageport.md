@@ -15,7 +15,7 @@ next:
 ## Implemented by
 
 | Name           | Description |
-| -------------- | ----------- |
+| :------------- | :---------- |
 | [roHdmiStatus](doc:rohdmistatus)   | The HDMI status component provides an interface to the current HDMI operational status |
 | [roScreen](doc:roscreen)      | The roScreen component provides a full screen drawing surface that can be stacked and that you can receive input events from |
 | [roUrlTransfer](doc:rourltransfer)  | A roUrlTransfer object transfers data to or from remote servers specified by URLs |

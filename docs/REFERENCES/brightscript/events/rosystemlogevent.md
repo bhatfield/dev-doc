@@ -20,7 +20,7 @@ roSystemLogEvents are sent when enabled via <Anchor label="roSystemLog" title="r
 Returns an AssociativeArray containing information describing the event, which may be one of the following values:
 
 | Key     | Type   | Description                                                      |
-| ------- | ------ | ---------------------------------------------------------------- |
+| :------ | :----- | :--------------------------------------------------------------- |
 | LogType | String | Identifies the specific type of event. Valid types are listed at |
 
 If LogType is "http.connect" or "http.error", the event AA contains the base keys and the following additional keys:

@@ -80,7 +80,7 @@ Returns a description of the message (for example, "Format Detected").
 Returns information about the video player event. This method returns an roAssociativeArray that contains the following keys:
 
 | Key      | Value                                     |
-| -------- | ----------------------------------------- |
+| :------- | :---------------------------------------- |
 | audio    | The format of the audio stream, if any    |
 | captions | The format of the captioning data, if any |
 | video    | The format of the video stream, if any    |
@@ -100,7 +100,7 @@ Returns a description of the message (for example, "Segment download started").
 Returns an associative array containing the following information about the segment download event:
 
 | Key        | Value                                          |
-| ---------- | ---------------------------------------------- |
+| :--------- | :--------------------------------------------- |
 | Sequence   | Stream segment sequence number                 |
 | SegBitrate | Bitrate of the segment, in kilobits per second |
 | StartTime  | Timestamp of the start of the segment data     |
@@ -204,7 +204,7 @@ Returns the segment sequence number.
 Returns an associative array containing the following information about the segment download:
 
 | Key              | Value                                                                       |
-| ---------------- | --------------------------------------------------------------------------- |
+| :--------------- | :-------------------------------------------------------------------------- |
 | Status           | Status of the download: 0 = success, nonzero = error                        |
 | Sequence         | Stream segment sequence number (same as returned by GetIndex)               |
 | SegUrl           | Stream segment URL (i.e., .ts file for HLS, stream fragment URL for smooth) |

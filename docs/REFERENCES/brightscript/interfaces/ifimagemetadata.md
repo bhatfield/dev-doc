@@ -15,7 +15,7 @@ next:
 ## Implemented by
 
 | Name            | Description                               |
-| --------------- | ----------------------------------------- |
+| :-------------- | :---------------------------------------- |
 | [roImageMetadata](doc:roimagemetadata) | The roImageMetadata component provides developers access to image file metadata included in many .jpg EXIF headers |
 
 
@@ -30,7 +30,7 @@ Sets the URL to the image. Only file URLs are supported
 ##### Parameters
 
 | Name | Type   | Description           |
-| ---- | ------ | --------------------- |
+| :--- | :----- | :-------------------- |
 | url  | String | The URL of the image. |
 
 ### GetMetadata() as Object
@@ -94,7 +94,7 @@ Returns a thumbnail image if one is embedded in the image metadata and the corre
 An associative array that with **bytes** and **type** keys with the image data: 
 
 | Name  | Type        | Description                                                  |
-| ----- | ----------- | ------------------------------------------------------------ |
+| :---- | :---------- | :----------------------------------------------------------- |
 | bytes | roByteArray | The image data                                               |
 | Type  | Integer     | The type of image, which is most likely "image/jpeg", but could also be  "image/png". |
 
@@ -117,7 +117,7 @@ Returns the raw data for an Exif tag. The method provides direct access to a spe
 ##### Parameters
 
 | Name   | Type    | Description                     |
-| ------ | ------- | ------------------------------- |
+| :----- | :------ | :------------------------------ |
 | ifd    | Integer | The ifd of the Exif tag.        |
 | tagnum | Integer | The tag number of the Exif tag. |
 

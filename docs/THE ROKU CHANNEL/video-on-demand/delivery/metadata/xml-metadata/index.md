@@ -21,7 +21,7 @@ Use this page to locate the correct schema and sample files while working from t
 ## Roku XML Schemas
 
 | Roku XML Schema | Download Link                                          |
-| --------------- | ------------------------------------------------------ |
+| :-------------- | :----------------------------------------------------- |
 | Film XML Schema | [Film XML Schema](https://go.roku.com/film-xml-schema) |
 | TV XML Schema   | [TV XML Schema](https://go.roku.com/tv-xml-schema)     |
 | Clip XML Schema | [Clip XML Schema](https://go.roku.com/clip-xml-schema) |
@@ -31,7 +31,7 @@ Use this page to locate the correct schema and sample files while working from t
 ## Roku XML Samples (Annotated)
 
 | Roku XML Sample         | Download Link                                                   |
-| ----------------------- | --------------------------------------------------------------- |
+| :---------------------- | :-------------------------------------------------------------- |
 | Annotated Roku Film XML | [Annotated Roku Film XML](https://go.roku.com/film-xml-example) |
 | Annotated Roku TV XML   | [Annotated Roku TV XML](https://go.roku.com/tv-xml-example)     |
 | Annotated Roku Clip XML | [Annotated Roku Clip XML](https://go.roku.com/clip-xml-example) |
@@ -43,7 +43,7 @@ Use this page to locate the correct schema and sample files while working from t
 These are **alternate-format** examples — Cablelabs ADI 1.1 is a supported package version (see the [Metadata Overview](#supported-metadata-formats)), but MovieLabs or Roku's own XML schemas above remain the **preferred** format.
 
 | Cablelabs ADI Sample           | Download Link                                                              |
-| ------------------------------ | -------------------------------------------------------------------------- |
+| :----------------------------- | :------------------------------------------------------------------------- |
 | Cablelabs Film ADI XML Example | [Cablelabs Film ADI XML Example](https://go.roku.com/film-adi-xml-example) |
 | Cablelabs TV ADI XML Example   | [Cablelabs TV ADI XML Example](https://go.roku.com/tv-adi-xml-example)     |
 | Cablelabs Clip ADI XML Example | [Cablelabs Clip ADI XML Example](https://go.roku.com/clip-adi-xml-example) |

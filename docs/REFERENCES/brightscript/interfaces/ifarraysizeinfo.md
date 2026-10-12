@@ -19,7 +19,7 @@ The **ifArraySizeInfo()** interface includes set of functions that provide devel
 ## Implemented by
 
 | Name                                                         | Description                                                  |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| :----------------------------------------------------------- | :----------------------------------------------------------- |
 | [roArray](doc:roarray) | An array stores an indexed collection of BrightScript objects. Each entry of an array can be a different type, or they may all of the same type. |
 
 ## Supported methods
@@ -57,7 +57,7 @@ Sends a request to allocate or increase storage capacity of the array to hold at
 ##### Parameters
 
 | Name    | Type    | Description                                          |
-| ------- | ------- | ---------------------------------------------------- |
+| :------ | :------ | :--------------------------------------------------- |
 | minSize | Integer | The specified number of items the array is to store. |
 
 ##### Return Value

@@ -16,7 +16,7 @@ next:
 ## Implemented by
 
 | Name            | Description                                                           |
-|---------------- |-----------------------------------------------------------------------|
+|:--------------- |:----------------------------------------------------------------------|
 |[roTextureRequest](doc:rotexturerequest) | An roTextureRequest is used to make requests to the roTextureManager                                                                       |
 
 ## Supported methods
@@ -42,7 +42,7 @@ Returns the state of the request.
 The state value, which may be one of the following:
 
 | Value | State       |
-| ----- | ----------- |
+| :---- | :---------- |
 | 0     | Requested   |
 | 1     | Downloading |
 | 2     | Downloaded  |
@@ -59,7 +59,7 @@ Sets the request to be either asynchronous (true) or synchronous (false). The de
 ##### Parameters
 
 | Name  | Type    | Description |
-| ----  | ------- | -------------- |
+| :---  | :------ | :------------- |
 | async | Boolean  | The method used to send the request: asynchronous (true) or synchronous (false). |
 
 ### SetSize(width as Integer, height as Integer) as Void
@@ -71,7 +71,7 @@ Sets the desired size of the roBitmap. The default is to return a bitmap in its 
 ##### Parameters
 
 | Name  | Type    | Description |
-| ----  | ------- | -------------- |
+| :---  | :------ | :------------- |
 | width | Integer  | The width of the roBitmap. |
 | height | Integer  | The height of the roBitmap. |
 
@@ -100,5 +100,5 @@ Non-drawable bitmaps can be reused from the texture cache and are loaded into te
 ##### Parameters
 
 | Name     | Type    | Description |
-| ----     | ------- | -------------- |
+| :---     | :------ | :------------- |
 | drawable | Boolean | Whether the ifDraw2D functions may draw to and modify the returned roBitmap. |

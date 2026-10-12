@@ -41,7 +41,7 @@ There are three general categories of layouts:
 2. All the items are aligned in rows and columns, but the rows and columns (or the spacing between them) varies.<br /><br />To specify this type of layout, set the `columnWidths`, `columnSpacings`, `rowHeights` and `rowSpacings` field values. Each of these fields takes an array of values, specifying the values for each row width, column height or spacing between rows and columns. If there are more rows or columns in the grid than specified in the arrays for these fields, the corresponding simple layout field values are used for the missing values (such as the x-dimension value of the `itemSize` field for a missing `columnWidth` field value).<br /><br />For example, suppose a grid is designed with four columns, where each item was 80 pixels wide, and had four pixels of space between them. The grid data includes ten rows, where the first four rows have items that are 120 pixels tall, and the remaining six rows have items that are 80 pixels high. All the rows should have six pixels of space between them. To specify this layout, you would set the field values like this:
 
 | Field        | Value                                          |
-| ------------ | ---------------------------------------------- |
+| :----------- | :--------------------------------------------- |
 | itemSize     | [ 80, 80 ]                                     |
 | itemSpacings | [ 4, 6 ]                                       |
 | rowHeights   | [ 120, 120, 120, 120, 80, 80, 80, 80, 80, 80 ] |

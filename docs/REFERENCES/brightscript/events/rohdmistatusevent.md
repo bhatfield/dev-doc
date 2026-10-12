@@ -29,7 +29,7 @@ Returns the string "HdmiHotPlug".
 Retrieves the HDMI information. This method returns an associative array with the following key/value pairs:
 
 | Key        | Type    | Value                                                                    |
-| ---------- | ------- | ------------------------------------------------------------------------ |
+| :--------- | :------ | :----------------------------------------------------------------------- |
 | PortType   | string  | “Rx” for input ports and “Tx” for output ports                           |
 | PortNumber | integer | The HDMI input or output port number starting from 0                     |
 | Plugged    | Boolean | True if an HDMI device is plugged in, and false of the port is unplugged |

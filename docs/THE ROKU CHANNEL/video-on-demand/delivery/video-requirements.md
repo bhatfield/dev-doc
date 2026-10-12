@@ -81,7 +81,7 @@ Roku supports a variety of frame rates and scan types. All video files **must** 
 ## Video Resolution
 
 | Type  | Width | Height | Pixel Aspect Ratio              |
-| ----- | ----- | ------ | ------------------------------- |
+| :---- | :---- | :----- | :------------------------------ |
 | SD    | 720   | 480    | 4:3 or 16:9 (anamorphic pixels) |
 | SD    | 640   | 480    | 1:1 (square pixels)             |
 | SD    | 853   | 480    | 1:1 (square pixels)             |
@@ -99,7 +99,7 @@ Roku supports a variety of frame rates and scan types. All video files **must** 
 ## Video Formats
 
 | Name          | Codecs                                                                                   | Extension | Bitrate                                                |
-| ------------- | ---------------------------------------------------------------------------------------- | --------- | ------------------------------------------------------ |
+| :------------ | :--------------------------------------------------------------------------------------- | :-------- | :----------------------------------------------------- |
 | Apple® ProRes | ProRes 444 (all profiles)<br />ProRes 4444 (all profiles)<br />ProRes 422 (all profiles) | .mov      | 50 Mbps or greater                                     |
 | XDCam         |                                                                                          | .mxf      | 50 Mbps or greater                                     |
 | MPEG-2        | MPEG-2                                                                                   | .ts, .mpg | HD = 15 Mbps or greater<br />SD = 3.75 Mbps or greater |
@@ -110,7 +110,7 @@ Roku supports a variety of frame rates and scan types. All video files **must** 
 ## Glossary
 
 | Term                  | Definition                                                                                                             |
-| --------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| :-------------------- | :--------------------------------------------------------------------------------------------------------------------- |
 | **Sidecar file**      | A subtitle or audio file delivered alongside (not embedded in) the video file, mapped to it via metadata.              |
 | **Mezzanine file**    | A high-quality, typically near-lossless master file used as the source for further encoding.                           |
 | **Anamorphic pixels** | Non-square pixels used to fit a widescreen image into a standard frame size.                                           |

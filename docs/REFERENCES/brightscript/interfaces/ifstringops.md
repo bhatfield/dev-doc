@@ -13,7 +13,7 @@ next:
 ## Implemented by
 
 | Name                     | Description                                   |
-| ------------------------ | --------------------------------------------- |
+| :----------------------- | :-------------------------------------------- |
 | [roString](doc:rostring) | Object equivalent for intrinsic type 'String' |
 
 ## Supported methods
@@ -33,7 +33,7 @@ The [ifString interface](doc:ifstring) includes a similar function, [ifString.Se
 ##### Parameters
 
 | Name | Type    | Description                                                                                    |
-| ---- | ------- | ---------------------------------------------------------------------------------------------- |
+| :--- | :------ | :--------------------------------------------------------------------------------------------- |
 | s    | String  | The source string to be used for setting the roString object.                                  |
 | len  | Integer | The first number of characters in the source string to which the roString object is to be set. |
 
@@ -62,7 +62,7 @@ The third line does not appear to do an append, but it is working as designed si
 ##### Parameters
 
 | Name | Type    | Description                                                                           |
-| ---- | ------- | ------------------------------------------------------------------------------------- |
+| :--- | :------ | :------------------------------------------------------------------------------------ |
 | s    | String  | The source string to be used for appending characters to the roString object.         |
 | len  | Integer | The first number of characters in the source string to append to the roString object. |
 
@@ -85,7 +85,7 @@ Returns a string consisting of the first len characters of the string.
 ##### Parameters
 
 | Name | Type    | Description                                                            |
-| ---- | ------- | ---------------------------------------------------------------------- |
+| :--- | :------ | :--------------------------------------------------------------------- |
 | len  | Integer | The first number of characters in the roString object to be retrieved. |
 
 ##### Return Value
@@ -101,7 +101,7 @@ Returns a string consisting of the last len characters of the string.
 ##### Parameters
 
 | Name | Type    | Description                                                           |
-| ---- | ------- | --------------------------------------------------------------------- |
+| :--- | :------ | :-------------------------------------------------------------------- |
 | len  | Integer | The last number of characters in the roString object to be retrieved. |
 
 ##### Return Value
@@ -117,7 +117,7 @@ Returns a string consisting of the last characters of the string, starting at th
 ##### Parameters
 
 | Name        | Type    | Description                                                                        |
-| ----------- | ------- | ---------------------------------------------------------------------------------- |
+| :---------- | :------ | :--------------------------------------------------------------------------------- |
 | start_index | Integer | The position in the roString object from which to return the remaining characters. |
 
 ##### Return Value
@@ -135,7 +135,7 @@ Returns a string consisting of num_chars characters of the string, starting at t
 ##### Parameters
 
 | Name        | Type    | Description                                                                                               |
-| ----------- | ------- | --------------------------------------------------------------------------------------------------------- |
+| :---------- | :------ | :-------------------------------------------------------------------------------------------------------- |
 | start_index | Integer | The position in the roString object from which to return the number of characters specified by num_chars. |
 | num_chars   | Integer | The number of characters in the remaining part of the roString object to be retrieved.                    |
 
@@ -148,7 +148,7 @@ Returns the zero-based index of the first occurrence of substring in the string.
 ##### Parameters
 
 | Name      | Type   | Description                                              |
-| --------- | ------ | -------------------------------------------------------- |
+| :-------- | :----- | :------------------------------------------------------- |
 | substring | String | The substring within the roString object to be returned. |
 
 ##### Return Value
@@ -164,7 +164,7 @@ Returns a copy of the string with all instances of **fromStr** replaced with **t
 ##### Parameters
 
 | Name    | Type   | Description                                                                      |
-| ------- | ------ | -------------------------------------------------------------------------------- |
+| :------ | :----- | :------------------------------------------------------------------------------- |
 | fromStr | String | The string of characters within the roString object to be replaced.              |
 | toStr   | String | The string of characters that will replace all instances of the **from** string. |
 
@@ -189,7 +189,7 @@ Returns the zero-based index of the first occurrence of substring in the string,
 ##### Parameters
 
 | Name        | Type    | Description                                                                                          |
-| ----------- | ------- | ---------------------------------------------------------------------------------------------------- |
+| :---------- | :------ | :--------------------------------------------------------------------------------------------------- |
 | start_index | Integer | The position in the roString object from which to start looking for and returning the **substring**. |
 | substring   | String  | The substring within the roString object to be found.                                                |
 
@@ -256,7 +256,7 @@ Splits the string into separate substrings separated by a single delimiter chara
 ##### Parameters
 
 | Name  | Type   | Description                                                                                                                                          |
-| ----- | ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :---- | :----- | :--------------------------------------------------------------------------------------------------------------------------------------------------- |
 | delim | String | A set of characters which are treated as delimiters. A sequence of two or more contiguous delimiters in the string is treated as a single delimiter. |
 
 ##### Return Value
@@ -272,7 +272,7 @@ Splits the input string using the separator string as a delimiter. An empty sepa
 ##### Parameters
 
 | Name      | Type   | Description                                            |
-| --------- | ------ | ------------------------------------------------------ |
+| :-------- | :----- | :----------------------------------------------------- |
 | separator | String | The delimiter to be used to parse the roString object. |
 
 ##### Return Value

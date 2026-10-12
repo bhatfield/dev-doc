@@ -15,7 +15,7 @@ next:
 ## Implemented by
 
 | Name             | Description                                                                                                                            |
-| ---------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| :--------------- | :------------------------------------------------------------------------------------------------------------------------------------- |
 | [roDataGramSocket](doc:rodatagramsocket) | The roDataGramSocket component enables BrightScript apps to send and receive UDP packets                                               |
 | [roStreamSocket](doc:rostreamsocket)   | The roStreamSocket component enables BrightScript apps to accept and connect to TCP streams as well as send and receive data with them |
 
@@ -41,7 +41,7 @@ Sets the TTL value for all IP packets on the socket.
 ##### Parameters
 
 | Name | Type    | Description                                            |
-| ---- | ------- | ------------------------------------------------------ |
+| :--- | :------ | :----------------------------------------------------- |
 | ttl  | Integer | The TTL value to be used for IP packets on the socket. |
 
 ##### Return Value
@@ -67,7 +67,7 @@ Enables a previously assigned address to be immediately reassigned.
 ##### Parameters
 
 | Name  | Type    | Description                                          |
-| ----- | ------- | ---------------------------------------------------- |
+| :---- | :------ | :--------------------------------------------------- |
 | Reuse | Boolean | A flag specifying whether the address can be reused. |
 
 ##### Return Value
@@ -93,7 +93,7 @@ Enables Out Of Bounds (OOB) data to be read inline with regular data.
 ##### Parameters
 
 | Name   | Type    | Description                                        |
-| ------ | ------- | -------------------------------------------------- |
+| :----- | :------ | :------------------------------------------------- |
 | inline | Boolean | A flag specifying whether OOB data is read inline. |
 
 ##### Return Value
@@ -119,7 +119,7 @@ Sets the current send buffer size.
 ##### Parameters
 
 | Name | Type    | Description                      |
-| ---- | ------- | -------------------------------- |
+| :--- | :------ | :------------------------------- |
 | size | Integer | The send buffer size to be used. |
 
 ##### Description
@@ -146,7 +146,7 @@ Sets the current receive buffer size.
 ##### Parameters
 
 | Name | Type    | Description                         |
-| ---- | ------- | ----------------------------------- |
+| :--- | :------ | :---------------------------------- |
 | size | Integer | The receive buffer size to be used. |
 
 ##### Description
@@ -172,7 +172,7 @@ Sets the current send timeout (in seconds).
 ##### Parameters
 
 | Name    | Type    | Description                                 |
-| ------- | ------- | ------------------------------------------- |
+| :------ | :------ | :------------------------------------------ |
 | timeout | Integer | The number of seconds for the send timeout. |
 
 ##### Return Value
@@ -199,7 +199,7 @@ Sets the current receive timeout (in seconds).
 ##### Parameters
 
 | Name    | Type    | Description                                    |
-| ------- | ------- | ---------------------------------------------- |
+| :------ | :------ | :--------------------------------------------- |
 | timeout | Integer | The number of seconds for the receive timeout. |
 
 ##### Return Value

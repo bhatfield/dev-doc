@@ -417,7 +417,7 @@ The `transactionType` field in the push notification indicates the upgrade/downg
 For example, if a customer upgrades from a monthly to an annual subscription, the following two notifications are sent: (1) an `UpgradeSale`notification for the purchase of the annual subscription, and (2) an `UpgradeCancellation` notification for the cancellation of the monthly subscription. The following table summarizes the transaction types for the notifications sent for upgrades and downgrades.
 
 |               | Transaction Type |                       |
-| :------------ | :--------------- | --------------------- |
+| :------------ | :--------------- | :-------------------- |
 | **Action**    | **Sale**         | **Cancellation**      |
 | **Upgrade**   | UpgradeSale      | UpgradeCancellation   |
 | **Downgrade** | DowngradeSale    | DowngradeCancellation |

@@ -106,5 +106,5 @@ Indicates whether the Roku OS has successfully connected to the network and cont
 This method returns an roAssociativeArray containing a **validClock** field that indicates whether the system clock is valid.
 
 | Member     | Type    | Description                        |
-| ---------- | ------- | ---------------------------------- |
+| :--------- | :------ | :--------------------------------- |
 | validClock | Boolean | True if the system clock is valid. |

@@ -15,7 +15,7 @@ next:
 ## Implemented by
 
 | Name           | Description                                                                                                                            |
-| -------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| :------------- | :------------------------------------------------------------------------------------------------------------------------------------- |
 | [roStreamSocket](doc:rostreamsocket) | The roStreamSocket component enables BrightScript apps to accept and connect to TCP streams as well as send and receive data with them |
 
 ## Supported methods
@@ -39,7 +39,7 @@ Sends no-data packets to keep the connection alive.
 ##### Parameters
 
 | Name   | Type    | Description                                      |
-| ------ | ------- | ------------------------------------------------ |
+| :----- | :------ | :----------------------------------------------- |
 | enable | Boolean | A flag specifying whether keep alive is enabled. |
 
 ##### Return Value
@@ -65,7 +65,7 @@ Sets the max time in seconds that the socket close() blocks to allow send data t
 ##### Parameters
 
 | Name | Type    | Description   |
-| ---- | ------- | ------------- |
+| :--- | :------ | :------------ |
 | time | Integer | The max time. |
 
 ##### Return Value
@@ -91,7 +91,7 @@ Sets the max TCP segment size.
 ##### Parameters
 
 | Name | Type    | Description               |
-| ---- | ------- | ------------------------- |
+| :--- | :------ | :------------------------ |
 | time | Integer | The max TCP segment size. |
 
 ##### Return Value
@@ -117,7 +117,7 @@ Enables the no delay property on the socket. This means that data is sent as soo
 ##### Parameters
 
 | Name   | Type    | Description                                                 |
-| ------ | ------- | ----------------------------------------------------------- |
+| :----- | :------ | :---------------------------------------------------------- |
 | enable | Boolean | A flag specifying whether the no delay property is enabled. |
 
 ##### Return Value

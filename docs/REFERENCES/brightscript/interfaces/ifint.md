@@ -18,7 +18,7 @@ next:
 ## Implemented by
 
 | Name      | Description                                  |
-| --------- | -------------------------------------------- |
+| :-------- | :------------------------------------------- |
 | [roInt](doc:roint)     | Object equivalent for intrinsic type Integer |
 
 ## Supported methods

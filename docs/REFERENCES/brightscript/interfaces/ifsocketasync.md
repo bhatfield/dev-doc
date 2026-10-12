@@ -17,7 +17,7 @@ The ifSocketAsync interface provides asynchronous socket features that utilize a
 ## Implemented by
 
 | Name             | Description                                                                                                                            |
-| ---------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| :--------------- | :------------------------------------------------------------------------------------------------------------------------------------- |
 | [roDataGramSocket](doc:rodatagramsocket) | The roDataGramSocket component enables BrightScript apps to send and receive UDP packets                                               |
 | [roStreamSocket](doc:rostreamsocket)   | The roStreamSocket component enables BrightScript apps to accept and connect to TCP streams as well as send and receive data with them |
 
@@ -62,7 +62,7 @@ Enables roSocketEvent events to be sent via the message port when the underlying
 ##### Parameters
 
 | Name   | Type    | Description                                                  |
-| ------ | ------- | ------------------------------------------------------------ |
+| :----- | :------ | :----------------------------------------------------------- |
 | enable | Boolean | A flag specifying whether roSocketEvent events are to be sent when the underlying socket becomes readable. |
 
 ### NotifyWritable(enable as Boolean) as Void
@@ -74,7 +74,7 @@ Enables roSocketEvent events to be sent via the message port when the underlying
 ##### Parameters
 
 | Name   | Type    | Description                                                  |
-| ------ | ------- | ------------------------------------------------------------ |
+| :----- | :------ | :----------------------------------------------------------- |
 | enable | Boolean | A flag specifying whether roSocketEvent events are to be sent when the underlying socket becomes writable. |
 
 ### NotifyException(enable as Boolean) as Void
@@ -86,7 +86,7 @@ Enables roSocketEvent events to be sent via the message port when the underlying
 ##### Parameters
 
 | Name   | Type    | Description                                                  |
-| ------ | ------- | ------------------------------------------------------------ |
+| :----- | :------ | :----------------------------------------------------------- |
 | enable | Boolean | A flag specifying whether roSocketEvent events are to be sent when the underlying socket gets an exception or OOB data. |
 
 ### GetID() as Integer

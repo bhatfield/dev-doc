@@ -203,7 +203,7 @@ m.top.data = invalid   ' Field data released (takes time)
 #### Copying patterns to watch for
 
 | Code                            | What actually happens                                        | Time complexity |
-|---------------------------------|--------------------------------------------------------------|-------------|
+|:--------------------------------|:-------------------------------------------------------------|:------------|
 | `m.data = data`                 | Store ref in AA, increment refcount                          | `O(1)`      |
 | `m.top.data = data`             | Copy entire data into node field                             | `O(N)`      |
 | `m.top.data.state`              | Copy entire data OUT of node → temp AA, read .state          | `O(N)`      |

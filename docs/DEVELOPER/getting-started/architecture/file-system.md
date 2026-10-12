@@ -17,7 +17,7 @@ next:
 Several means are available for an application to store data:
 
 | Storage            | Advantages                                                   | Disadvantages                                                |
-| ------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| :----------------- | :----------------------------------------------------------- | :----------------------------------------------------------- |
 | file in tmp:       | Files are read/write                                         | Contents are not retained when application exits.<br /><br />Unmanaged. Does not automatically delete data unless the application actively manages the directory. This increases app's memory usage, which could result in an app failures. |
 | file in cachefs:   | Files are read/write; an arbitrary amount of data can be written. <br /><br />cachefs use is per developer ID. Files in cachefs are stored in RAM; therefore, a reboot will evict them from cachefs.<br /><br />Does not count towards app’s total memory usage | Data is evicted when more space is required for another app  |
 | file in pkg:       | Accesses any files included in app package                   | Files are read-only                                          |

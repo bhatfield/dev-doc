@@ -102,7 +102,7 @@ provide this information
 are: 
 
 | Read-Only Field | Changed Value Indication                                                                                                              |
-| --------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| :-------------- | :------------------------------------------------------------------------------------------------------------------------------------ |
 | `itemFocused`   | The list or grid item is currently focused by the user.                                                                               |
 | `itemUnfocused` | The list or grid item was focused by the user, but the user moved the focus to another item.                                          |
 | `itemSelected`  | The list or grid item was selected by the user by pressing the remote control **OK** key. |
@@ -147,7 +147,7 @@ indicators for your design. The fields used to customize these options
 are:
 
 | Focus Option Field        | Use                                                                                                |
-| ------------------------- | -------------------------------------------------------------------------------------------------- |
+| :------------------------ | :------------------------------------------------------------------------------------------------- |
 | `drawFocusFeedback`       | Specify whether the focus graphic image is drawn on a focused item or not                          |
 | `drawFocusFeedbackOnTop`  | Specify whether the focus graphic image is drawn on top or underneath the focused item             |
 | `focusBitmapUri`          | Specify a custom graphic image to be drawn on the item to indicate focus                           |

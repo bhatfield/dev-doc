@@ -15,7 +15,7 @@ next:
 ## Implemented by
 
 | Name      | Description                               |
-| --------- | ----------------------------------------- |
+| :-------- | :---------------------------------------- |
 | [roHMAC](doc:rohmac)    | The HMAC component provides an interface to the OpenSSL HMAC functions |
 
 
@@ -30,7 +30,7 @@ Initializes new HMAC context.
 ##### Parameters
 
 | Name       | Type   | Description                                                  |
-| ---------- | ------ | ------------------------------------------------------------ |
+| :--------- | :----- | :----------------------------------------------------------- |
 | digestType | String | Selects one of the supported digest algorithms, as documented in [roEVPDigest](doc:roevpdigest). |
 | key        | Object | An roByteArray containing the key for the MAC.               |
 
@@ -63,7 +63,7 @@ mac = hmac.Final()
 ##### Parameters
 
 | Name    | Type   | Description                                                  |
-| ------- | ------ | ------------------------------------------------------------ |
+| :------ | :----- | :----------------------------------------------------------- |
 | message | Object | An [roByteArray](doc:robytearray) with the data to be digested. |
 
 ##### Return Value
@@ -79,7 +79,7 @@ Adds more data to be digested. The data in the array is added to the current dig
 ##### Parameters
 
 | Name            | Type   | Description                                                  |
-| --------------- | ------ | ------------------------------------------------------------ |
+| :-------------- | :----- | :----------------------------------------------------------- |
 | partialMesssage | Object | An [roByteArray](doc:robytearray) with the additional data to be digested. |
 
 ### Final() as Object

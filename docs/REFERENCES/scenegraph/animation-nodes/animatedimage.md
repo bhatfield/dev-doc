@@ -57,7 +57,7 @@ end function
 ## Fields
 
 | **Field**       | **Type** | **Default**    | Access Permission | **Description**                                              |
-| :-------------- | :------- | :------------- | ----------------- | :----------------------------------------------------------- |
+| :-------------- | :------- | :------------- | :---------------- | :----------------------------------------------------------- |
 | width           | float    | 0.0f           | READ_WRITE        | Display width in pixels.                                     |
 | height          | float    | 0.0f           | READ_WRITE        | Display height in pixels.                                    |
 | loadWidth       | float    | 0.0f           | READ_WRITE        | Width for decoding animation (default is the original dimensions). |

@@ -18,7 +18,7 @@ next:
 ## Implemented by
 
 | Name                                               | Description                                                                                                                                     |
-| -------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| :------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------- |
 | [roArray](/dev/docs/roarray "roArray")             | An array stores an indexed collection of BrightScript objects. Each entry of an array can be a different type, or they may all of the same type |
 | [roByteArray](/dev/docs/robytearray "roByteArray") | The byte array component is used to contain and manipulate an arbitrary array of bytes                                                          |
 | [roList](/dev/docs/rolist "roList")                | The list object implements the interfaces: ifList, ifArray, ifEnum and therefore can behave like an array that can dynamically add members      |
@@ -55,7 +55,7 @@ Adds the specified value to the end of the array.
 ##### Parameters
 
 | Name  | Type    | Description                                    |
-| ----- | ------- | ---------------------------------------------- |
+| :---- | :------ | :--------------------------------------------- |
 | value | Dynamic | The value to be added to the end of the array. |
 
 ### Shift() As Dynamic
@@ -77,7 +77,7 @@ Adds the specified value to the beginning of the array (at the zero index) and s
 ##### Parameters
 
 | Name  | Type    | Description                                          |
-| ----- | ------- | ---------------------------------------------------- |
+| :---- | :------ | :--------------------------------------------------- |
 | value | Dynamic | The value to be added to the beginning of the array. |
 
 ### Delete(index as Integer) As Boolean
@@ -89,7 +89,7 @@ Deletes the indicated array entry, and shifts all entries up. This decreases the
 ##### Parameters
 
 | Name  | Type    | Description                             |
-| ----- | ------- | --------------------------------------- |
+| :---- | :------ | :-------------------------------------- |
 | index | Integer | The entry to be removed from the array. |
 
 ##### Return Value
@@ -121,5 +121,5 @@ Appends the entries in one **roArray** to another. If the passed array contains 
 ##### Parameters
 
 | Name  | Type   | Description                                         |
-| ----- | ------ | --------------------------------------------------- |
+| :---- | :----- | :-------------------------------------------------- |
 | array | Object | The **roArray** to be appended to the target array. |

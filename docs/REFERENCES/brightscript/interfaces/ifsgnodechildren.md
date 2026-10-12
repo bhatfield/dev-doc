@@ -15,7 +15,7 @@ The ifSGNodeChildren interface allows querying and manipulation of nodes in a Sc
 ## Implemented by
 
 | Name                     | Description                                                                             |
-| ------------------------ | --------------------------------------------------------------------------------------- |
+| :----------------------- | :-------------------------------------------------------------------------------------- |
 | [roSGNode](doc:rosgnode) | The roSGNode object is the BrightScript equivalent of SceneGraph XML file node creation |
 
 To use the methods in this interface to manipulate child nodes at the scene level, the subject nodes must be wrapped in another element, typically a Group node. For example:
@@ -74,7 +74,7 @@ Adds a child node to the end of the subject node list of children so that it is 
 ##### Parameters
 
 | Name  | Type     | Description                                           |
-| ----- | -------- | ----------------------------------------------------- |
+| :---- | :------- | :---------------------------------------------------- |
 | child | roSGNode | The child node to be appended to the end of the list. |
 
 ##### Return Value
@@ -90,7 +90,7 @@ Creates a child node of type nodeType, and adds the new node to the end of the s
 ##### Parameters
 
 | Name     | Type   | Description                   |
-| -------- | ------ | ----------------------------- |
+| :------- | :----- | :---------------------------- |
 | nodeType | String | The node class to be created. |
 
 ##### Return Value
@@ -106,7 +106,7 @@ Inserts a previously-created child node at the position index in the subject nod
 ##### Parameters
 
 | Name  | Type     | Description                                               |
-| ----- | -------- | --------------------------------------------------------- |
+| :---- | :------- | :-------------------------------------------------------- |
 | child | roSGNode | The child node to be added to the child tree.             |
 | index | Integer  | The postion index where the child node is to be inserted. |
 
@@ -123,7 +123,7 @@ Finds a child node in the subject node list of children, and if found, remove it
 ##### Parameters
 
 | Name  | Type     | Description                                       |
-| ----- | -------- | ------------------------------------------------- |
+| :---- | :------- | :------------------------------------------------ |
 | child | roSGNode | The child node to be removed from the child tree. |
 
 ##### Return Value
@@ -139,7 +139,7 @@ If the subject node has a child node in the index position, removes that child n
 ##### Parameters
 
 | Name  | Type    | Description                                               |
-| ----- | ------- | --------------------------------------------------------- |
+| :---- | :------ | :-------------------------------------------------------- |
 | index | Integer | The position in the tree of the child node to be removed. |
 
 ##### Return Value
@@ -155,7 +155,7 @@ If the subject node has a child node in the index position, replace that child n
 ##### Parameters
 
 | Name     | Type     | Description                                               |
-| -------- | -------- | --------------------------------------------------------- |
+| :------- | :------- | :-------------------------------------------------------- |
 | newChild | roSGNode | The child node to replace the one specified by the index. |
 | index    | Integer  | The index of the child node to be replaced.               |
 
@@ -172,7 +172,7 @@ Returns the child node specified by the index.
 ##### Parameters
 
 | Name  | Type    | Description                                  |
-| ----- | ------- | -------------------------------------------- |
+| :---- | :------ | :------------------------------------------- |
 | index | Integer | The index of the child node to be retrieved. |
 
 ##### Return Value
@@ -244,7 +244,7 @@ Appends an array of children nodes to the subject node.
 ##### Parameters
 
 | Name        | Type   | Description                                                   |
-| ----------- | ------ | ------------------------------------------------------------- |
+| :---------- | :----- | :------------------------------------------------------------ |
 | child_nodes | Object | An roArray of child nodes to be appended to the subject node. |
 
 ##### Return Value
@@ -260,7 +260,7 @@ Inserts an array of child nodes to the subject node, starting at a specific posi
 ##### Parameters
 
 | Name        | Type    | Description                                               |
-| ----------- | ------- | --------------------------------------------------------- |
+| :---------- | :------ | :-------------------------------------------------------- |
 | child_nodes | Object  | An roArray of child nodes to be inserted in the tree.     |
 | index       | Integer | The position in the tree where to insert the child nodes. |
 
@@ -277,7 +277,7 @@ Removes an array of child nodes from the subject node.
 ##### Parameters
 
 | Name        | Type   | Description                                        |
-| ----------- | ------ | -------------------------------------------------- |
+| :---------- | :----- | :------------------------------------------------- |
 | child_nodes | Object | An roArray of child nodes to removed from the tree |
 
 ##### Return Value
@@ -293,7 +293,7 @@ Removes a specific number of child nodes from the subject node starting at a spe
 ##### Parameters
 
 | Name         | Type    | Description                                                                                         |
-| ------------ | ------- | --------------------------------------------------------------------------------------------------- |
+| :----------- | :------ | :-------------------------------------------------------------------------------------------------- |
 | num_children | Integer | The number of child nodes to be removed.                                                            |
 | index        | Integer | The starting position in the child node tree where the specified number of nodes are to be removed. |
 
@@ -310,7 +310,7 @@ Takes the key-value pairs in an roAssociativeArray and maps the values to the re
 ##### Parameters
 
 | Name      | Type               | Description                                                                                                |
-| --------- | ------------------ | ---------------------------------------------------------------------------------------------------------- |
+| :-------- | :----------------- | :--------------------------------------------------------------------------------------------------------- |
 | fields    | roAssociativeArray | Contains key-value pairs corresponding to the fields in the subject node to be updated.                    |
 | addFields | Boolean            | optional (default = false). If true, and a specified key is not yet present, add it and value to the node. |
 
@@ -350,7 +350,7 @@ Replaces the child nodes in the subject node, starting at the position specified
 ##### Parameters
 
 | Name        | Type    | Description                                                              |
-| ----------- | ------- | ------------------------------------------------------------------------ |
+| :---------- | :------ | :----------------------------------------------------------------------- |
 | child_nodes | Object  | An roArray of child nodes to replace the nodes in the tree.              |
 | index       | Integer | The starting position in the tree from where to replace the child nodes. |
 
@@ -367,7 +367,7 @@ Retrieves a specific number of child nodes from the subject node, starting at a 
 ##### Parameters
 
 | Name         | Type    | Description                                                                                           |
-| ------------ | ------- | ----------------------------------------------------------------------------------------------------- |
+| :----------- | :------ | :---------------------------------------------------------------------------------------------------- |
 | num_children | Integer | The number of child nodes to be retrieved.                                                            |
 | index        | Integer | The starting position in the child node tree where the specified number of nodes are to be retrieved. |
 
@@ -384,7 +384,7 @@ Creates a specific number of new child nodes of a specific type or extended type
 ##### Parameters
 
 | Name         | Type    | Description                                                      |
-| ------------ | ------- | ---------------------------------------------------------------- |
+| :----------- | :------ | :--------------------------------------------------------------- |
 | num_children | Integer | Number of new child nodes to be created.                         |
 | subtype      | String  | Node type or extended type of the new child nodes to be created. |
 

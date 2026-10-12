@@ -63,7 +63,7 @@ The following changes the color of a rectangle, from blue to very dark blue, and
 ## Fields
 
 | Field         | Type            | Default | Access Permission | Description                                                  |
-| ------------- | --------------- | ------- | ----------------- | ------------------------------------------------------------ |
+| :------------ | :-------------- | :------ | :---------------- | :----------------------------------------------------------- |
 | fieldToInterp | string          | ""      | READ_WRITE        | Specifies the field to interpolate. This generally refers to the field on a SceneGraph node that contains the color to animate, such as testRectangle.color field in the example below |
 | key           | array of floats | [ ]     | READ_WRITE        | Specifies the key fractions for the interpolator keyframes. Each key fraction should be a unique value from 0 to 1 indicating the fraction of the animation where the keyValue field value should occur. Behavior is undefined if the number of values in the key field does not match the number of values in the keyValue field |
 | keyValue      | array of colors | [ ]     | READ_WRITE        | Specifies the key values for the interpolator keyframes. Each value in the keyValue field array corresponds to a value in the key field array. Behavior is undefined if the number of values in the key field does not match the number of values in the keyValue field |

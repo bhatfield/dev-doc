@@ -18,7 +18,7 @@ Interface equivalent for intrinsic type Float
 ## Implemented by
 
 | Name      | Description                               |
-| --------- | ----------------------------------------- |
+| :-------- | :---------------------------------------- |
 | [roFloat](doc:rofloat)   | Object equivalent for intrinsic type 'Float' |
 
 ## Supported methods
@@ -42,5 +42,5 @@ Sets the calling Float object to the specified float value.
 ##### Parameters
 
 | Name  | Type  | Description                                            |
-| ----- | ----- | ------------------------------------------------------ |
+| :---- | :---- | :----------------------------------------------------- |
 | value | Float | The float value to be set on the calling Float object. |

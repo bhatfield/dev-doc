@@ -25,7 +25,7 @@ This object is created without any arguments:
 Each EXIF tag represents one piece of metadata. Each tag is uniquely identified by a tag number and the IFD in which it was found. All the tags are grouped into a small set of IFDs (Image File Directory). The EXIF specification describes 5 IFDs:
 
 | Number | Name             | Notes                                                                                                                                    |
-| ------ | ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| :----- | :--------------- | :--------------------------------------------------------------------------------------------------------------------------------------- |
 | 0      | image            | Tags related to image structure and some additional basic information                                                                    |
 | 1      | thumbnail        | Tags related to the thumbnail image structure                                                                                            |
 | 2      | exif             | Tags related to non-image structure data. I know this is an odd name. Usually stuff like ApertureValue that a digital camera would write |
@@ -38,7 +38,7 @@ The associative array returned by GetRawExif() function on the roImageMetadata c
 Each tag associative array contains the following values:
 
 | Number | Name    | Notes                                                                              |
-| ------ | ------- | ---------------------------------------------------------------------------------- |
+| :----- | :------ | :--------------------------------------------------------------------------------- |
 | Tag    | Integer | The tag number                                                                     |
 | Value  | String  | This is a string representation of the data regardless of the underlying data type |
 

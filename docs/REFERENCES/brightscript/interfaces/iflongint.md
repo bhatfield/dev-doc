@@ -16,7 +16,7 @@ next:
 ## Implemented by
 
 | Name          | Description                               |
-| ------------- | ----------------------------------------- |
+| :------------ | :---------------------------------------- |
 | [roLongInteger](doc:rolonginteger) | Object equivalent for intrinsic type LongInteger |
 
 ## Supported methods

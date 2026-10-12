@@ -248,7 +248,7 @@ Roku Originals content must fall within a TV-PG or TV-14 rating. Some general ra
 **Rating Tiers**
 
 |           |                              VIOLENCE                              |                                                                SEX/NUDITY                                                                |                                                  SUBSTANCE USE/ABUSE                                                  |                                                       LANGUAGE                                                       |
-| :-------- | :----------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------: |
+| :-------- | :----------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------- |
 | **TV-PG** |      **✔** Shootings, brawls, fist fights<br />**✖** No blood      |      **✔**  Limited to kissing, couples in bed, implied sexual situations<br />**✖** No nudity at all<br />**✖** No sexual violence      |                           **✔**  Implied drug use (not glorified or must show consequences)                           |                  **✔**  Limited use of bleeping/dropping strong language. Ass, damn, hell, and bitch                 |
 | **TV-14** | **✔**  Brief violence, OK with some blood shown<br />**✕** No gore | **✔**  Covered sex is allowed, brief thrusting, implied sexual abuse OK<br />**✔** Exposed butt/side breast OK<br />**✖** No full nudity |         **✔**  Visuals/use of drug abuse (not glorified, must show consequences)<br />**✖** No smoking minors         |    **✔**  Shit, asshole, bastard (when used in a pejorative matter), goddamn, bitch, dick and pussy (as an insult)   |
 | **TV-MA** |               **✔**  On-screen graphic violence, gore              |                  **✔**  Depictions of graphic sexual activity or sexual violence<br />**✔**  Full male or female nudity                  | **✔**  Graphic visuals of substance use/abuse, injection, etc. (both. minors and adults)<br />**✖** No smoking minors | **✔**  Use of fuck, tits, twat, cum, pussy, and cunt<br />**✖** Racial slurs and hate speech on a case-by-case basis |
@@ -558,7 +558,7 @@ Production Number = As listed on Post Grids
 Air Order = Please list even if the Air Order is the same as the Production Number
 
 | File Name Segment | File Name Abbreviation                                                                          |
-| ----------------- | ----------------------------------------------------------------------------------------------- |
+| :---------------- | :---------------------------------------------------------------------------------------------- |
 | Version           | TXTD (Texted), TXLS (Textless), or PROXY                                                        |
 | Language          | enUS (American English) or esMX (Neutral Latin American Spanish)                                |
 | Resolution        | UHD or HD + Color Space = SDR or HDR                                                            |
@@ -581,7 +581,7 @@ Audio materials should be named to include all appropriate information:
 `MAMA_102_v04_20220919_enUS_PM_Nearfield_2ch_48k_24b_23976_LT.wav`
 
 | **Material Type**                             | **Abbreviation**                  |
-| --------------------------------------------- | --------------------------------- |
+| :-------------------------------------------- | :-------------------------------- |
 | Printmaster                                   | PM                                |
 | Music & Effects                               | ME                                |
 | Audio Stem                                    | FXStem, MXStem, DIAStem, FFFXStem |
@@ -589,13 +589,13 @@ Audio materials should be named to include all appropriate information:
 | Add’l Detail (Dialogue Guide Track, ADR, etc) | GUIDE, ADR                        |
 
 | **Channel Type** | **Abbreviation** |
-| ---------------- | ---------------- |
+| :--------------- | :--------------- |
 | Mono             | Mono             |
 | Stereo           | 2CH              |
 | 5.1 Surround     | 6CH              |
 
 | **Track Assignment** | **Abbreviation**     |
-| -------------------- | -------------------- |
+| :------------------- | :------------------- |
 | Mono                 | N/A                  |
 | Stereo               | LT, RT               |
 | 5.1 Surround         | L, R, C, LFE, LS, RS |
@@ -654,7 +654,7 @@ Mixing Specifications:
 #### 8.5.3 Texted video masters
 
 | Video Codec            | ProRes                                                  |
-| ---------------------- | ------------------------------------------------------- |
+| :--------------------- | :------------------------------------------------------ |
 | Container              | MOV                                                     |
 | Profile                | 422 HQ                                                  |
 | Minimum Bitrate        | 175 mbits or higher                                     |
@@ -668,7 +668,7 @@ Mixing Specifications:
 | Native frame rate      | No 3:2 pulldown flags                                   |
 
 | Audio Codec                        | PCM                                                                                                                                                                                        |
-| ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| :--------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Format                             | 2 Interleaved Tracks or 8 Mono Tracks                                                                                                                                                      |
 | Track Layout                       | Interleaved: Track 1: 5.1, L-R-C-LFE-Ls-Rs  Track 2: Stereo, LT/RT<br />Mono:   L, R, C, LFE, Ls, Rs, Stereo LT, Stereo RT<br />**7.1 audio is not permitted on any masters at this time** |
 | Sample Rate/ Bit Depth             | 48000Hz/24-bit                                                                                                                                                                             |
@@ -685,7 +685,7 @@ Additionally, if foreign language subtitles cover 30% or more of a given episode
 Examples of what to remove for the Textless Masters:
 
 | Forced Narratives                                                                        | Credits                                                                                  | Text-Based Graphics                                                                       |
-| ---------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| :--------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------- |
 | ![roku400px - premium-asset-1](https://image.roku.com/ZHZscHItMTc2/post-alt-specs-1.png) | ![roku400px - premium-asset-1](https://image.roku.com/ZHZscHItMTc2/post-alt-specs-2.png) | ![roku400px - premium-asset-1](https://image.roku.com/ZHZscHItMTc2/post-alt-specs-3.jpeg) |
 
 <br />
@@ -700,7 +700,7 @@ _Roku Best Practices_
 From each Texted Master created, please export the following proxy files:
 
 | Video Codec         | H.264                                                                                                                                                                                                                        |
-| ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :------------------ | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Container           | MOV or MP4                                                                                                                                                                                                                   |
 | Picture             | (1) Clean & (1) w/ Vis.TC UR & (1) w/ Burned English CC\* & (1) Series Opener Only                                                                                                                                           |
 | Bitrate             | 5mbit/s (total file size \< 1gb to 2gb)                                                                                                                                                                                      |

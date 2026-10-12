@@ -18,7 +18,7 @@ The [roUrlTransfer](doc:rourltransfer) component sends an roSSEvent to its messa
 During an SSE transfer, the message port receives the following events:
 
 | Event                          | When                                          |
-| ------------------------------ | --------------------------------------------- |
+| :----------------------------- | :-------------------------------------------- |
 | [roUrlEvent](doc:rourlevent) with event type 2 | The first server-sent event is received. Response headers and other transfer information are available at this point |
 | roSSEvent                      | Each server-sent event is received            |
 | [roUrlEvent](doc:rourlevent) with event type 1 | The transfer completes                        |

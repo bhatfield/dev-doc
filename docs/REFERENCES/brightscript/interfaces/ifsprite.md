@@ -16,7 +16,7 @@ next:
 ## Implemented by
 
 | Name     | Description |
-| -------- | ----------- |
+| :------- | :---------- |
 | [roSprite](doc:rosprite) | This component is associated with a managing roCompositor object |
 
 
@@ -31,7 +31,7 @@ Move the sprite to a new set of coordinates.
 ##### Parameters
 
 | Name | Type    | Description                                          |
-| ---- | ------- | ---------------------------------------------------- |
+| :--- | :------ | :--------------------------------------------------- |
 | x    | Integer | The x-coordinate to which the sprite is to be moved. |
 | y    | Integer | The y-coordinate to which the sprite is to be moved. |
 
@@ -44,7 +44,7 @@ Move the sprite to a new position based on offsets to the current position.
 ##### Parameters
 
 | Name    | Type    | Description                                          |
-| ------- | ------- | ---------------------------------------------------- |
+| :------ | :------ | :--------------------------------------------------- |
 | xOffset | Integer | The offset from the current x-coordinate to be used. |
 | yOffset | Integer | The offset from the current y-coordinate to be used. |
 
@@ -77,7 +77,7 @@ Sets the z value of the sprite. The z value defines the order in which sprites a
 ##### Parameters
 
 | Name | Type    | Description                            |
-| ---- | ------- | -------------------------------------- |
+| :--- | :------ | :------------------------------------- |
 | z    | Integer | The z value to be used for the sprite. |
 
 ### GetZ() as Integer
@@ -138,7 +138,7 @@ Defines the sprite membership though flags. The  flags are used with CollidableF
 ##### Parameters
 
 | Name  | Type    | Description                                                  |
-| ----- | ------- | ------------------------------------------------------------ |
+| :---- | :------ | :----------------------------------------------------------- |
 | flags | Integer | Enables "levels" of collision detection, as only sprites with a member flag bit that matches a collidable flag bit will be checked for collisions. The default value is 1. |
 
 ### GetMemberFlags() as Integer
@@ -160,7 +160,7 @@ Sets bits to determine which sprites will be checked for collisions. The sprites
 ##### Parameters
 
 | Name  | Type    | Description                                                  |
-| ----- | ------- | ------------------------------------------------------------ |
+| :---- | :------ | :----------------------------------------------------------- |
 | flags | Integer | The bits to be set for determining which sprites to check for collisions. The default value is 1. |
 
 ### GetCollidableFlags() as Integer
@@ -182,7 +182,7 @@ Sets the region of the sprite to the passed roRegion object. If one already is s
 ##### Parameters
 
 | Name      | Type  | Description                                                                                                 |
-| --------- | ----- | ----------------------------------------------------------------------------------------------------------- |
+| :-------- | :---- | :---------------------------------------------------------------------------------------------------------- |
 | region | Object | The roRegion object to be used as the region for the sprite. |
 
 ### GetRegion() as Object
@@ -204,7 +204,7 @@ Adjusts the part of an [roRegion](doc:roregion)'s bitmap that is being displayed
 ##### Parameters
 
 | Name   | Type    | Description                      |
-| ------ | ------- | -------------------------------- |
+| :----- | :------ | :------------------------------- |
 | x      | Integer | The x-coordinate for the bitmap. |
 | y      | Integer | The y-coordinate for the bitmap. |
 | width  | Integer | The width of the bitmap.         |
@@ -219,7 +219,7 @@ Associates user-defined data with the sprite. The data can be any type including
 ##### Parameters
 
 | Name   | Type    | Description |
-| ----   | ------- | ------- |
+| :---   | :------ | :------ |
 | data      | Dynamic | The user-defined data to be associated with the sprite. |
 
 ### GetData() as Dynamic

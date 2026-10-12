@@ -17,7 +17,7 @@ next:
 
 
 | Name          | Description |
-| ------------- | ----------- |
+| :------------ | :---------- |
 | [roBoolean](doc:roboolean)   | Object equivalent for intrinsic type Boolean            |
 | [roDouble](doc:rodouble)      | Object equivalent for intrinsic type 'Double'            |
 | [roFloat](doc:rofloat)       | Object equivalent for intrinsic type 'Float'            |

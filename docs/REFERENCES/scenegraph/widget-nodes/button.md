@@ -23,7 +23,7 @@ When a Button node is created that is not a child of a ButtonGroup node, typical
 ## Fields
 
 | Field                   | Type              | Default                                   | Access Permission | Description           |
-| ----------------------- | ----------------- | ----------------------------------------- | ----------------- | --------------------- |
+| :---------------------- | :---------------- | :---------------------------------------- | :---------------- | :-------------------- |
 | text | string | "" | READ_WRITE | Specifies the text to be displayed as the button label |
 | textColor | color | 0xddddddff | READ_WRITE | Specifies the color of the button label when the button does not have the key focus |
 | focusedTextColor | color | 0x262626ff | READ_WRITE | Specifies the color of the button label when the button has the key focus |

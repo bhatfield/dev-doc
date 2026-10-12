@@ -1028,7 +1028,7 @@ The deprecated APIs will remain in the Roku OS and continue to work for one year
 Below is a complete list of the APIs deprecated as of Roku OS 8.1.
 
 | Deprecated API           | Replacement API                                                                                                         |
-| ------------------------ | ----------------------------------------------------------------------------------------------------------------------- |
+| :----------------------- | :---------------------------------------------------------------------------------------------------------------------- |
 | GetDrmInfo()             | [GetDrmInfoEx()](/docs/references/brightscript/interfaces/ifdeviceinfo.md#getdrminfoex-as-object)                       |
 | GetAdvertisingId()       | [GetRIDA()](/docs/references/brightscript/interfaces/ifdeviceinfo.md#getrida-as-string)                                 |
 | IsAdIdTrackingDisabled() | [IsRIDADisabled()](/docs/references/brightscript/interfaces/ifdeviceinfo.md#isridadisabled-as-boolean)                  |

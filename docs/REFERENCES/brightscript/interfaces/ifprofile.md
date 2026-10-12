@@ -17,7 +17,7 @@ next:
 ## Implemented by
 
 | Name                       | Description                                                            |
-| -------------------------- | ---------------------------------------------------------------------- |
+| :------------------------- | :--------------------------------------------------------------------- |
 | [roProfile](doc:roprofile) | The roProfile component represents the user profile returned by [roUserInfo.GetCurrentProfile()](doc:ifuserinfo#getcurrentprofile-as-object) |
 
 ## Supported methods
@@ -33,7 +33,7 @@ Returns the type of the current user profile.
 The type of the current user profile, which. may be one of the following values:
 
 | Value   | Description                                                   |
-| ------- | ------------------------------------------------------------- |
+| :------ | :------------------------------------------------------------ |
 | "kids"  | The current profile is a kid profile                          |
 | "teen"  | The current profile is a teen profile                         |
 | "adult" | The current profile is an adult profile                       |

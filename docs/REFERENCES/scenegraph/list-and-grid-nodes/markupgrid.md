@@ -55,11 +55,11 @@ There are three general categories of layouts:
 <table>
   <thead>
     <tr>
-      <th>Field</th>
-      <th>Type</th>
-      <th>Default</th>
-      <th>Access Permission</th>
-      <th>Description</th>
+      <th style={{ textAlign: "left" }}>Field</th>
+      <th style={{ textAlign: "left" }}>Type</th>
+      <th style={{ textAlign: "left" }}>Default</th>
+      <th style={{ textAlign: "left" }}>Access Permission</th>
+      <th style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>
@@ -294,9 +294,9 @@ Note that the fields are updated in the order presented in the table below. Any 
 <table>
   <thead>
     <tr>
-      <th>Field Name</th>
-      <th>Field Type</th>
-      <th>Description</th>
+      <th style={{ textAlign: "left" }}>Field Name</th>
+      <th style={{ textAlign: "left" }}>Field Type</th>
+      <th style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>
@@ -437,9 +437,9 @@ The section root ContentNodes use the following attributes:
 <table>
   <thead>
     <tr>
-      <th>Attribute</th>
-      <th>Type</th>
-      <th>Description</th>
+      <th style={{ textAlign: "left" }}>Attribute</th>
+      <th style={{ textAlign: "left" }}>Type</th>
+      <th style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>

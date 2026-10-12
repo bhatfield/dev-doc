@@ -330,22 +330,22 @@ Roku admite tres tipos de imagen para cada contenido. Cada tipo de imagen se uti
 <Table align={["left","left","left","left","left","left"]}>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Formato
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Extensión
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Tipo de imagen
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Resolución mínima
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Resolución preferida
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Relación de aspecto
       </th>
     </tr>
@@ -584,7 +584,7 @@ Los archivos de video fuente, subtítulos descriptivos e ilustraciones entregado
 <Table>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Conjuntos de caracteres
       </th>
     </tr>
@@ -769,10 +769,10 @@ Roku utiliza un motor de transformación que puede “normalizar” diferentes f
 <Table>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Requisitos de películas y clips
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Requisitos de TV
       </th>
     </tr>
@@ -1645,13 +1645,13 @@ El bloque que describe los subtítulos sidecar del archivo de video fuente. El a
 <Table align={["left","left","left"]}>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Xpath XML
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Valores aceptados
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Obligatorio
       </th>
     </tr>
@@ -2668,13 +2668,13 @@ El bloque que describe los subtítulos sidecar del archivo de video fuente. El a
 <Table align={["left","left","left"]}>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Xpath XML
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Valores aceptados
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Obligatorio
       </th>
     </tr>
@@ -2842,13 +2842,13 @@ Define el subType (subtipo) de contenido del paquete. Actualmente Roku no admite
 <Table align={["left","left","left"]}>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Xpath XML
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Valores aceptados
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Obligatorio
       </th>
     </tr>
@@ -3666,16 +3666,16 @@ La plantilla de metadatos de Excel de Roku debe enviarse con todos los campos ob
 <Table align={["left","left","left","left"]}>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Campo
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Descripción
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Valores aceptados
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Obligatorio
       </th>
     </tr>
@@ -4200,16 +4200,16 @@ La plantilla de metadatos de Excel de Roku debe enviarse con todos los campos ob
 <Table align={["left","left","left","left"]}>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Campo
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Descripción
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Valores aceptados
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Obligatorio
       </th>
     </tr>
@@ -4916,16 +4916,16 @@ La plantilla de metadatos de Excel de Roku debe enviarse con todos los campos ob
 <Table align={["left","left","left","left"]}>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Campo
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Descripción
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Valores aceptados
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Obligatorio
       </th>
     </tr>

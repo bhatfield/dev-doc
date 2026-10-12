@@ -158,11 +158,11 @@ To create a purchase option for a product, follow these steps:
 <Table>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Billing plan setting
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
         Description
       </th>
     </tr>

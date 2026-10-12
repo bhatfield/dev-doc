@@ -47,10 +47,10 @@ The following fields are used to configure general time grid settings.
 <table>
   <thead>
     <tr>
-      <th>Field</th>
-      <th>Type</th>
-      <th>Default</th>
-      <th>Description</th>
+      <th style={{ textAlign: "left" }}>Field</th>
+      <th style={{ textAlign: "left" }}>Type</th>
+      <th style={{ textAlign: "left" }}>Default</th>
+      <th style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>
@@ -106,10 +106,10 @@ The following fields are used to configure and control app selection and focus.
 <table>
   <thead>
     <tr>
-      <th>Field</th>
-      <th>Type</th>
-      <th>Default</th>
-      <th>Description</th>
+      <th style={{ textAlign: "left" }}>Field</th>
+      <th style={{ textAlign: "left" }}>Type</th>
+      <th style={{ textAlign: "left" }}>Default</th>
+      <th style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>
@@ -173,10 +173,10 @@ The following fields are used to configure and control the channel information c
 <table>
   <thead>
     <tr>
-      <th>Field</th>
-      <th>Type</th>
-      <th>Default</th>
-      <th>Description</th>
+      <th style={{ textAlign: "left" }}>Field</th>
+      <th style={{ textAlign: "left" }}>Type</th>
+      <th style={{ textAlign: "left" }}>Default</th>
+      <th style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>
@@ -270,10 +270,10 @@ The following fields are used to configure and control the program titles and ce
 <table>
   <thead>
     <tr>
-      <th>Field</th>
-      <th>Type</th>
-      <th>Default</th>
-      <th>Description</th>
+      <th style={{ textAlign: "left" }}>Field</th>
+      <th style={{ textAlign: "left" }}>Type</th>
+      <th style={{ textAlign: "left" }}>Default</th>
+      <th style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>
@@ -391,10 +391,10 @@ The following fields are used to control and configure the time bar that is disp
 <table>
   <thead>
     <tr>
-      <th>Field</th>
-      <th>Type</th>
-      <th>Default</th>
-      <th>Description</th>
+      <th style={{ textAlign: "left" }}>Field</th>
+      <th style={{ textAlign: "left" }}>Type</th>
+      <th style={{ textAlign: "left" }}>Default</th>
+      <th style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>
@@ -440,10 +440,10 @@ The following fields are used to enable the Now Bar, which is the thin vertical 
 <table>
   <thead>
     <tr>
-      <th>Field</th>
-      <th>Type</th>
-      <th>Default</th>
-      <th>Description</th>
+      <th style={{ textAlign: "left" }}>Field</th>
+      <th style={{ textAlign: "left" }}>Type</th>
+      <th style={{ textAlign: "left" }}>Default</th>
+      <th style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>

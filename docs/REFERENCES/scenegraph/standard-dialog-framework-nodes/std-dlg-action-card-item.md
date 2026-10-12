@@ -32,11 +32,11 @@ The **StdDlgActionCardItem** node is designed to be focusable; therefore, it may
 <table>
 <thead>
 <tr>
-<th>Field</th>
-<th>Type</th>
-<th>Default</th>
-<th>Access Permission</th>
-<th>Description</th>
+<th style={{ textAlign: "left" }}>Field</th>
+<th style={{ textAlign: "left" }}>Type</th>
+<th style={{ textAlign: "left" }}>Default</th>
+<th style={{ textAlign: "left" }}>Access Permission</th>
+<th style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -52,7 +52,7 @@ The **StdDlgActionCardItem** node is designed to be focusable; therefore, it may
 <td>string</td>
 <td>"none"</td>
 <td>READ_WRITE</td>
-<td>Specifies the icon used for a <strong>StdDlgActionCardItem</strong> node. This may be one of the following values: <table><thead><tr><th>Value</th><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>none</td><td>string</td><td>No icon is shown.</td></tr><tr><td>more_info</td><td>string</td><td>A right arrow icon is displayed to the right of the <strong>StdDlgActionCardItem</strong> child nodes. This icon is typically used to indicate that more information will be shown when the action card is selected. Typically, this additional content is displayed in another dialog.</td></tr><tr><td>checkbox</td><td>string</td><td>A checkbox icon is shown to the left of the StdDlgActionCardItem child nodes.When the <strong>iconStatus</strong> field is set to "true", this adds a checkmark inside the box.When the <strong>iconStatus</strong> field is set to "false", an empty box icon is displayed.</td></tr><tr><td>radiobutton</td><td>string</td><td>A radio button icon is shown to the left of the StdDlgActionCardItem child nodes.When the <strong>iconStatus</strong> field is set to "true", this adds a filled circle inside the box.When the <strong>iconStatus</strong> field is set to "false", an empty circle icon is displayed.</td></tr></tbody></table></td>
+<td>Specifies the icon used for a <strong>StdDlgActionCardItem</strong> node. This may be one of the following values: <table><thead><tr><th style={{ textAlign: "left" }}>Value</th><th style={{ textAlign: "left" }}>Type</th><th style={{ textAlign: "left" }}>Description</th></tr></thead><tbody><tr><td>none</td><td>string</td><td>No icon is shown.</td></tr><tr><td>more_info</td><td>string</td><td>A right arrow icon is displayed to the right of the <strong>StdDlgActionCardItem</strong> child nodes. This icon is typically used to indicate that more information will be shown when the action card is selected. Typically, this additional content is displayed in another dialog.</td></tr><tr><td>checkbox</td><td>string</td><td>A checkbox icon is shown to the left of the StdDlgActionCardItem child nodes.When the <strong>iconStatus</strong> field is set to "true", this adds a checkmark inside the box.When the <strong>iconStatus</strong> field is set to "false", an empty box icon is displayed.</td></tr><tr><td>radiobutton</td><td>string</td><td>A radio button icon is shown to the left of the StdDlgActionCardItem child nodes.When the <strong>iconStatus</strong> field is set to "true", this adds a filled circle inside the box.When the <strong>iconStatus</strong> field is set to "false", an empty circle icon is displayed.</td></tr></tbody></table></td>
 </tr>
 </tbody>
 </table>

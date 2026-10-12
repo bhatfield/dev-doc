@@ -93,7 +93,7 @@ This can be useful when the RoSGNode objects come from two different sources, fo
 
 | Name       | Return Type    | Parameters              | Return Value | Description           |
 | :--------- | :------ | :---------------------- | :-------------- | :-------------------- |
-| isSameNode | Boolean | <table><thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>RoSGNode</td><td>Object</td><td>The roSGNode to be checked.</td></tr></tbody></table> | True/False      | Returns a Boolean value indicating whether the RoSGNode parameter refers to the same SceneGraph node object as the subject node |
+| isSameNode | Boolean | <table><thead><tr><th style={{ textAlign: "left" }}>Name</th><th style={{ textAlign: "left" }}>Type</th><th style={{ textAlign: "left" }}>Description</th></tr></thead><tbody><tr><td>RoSGNode</td><td>Object</td><td>The roSGNode to be checked.</td></tr></tbody></table> | True/False      | Returns a Boolean value indicating whether the RoSGNode parameter refers to the same SceneGraph node object as the subject node |
 
 
 ##### Return Value
@@ -119,18 +119,18 @@ Returns a copy of the entire node tree or just a shallow copy.
 <table>
 <thead>
 <tr>
-<th>Name</th>
-<th>Return Type</th>
-<th>Parameters</th>
-<th>Return Value</th>
-<th>Description</th>
+<th style={{ textAlign: "left" }}>Name</th>
+<th style={{ textAlign: "left" }}>Return Type</th>
+<th style={{ textAlign: "left" }}>Parameters</th>
+<th style={{ textAlign: "left" }}>Return Value</th>
+<th style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>clone</td>
 <td>Object</td>
-<td><table><thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>isDeepCopy</td><td>Boolean</td><td>True = return a copy of the entire node tree. <br />False = return a shallow copy of the node tree.</td></tr></tbody></table></td>
+<td><table><thead><tr><th style={{ textAlign: "left" }}>Name</th><th style={{ textAlign: "left" }}>Type</th><th style={{ textAlign: "left" }}>Description</th></tr></thead><tbody><tr><td>isDeepCopy</td><td>Boolean</td><td>True = return a copy of the entire node tree. <br />False = return a shallow copy of the node tree.</td></tr></tbody></table></td>
 <td>Node tree</td>
 <td></td>
 </tr>

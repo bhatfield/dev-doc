@@ -117,16 +117,16 @@ The Widevine support security levels for the different Roku devices is as follow
 <table>
   <thead>
     <tr>
-      <th>L1 TVs</th>
-      <th>L1 Players</th>
-      <th>L2 Players</th>
+      <th style={{ textAlign: "left" }}>L1 TVs</th>
+      <th style={{ textAlign: "left" }}>L1 Players</th>
+      <th style={{ textAlign: "left" }}>L2 Players</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td><ul><li>FtWorth</li><li>Longview</li><li>Reno/Bandera</li><li>Liberty</li><li>Midland/El Paso</li><li>Malone/Camden</li><li>Roma</li><li>Athens</li><li>Miami</li><li>Trinidad</li><li>Roxton</li><li>Sandia</li><li>Damon</li><li>Shiner</li></ul></td>
       <td><ul><li>Dallas</li><li>Cooper 2/3/4</li><li>Bryan</li><li>Amarillo 1080/4K</li><li>Gilbert 1080/4K</li><li>Nemo</li><li>Littlefield</li><li>Fruitland/Chico</li><li>Benjamin</li><li>Marlin</li><li>Madison</li><li>Bailey</li><li>Rockett</li><li>Logan</li><li>Lockhart</li><li>Brewster</li></ul></td>
-      <td><ul><li>Giga</li><li>Tyler</li><li>Paolo</li><li>Sugarland/Jackson</li><li>Austin/Mustang</li><li>Briscoe</li></ul><p><strong>Required Roku manifest entries:</strong></p><pre><code>requires\_widevine\_drm=1requires\_widevine\_version=1.0</code></pre><p><strong>Configure DRM parameters in an roAssociativeArray:</strong></p><pre><code>drmParams = \{keySystem: "Widevine"licenseServerURL: "\<http(s)://license-server-host/path?param=value>"}</code></pre><p><strong>Setup ContentNode and set to Video node:</strong></p><pre><code>contentNode = createObject("roSGNode", "contentNode")contentNode.streamFormat = "dash"contentNode.url = "wwww\.myvideo.com/content.mpd"contentNode.drmParams = drmParamsm.video.content = contentNode</code></pre><p>For the Digital Rights Management (DRM) Control Attributes, refer to the <a href="https://roku-ent.readme.io/dev/update/docs/content-metadata">Content Meta-Data</a> documentation.</p><p><strong>Supported schemes</strong></p><table><thead><tr><th>Scheme</th><th>Key Rotation?</th><th>Firmware dependency</th></tr></thead><tbody><tr><td>CTR</td><td>No</td><td>8.1.x</td></tr><tr><td>CTR</td><td>Yes</td><td>9.0.x</td></tr><tr><td>CBC/CBCS</td><td>Yes</td><td>9.0.x</td></tr></tbody></table></td>
+      <td><ul><li>Giga</li><li>Tyler</li><li>Paolo</li><li>Sugarland/Jackson</li><li>Austin/Mustang</li><li>Briscoe</li></ul><p><strong>Required Roku manifest entries:</strong></p><pre><code>requires\_widevine\_drm=1requires\_widevine\_version=1.0</code></pre><p><strong>Configure DRM parameters in an roAssociativeArray:</strong></p><pre><code>drmParams = \{keySystem: "Widevine"licenseServerURL: "\<http(s)://license-server-host/path?param=value>"}</code></pre><p><strong>Setup ContentNode and set to Video node:</strong></p><pre><code>contentNode = createObject("roSGNode", "contentNode")contentNode.streamFormat = "dash"contentNode.url = "wwww\.myvideo.com/content.mpd"contentNode.drmParams = drmParamsm.video.content = contentNode</code></pre><p>For the Digital Rights Management (DRM) Control Attributes, refer to the <a href="https://roku-ent.readme.io/dev/update/docs/content-metadata">Content Meta-Data</a> documentation.</p><p><strong>Supported schemes</strong></p><table><thead><tr><th style={{ textAlign: "left" }}>Scheme</th><th style={{ textAlign: "left" }}>Key Rotation?</th><th style={{ textAlign: "left" }}>Firmware dependency</th></tr></thead><tbody><tr><td>CTR</td><td>No</td><td>8.1.x</td></tr><tr><td>CTR</td><td>Yes</td><td>9.0.x</td></tr><tr><td>CBC/CBCS</td><td>Yes</td><td>9.0.x</td></tr></tbody></table></td>
     </tr>
   </tbody>
 </table>

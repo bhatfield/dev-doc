@@ -155,8 +155,8 @@ ID    Location                                Source Code
 <table>
   <thead>
     <tr>
-      <th>Command</th>
-      <th>Description</th>
+      <th style={{ textAlign: "left" }}>Command</th>
+      <th style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>

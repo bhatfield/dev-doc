@@ -33,8 +33,8 @@ In the demo of the App Behavior Analysis tool, the video uses the SceneGraph Dev
 <table>
   <thead>
     <tr>
-      <th>Item</th>
-      <th>Location</th>
+      <th style={{ textAlign: "left" }}>Item</th>
+      <th style={{ textAlign: "left" }}>Location</th>
     </tr>
   </thead>
   <tbody>

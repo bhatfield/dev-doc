@@ -28,11 +28,11 @@ A sample demonstrating how to use the SoundEffect node can be found here: [Simpl
 <table>
 <thead>
 <tr>
-<th class="short-line">Field</th>
-<th class="short-line">Type</th>
-<th class="short-line">Default</th>
-<th class="short-line">Access Permission</th>
-<th class="short-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Field</th>
+<th class="short-line" style={{ textAlign: "left" }}>Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Default</th>
+<th class="short-line" style={{ textAlign: "left" }}>Access Permission</th>
+<th class="short-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -51,8 +51,8 @@ A sample demonstrating how to use the SoundEffect node can be found here: [Simpl
 <td class="long-line">Set to control the audio playback. Getting the value of this field returns the most recent value set, or none if no value has been set.<br><br><div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Option</th>
-<th class="short-line">Effect</th>
+<th class="short-line" style={{ textAlign: "left" }}>Option</th>
+<th class="short-line" style={{ textAlign: "left" }}>Effect</th>
 </tr>
 </thead>
 <tbody>
@@ -79,8 +79,8 @@ A sample demonstrating how to use the SoundEffect node can be found here: [Simpl
 <td class="long-line">Can be used to track the progress of current state of local and networked sound files When the field value changes to ready, the sound is ready to be played. The possible values are:<br><br><div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Value</th>
-<th class="short-line">Meaning</th>
+<th class="short-line" style={{ textAlign: "left" }}>Value</th>
+<th class="short-line" style={{ textAlign: "left" }}>Meaning</th>
 </tr>
 </thead>
 <tbody>
@@ -123,8 +123,8 @@ A sample demonstrating how to use the SoundEffect node can be found here: [Simpl
 <td class="long-line">Indicates the status of the sound file.<br><br><div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Value</th>
-<th class="short-line">Meaning</th>
+<th class="short-line" style={{ textAlign: "left" }}>Value</th>
+<th class="short-line" style={{ textAlign: "left" }}>Meaning</th>
 </tr>
 </thead>
 <tbody>

@@ -30,10 +30,10 @@ This document lists the requirements for displaying video and interactive ads in
 <table>
   <thead>
     <tr>
-      <th>Requirement</th>
-      <th>Name</th>
-      <th>Description</th>
-      <th>Documentation</th>
+      <th style={{ textAlign: "left" }}>Requirement</th>
+      <th style={{ textAlign: "left" }}>Name</th>
+      <th style={{ textAlign: "left" }}>Description</th>
+      <th style={{ textAlign: "left" }}>Documentation</th>
     </tr>
   </thead>
   <tbody>
@@ -75,10 +75,10 @@ This document lists the requirements for displaying video and interactive ads in
 <table>
   <thead>
     <tr>
-      <th>Requirement</th>
-      <th>Name</th>
-      <th>Description</th>
-      <th>Documentation</th>
+      <th style={{ textAlign: "left" }}>Requirement</th>
+      <th style={{ textAlign: "left" }}>Name</th>
+      <th style={{ textAlign: "left" }}>Description</th>
+      <th style={{ textAlign: "left" }}>Documentation</th>
     </tr>
   </thead>
   <tbody>
@@ -102,10 +102,10 @@ This document lists the requirements for displaying video and interactive ads in
 <table>
   <thead>
     <tr>
-      <th>Requirement</th>
-      <th>Name</th>
-      <th>Description</th>
-      <th>Documentation</th>
+      <th style={{ textAlign: "left" }}>Requirement</th>
+      <th style={{ textAlign: "left" }}>Name</th>
+      <th style={{ textAlign: "left" }}>Description</th>
+      <th style={{ textAlign: "left" }}>Documentation</th>
     </tr>
   </thead>
   <tbody>

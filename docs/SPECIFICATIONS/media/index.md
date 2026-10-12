@@ -53,45 +53,45 @@ Roku supports the following widely-used standard formats for adaptive bit rate s
 <table>
   <thead>
     <tr>
-      <th></th>
-      <th scope="col">DASH</th>
-      <th scope="col">HLS</th>
-      <th scope="col">Smooth</th>
+      <th style={{ textAlign: "left" }}></th>
+      <th scope="col" style={{ textAlign: "left" }}>DASH</th>
+      <th scope="col" style={{ textAlign: "left" }}>HLS</th>
+      <th scope="col" style={{ textAlign: "left" }}>Smooth</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th scope="row">Audio Codecs</th>
+      <th scope="row" style={{ textAlign: "left" }}>Audio Codecs</th>
       <td>AAC, DTS, DD, DD+</td>
       <td>AAC, MP3, DTS, DD, DD+</td>
       <td>AAC, MP3, DTS, DD, DD+</td>
     </tr>
     <tr>
-      <th scope="row">Video Codecs</th>
+      <th scope="row" style={{ textAlign: "left" }}>Video Codecs</th>
       <td>AVC, HEVC</td>
       <td>AVC, HEVC</td>
       <td>AVC, HEVC</td>
     </tr>
     <tr>
-      <th scope="row">Subtitle formats</th>
+      <th scope="row" style={{ textAlign: "left" }}>Subtitle formats</th>
       <td>TTML, fragmented ISMT<br />TTML, unfragmented TTML text<br />TTML, side-loaded TTML text<br /><br />WebVTT, fragmented WebVTT text<br />WebVTT, unfragmented WebVTT text<br />WebVTT, side-loaded WebVTT text<br /><br />SRT, side-loaded SRT text</td>
       <td>TTML, side-loaded TTML text<br /><br />WebVTT, fragmented WebVTT text<br />WebVTT, unfragmented WebVTT text<br />WebVTT, side-loaded WebVTT text<br /><br />SRT, side-loaded SRT text</td>
       <td>TTML, fragmented ISMT<br />TTML, side-loaded TTML text<br /><br />WebVTT, side-loaded WebVTT text<br /><br />SRT, side-loaded SRT text</td>
     </tr>
     <tr>
-      <th scope="row">Audio/video chunk format</th>
+      <th scope="row" style={{ textAlign: "left" }}>Audio/video chunk format</th>
       <td>Fragmented MP4, CMAF (muxing audio and video not supported for CMAF)</td>
       <td>video: TS, CMAF (muxing audio and video not supported for CMAF)<br />audio: aac, ac3, eac3</td>
       <td>PIFF</td>
     </tr>
     <tr>
-      <th scope="row">DRM</th>
+      <th scope="row" style={{ textAlign: "left" }}>DRM</th>
       <td>PlayReady, Widevine</td>
       <td>AES-128, Widevine</td>
       <td>PlayReady</td>
     </tr>
     <tr>
-      <th scope="row">HDR support</th>
+      <th scope="row" style={{ textAlign: "left" }}>HDR support</th>
       <td>Dolby Vision, HDR10</td>
       <td>Dolby Vision, HDR10</td>
       <td></td>
@@ -133,75 +133,75 @@ Videos can be encoded using `H.264`, `HEVC (H.265)`, or `AV1` (DASH only) codecs
 <table>
   <thead>
     <tr>
-      <th></th>
-      <th scope="col">AVC (H.264)</th>
-      <th scope="col">HEVC (H.265)<sup>1</sup></th>
-      <th scope="col">AV1 (DASH only)</th>
+      <th style={{ textAlign: "left" }}></th>
+      <th scope="col" style={{ textAlign: "left" }}>AVC (H.264)</th>
+      <th scope="col" style={{ textAlign: "left" }}>HEVC (H.265)<sup>1</sup></th>
+      <th scope="col" style={{ textAlign: "left" }}>AV1 (DASH only)</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th scope="row">Aspect Ratio<sup>2</sup></th>
+      <th scope="row" style={{ textAlign: "left" }}>Aspect Ratio<sup>2</sup></th>
       <td>Various</td>
       <td>Various</td>
       <td></td>
     </tr>
     <tr>
-      <th scope="row">Dimension</th>
+      <th scope="row" style={{ textAlign: "left" }}>Dimension</th>
       <td>Various up to 1920x1080</td>
       <td>Various up to 3840x2160</td>
       <td>Various up to 7680 x 4320</td>
     </tr>
     <tr>
-      <th scope="row">Input Frame Rate<sup>3</sup></th>
+      <th scope="row" style={{ textAlign: "left" }}>Input Frame Rate<sup>3</sup></th>
       <td>24p, 25p, 30p, 50p, 60p</td>
       <td>24p, 25p, 30p, 50p, 60p</td>
       <td>24p,25p,30p,50p,60p</td>
     </tr>
     <tr>
-      <th scope="row">Color Space</th>
+      <th scope="row" style={{ textAlign: "left" }}>Color Space</th>
       <td>Rec.709</td>
       <td>Rec.709, Rec.2020</td>
       <td>Rec.709, Rec.2020</td>
     </tr>
     <tr>
-      <th scope="row">Profile</th>
+      <th scope="row" style={{ textAlign: "left" }}>Profile</th>
       <td>main, high</td>
       <td>main, main 10</td>
       <td>main, main 10</td>
     </tr>
     <tr>
-      <th scope="row">Level</th>
+      <th scope="row" style={{ textAlign: "left" }}>Level</th>
       <td>4.1, 4.2</td>
       <td>4.1, 5.0, 5.1</td>
       <td>4.1, 5.0, 5.1</td>
     </tr>
     <tr>
-      <th scope="row">Video Mode</th>
+      <th scope="row" style={{ textAlign: "left" }}>Video Mode</th>
       <td>Constrained VBR</td>
       <td>Constrained VBR</td>
       <td>Constrained VBR</td>
     </tr>
     <tr>
-      <th scope="row">Video Bitrate</th>
+      <th scope="row" style={{ textAlign: "left" }}>Video Bitrate</th>
       <td>Up to 10Mbps</td>
       <td>Up to 40Mbps</td>
       <td>Up to 40Mbps</td>
     </tr>
     <tr>
-      <th scope="row">Peak Video Bit rate</th>
+      <th scope="row" style={{ textAlign: "left" }}>Peak Video Bit rate</th>
       <td>1.5x average</td>
       <td>1.5x average</td>
       <td>1.5x average</td>
     </tr>
     <tr>
-      <th scope="row">Key Frame Interval<sup>3</sup></th>
+      <th scope="row" style={{ textAlign: "left" }}>Key Frame Interval<sup>3</sup></th>
       <td>&lt; 10s</td>
       <td>&lt; 10s</td>
       <td>&lt; 10s</td>
     </tr>
     <tr>
-      <th scope="row">HDR support</th>
+      <th scope="row" style={{ textAlign: "left" }}>HDR support</th>
       <td>Dolby Vision: dvav.09</td>
       <td>Dolby Vision: dvhe.05<br />HDR10 (HEVC profile Main 10)<br />HLG</td>
       <td>Dolby Vision<br />HDR10 <br />HDR10+</td>

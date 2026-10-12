@@ -259,11 +259,11 @@ The following table summarizes the different voice controls, how they may be inv
 <table>
 <thead>
 <tr>
-<th>Voice control</th>
-<th>Voice command examples</th>
-<th>Required behavior  (in menu)</th>
-<th>Required behavior (VOD/Music)</th>
-<th>Required behavior (live linear)</th>
+<th style={{ textAlign: "left" }}>Voice control</th>
+<th style={{ textAlign: "left" }}>Voice command examples</th>
+<th style={{ textAlign: "left" }}>Required behavior  (in menu)</th>
+<th style={{ textAlign: "left" }}>Required behavior (VOD/Music)</th>
+<th style={{ textAlign: "left" }}>Required behavior (live linear)</th>
 </tr>
 </thead>
 <tbody>
@@ -321,11 +321,11 @@ The following table summarizes the different voice controls, how they may be inv
 <table>
 <thead>
 <tr>
-<th>Voice control</th>
-<th>Voice command examples</th>
-<th>Required behavior  (in menu)</th>
-<th>Required behavior (VOD/Music)</th>
-<th>Required behavior (live linear)</th>
+<th style={{ textAlign: "left" }}>Voice control</th>
+<th style={{ textAlign: "left" }}>Voice command examples</th>
+<th style={{ textAlign: "left" }}>Required behavior  (in menu)</th>
+<th style={{ textAlign: "left" }}>Required behavior (VOD/Music)</th>
+<th style={{ textAlign: "left" }}>Required behavior (live linear)</th>
 </tr>
 </thead>
 <tbody>
@@ -362,11 +362,11 @@ The following table summarizes the different voice controls, how they may be inv
 <table>
 <thead>
 <tr>
-<th>Voice control</th>
-<th>Voice command examples</th>
-<th>Required behavior (in menu)</th>
-<th>Required behavior (VOD/Music)</th>
-<th>Required behavior (live linear)</th>
+<th style={{ textAlign: "left" }}>Voice control</th>
+<th style={{ textAlign: "left" }}>Voice command examples</th>
+<th style={{ textAlign: "left" }}>Required behavior (in menu)</th>
+<th style={{ textAlign: "left" }}>Required behavior (VOD/Music)</th>
+<th style={{ textAlign: "left" }}>Required behavior (live linear)</th>
 </tr>
 </thead>
 <tbody>

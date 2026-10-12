@@ -83,11 +83,11 @@ To create a purchase option for an add-on product, follow these steps:
    <Table align={["left","left"]}>
      <thead>
        <tr>
-         <th>
+         <th style={{ textAlign: "left" }}>
            Billing plan setting
          </th>
 
-         <th>
+         <th style={{ textAlign: "left" }}>
            Description
          </th>
        </tr>
@@ -596,9 +596,9 @@ The **requestStatus** object returned by the ChannelStore generic request framew
 <table>
 <thead>
 <tr>
-<th class="short-line">Field</th>
-<th class="short-line">Type</th>
-<th class="short-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Field</th>
+<th class="short-line" style={{ textAlign: "left" }}>Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -609,9 +609,9 @@ The **requestStatus** object returned by the ChannelStore generic request framew
 <td class="long-line">Returns the request's command and parameters: <div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Field</th>
-<th class="short-line">Type</th>
-<th class="short-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Field</th>
+<th class="short-line" style={{ textAlign: "left" }}>Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -666,9 +666,9 @@ Returns the list of current and historical (optional) purchases associated with 
 <table>
 <thead>
 <tr>
-<th class="short-line">Field</th>
-<th class="short-line">Type</th>
-<th class="short-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Field</th>
+<th class="short-line" style={{ textAlign: "left" }}>Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -679,9 +679,9 @@ Returns the list of current and historical (optional) purchases associated with 
 <td class="long-line">Includes the request's command and parameters:<br><div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Field</th>
-<th class="short-line">Type</th>
-<th class="short-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Field</th>
+<th class="short-line" style={{ textAlign: "left" }}>Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -697,9 +697,9 @@ Returns the list of current and historical (optional) purchases associated with 
 <td class="long-line">Include the following key-value pairs: <br><div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Field</th>
-<th class="short-line">Type</th>
-<th class="short-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Field</th>
+<th class="short-line" style={{ textAlign: "left" }}>Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -729,9 +729,9 @@ Returns the list of current and historical (optional) purchases associated with 
 <table>
 <thead>
 <tr>
-<th class="short-line">Field</th>
-<th class="short-line">Type</th>
-<th class="short-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Field</th>
+<th class="short-line" style={{ textAlign: "left" }}>Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -742,9 +742,9 @@ Returns the list of current and historical (optional) purchases associated with 
 <td class="long-line">Includes the transaction data returned by the GetPurchases:<br><br><div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Field</th>
-<th class="short-line">Type</th>
-<th class="short-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Field</th>
+<th class="short-line" style={{ textAlign: "left" }}>Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -879,9 +879,9 @@ Lists the products and purchase options linked to the app.
 <table>
 <thead>
 <tr>
-<th class="short-line">Field</th>
-<th class="short-line">Type</th>
-<th class="short-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Field</th>
+<th class="short-line" style={{ textAlign: "left" }}>Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -892,9 +892,9 @@ Lists the products and purchase options linked to the app.
 <td class="long-line">Includes the request's command and parameters: <br><div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Field</th>
-<th class="short-line">Type</th>
-<th class="short-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Field</th>
+<th class="short-line" style={{ textAlign: "left" }}>Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -910,9 +910,9 @@ Lists the products and purchase options linked to the app.
 <td class="long-line">Include the following key-value pair: <div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Field</th>
-<th class="short-line">Type</th>
-<th class="short-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Field</th>
+<th class="short-line" style={{ textAlign: "left" }}>Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -937,9 +937,9 @@ Lists the products and purchase options linked to the app.
 <table>
 <thead>
 <tr>
-<th class="short-line">Field</th>
-<th class="short-line">Type</th>
-<th class="short-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Field</th>
+<th class="short-line" style={{ textAlign: "left" }}>Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -950,9 +950,9 @@ Lists the products and purchase options linked to the app.
 <td class="long-line">Includes the products and purchase options returned by the GetCatalog command: <div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Field</th>
-<th class="short-line">Type</th>
-<th class="short-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Field</th>
+<th class="short-line" style={{ textAlign: "left" }}>Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -1069,9 +1069,9 @@ Returns the collection of purchaseOptionMap objects matching the specified query
 <table>
 <thead>
 <tr>
-<th class="short-line">Field</th>
-<th class="short-line">Type</th>
-<th class="short-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Field</th>
+<th class="short-line" style={{ textAlign: "left" }}>Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -1082,9 +1082,9 @@ Returns the collection of purchaseOptionMap objects matching the specified query
 <td class="long-line">Includes the products and purchase options returned by the GetCatalog command: <div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Field</th>
-<th class="short-line">Type</th>
-<th class="short-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Field</th>
+<th class="short-line" style={{ textAlign: "left" }}>Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -1197,9 +1197,9 @@ Returns the collection of purchaseOptionMap objects matching the specified query
 <table>
 <thead>
 <tr>
-<th class="short-line">Field</th>
-<th class="short-line">Type</th>
-<th class="short-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Field</th>
+<th class="short-line" style={{ textAlign: "left" }}>Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -1209,9 +1209,9 @@ Returns the collection of purchaseOptionMap objects matching the specified query
 <td class="long-line"><div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Field</th>
-<th class="short-line">Type</th>
-<th class="short-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Field</th>
+<th class="short-line" style={{ textAlign: "left" }}>Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -1237,9 +1237,9 @@ Displays the Roku Pay order confirmation screen, which is populated with informa
 <table>
 <thead>
 <tr>
-<th class="short-line">Field</th>
-<th class="short-line">Type</th>
-<th class="short-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Field</th>
+<th class="short-line" style={{ textAlign: "left" }}>Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -1250,9 +1250,9 @@ Displays the Roku Pay order confirmation screen, which is populated with informa
 <td class="long-line">Includes the request's command and parameters: <div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Field</th>
-<th class="short-line">Type</th>
-<th class="short-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Field</th>
+<th class="short-line" style={{ textAlign: "left" }}>Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -1268,9 +1268,9 @@ Displays the Roku Pay order confirmation screen, which is populated with informa
 <td class="long-line">Include the following key-value pairs:<br><div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Field</th>
-<th class="short-line">Type</th>
-<th class="short-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Field</th>
+<th class="short-line" style={{ textAlign: "left" }}>Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -1306,9 +1306,9 @@ Displays the Roku Pay order confirmation screen, which is populated with informa
 <table>
 <thead>
 <tr>
-<th class="short-line">Field</th>
-<th class="short-line">Type</th>
-<th class="short-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Field</th>
+<th class="short-line" style={{ textAlign: "left" }}>Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -1318,9 +1318,9 @@ Displays the Roku Pay order confirmation screen, which is populated with informa
 <td class="long-line"><div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Field</th>
-<th class="short-line">Type</th>
-<th class="short-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Field</th>
+<th class="short-line" style={{ textAlign: "left" }}>Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>

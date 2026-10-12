@@ -122,9 +122,9 @@ When there is a match (the name uttered by the user matches the registered text 
 <table>
   <thead>
     <tr>
-      <th>Name</th>
-      <th>Type</th>
-      <th>Description</th>
+      <th style={{ textAlign: "left" }}>Name</th>
+      <th style={{ textAlign: "left" }}>Type</th>
+      <th style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>
@@ -164,9 +164,9 @@ An roAssociativeArray the following information about the most recent app exits.
 <table>
   <thead>
     <tr>
-      <th>Name</th>
-      <th>Type</th>
-      <th>Description</th>
+      <th style={{ textAlign: "left" }}>Name</th>
+      <th style={{ textAlign: "left" }}>Type</th>
+      <th style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>

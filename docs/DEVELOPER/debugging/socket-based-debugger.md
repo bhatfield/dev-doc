@@ -73,9 +73,9 @@ struct HandshakeFromDVP {
 <table>
   <thead>
     <tr>
-      <th class="short-line">Field</th>
-      <th class="short-line">Type</th>
-      <th class="short-line">Description</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Field</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Type</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>
@@ -94,8 +94,8 @@ struct HandshakeFromDVP {
           <table>
             <thead>
               <tr>
-                <th class="short-line">Roku OS</th>
-                <th class="short-line">Supported Debug Protocol Version</th>
+                <th class="short-line" style={{ textAlign: "left" }}>Roku OS</th>
+                <th class="short-line" style={{ textAlign: "left" }}>Supported Debug Protocol Version</th>
               </tr>
             </thead>
             <tbody>
@@ -164,9 +164,9 @@ struct DebuggerRequest {
 <table>
   <thead>
     <tr>
-      <th class="short-line">Field</th>
-      <th class="short-line">Type</th>
-      <th class="short-line">Description</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Field</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Type</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>
@@ -190,8 +190,8 @@ struct DebuggerRequest {
           <table>
             <thead>
               <tr>
-                <th class="short-line">Code</th>
-                <th class="short-line">Command</th>
+                <th class="short-line" style={{ textAlign: "left" }}>Code</th>
+                <th class="short-line" style={{ textAlign: "left" }}>Command</th>
               </tr>
             </thead>
             <tbody>
@@ -280,9 +280,9 @@ struct DebuggerResponse {
 <table>
   <thead>
     <tr>
-      <th class="short-line">Field</th>
-      <th class="short-line">Type</th>
-      <th class="short-line">Description</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Field</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Type</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>
@@ -306,8 +306,8 @@ struct DebuggerResponse {
           <table>
             <thead>
               <tr>
-                <th class="short-line">Code</th>
-                <th class="short-line">Command</th>
+                <th class="short-line" style={{ textAlign: "left" }}>Code</th>
+                <th class="short-line" style={{ textAlign: "left" }}>Command</th>
               </tr>
             </thead>
             <tbody>
@@ -397,9 +397,9 @@ struct DebuggerUpdate {
 <table>
   <thead>
     <tr>
-      <th class="short-line">Field</th>
-      <th class="short-line">Type</th>
-      <th class="short-line">Description</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Field</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Type</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>
@@ -423,8 +423,8 @@ struct DebuggerUpdate {
           <table>
             <thead>
               <tr>
-                <th class="short-line">Code</th>
-                <th class="short-line">Status</th>
+                <th class="short-line" style={{ textAlign: "left" }}>Code</th>
+                <th class="short-line" style={{ textAlign: "left" }}>Status</th>
               </tr>
             </thead>
             <tbody>
@@ -475,9 +475,9 @@ struct DebuggerUpdate {
           <table>
             <thead>
               <tr>
-                <th class="short-line">Code</th>
-                <th class="short-line">Update</th>
-                <th class="short-line">Description</th>
+                <th class="short-line" style={{ textAlign: "left" }}>Code</th>
+                <th class="short-line" style={{ textAlign: "left" }}>Update</th>
+                <th class="short-line" style={{ textAlign: "left" }}>Description</th>
               </tr>
             </thead>
             <tbody>
@@ -559,9 +559,9 @@ struct AllThreadsStoppedUpdateData{
 <table>
 <thead>
 <tr>
-<th class="short-line">Field</th>
-<th class="short-line">Type</th>
-<th class="short-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Field</th>
+<th class="short-line" style={{ textAlign: "left" }}>Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -576,9 +576,9 @@ struct AllThreadsStoppedUpdateData{
 <td class="long-line">An enum describing why the thread was stopped. This may be one of the following values:<br><div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Value</th>
-<th class="short-line">Reason</th>
-<th class="short-line">Summary</th>
+<th class="short-line" style={{ textAlign: "left" }}>Value</th>
+<th class="short-line" style={{ textAlign: "left" }}>Reason</th>
+<th class="short-line" style={{ textAlign: "left" }}>Summary</th>
 </tr>
 </thead>
 <tbody>
@@ -715,9 +715,9 @@ struct VerifiedBreakpointInfo {
 <table>
 <thead>
 <tr>
-<th class="short-line">Field</th>
-<th class="short-line">Type</th>
-<th class="short-line">Summary</th>
+<th class="short-line" style={{ textAlign: "left" }}>Field</th>
+<th class="short-line" style={{ textAlign: "left" }}>Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Summary</th>
 </tr>
 </thead>
 <tbody>
@@ -737,9 +737,9 @@ struct VerifiedBreakpointInfo {
 <td class="long-line">A list of verified breakpoints. Each verified breakpoint has the following syntax:<br><div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Field</th>
-<th class="short-line">Type</th>
-<th class="short-line">Summary</th>
+<th class="short-line" style={{ textAlign: "left" }}>Field</th>
+<th class="short-line" style={{ textAlign: "left" }}>Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Summary</th>
 </tr>
 </thead>
 <tbody>
@@ -779,9 +779,9 @@ enum ProtocolErrorCode {
 <table>
 <thead>
 <tr>
-<th class="short-line">Field</th>
-<th class="short-line">Type</th>
-<th class="short-line">Summary</th>
+<th class="short-line" style={{ textAlign: "left" }}>Field</th>
+<th class="short-line" style={{ textAlign: "left" }}>Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Summary</th>
 </tr>
 </thead>
 <tbody>
@@ -796,9 +796,9 @@ enum ProtocolErrorCode {
 <td class="long-line">An enum indicating the type of protocol error that has occurred. This may be one of the following values:<br><div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Code</th>
-<th class="short-line">Error</th>
-<th class="short-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Code</th>
+<th class="short-line" style={{ textAlign: "left" }}>Error</th>
+<th class="short-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -842,9 +842,9 @@ struct ExceptionBreakpointErrorUpdateData {
 <table>
 <thead>
 <tr>
-<th class="short-line">Field</th>
-<th class="short-line">Type</th>
-<th class="short-line">Summary</th>
+<th class="short-line" style={{ textAlign: "left" }}>Field</th>
+<th class="short-line" style={{ textAlign: "left" }}>Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Summary</th>
 </tr>
 </thead>
 <tbody>
@@ -859,9 +859,9 @@ struct ExceptionBreakpointErrorUpdateData {
 <td class="long-line">The filter ID of the breakpoint <div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Value</th>
-<th class="short-line">Filter ID</th>
-<th class="short-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Value</th>
+<th class="short-line" style={{ textAlign: "left" }}>Filter ID</th>
+<th class="short-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -956,9 +956,9 @@ struct ThreadsResponse{
 <table>
 <thead>
 <tr>
-<th class="short-line">Field</th>
-<th class="short-line">Type</th>
-<th class="short-line">Summary</th>
+<th class="short-line" style={{ textAlign: "left" }}>Field</th>
+<th class="short-line" style={{ textAlign: "left" }}>Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Summary</th>
 </tr>
 </thead>
 <tbody>
@@ -982,9 +982,9 @@ struct ThreadsResponse{
 </code></pre><br><div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Field</th>
-<th class="short-line">Type</th>
-<th class="short-line">Summary</th>
+<th class="short-line" style={{ textAlign: "left" }}>Field</th>
+<th class="short-line" style={{ textAlign: "left" }}>Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Summary</th>
 </tr>
 </thead>
 <tbody>
@@ -999,9 +999,9 @@ struct ThreadsResponse{
 <td class="long-line">An enum describing why the thread was stopped. This may be one of the following values:<br><div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Value</th>
-<th class="short-line">Reason</th>
-<th class="short-line">Summary</th>
+<th class="short-line" style={{ textAlign: "left" }}>Value</th>
+<th class="short-line" style={{ textAlign: "left" }}>Reason</th>
+<th class="short-line" style={{ textAlign: "left" }}>Summary</th>
 </tr>
 </thead>
 <tbody>
@@ -1087,9 +1087,9 @@ struct StackTraceResponse{
 <table>
 <thead>
 <tr>
-<th class="short-line">Field</th>
-<th class="short-line">Type</th>
-<th class="short-line">Summary</th>
+<th class="short-line" style={{ textAlign: "left" }}>Field</th>
+<th class="short-line" style={{ textAlign: "left" }}>Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Summary</th>
 </tr>
 </thead>
 <tbody>
@@ -1109,9 +1109,9 @@ struct StackTraceResponse{
 </code></pre><br><div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Field</th>
-<th class="short-line">Type</th>
-<th class="short-line">Summary</th>
+<th class="short-line" style={{ textAlign: "left" }}>Field</th>
+<th class="short-line" style={{ textAlign: "left" }}>Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Summary</th>
 </tr>
 </thead>
 <tbody>
@@ -1143,9 +1143,9 @@ struct StackTraceResponse{
 <table>
 <thead>
 <tr>
-<th class="short-line">Argument</th>
-<th class="short-line">Type</th>
-<th class="short-line">Summary</th>
+<th class="short-line" style={{ textAlign: "left" }}>Argument</th>
+<th class="short-line" style={{ textAlign: "left" }}>Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Summary</th>
 </tr>
 </thead>
 <tbody>
@@ -1155,8 +1155,8 @@ struct StackTraceResponse{
 <td class="long-line">Contains one the following <strong>VariableRequestFlags</strong> enums:<table>
 <thead>
 <tr>
-<th class="short-line">Value</th>
-<th class="short-line">Summary</th>
+<th class="short-line" style={{ textAlign: "left" }}>Value</th>
+<th class="short-line" style={{ textAlign: "left" }}>Summary</th>
 </tr>
 </thead>
 <tbody>
@@ -1230,9 +1230,9 @@ struct VariablesResponse{
 <table>
 <thead>
 <tr>
-<th class="short-line">Field</th>
-<th class="short-line">Type</th>
-<th class="short-line">Summary</th>
+<th class="short-line" style={{ textAlign: "left" }}>Field</th>
+<th class="short-line" style={{ textAlign: "left" }}>Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Summary</th>
 </tr>
 </thead>
 <tbody>
@@ -1256,9 +1256,9 @@ struct VariablesResponse{
 </code></pre><br><div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Argument</th>
-<th class="short-line">Type</th>
-<th class="short-line">Summary</th>
+<th class="short-line" style={{ textAlign: "left" }}>Argument</th>
+<th class="short-line" style={{ textAlign: "left" }}>Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Summary</th>
 </tr>
 </thead>
 <tbody>
@@ -1354,13 +1354,13 @@ struct VariablesResponse{
 <Table align={["left","left","left"]}>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Argument
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Type
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Summary
       </th>
     </tr>
@@ -1444,9 +1444,9 @@ struct AddBreakpointsRequestArgs {
 <table>
 <thead>
 <tr>
-<th class="short-line">Field</th>
-<th class="short-line">Type</th>
-<th class="short-line">Summary</th>
+<th class="short-line" style={{ textAlign: "left" }}>Field</th>
+<th class="short-line" style={{ textAlign: "left" }}>Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Summary</th>
 </tr>
 </thead>
 <tbody>
@@ -1466,9 +1466,9 @@ struct AddBreakpointsRequestArgs {
 </code></pre><br><div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Argument</th>
-<th class="short-line">Type</th>
-<th class="short-line">Summary</th>
+<th class="short-line" style={{ textAlign: "left" }}>Argument</th>
+<th class="short-line" style={{ textAlign: "left" }}>Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Summary</th>
 </tr>
 </thead>
 <tbody>
@@ -1509,9 +1509,9 @@ struct AddBreakpointsResponseData {
 <table>
 <thead>
 <tr>
-<th class="short-line">Field</th>
-<th class="short-line">Type</th>
-<th class="short-line">Summary</th>
+<th class="short-line" style={{ textAlign: "left" }}>Field</th>
+<th class="short-line" style={{ textAlign: "left" }}>Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Summary</th>
 </tr>
 </thead>
 <tbody>
@@ -1531,9 +1531,9 @@ struct AddBreakpointsResponseData {
 </code></pre><br><div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Argument</th>
-<th class="short-line">Type</th>
-<th class="short-line">Summary</th>
+<th class="short-line" style={{ textAlign: "left" }}>Argument</th>
+<th class="short-line" style={{ textAlign: "left" }}>Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Summary</th>
 </tr>
 </thead>
 <tbody>
@@ -1548,9 +1548,9 @@ struct AddBreakpointsResponseData {
 <td class="long-line">Indicates whether the breakpoint was successfully added. This may be one of the following values: <div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Code</th>
-<th class="short-line">Status</th>
-<th class="short-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Code</th>
+<th class="short-line" style={{ textAlign: "left" }}>Status</th>
+<th class="short-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -1594,9 +1594,9 @@ struct ListBreakpointsResponseData {
 <table>
 <thead>
 <tr>
-<th class="short-line">Field</th>
-<th class="short-line">Type</th>
-<th class="short-line">Summary</th>
+<th class="short-line" style={{ textAlign: "left" }}>Field</th>
+<th class="short-line" style={{ textAlign: "left" }}>Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Summary</th>
 </tr>
 </thead>
 <tbody>
@@ -1616,9 +1616,9 @@ struct ListBreakpointsResponseData {
 </code></pre><br><div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Argument</th>
-<th class="short-line">Type</th>
-<th class="short-line">Summary</th>
+<th class="short-line" style={{ textAlign: "left" }}>Argument</th>
+<th class="short-line" style={{ textAlign: "left" }}>Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Summary</th>
 </tr>
 </thead>
 <tbody>
@@ -1633,9 +1633,9 @@ struct ListBreakpointsResponseData {
 <td class="long-line">Indicates whether the breakpoint was successfully returned. This may be one of the following values: <div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Code</th>
-<th class="short-line">Status</th>
-<th class="short-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Code</th>
+<th class="short-line" style={{ textAlign: "left" }}>Status</th>
+<th class="short-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -1697,9 +1697,9 @@ struct RemoveBreakpointsResponseData {
 <table>
 <thead>
 <tr>
-<th class="short-line">Field</th>
-<th class="short-line">Type</th>
-<th class="short-line">Summary</th>
+<th class="short-line" style={{ textAlign: "left" }}>Field</th>
+<th class="short-line" style={{ textAlign: "left" }}>Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Summary</th>
 </tr>
 </thead>
 <tbody>
@@ -1719,9 +1719,9 @@ struct RemoveBreakpointsResponseData {
 </code></pre><br><div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Argument</th>
-<th class="short-line">Type</th>
-<th class="short-line">Summary</th>
+<th class="short-line" style={{ textAlign: "left" }}>Argument</th>
+<th class="short-line" style={{ textAlign: "left" }}>Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Summary</th>
 </tr>
 </thead>
 <tbody>
@@ -1736,9 +1736,9 @@ struct RemoveBreakpointsResponseData {
 <td class="long-line">Indicates whether the breakpoint was successfully removed. This may be one the following values: <div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Code</th>
-<th class="short-line">Status</th>
-<th class="short-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Code</th>
+<th class="short-line" style={{ textAlign: "left" }}>Status</th>
+<th class="short-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -1789,9 +1789,9 @@ struct AddBreakpointsRequestArgs {
 <table>
 <thead>
 <tr>
-<th class="short-line">Field</th>
-<th class="short-line">Type</th>
-<th class="short-line">Summary</th>
+<th class="short-line" style={{ textAlign: "left" }}>Field</th>
+<th class="short-line" style={{ textAlign: "left" }}>Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Summary</th>
 </tr>
 </thead>
 <tbody>
@@ -1817,9 +1817,9 @@ struct AddBreakpointsRequestArgs {
 </code></pre><br><br><div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Argument</th>
-<th class="short-line">Type</th>
-<th class="short-line">Summary</th>
+<th class="short-line" style={{ textAlign: "left" }}>Argument</th>
+<th class="short-line" style={{ textAlign: "left" }}>Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Summary</th>
 </tr>
 </thead>
 <tbody>
@@ -1865,9 +1865,9 @@ struct AddConditonalBreakpointsResponseData {
 <table>
 <thead>
 <tr>
-<th class="short-line">Field</th>
-<th class="short-line">Type</th>
-<th class="short-line">Summary</th>
+<th class="short-line" style={{ textAlign: "left" }}>Field</th>
+<th class="short-line" style={{ textAlign: "left" }}>Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Summary</th>
 </tr>
 </thead>
 <tbody>
@@ -1887,9 +1887,9 @@ struct AddConditonalBreakpointsResponseData {
 </code></pre><br><br><div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Argument</th>
-<th class="short-line">Type</th>
-<th class="short-line">Summary</th>
+<th class="short-line" style={{ textAlign: "left" }}>Argument</th>
+<th class="short-line" style={{ textAlign: "left" }}>Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Summary</th>
 </tr>
 </thead>
 <tbody>
@@ -1904,9 +1904,9 @@ struct AddConditonalBreakpointsResponseData {
 <td class="long-line">Indicates whether the breakpoint was successfully added. This may be one of the following values: <div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Code</th>
-<th class="short-line">Status</th>
-<th class="short-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Code</th>
+<th class="short-line" style={{ textAlign: "left" }}>Status</th>
+<th class="short-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -1956,9 +1956,9 @@ struct SetExceptionBreakpointsRequestArgs {
 <table>
 <thead>
 <tr>
-<th class="short-line">Field</th>
-<th class="short-line">Type</th>
-<th class="short-line">Summary</th>
+<th class="short-line" style={{ textAlign: "left" }}>Field</th>
+<th class="short-line" style={{ textAlign: "left" }}>Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Summary</th>
 </tr>
 </thead>
 <tbody>
@@ -1977,9 +1977,9 @@ struct SetExceptionBreakpointsRequestArgs {
 </code></pre> <br><br><div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Argument</th>
-<th class="short-line">Type</th>
-<th class="short-line">Summary</th>
+<th class="short-line" style={{ textAlign: "left" }}>Argument</th>
+<th class="short-line" style={{ textAlign: "left" }}>Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Summary</th>
 </tr>
 </thead>
 <tbody>
@@ -1989,9 +1989,9 @@ struct SetExceptionBreakpointsRequestArgs {
 <td class="long-line">The type of exceptions that should trigger a stop. Note this is not a bitfield. To specify multiple filters, the client must send multiple ExceptionBreakpointSpecs. <div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Value</th>
-<th class="short-line">Filter ID</th>
-<th class="short-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Value</th>
+<th class="short-line" style={{ textAlign: "left" }}>Filter ID</th>
+<th class="short-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -2035,9 +2035,9 @@ struct SetExceptionBreakpointsResponseData {
 <table>
 <thead>
 <tr>
-<th class="short-line">Field</th>
-<th class="short-line">Type</th>
-<th class="short-line">Summary</th>
+<th class="short-line" style={{ textAlign: "left" }}>Field</th>
+<th class="short-line" style={{ textAlign: "left" }}>Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Summary</th>
 </tr>
 </thead>
 <tbody>
@@ -2056,9 +2056,9 @@ struct SetExceptionBreakpointsResponseData {
 </code></pre><br><br><div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Argument</th>
-<th class="short-line">Type</th>
-<th class="short-line">Summary</th>
+<th class="short-line" style={{ textAlign: "left" }}>Argument</th>
+<th class="short-line" style={{ textAlign: "left" }}>Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Summary</th>
 </tr>
 </thead>
 <tbody>
@@ -2089,9 +2089,9 @@ struct SetExceptionBreakpointsResponseData {
 <td class="long-line">Indicates whether the breakpoint was successfully added. This may be one of the following values:  <div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Code</th>
-<th class="short-line">Status</th>
-<th class="short-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Code</th>
+<th class="short-line" style={{ textAlign: "left" }}>Status</th>
+<th class="short-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>

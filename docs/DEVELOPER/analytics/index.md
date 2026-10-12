@@ -140,11 +140,11 @@ You can create a schedule to automatically email a report in a recurring daily, 
 <table>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Field
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
         Description
       </th>
     </tr>

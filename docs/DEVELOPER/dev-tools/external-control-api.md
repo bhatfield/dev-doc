@@ -103,7 +103,7 @@ The external control services provided by ECP are included in a simple RESTful A
 <HTMLBlock>{`
 <table>
   <thead>
-    <tr><th class="short-line">Command</th><th class="short-line">Description</th><th class="short-line">Required Device Settings</th></tr>
+    <tr><th class="short-line" style={{ textAlign: "left" }}>Command</th><th class="short-line" style={{ textAlign: "left" }}>Description</th><th class="short-line" style={{ textAlign: "left" }}>Required Device Settings</th></tr>
   </thead>
   <tbody>
     <tr><td class="short-line">query/media-player</td><td class="long-line">Returns a child element named 'player' that identifies the media player state. The information returned includes the current stream segment and position of the content being played, the running time of the content, audio format, and buffering. This command is accessed using an HTTP GET.</td><td class="short-line" /></tr>
@@ -121,7 +121,7 @@ The external control services provided by ECP are included in a simple RESTful A
         <div class="hscroll">
           <table>
             <thead>
-              <tr><th class="short-line">Command</th><th class="short-line">Argument</th><th class="short-line">Description</th></tr>
+              <tr><th class="short-line" style={{ textAlign: "left" }}>Command</th><th class="short-line" style={{ textAlign: "left" }}>Argument</th><th class="short-line" style={{ textAlign: "left" }}>Description</th></tr>
             </thead>
             <tbody>
               <tr><td class="short-line">sgrendezvous/track<br />(POST request)</td><td class="short-line">channel_id (optional)</td><td class="long-line">Starts the logging of node rendezvous events node between threads. Only one app can be tracked at a time. Tracking a different app clears any queued rendezvous events.<br /><br />To track rendezvous events, send a POST command with no JSON body: <pre><code>POST http://[IP address]:8060/query/sgrendezvous/trackPOST http://[IP address]:8060/query/sgrendezvous/track/[channel_id]</code></pre>The response to this command is as follows: <pre><code>&lt;sgrendezvous&gt;    &lt;tracking-enabled&gt;true&lt;/tracking-enabled&gt;    &lt;status&gt;OK&lt;/status&gt;&lt;/sgrendezvous&gt;</code></pre></td></tr>
@@ -136,7 +136,7 @@ The external control services provided by ECP are included in a simple RESTful A
         <div class="hscroll">
           <table>
             <thead>
-              <tr><th class="short-line">Command</th><th class="short-line">Description</th></tr>
+              <tr><th class="short-line" style={{ textAlign: "left" }}>Command</th><th class="short-line" style={{ textAlign: "left" }}>Description</th></tr>
             </thead>
             <tbody>
               <tr><td class="long-line">fwbeacons/track fwbeacons/track/&lt;<em>channelId</em>&gt;<br />(POST request)</td><td class="long-line">Enables tracking of app and media lifecycle events for a specific app. When tracking is enabled, a maximum of 1,000 events may be queued for retrieval with the <strong>query/fwbeacons</strong> command; events may be lost if not queried. If tracking is enabled with a different channel ID, all queued events on the previous app are discarded.<br /><br />If the <em>channelId</em> path parameter is not specified, the query is run on the foreground UI app.<br /><br />All devices may monitor a sideloaded app. Devices that are keyed may monitor apps from the Streaming Store that are signed with the same developer key.</td></tr>

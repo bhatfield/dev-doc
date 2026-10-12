@@ -26,9 +26,9 @@ Checks the current status of the device. This method returns an roAssociativeArr
 <table>
   <thead>
     <tr>
-      <th scope="col">Member</th>
-      <th scope="col">Type</th>
-      <th scope="col">Description</th>
+      <th scope="col" style={{ textAlign: "left" }}>Member</th>
+      <th scope="col" style={{ textAlign: "left" }}>Type</th>
+      <th scope="col" style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>

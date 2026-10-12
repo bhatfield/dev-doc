@@ -40,9 +40,9 @@ Certain well known headers such as User-Agent, Content-Length, and so on are aut
 <table>
 <thead>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th>Description</th>
+<th style={{ textAlign: "left" }}>Name</th>
+<th style={{ textAlign: "left" }}>Type</th>
+<th style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -76,9 +76,9 @@ Sets the HTTP headers to be sent in the HTTP request.
 <table>
 <thead>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th>Description</th>
+<th style={{ textAlign: "left" }}>Name</th>
+<th style={{ textAlign: "left" }}>Type</th>
+<th style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -153,9 +153,9 @@ Returns any cookies from the cookie cache that match the specified domain and pa
 <table>
 <thead>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th>Description</th>
+<th style={{ textAlign: "left" }}>Name</th>
+<th style={{ textAlign: "left" }}>Type</th>
+<th style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -203,16 +203,16 @@ Adds the specified cookies to the cookie cache.
 <table>
 <thead>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th>Description</th>
+<th style={{ textAlign: "left" }}>Name</th>
+<th style={{ textAlign: "left" }}>Type</th>
+<th style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>cookies</td>
 <td>Object</td>
-<td>An roArray of roAssociativeArrays, where each associative array represents a cookie to be added. Each associative array must contain the following key-value pairs: <table><thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Version</td><td>Integer</td><td>Cookie version number</td></tr><tr><td>Domain</td><td>String</td><td>Domain to which cookie applies</td></tr><tr><td>Path</td><td>String</td><td>Path to which cookie applies</td></tr><tr><td>Name</td><td>String</td><td>Name of the cookie</td></tr><tr><td>Value</td><td>String</td><td>Value of the cookie</td></tr><tr><td>Expires</td><td>roDateTime</td><td>Cookie expiration date, if any</td></tr><tr><td>Secure<br /><br /><em>Available since <a href="https://developer.roku.com/dev/docs/release-notes#roku-os-120">Roku OS 12.0</a></em></td><td>Boolean</td><td>Indicates whether the cookie is to be sent over HTTPS (true) or HTTP (false).</td></tr></tbody></table></td>
+<td>An roArray of roAssociativeArrays, where each associative array represents a cookie to be added. Each associative array must contain the following key-value pairs: <table><thead><tr><th style={{ textAlign: "left" }}>Name</th><th style={{ textAlign: "left" }}>Type</th><th style={{ textAlign: "left" }}>Description</th></tr></thead><tbody><tr><td>Version</td><td>Integer</td><td>Cookie version number</td></tr><tr><td>Domain</td><td>String</td><td>Domain to which cookie applies</td></tr><tr><td>Path</td><td>String</td><td>Path to which cookie applies</td></tr><tr><td>Name</td><td>String</td><td>Name of the cookie</td></tr><tr><td>Value</td><td>String</td><td>Value of the cookie</td></tr><tr><td>Expires</td><td>roDateTime</td><td>Cookie expiration date, if any</td></tr><tr><td>Secure<br /><br /><em>Available since <a href="https://developer.roku.com/dev/docs/release-notes#roku-os-120">Roku OS 12.0</a></em></td><td>Boolean</td><td>Indicates whether the cookie is to be sent over HTTPS (true) or HTTP (false).</td></tr></tbody></table></td>
 </tr>
 </tbody>
 </table>

@@ -17,10 +17,10 @@ All apps with transactional content or in-app purchases (SVOD, TVOD, and other s
 <table>
   <thead>
     <tr>
-      <th>Requirement</th>
-      <th>Name</th>
-      <th>Description</th>
-      <th>Documentation</th>
+      <th style={{ textAlign: "left" }}>Requirement</th>
+      <th style={{ textAlign: "left" }}>Name</th>
+      <th style={{ textAlign: "left" }}>Description</th>
+      <th style={{ textAlign: "left" }}>Documentation</th>
     </tr>
   </thead>
   <tbody>
@@ -38,10 +38,10 @@ All apps with transactional content or in-app purchases (SVOD, TVOD, and other s
 <table>
   <thead>
     <tr>
-      <th>Requirement</th>
-      <th>Name</th>
-      <th>Description</th>
-      <th>Documentation</th>
+      <th style={{ textAlign: "left" }}>Requirement</th>
+      <th style={{ textAlign: "left" }}>Name</th>
+      <th style={{ textAlign: "left" }}>Description</th>
+      <th style={{ textAlign: "left" }}>Documentation</th>
     </tr>
   </thead>
   <tbody>
@@ -59,10 +59,10 @@ All apps with transactional content or in-app purchases (SVOD, TVOD, and other s
 <table>
   <thead>
     <tr>
-      <th>Requirement</th>
-      <th>Name</th>
-      <th>Description</th>
-      <th>Documentation</th>
+      <th style={{ textAlign: "left" }}>Requirement</th>
+      <th style={{ textAlign: "left" }}>Name</th>
+      <th style={{ textAlign: "left" }}>Description</th>
+      <th style={{ textAlign: "left" }}>Documentation</th>
     </tr>
   </thead>
   <tbody>
@@ -98,16 +98,16 @@ All apps with transactional content or in-app purchases (SVOD, TVOD, and other s
 <Table align={["left","left","left","left"]}>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Requirement
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Name
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Description
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Documentation
       </th>
     </tr>

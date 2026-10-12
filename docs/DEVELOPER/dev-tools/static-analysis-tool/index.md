@@ -37,8 +37,8 @@ The Static Analysis Tool is available from the [Developer Dashboard](https://dev
 <table>
   <thead>
     <tr>
-      <th>Column</th>
-      <th>Description</th>
+      <th style={{ textAlign: "left" }}>Column</th>
+      <th style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>

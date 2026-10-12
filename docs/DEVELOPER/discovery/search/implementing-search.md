@@ -115,8 +115,8 @@ Once you have validated your search feed, you can submit your feed following the
 <table>
   <thead>
     <tr>
-      <th>Field</th>
-      <th>Description</th>
+      <th style={{ textAlign: "left" }}>Field</th>
+      <th style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>
@@ -154,8 +154,8 @@ Once you have validated your search feed, you can submit your feed following the
 <table>
   <thead>
     <tr>
-      <th>Item</th>
-      <th>Description</th>
+      <th style={{ textAlign: "left" }}>Item</th>
+      <th style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>

@@ -36,11 +36,11 @@ The StandardKeyboardDialog is comprised of the following areas and building bloc
 <table>
 <thead>
 <tr>
-<th>Field</th>
-<th>Type</th>
-<th>Default</th>
-<th>Access Permission</th>
-<th>Description</th>
+<th style={{ textAlign: "left" }}>Field</th>
+<th style={{ textAlign: "left" }}>Type</th>
+<th style={{ textAlign: "left" }}>Default</th>
+<th style={{ textAlign: "left" }}>Access Permission</th>
+<th style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>

@@ -20,10 +20,10 @@ To implement on-device authentication, you first verify whether a customer shoul
 <table>
   <thead>
     <tr>
-      <th>Active  Subscription through Roku Pay?</th>
-      <th>Valid Access Token in Device Registry and Entitlement?</th>
-      <th>Valid Access Token in Roku Cloud?</th>
-      <th>Next Steps</th>
+      <th style={{ textAlign: "left" }}>Active  Subscription through Roku Pay?</th>
+      <th style={{ textAlign: "left" }}>Valid Access Token in Device Registry and Entitlement?</th>
+      <th style={{ textAlign: "left" }}>Valid Access Token in Roku Cloud?</th>
+      <th style={{ textAlign: "left" }}>Next Steps</th>
     </tr>
   </thead>
   <tbody>

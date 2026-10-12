@@ -52,9 +52,9 @@ A **Section** may contain one or more **Grid** objects. A **Section** typically 
 <table>
   <thead>
     <tr>
-      <th>Attribute</th>
-      <th>Type</th>
-      <th>Description</th>
+      <th style={{ textAlign: "left" }}>Attribute</th>
+      <th style={{ textAlign: "left" }}>Type</th>
+      <th style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>
@@ -114,9 +114,9 @@ A **KeySuggestions** object specifies one or more optional values for the associ
 <table>
   <thead>
     <tr>
-      <th>Attribute</th>
-      <th>Type</th>
-      <th>Description</th>
+      <th style={{ textAlign: "left" }}>Attribute</th>
+      <th style={{ textAlign: "left" }}>Type</th>
+      <th style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>
@@ -128,7 +128,7 @@ A **KeySuggestions** object specifies one or more optional values for the associ
     <tr>
       <td>triggers</td>
       <td>string/array of strings</td>
-      <td>The actions that trigger the suggestions pop-up. This may be one or both of the following values:<br /><br /><table><thead><tr><th>string</th><th>description</th></tr></thead><tbody><tr><td>select</td><td>The suggestions pop-up appears when the key is selected.</td></tr><tr><td>hover</td><td>The suggestions pop-up appears if focus remains on the key for a short interval.</td></tr></tbody></table></td>
+      <td>The actions that trigger the suggestions pop-up. This may be one or both of the following values:<br /><br /><table><thead><tr><th style={{ textAlign: "left" }}>string</th><th style={{ textAlign: "left" }}>description</th></tr></thead><tbody><tr><td>select</td><td>The suggestions pop-up appears when the key is selected.</td></tr><tr><td>hover</td><td>The suggestions pop-up appears if focus remains on the key for a short interval.</td></tr></tbody></table></td>
     </tr>
   </tbody>
 </table>

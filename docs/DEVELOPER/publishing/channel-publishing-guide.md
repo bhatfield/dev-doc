@@ -133,10 +133,10 @@ Configure how your app is listed in the Streaming Store, including the app's hom
 <Table>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Field
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Description
       </th>
     </tr>
@@ -258,13 +258,13 @@ Select whether you plan on monetizing your app, and if so, the monetization meth
 <Table align={["left","left","left"]}>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "left" }}>
         App type
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Monetization option
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Notes
       </th>
     </tr>
@@ -428,10 +428,10 @@ The Static Analysis tool checks the app's code for the use of deprecated APIs, a
 <Table>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Column
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Description
       </th>
     </tr>
@@ -542,10 +542,10 @@ To run App Behavior Analysis testing on your app, follow these steps:
 <Table>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Column
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Description
       </th>
     </tr>

@@ -65,10 +65,10 @@ Note that the fields are updated in the order presented in the table below. Any 
 <table>
   <thead>
     <tr>
-      <th>Field Name</th>
-      <th>Field Type</th>
-      <th>Access Permission</th>
-      <th>Description</th>
+      <th style={{ textAlign: "left" }}>Field Name</th>
+      <th style={{ textAlign: "left" }}>Field Type</th>
+      <th style={{ textAlign: "left" }}>Access Permission</th>
+      <th style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>

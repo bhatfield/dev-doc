@@ -40,12 +40,12 @@ Below is the list of manifest keys used by the profiler:
 <table>
 <thead>
 <tr>
-<th><strong>Manifest Entry</strong></th>
-<th><strong>Value Type</strong></th>
-<th><strong>Legal Values</strong></th>
-<th><strong>Default Value</strong></th>
-<th><strong>Required</strong></th>
-<th><strong>Description</strong></th>
+<th style={{ textAlign: "left" }}><strong>Manifest Entry</strong></th>
+<th style={{ textAlign: "left" }}><strong>Value Type</strong></th>
+<th style={{ textAlign: "left" }}><strong>Legal Values</strong></th>
+<th style={{ textAlign: "left" }}><strong>Default Value</strong></th>
+<th style={{ textAlign: "left" }}><strong>Required</strong></th>
+<th style={{ textAlign: "left" }}><strong>Description</strong></th>
 </tr>
 </thead>
 <tbody>

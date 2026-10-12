@@ -21,11 +21,11 @@ The following table summarizes the basic information for the Roku Pay web servic
 <Table align={["left","left"]}>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Item
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
         Description
       </th>
     </tr>

@@ -80,15 +80,15 @@ Integrating into Continue Watching entails calling the Roku Continue Watching AP
 <table>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Step
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
         API
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
         Description
       </th>
     </tr>
@@ -174,11 +174,11 @@ The following table summarizes the basic information for the Continue Watching R
 <table>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Item
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
         Description
       </th>
     </tr>
@@ -244,10 +244,10 @@ To add new content items and update existing ones to the Continue Watching row, 
 <table>
   <thead>
     <tr>
-      <th>Parameter</th>
-      <th>Type</th>
-      <th>Required/Optional</th>
-      <th>Description</th>
+      <th style={{ textAlign: "left" }}>Parameter</th>
+      <th style={{ textAlign: "left" }}>Type</th>
+      <th style={{ textAlign: "left" }}>Required/Optional</th>
+      <th style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>

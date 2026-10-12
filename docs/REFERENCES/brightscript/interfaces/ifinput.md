@@ -76,9 +76,9 @@ This method takes an AssociativeArray with two fields: **id** and **status**. Th
 <table>
 <thead>
 <tr>
-<th>Parameter</th>
-<th>Type</th>
-<th>Description</th>
+<th style={{ textAlign: "left" }}>Parameter</th>
+<th style={{ textAlign: "left" }}>Type</th>
+<th style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>

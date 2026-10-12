@@ -83,9 +83,9 @@ If successful, a subsequent [roChannelStoreEvent](doc:rochannelstoreevent) will 
 <table>
   <thead>
     <tr>
-      <th>Parameter</th>
-      <th>Type</th>
-      <th>Description</th>
+      <th style={{ textAlign: "left" }}>Parameter</th>
+      <th style={{ textAlign: "left" }}>Type</th>
+      <th style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>
@@ -201,21 +201,21 @@ Sets the current Order (shopping cart) to the elements specified in the paramete
 <table>
   <thead>
     <tr>
-      <th>Name</th>
-      <th>Type</th>
-      <th>Description</th>
+      <th style={{ textAlign: "left" }}>Name</th>
+      <th style={{ textAlign: "left" }}>Type</th>
+      <th style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>order</td>
       <td>roList of roAssociativeArray items</td>
-      <td>Each roAssociativeArray in the roList contains the following fields: <table><thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>code</td><td>String</td><td>The product identifier</td></tr><tr><td>qty</td><td>Integer</td><td>The quantity purchased</td></tr></tbody></table></td>
+      <td>Each roAssociativeArray in the roList contains the following fields: <table><thead><tr><th style={{ textAlign: "left" }}>Name</th><th style={{ textAlign: "left" }}>Type</th><th style={{ textAlign: "left" }}>Description</th></tr></thead><tbody><tr><td>code</td><td>String</td><td>The product identifier</td></tr><tr><td>qty</td><td>Integer</td><td>The quantity purchased</td></tr></tbody></table></td>
     </tr>
     <tr>
       <td>orderInfo</td>
       <td>roAssociativeArray</td>
-      <td>This parameter is used for subscription upgrades and downgrades. If it is not specified, the action is a product purchase. It contains the following fields: <table><thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>action</td><td>String</td><td>The action to be performed, which may be one of the following: $}action-list}</td></tr></tbody></table><br /><strong>Example</strong> <pre><code><code>\<br>m.store = CreateObject("roChannelStore")​\<br>' Populate myOrderItems\<br>myOrderInfo.action = "Upgrade"\<br>m.store.setOrder(myOrderItems, myOrderInfo)\<br></code></code></pre><br />See <a href="https://developer.roku.com/dev/docs/on-device-upgrade-downgrade#calling-the-roku-pay-validate-transaction-api">On-device upgrade and downgrade</a> for how to implement Roku Pay web services for upgrades/downgrades.</td>
+      <td>This parameter is used for subscription upgrades and downgrades. If it is not specified, the action is a product purchase. It contains the following fields: <table><thead><tr><th style={{ textAlign: "left" }}>Name</th><th style={{ textAlign: "left" }}>Type</th><th style={{ textAlign: "left" }}>Description</th></tr></thead><tbody><tr><td>action</td><td>String</td><td>The action to be performed, which may be one of the following: $}action-list}</td></tr></tbody></table><br /><strong>Example</strong> <pre><code><code>\<br>m.store = CreateObject("roChannelStore")​\<br>' Populate myOrderItems\<br>myOrderInfo.action = "Upgrade"\<br>m.store.setOrder(myOrderItems, myOrderInfo)\<br></code></code></pre><br />See <a href="https://developer.roku.com/dev/docs/on-device-upgrade-downgrade#calling-the-roku-pay-validate-transaction-api">On-device upgrade and downgrade</a> for how to implement Roku Pay web services for upgrades/downgrades.</td>
     </tr>
   </tbody>
 </table>
@@ -351,9 +351,9 @@ This function works like GetUserData(), but allows the caller to specify which u
 <table>
   <thead>
     <tr>
-      <th>Name</th>
-      <th>Type</th>
-      <th>Description</th>
+      <th style={{ textAlign: "left" }}>Name</th>
+      <th style={{ textAlign: "left" }}>Type</th>
+      <th style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>
@@ -365,7 +365,7 @@ This function works like GetUserData(), but allows the caller to specify which u
     <tr>
       <td>requestInfo<br /></td>
       <td>roAssociativeArray</td>
-      <td>Specifies whether the RFI screen is used for customer sign-ups or sign-ins. This may be one of the following values:<br /><table><thead><tr><th>Field</th><th>Type</th><th>Default</th><th>Description</th></tr></thead><tbody><tr><td>context</td><td>string</td><td>"signup"</td><td>Specifies the context of the RFI screen, which may be one of the following values:<br /><ul>
+      <td>Specifies whether the RFI screen is used for customer sign-ups or sign-ins. This may be one of the following values:<br /><table><thead><tr><th style={{ textAlign: "left" }}>Field</th><th style={{ textAlign: "left" }}>Type</th><th style={{ textAlign: "left" }}>Default</th><th style={{ textAlign: "left" }}>Description</th></tr></thead><tbody><tr><td>context</td><td>string</td><td>"signup"</td><td>Specifies the context of the RFI screen, which may be one of the following values:<br /><ul>
       <li>"signup": The RFI screen displays a "Let's create your account" title and lists the customer information specified in the <a href="#requesteduserdata"><strong>requestedUserData</strong> field</a>. The RFI screen uses the sign-up context by default.</li>
       <li>"signin: "The RFI screen displays a "Sign in" title and lists only email or phone attributes, if specified in the <a href="#requesteduserdata"><strong>requestedUserData</strong> field</a>. Other attributes are ignored, even if specified.</li>
       </ul><br />See the <a href="#sign-in-example">Sign-in example</a> for how to use this field.</td></tr></tbody></table></td>
@@ -440,16 +440,16 @@ This command returns an roAssociativeArray with the following values:
 <table>
   <thead>
     <tr>
-      <th>Key</th>
-      <th>Type</th>
-      <th>Value</th>
+      <th style={{ textAlign: "left" }}>Key</th>
+      <th style={{ textAlign: "left" }}>Type</th>
+      <th style={{ textAlign: "left" }}>Value</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>response</td>
       <td>json</td>
-      <td>A string in JSON format, with the following key-value pairs: <br /><table><thead><tr><th>Key</th><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>status</td><td>string</td><td>The request status, which may be "success" or "failure".</td></tr><tr><td>error</td><td>string</td><td>A description of the error (if any). This will be set to "none" for a successful request.</td></tr><tr><td>error\_detail</td><td>string</td><td>A detailed description of the service error (if any). This value will be null (uninitialized) for a successful request.</td></tr></tbody></table><br /><br />if billing is not enabled for the app, this field will include a string with a service error message.</td>
+      <td>A string in JSON format, with the following key-value pairs: <br /><table><thead><tr><th style={{ textAlign: "left" }}>Key</th><th style={{ textAlign: "left" }}>Type</th><th style={{ textAlign: "left" }}>Description</th></tr></thead><tbody><tr><td>status</td><td>string</td><td>The request status, which may be "success" or "failure".</td></tr><tr><td>error</td><td>string</td><td>A description of the error (if any). This will be set to "none" for a successful request.</td></tr><tr><td>error\_detail</td><td>string</td><td>A detailed description of the service error (if any). This value will be null (uninitialized) for a successful request.</td></tr></tbody></table><br /><br />if billing is not enabled for the app, this field will include a string with a service error message.</td>
     </tr>
     <tr>
       <td>status</td>
@@ -472,9 +472,9 @@ An associative array that contains the following fields:
 <table>
   <thead>
     <tr>
-      <th>Key</th>
-      <th>Type</th>
-      <th>Description</th>
+      <th style={{ textAlign: "left" }}>Key</th>
+      <th style={{ textAlign: "left" }}>Type</th>
+      <th style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>
@@ -491,7 +491,7 @@ An associative array that contains the following fields:
     <tr>
       <td>json</td>
       <td>string</td>
-      <td>A string in JSON format, with the following key-value pairs: <table><thead><tr><th>Key</th><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>error</td><td>string</td><td>A string containing an error message (if any). This value will be <code>null</code> (uninitialized) for a successful request.</td></tr><tr><td>roku\_pucid</td><td>string</td><td>This is an agnostic ID (in UUID format) representing the user. This value will be identical when retrieved in the same app across devices linked to the same Roku account.<br /><br />The PUCID can be used in place of requiring the user to enter their email address or username again (for example, when setting up a new device on the same Roku account).</td></tr><tr><td>token\_type</td><td>string</td><td>Type of the returned token, e.g. <code>"urn:roku:pucid:token\_type:pucid\_token"</code></td></tr><tr><td>channel\_data</td><td>string</td><td>The access token, oAuth token, or other authentication artifact stored in the Roku cloud.<br /><br />This field is not returned if the <a href="#storechannelcreddata">StoreChannelCredData</a> command is not used to store an artifact in the Roku cloud.</td></tr></tbody></table> <br />If the request fails, this json string will be empty.</td>
+      <td>A string in JSON format, with the following key-value pairs: <table><thead><tr><th style={{ textAlign: "left" }}>Key</th><th style={{ textAlign: "left" }}>Type</th><th style={{ textAlign: "left" }}>Description</th></tr></thead><tbody><tr><td>error</td><td>string</td><td>A string containing an error message (if any). This value will be <code>null</code> (uninitialized) for a successful request.</td></tr><tr><td>roku\_pucid</td><td>string</td><td>This is an agnostic ID (in UUID format) representing the user. This value will be identical when retrieved in the same app across devices linked to the same Roku account.<br /><br />The PUCID can be used in place of requiring the user to enter their email address or username again (for example, when setting up a new device on the same Roku account).</td></tr><tr><td>token\_type</td><td>string</td><td>Type of the returned token, e.g. <code>"urn:roku:pucid:token\_type:pucid\_token"</code></td></tr><tr><td>channel\_data</td><td>string</td><td>The access token, oAuth token, or other authentication artifact stored in the Roku cloud.<br /><br />This field is not returned if the <a href="#storechannelcreddata">StoreChannelCredData</a> command is not used to store an artifact in the Roku cloud.</td></tr></tbody></table> <br />If the request fails, this json string will be empty.</td>
     </tr>
     <tr>
       <td>publisherDeviceID</td>
@@ -559,16 +559,16 @@ Checks the user's billing status and is a prerequisite for ConfirmPartnerOrder()
 <table>
   <thead>
     <tr>
-      <th>Key</th>
-      <th>Type</th>
-      <th>Description</th>
+      <th style={{ textAlign: "left" }}>Key</th>
+      <th style={{ textAlign: "left" }}>Type</th>
+      <th style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>orderInfo</td>
       <td>roAssociativeArray</td>
-      <td>Specifies the product to be ordered from a TVOD app. The order contains the following fields:<br /><table><thead><tr><th>Field</th><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>priceDisplay</td><td>string</td><td>The original price of the product.</td></tr><tr><td>price</td><td>string</td><td>The final price of the product, including any discounts.</td></tr><tr><td>title</td><td>string</td><td>A description of the product (for example, the name of a rental movie).</td></tr><tr><td>couponCode</td><td>string</td><td>An alphanumeric string entered by the customer to receive a discounted price on the product.</td></tr><tr><td>contentKey</td><td>string</td><td>The publisher-specific SKU (or other unique identifier) for the product.</td></tr></tbody></table></td>
+      <td>Specifies the product to be ordered from a TVOD app. The order contains the following fields:<br /><table><thead><tr><th style={{ textAlign: "left" }}>Field</th><th style={{ textAlign: "left" }}>Type</th><th style={{ textAlign: "left" }}>Description</th></tr></thead><tbody><tr><td>priceDisplay</td><td>string</td><td>The original price of the product.</td></tr><tr><td>price</td><td>string</td><td>The final price of the product, including any discounts.</td></tr><tr><td>title</td><td>string</td><td>A description of the product (for example, the name of a rental movie).</td></tr><tr><td>couponCode</td><td>string</td><td>An alphanumeric string entered by the customer to receive a discounted price on the product.</td></tr><tr><td>contentKey</td><td>string</td><td>The publisher-specific SKU (or other unique identifier) for the product.</td></tr></tbody></table></td>
     </tr>
     <tr>
       <td>productID</td>
@@ -604,16 +604,16 @@ This function is equivalent to doOrder() for transactional purchases. The user's
 <table>
   <thead>
     <tr>
-      <th>Key</th>
-      <th>Type</th>
-      <th>Description</th>
+      <th style={{ textAlign: "left" }}>Key</th>
+      <th style={{ textAlign: "left" }}>Type</th>
+      <th style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>confirmOrderInfo</td>
       <td>roAssociativeArray</td>
-      <td>Confirms the product being ordered from a TVOD app. The order contains the following fields:<br /><table><thead><tr><th>Field</th><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>orderId</td><td>string</td><td>The orderID generated by Roku, which is included in the roAssociativeArray returned by the <a href="#requestpartnerorderorderinfo-as-roassociativearray-productid-as-string-as-object">RequestPartnerOrder()</a> method.</td></tr><tr><td>priceDisplay</td><td>string</td><td>The original price of the product.</td></tr><tr><td>price</td><td>string</td><td>The final price of the product, including any discounts.</td></tr><tr><td>title</td><td>string</td><td>The name of the product to be displayed on customers' invoices.</td></tr><tr><td>couponCode</td><td>string</td><td>An alphanumeric string entered by the customer to receive a discounted price on the product.</td></tr><tr><td>contentKey</td><td>string</td><td>The publisher-specific SKU (or other unique identifier) for the product.</td></tr></tbody></table><br /><blockquote>The currency symbol may not be included in the <strong>price</strong> or <strong>priceDisplay</strong> values</blockquote>.</td>
+      <td>Confirms the product being ordered from a TVOD app. The order contains the following fields:<br /><table><thead><tr><th style={{ textAlign: "left" }}>Field</th><th style={{ textAlign: "left" }}>Type</th><th style={{ textAlign: "left" }}>Description</th></tr></thead><tbody><tr><td>orderId</td><td>string</td><td>The orderID generated by Roku, which is included in the roAssociativeArray returned by the <a href="#requestpartnerorderorderinfo-as-roassociativearray-productid-as-string-as-object">RequestPartnerOrder()</a> method.</td></tr><tr><td>priceDisplay</td><td>string</td><td>The original price of the product.</td></tr><tr><td>price</td><td>string</td><td>The final price of the product, including any discounts.</td></tr><tr><td>title</td><td>string</td><td>The name of the product to be displayed on customers' invoices.</td></tr><tr><td>couponCode</td><td>string</td><td>An alphanumeric string entered by the customer to receive a discounted price on the product.</td></tr><tr><td>contentKey</td><td>string</td><td>The publisher-specific SKU (or other unique identifier) for the product.</td></tr></tbody></table><br /><blockquote>The currency symbol may not be included in the <strong>price</strong> or <strong>priceDisplay</strong> values</blockquote>.</td>
     </tr>
     <tr>
       <td>productID</td>

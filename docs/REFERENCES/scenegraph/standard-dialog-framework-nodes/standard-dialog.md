@@ -172,10 +172,10 @@ The **StandardDialog** node is the base for Roku's pre-built standard message, k
 <Table align={["left","left"]}>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Palette Color Name
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Usages
       </th>
     </tr>

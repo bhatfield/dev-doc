@@ -69,9 +69,9 @@ This function may be called from any thread.
 <table>
 <thead>
 <tr>
-<th><strong>Name</strong></th>
-<th><strong>Type</strong></th>
-<th><strong>Description</strong></th>
+<th style={{ textAlign: "left" }}><strong>Name</strong></th>
+<th style={{ textAlign: "left" }}><strong>Type</strong></th>
+<th style={{ textAlign: "left" }}><strong>Description</strong></th>
 </tr>
 </thead>
 <tbody>

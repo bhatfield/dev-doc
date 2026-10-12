@@ -43,11 +43,11 @@ Where:
 <table>
   <thead>
     <tr>
-      <th>Field</th>
-      <th>Type</th>
-      <th>Default</th>
-      <th>Access Permission</th>
-      <th>Description</th>
+      <th style={{ textAlign: "left" }}>Field</th>
+      <th style={{ textAlign: "left" }}>Type</th>
+      <th style={{ textAlign: "left" }}>Default</th>
+      <th style={{ textAlign: "left" }}>Access Permission</th>
+      <th style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>
@@ -98,7 +98,7 @@ Where:
       <td>option as string</td>
       <td>renderLast</td>
       <td>READ\_WRITE</td>
-      <td><table><thead><tr><th>Option</th><th>Description</th></tr></thead><tbody><tr><td><code>"renderFirst"</code></td><td>any drawing done by this node will be done <strong>before</strong> the node children are rendered</td></tr><tr><td><code>"renderLast"</code></td><td>any drawing done by this node will be done <strong>after</strong> the node children are rendered</td></tr></tbody></table></td>
+      <td><table><thead><tr><th style={{ textAlign: "left" }}>Option</th><th style={{ textAlign: "left" }}>Description</th></tr></thead><tbody><tr><td><code>"renderFirst"</code></td><td>any drawing done by this node will be done <strong>before</strong> the node children are rendered</td></tr><tr><td><code>"renderLast"</code></td><td>any drawing done by this node will be done <strong>after</strong> the node children are rendered</td></tr></tbody></table></td>
     </tr>
     <tr>
       <td>inheritParentTransform</td>
@@ -154,8 +154,8 @@ Where:
         <table>
           <thead>
             <tr>
-              <th>Option</th>
-              <th>Description</th>
+              <th style={{ textAlign: "left" }}>Option</th>
+              <th style={{ textAlign: "left" }}>Description</th>
             </tr>
           </thead>
           <tbody>

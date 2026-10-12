@@ -200,8 +200,8 @@ The formatting requested below is a subset of [The Roku Channel Ingest Specifica
 <table>
   <thead>
     <tr>
-      <th><strong>Video Codec</strong></th>
-      <th><strong>ProRes</strong></th>
+      <th style={{ textAlign: "left" }}><strong>Video Codec</strong></th>
+      <th style={{ textAlign: "left" }}><strong>ProRes</strong></th>
     </tr>
   </thead>
   <tbody>
@@ -291,8 +291,8 @@ From each Texted Master created, please export following proxy files:
 <table>
   <thead>
     <tr>
-      <th><strong>Video Codec</strong></th>
-      <th><strong>H.264</strong></th>
+      <th style={{ textAlign: "left" }}><strong>Video Codec</strong></th>
+      <th style={{ textAlign: "left" }}><strong>H.264</strong></th>
     </tr>
   </thead>
   <tbody>

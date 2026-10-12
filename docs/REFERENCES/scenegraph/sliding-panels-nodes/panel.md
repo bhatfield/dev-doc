@@ -22,11 +22,11 @@ The Panel node is used to create sliding panels for app UI, similar to those in 
 <table>
 <thead>
 <tr>
-<th>Field</th>
-<th>Type</th>
-<th>Default</th>
-<th>Access Permission</th>
-<th>Use</th>
+<th style={{ textAlign: "left" }}>Field</th>
+<th style={{ textAlign: "left" }}>Type</th>
+<th style={{ textAlign: "left" }}>Default</th>
+<th style={{ textAlign: "left" }}>Access Permission</th>
+<th style={{ textAlign: "left" }}>Use</th>
 </tr>
 </thead>
 <tbody>
@@ -35,7 +35,7 @@ The Panel node is used to create sliding panels for app UI, similar to those in 
 <td>string</td>
 <td>narrow</td>
 <td>WRITE_ONLY</td>
-<td><strong>Write-Only</strong><br />Specifies one of the default panel sizes. Setting the field causes the width and leftPosition fields to be set to values that match the RSG preferred layout for a panel of the specified size.<br /><br /><table><thead><tr><th>Value</th><th>Meaning</th></tr></thead><tbody><tr><td>narrow</td><td>Set the width and leftPosition fields to the values for a narrow Panel</td></tr><tr><td>medium</td><td>Set the width and leftPosition fields to the values for a medium width Panel</td></tr><tr><td>wide</td><td>Set the width and leftPosition fields to the values for a wide Panel</td></tr><tr><td>full</td><td>Set the width and leftPosition fields to the values for a full width Panel</td></tr></tbody></table><br /><br />Note that PanelSet usage mandates that whenever two Panels are visible, they should include either one narrow and one wide panel or two medium width panels. If one Panel is visible, it's panelSize should be set to "full".</td>
+<td><strong>Write-Only</strong><br />Specifies one of the default panel sizes. Setting the field causes the width and leftPosition fields to be set to values that match the RSG preferred layout for a panel of the specified size.<br /><br /><table><thead><tr><th style={{ textAlign: "left" }}>Value</th><th style={{ textAlign: "left" }}>Meaning</th></tr></thead><tbody><tr><td>narrow</td><td>Set the width and leftPosition fields to the values for a narrow Panel</td></tr><tr><td>medium</td><td>Set the width and leftPosition fields to the values for a medium width Panel</td></tr><tr><td>wide</td><td>Set the width and leftPosition fields to the values for a wide Panel</td></tr><tr><td>full</td><td>Set the width and leftPosition fields to the values for a full width Panel</td></tr></tbody></table><br /><br />Note that PanelSet usage mandates that whenever two Panels are visible, they should include either one narrow and one wide panel or two medium width panels. If one Panel is visible, it's panelSize should be set to "full".</td>
 </tr>
 <tr>
 <td>width</td>

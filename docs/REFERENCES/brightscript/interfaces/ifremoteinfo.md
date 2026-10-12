@@ -31,9 +31,9 @@ Returns the model number of the specified Roku remote control. For example, this
 <table>
 <thead>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th>Description</th>
+<th style={{ textAlign: "left" }}>Name</th>
+<th style={{ textAlign: "left" }}>Type</th>
+<th style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -61,9 +61,9 @@ Checks whether the specified Roku remote control is awake.
 <table>
 <thead>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th>Description</th>
+<th style={{ textAlign: "left" }}>Name</th>
+<th style={{ textAlign: "left" }}>Type</th>
+<th style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -92,9 +92,9 @@ Checks if the specified Roku remote control supports the passed in feature strin
 <table>
 <thead>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th>Description</th>
+<th style={{ textAlign: "left" }}>Name</th>
+<th style={{ textAlign: "left" }}>Type</th>
+<th style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>

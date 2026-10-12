@@ -47,11 +47,11 @@ In this screen shot, the user has scrolled down one item to highlight "Drama" sh
 <table>
   <thead>
     <tr>
-      <th>Field</th>
-      <th>Type</th>
-      <th>Default</th>
-      <th>Access Permission</th>
-      <th>Description</th>
+      <th style={{ textAlign: "left" }}>Field</th>
+      <th style={{ textAlign: "left" }}>Type</th>
+      <th style={{ textAlign: "left" }}>Default</th>
+      <th style={{ textAlign: "left" }}>Access Permission</th>
+      <th style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>
@@ -88,7 +88,7 @@ In this screen shot, the user has scrolled down one item to highlight "Drama" sh
       <td>option string</td>
       <td>left</td>
       <td>READ\_WRITE</td>
-      <td>Specifies the horizontal alignment of the text in the list item area specified by the <code>itemSize</code> field value (the text is always centered vertically in the list item area). The possible options are:<br /><br /><table><thead><tr><th>Option</th><th>Effect</th></tr></thead><tbody><tr><td>left</td><td>Text is left-aligned</td></tr><tr><td>right</td><td>Text is right-aligned</td></tr><tr><td>center</td><td>Text is center-aligned</td></tr></tbody></table></td>
+      <td>Specifies the horizontal alignment of the text in the list item area specified by the <code>itemSize</code> field value (the text is always centered vertically in the list item area). The possible options are:<br /><br /><table><thead><tr><th style={{ textAlign: "left" }}>Option</th><th style={{ textAlign: "left" }}>Effect</th></tr></thead><tbody><tr><td>left</td><td>Text is left-aligned</td></tr><tr><td>right</td><td>Text is right-aligned</td></tr><tr><td>center</td><td>Text is center-aligned</td></tr></tbody></table></td>
     </tr>
     <tr>
       <td>color</td>
@@ -137,7 +137,7 @@ In this screen shot, the user has scrolled down one item to highlight "Drama" sh
       <td>string</td>
       <td>fixedFocusWrap</td>
       <td>READ\_WRITE</td>
-      <td>Specifies the how the focus indicator moves in a list of items in response to the remote direction pad Up and Down key presses. The possible values are:<br /><br /><table><thead><tr><th>Option</th><th>Effect</th></tr></thead><tbody><tr><td>fixedFocusWrap</td><td>Causes the list to wrap around when the focus indicator reaches the first or last item in the list, as long as the list contains enough items to fill the list. If the list does not contain enough items to fill the list, the focus indicator will float up and down.</td></tr><tr><td>floatingFocus</td><td>Causes the focus indicator to float up or down until it reaches the end of the list, at which point the focus indicator will stay fixed on the first or last item in the list, and the items will scroll up or down if there are items that were not visible.</td></tr></tbody></table></td>
+      <td>Specifies the how the focus indicator moves in a list of items in response to the remote direction pad Up and Down key presses. The possible values are:<br /><br /><table><thead><tr><th style={{ textAlign: "left" }}>Option</th><th style={{ textAlign: "left" }}>Effect</th></tr></thead><tbody><tr><td>fixedFocusWrap</td><td>Causes the list to wrap around when the focus indicator reaches the first or last item in the list, as long as the list contains enough items to fill the list. If the list does not contain enough items to fill the list, the focus indicator will float up and down.</td></tr><tr><td>floatingFocus</td><td>Causes the focus indicator to float up or down until it reaches the end of the list, at which point the focus indicator will stay fixed on the first or last item in the list, and the items will scroll up or down if there are items that were not visible.</td></tr></tbody></table></td>
     </tr>
     <tr>
       <td>focusRow</td>

@@ -64,11 +64,11 @@ Each time the RowList focus animation completes a step, the RowList's rowItemFoc
 <table>
 <thead>
 <tr>
-<th>Field</th>
-<th>Type</th>
-<th>Default</th>
-<th>Access Permission</th>
-<th>Description</th>
+<th style={{ textAlign: "left" }}>Field</th>
+<th style={{ textAlign: "left" }}>Type</th>
+<th style={{ textAlign: "left" }}>Default</th>
+<th style={{ textAlign: "left" }}>Access Permission</th>
+<th style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -189,14 +189,14 @@ Each time the RowList focus animation completes a step, the RowList's rowItemFoc
 <td>option string</td>
 <td>floatingFocus</td>
 <td>READ_WRITE</td>
-<td>Specifies the how the focus indicator moves in a row of items in response to the remote direction pad Left and Right key presses. The possible values are:<br /><br /><table><thead><tr><th>Option</th><th>Effect</th></tr></thead><tbody><tr><td>floatingFocus</td><td>Causes the focus indicator to float left or right until it reaches the end of the row, at which point the focus indicator will stay fixed on the first or last item in the row, and the items will scroll left or right if there were items that were not visible.</td></tr><tr><td>fixedFocusWrap</td><td>Causes the row to wrap around when the focus indicator reaches the first or last item in the row, as long as the row contains enough items to fill the row. If the row does not contain enough items to fill the row, the focus indicator will float left and right.</td></tr><tr><td>fixedFocus</td><td>Causes the focus to stay fixed on the first item in each row. As the user scrolls, the previous selected item goes off the screen. Scrolling continues until the last item is reached with no wrapping.</td></tr></tbody></table></td>
+<td>Specifies the how the focus indicator moves in a row of items in response to the remote direction pad Left and Right key presses. The possible values are:<br /><br /><table><thead><tr><th style={{ textAlign: "left" }}>Option</th><th style={{ textAlign: "left" }}>Effect</th></tr></thead><tbody><tr><td>floatingFocus</td><td>Causes the focus indicator to float left or right until it reaches the end of the row, at which point the focus indicator will stay fixed on the first or last item in the row, and the items will scroll left or right if there were items that were not visible.</td></tr><tr><td>fixedFocusWrap</td><td>Causes the row to wrap around when the focus indicator reaches the first or last item in the row, as long as the row contains enough items to fill the row. If the row does not contain enough items to fill the row, the focus indicator will float left and right.</td></tr><tr><td>fixedFocus</td><td>Causes the focus to stay fixed on the first item in each row. As the user scrolls, the previous selected item goes off the screen. Scrolling continues until the last item is reached with no wrapping.</td></tr></tbody></table></td>
 </tr>
 <tr>
 <td>vertFocusAnimationStyle</td>
 <td>option string</td>
 <td>fixedFocus</td>
 <td>READ_WRITE</td>
-<td>Specifies the how the focus indicator moves in a list or a column of grid items in response to the remote direction pad Up and Down key presses. The possible values are:<br /><br /><table><thead><tr><th>Option</th><th>Effect</th></tr></thead><tbody><tr><td>floatingFocus</td><td>Causes the focus indicator to float up or down until it reaches the end of the list, at which point the focus indicator will stay fixed on the first or last row in the list, and the rows will scroll up or down if there are rows that were not visible.</td></tr><tr><td>fixedFocusWrap</td><td>Causes the column to wrap around when the focus indicator reaches the first or last row in the list, as long as the list contains enough rows to fill the list. If the list does not contain enough rows to fill the list, the focus indicator will float up and down.</td></tr><tr><td>fixedFocus</td><td>Causes the focus to stay fixed on the upper row. As the user scrolls down, the row containing the previously selected item scrolls up off screen. Scrolling continues until the last row is reached.</td></tr></tbody></table></td>
+<td>Specifies the how the focus indicator moves in a list or a column of grid items in response to the remote direction pad Up and Down key presses. The possible values are:<br /><br /><table><thead><tr><th style={{ textAlign: "left" }}>Option</th><th style={{ textAlign: "left" }}>Effect</th></tr></thead><tbody><tr><td>floatingFocus</td><td>Causes the focus indicator to float up or down until it reaches the end of the list, at which point the focus indicator will stay fixed on the first or last row in the list, and the rows will scroll up or down if there are rows that were not visible.</td></tr><tr><td>fixedFocusWrap</td><td>Causes the column to wrap around when the focus indicator reaches the first or last row in the list, as long as the list contains enough rows to fill the list. If the list does not contain enough rows to fill the list, the focus indicator will float up and down.</td></tr><tr><td>fixedFocus</td><td>Causes the focus to stay fixed on the upper row. As the user scrolls down, the row containing the previously selected item scrolls up off screen. Scrolling continues until the last row is reached.</td></tr></tbody></table></td>
 </tr>
 <tr>
 <td>rowLabelColor</td>
@@ -410,10 +410,10 @@ Note that the fields are updated in the order presented in the table below. Any 
 <table>
 <thead>
 <tr>
-<th>Field Name</th>
-<th>Field Type</th>
-<th>Access Permission</th>
-<th>Description</th>
+<th style={{ textAlign: "left" }}>Field Name</th>
+<th style={{ textAlign: "left" }}>Field Type</th>
+<th style={{ textAlign: "left" }}>Access Permission</th>
+<th style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -497,9 +497,9 @@ A RowList node should have a single ContentNode as the root node in its content 
 <table>
 <thead>
 <tr>
-<th>Attribute</th>
-<th>Type</th>
-<th>Description</th>
+<th style={{ textAlign: "left" }}>Attribute</th>
+<th style={{ textAlign: "left" }}>Type</th>
+<th style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>

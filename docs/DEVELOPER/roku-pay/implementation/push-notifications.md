@@ -52,15 +52,15 @@ Roku Pay sends push notifications for the following transactions:
 <Table align={["left","left","left"]}>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Transaction Type
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
         Description
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
         Action Required by Publisher
       </th>
     </tr>

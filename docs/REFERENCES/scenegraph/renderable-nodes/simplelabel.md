@@ -108,10 +108,10 @@ Rotation of SimpleLabel nodes is supported. The center of rotation is determined
 <table>
 <thead>
 <tr>
-<th class="short-line">Field</th>
-<th class="short-line">Type</th>
-<th class="short-line">Default</th>
-<th class="short-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Field</th>
+<th class="short-line" style={{ textAlign: "left" }}>Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Default</th>
+<th class="short-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -134,8 +134,8 @@ Rotation of SimpleLabel nodes is supported. The center of rotation is determined
 <td class="long-line">Specifies either a path to a TrueType or OpenType font file or a built-in system font name.<br><br>For TrueType or OpenType font files, the file must be included with the application (e.g. <code>pkg:/fonts/SomeFontFile.ttf</code>). If no fontUri is specified, the System Default font is used.<br><br>The table below shows the options for using built-in system fonts. The "<strong>Fixed Size?"</strong> column indicates whether the <code>fontSize</code> field of the <strong>SimpleLabel</strong> is respected or not. For those where the size is fixed, the font size cannot be modified.<div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">fontUri String</th>
-<th class="short-line">Fixed Size?</th>
+<th class="short-line" style={{ textAlign: "left" }}>fontUri String</th>
+<th class="short-line" style={{ textAlign: "left" }}>Fixed Size?</th>
 </tr>
 </thead>
 <tbody>
@@ -214,11 +214,11 @@ The following Fields derived from the Group base class can also be used:
 <table>
 <thead>
 <tr>
-<th class="short-line">Field</th>
-<th class="short-line">Type</th>
-<th class="short-line">Default</th>
-<th class="short-line">Access Permission</th>
-<th class="short-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Field</th>
+<th class="short-line" style={{ textAlign: "left" }}>Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Default</th>
+<th class="short-line" style={{ textAlign: "left" }}>Access Permission</th>
+<th class="short-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -265,8 +265,8 @@ The following Fields derived from the Group base class can also be used:
 <td class="long-line">renderTracking is set to "disabled" when enableRenderTracking is set to false. The following options are only available when enableRenderTracking is set to true: <div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Option</th>
-<th class="short-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Option</th>
+<th class="short-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -307,8 +307,8 @@ The following Fields derived from the Group base class can also be used:
 <td class="long-line"><div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Option</th>
-<th class="short-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Option</th>
+<th class="short-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>

@@ -57,11 +57,11 @@ Component libraries do not need to be packaged or signed with the same devid as 
 <table>
   <thead>
     <tr>
-      <th scope="col">Field</th>
-      <th scope="col">Type</th>
-      <th scope="col">Default</th>
-      <th scope="col">Access Permission</th>
-      <th scope="col">Description</th>
+      <th scope="col" style={{ textAlign: "left" }}>Field</th>
+      <th scope="col" style={{ textAlign: "left" }}>Type</th>
+      <th scope="col" style={{ textAlign: "left" }}>Default</th>
+      <th scope="col" style={{ textAlign: "left" }}>Access Permission</th>
+      <th scope="col" style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>
@@ -75,8 +75,8 @@ Component libraries do not need to be packaged or signed with the same devid as 
         <table>
           <thead>
             <tr>
-              <th scope="col">Value</th>
-              <th scope="col">Meaning</th>
+              <th scope="col" style={{ textAlign: "left" }}>Value</th>
+              <th scope="col" style={{ textAlign: "left" }}>Meaning</th>
             </tr>
           </thead>
           <tbody>

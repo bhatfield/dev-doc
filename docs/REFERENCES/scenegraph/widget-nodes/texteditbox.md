@@ -23,19 +23,19 @@ The default appearance of the **TextEditBox** is very transparent, allowing it t
 <Table>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Field
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Type
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Default
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Access Permission
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Description
       </th>
     </tr>

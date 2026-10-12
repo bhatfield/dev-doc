@@ -25,9 +25,9 @@ Publishers integrate the Demand API to create a direct automated connection with
 <table>
 <thead>
 <tr>
-<th>App criteria</th>
-<th>In U.S Streaming Store</th>
-<th>Outside U.S Streaming Store</th>
+<th style={{ textAlign: "left" }}>App criteria</th>
+<th style={{ textAlign: "left" }}>In U.S Streaming Store</th>
+<th style={{ textAlign: "left" }}>Outside U.S Streaming Store</th>
 </tr>
 </thead>
 <tbody>

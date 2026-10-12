@@ -137,9 +137,9 @@ An [roAssociativeArray](doc:roassociativearray) containing the following key-val
 <table>
 <thead>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th>Values</th>
+<th style={{ textAlign: "left" }}>Name</th>
+<th style={{ textAlign: "left" }}>Type</th>
+<th style={{ textAlign: "left" }}>Values</th>
 </tr>
 </thead>
 <tbody>

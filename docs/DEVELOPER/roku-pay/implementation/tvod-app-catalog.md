@@ -235,9 +235,9 @@ To update your app with the new **DoOrder** API, follow these steps:
    <table>
    <thead>
    <tr>
-   <th class="short-line">Field</th>
-   <th class="short-line">Type</th>
-   <th class="short-line">Description</th>
+   <th class="short-line" style={{ textAlign: "left" }}>Field</th>
+   <th class="short-line" style={{ textAlign: "left" }}>Type</th>
+   <th class="short-line" style={{ textAlign: "left" }}>Description</th>
    </tr>
    </thead>
    <tbody>
@@ -247,9 +247,9 @@ To update your app with the new **DoOrder** API, follow these steps:
    <td class="long-line">Returns the request's command and parameters: <div class="hscroll"><table>
    <thead>
    <tr>
-   <th class="short-line">Field</th>
-   <th class="short-line">Type</th>
-   <th class="short-line">Description</th>
+   <th class="short-line" style={{ textAlign: "left" }}>Field</th>
+   <th class="short-line" style={{ textAlign: "left" }}>Type</th>
+   <th class="short-line" style={{ textAlign: "left" }}>Description</th>
    </tr>
    </thead>
    <tbody>
@@ -305,9 +305,9 @@ To update your app with the new **DoOrder** API, follow these steps:
    <table>
    <thead>
    <tr>
-   <th class="short-line">Field</th>
-   <th class="short-line">Type</th>
-   <th class="short-line">Description</th>
+   <th class="short-line" style={{ textAlign: "left" }}>Field</th>
+   <th class="short-line" style={{ textAlign: "left" }}>Type</th>
+   <th class="short-line" style={{ textAlign: "left" }}>Description</th>
    </tr>
    </thead>
    <tbody>
@@ -317,9 +317,9 @@ To update your app with the new **DoOrder** API, follow these steps:
    <td class="long-line">Includes the request's command and parameters: <div class="hscroll"><table>
    <thead>
    <tr>
-   <th class="short-line">Field</th>
-   <th class="short-line">Type</th>
-   <th class="short-line">Description</th>
+   <th class="short-line" style={{ textAlign: "left" }}>Field</th>
+   <th class="short-line" style={{ textAlign: "left" }}>Type</th>
+   <th class="short-line" style={{ textAlign: "left" }}>Description</th>
    </tr>
    </thead>
    <tbody>
@@ -334,9 +334,9 @@ To update your app with the new **DoOrder** API, follow these steps:
    <td class="long-line">Include the following key-value pairs:<br><div class="hscroll"><table>
    <thead>
    <tr>
-   <th class="short-line">Field</th>
-   <th class="short-line">Type</th>
-   <th class="short-line">Description</th>
+   <th class="short-line" style={{ textAlign: "left" }}>Field</th>
+   <th class="short-line" style={{ textAlign: "left" }}>Type</th>
+   <th class="short-line" style={{ textAlign: "left" }}>Description</th>
    </tr>
    </thead>
    <tbody>

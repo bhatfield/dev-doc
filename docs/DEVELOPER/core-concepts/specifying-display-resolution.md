@@ -66,8 +66,8 @@ You specify the intended support for various screen display resolutions in speci
           <table>
             <thead>
               <tr className="header">
-                <th>Option</th>
-                <th>Support</th>
+                <th style={{ textAlign: "left" }}>Option</th>
+                <th style={{ textAlign: "left" }}>Support</th>
               </tr>
             </thead>
             <tbody>

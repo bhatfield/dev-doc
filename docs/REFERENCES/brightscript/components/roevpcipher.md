@@ -23,16 +23,16 @@ Some of the ciphers do not have large keys and others have security implications
 <Table align={["left","left","left","left"]}>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Name
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Cipher
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Key size (bits)
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Block size (bits)
       </th>
     </tr>

@@ -74,11 +74,11 @@ Rotation of Posters is supported. On platforms that do not support OpenGL, only 
 <table>
   <thead>
     <tr>
-      <th>Field</th>
-      <th>Type</th>
-      <th>Default</th>
-      <th>Access Permission</th>
-      <th>Description</th>
+      <th style={{ textAlign: "left" }}>Field</th>
+      <th style={{ textAlign: "left" }}>Type</th>
+      <th style={{ textAlign: "left" }}>Default</th>
+      <th style={{ textAlign: "left" }}>Access Permission</th>
+      <th style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>
@@ -129,14 +129,14 @@ Rotation of Posters is supported. On platforms that do not support OpenGL, only 
       <td>option string</td>
       <td>noScale</td>
       <td>READ\_WRITE</td>
-      <td>Provides automatic scaling of graphical images after loading. If you intend to load very large graphical images, such as larger than the user interface resolution, you must set one of the scaling options other than noScale, otherwise the image may fail to load. The following are the possible field values: <table><thead><tr><th>Option</th><th>Effect</th></tr></thead><tbody><tr><td>limitSize</td><td>Scale the image while loading it into texture memory so that the maximum width and height in either dimension does not exceed the specified loadWidth or loadHeight values. If the image is smaller in both dimensions than the specified values, the image is loaded at its regular size. Aspect ratio is preserved.</td></tr><tr><td>noScale</td><td>The bitmap will be loaded at the image's original resolution. If the Poster's width and height differ from the bitmap's resolution, it will be scaled to fill the Poster's dimensions. Aspect ratio is not preserved.</td></tr><tr><td>scaleToFit</td><td>Scale the image to fit into the target screen element area, preserving the aspect ratio but "letterboxing" or "pillarboxing" the image (background-color bars at the top/bottom or left/right of the image).<br /><blockquote>This field in not supported on Liberty and Littlefield devices for images that are both scaled and rotated. On these devices, scaled and rotated images appear as if the **scaleToFill** property was applied to them.</blockquote></td></tr><tr><td>scaleToFill</td><td>Stretch the image dimensions to fill the target screen element area, distorting the image if the target screen element area has a different aspect ratio than the image.</td></tr><tr><td>scaleToZoom</td><td>Scale the image to fill the target screen element area, preserving the aspect ratio but not "letterboxing" or "pillarboxing" the image, with some of the image cropped out.</td></tr></tbody></table></td>
+      <td>Provides automatic scaling of graphical images after loading. If you intend to load very large graphical images, such as larger than the user interface resolution, you must set one of the scaling options other than noScale, otherwise the image may fail to load. The following are the possible field values: <table><thead><tr><th style={{ textAlign: "left" }}>Option</th><th style={{ textAlign: "left" }}>Effect</th></tr></thead><tbody><tr><td>limitSize</td><td>Scale the image while loading it into texture memory so that the maximum width and height in either dimension does not exceed the specified loadWidth or loadHeight values. If the image is smaller in both dimensions than the specified values, the image is loaded at its regular size. Aspect ratio is preserved.</td></tr><tr><td>noScale</td><td>The bitmap will be loaded at the image's original resolution. If the Poster's width and height differ from the bitmap's resolution, it will be scaled to fill the Poster's dimensions. Aspect ratio is not preserved.</td></tr><tr><td>scaleToFit</td><td>Scale the image to fit into the target screen element area, preserving the aspect ratio but "letterboxing" or "pillarboxing" the image (background-color bars at the top/bottom or left/right of the image).<br /><blockquote>This field in not supported on Liberty and Littlefield devices for images that are both scaled and rotated. On these devices, scaled and rotated images appear as if the **scaleToFill** property was applied to them.</blockquote></td></tr><tr><td>scaleToFill</td><td>Stretch the image dimensions to fill the target screen element area, distorting the image if the target screen element area has a different aspect ratio than the image.</td></tr><tr><td>scaleToZoom</td><td>Scale the image to fill the target screen element area, preserving the aspect ratio but not "letterboxing" or "pillarboxing" the image, with some of the image cropped out.</td></tr></tbody></table></td>
     </tr>
     <tr>
       <td>loadStatus</td>
       <td>value string</td>
       <td>none</td>
       <td>READ\_ONLY</td>
-      <td>Can be used to track the progress of loading the graphical image file. A typical use of this field is to set an observer so that when the field value changes to ready, an action can be triggered. The possible values are: <table><thead><tr><th>Value</th><th>Meaning</th></tr></thead><tbody><tr><td>none</td><td>No loading or decoding of the graphical image file is taking place</td></tr><tr><td>loading</td><td>Graphical image file is being fetched and decoded</td></tr><tr><td>ready</td><td>Graphical image file has been fetched and decoded and is ready to be drawn</td></tr><tr><td>failed</td><td>Graphical image file could not be loaded for some reason, such as the uri field value is set to a non-existent file location</td></tr></tbody></table></td>
+      <td>Can be used to track the progress of loading the graphical image file. A typical use of this field is to set an observer so that when the field value changes to ready, an action can be triggered. The possible values are: <table><thead><tr><th style={{ textAlign: "left" }}>Value</th><th style={{ textAlign: "left" }}>Meaning</th></tr></thead><tbody><tr><td>none</td><td>No loading or decoding of the graphical image file is taking place</td></tr><tr><td>loading</td><td>Graphical image file is being fetched and decoded</td></tr><tr><td>ready</td><td>Graphical image file has been fetched and decoded and is ready to be drawn</td></tr><tr><td>failed</td><td>Graphical image file could not be loaded for some reason, such as the uri field value is set to a non-existent file location</td></tr></tbody></table></td>
     </tr>
     <tr>
       <td>bitmapWidth</td>

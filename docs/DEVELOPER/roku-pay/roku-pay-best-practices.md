@@ -19,9 +19,9 @@ Review the following checklist to make sure your app is adhering to best practic
 <table>
   <thead>
     <tr>
-      <th>Tip</th>
-      <th>Explanation</th>
-      <th>Documentation</th>
+      <th style={{ textAlign: "left" }}>Tip</th>
+      <th style={{ textAlign: "left" }}>Explanation</th>
+      <th style={{ textAlign: "left" }}>Documentation</th>
     </tr>
   </thead>
   <tbody>
@@ -43,9 +43,9 @@ Review the following checklist to make sure your app is adhering to best practic
 <table>
   <thead>
     <tr>
-      <th>Tip</th>
-      <th>Explanation</th>
-      <th>Documentation</th>
+      <th style={{ textAlign: "left" }}>Tip</th>
+      <th style={{ textAlign: "left" }}>Explanation</th>
+      <th style={{ textAlign: "left" }}>Documentation</th>
     </tr>
   </thead>
   <tbody>
@@ -62,9 +62,9 @@ Review the following checklist to make sure your app is adhering to best practic
 <table>
   <thead>
     <tr>
-      <th>Tip</th>
-      <th>Explanation</th>
-      <th>Documentation</th>
+      <th style={{ textAlign: "left" }}>Tip</th>
+      <th style={{ textAlign: "left" }}>Explanation</th>
+      <th style={{ textAlign: "left" }}>Documentation</th>
     </tr>
   </thead>
   <tbody>
@@ -101,9 +101,9 @@ Review the following checklist to make sure your app is adhering to best practic
 <table>
   <thead>
     <tr>
-      <th>Tip</th>
-      <th>Explanation</th>
-      <th>Documentation</th>
+      <th style={{ textAlign: "left" }}>Tip</th>
+      <th style={{ textAlign: "left" }}>Explanation</th>
+      <th style={{ textAlign: "left" }}>Documentation</th>
     </tr>
   </thead>
   <tbody>

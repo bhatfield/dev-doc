@@ -20,8 +20,8 @@ There are a total of **15 assets** we will need from you:
 <table>
 <thead>
 <tr>
-<th>Deliverables</th>
-<th>Examples</th>
+<th style={{ textAlign: "left" }}>Deliverables</th>
+<th style={{ textAlign: "left" }}>Examples</th>
 </tr>
 </thead>
 <tbody>
@@ -79,8 +79,8 @@ Below is a list of details, best practices, and dimensions sizes for each partne
 <table>
 <thead>
 <tr>
-<th>Details</th>
-<th>Examples</th>
+<th style={{ textAlign: "left" }}>Details</th>
+<th style={{ textAlign: "left" }}>Examples</th>
 </tr>
 </thead>
 <tbody>
@@ -111,8 +111,8 @@ Below is a list of details, best practices, and dimensions sizes for each partne
 <table>
 <thead>
 <tr>
-<th>Details</th>
-<th>Examples</th>
+<th style={{ textAlign: "left" }}>Details</th>
+<th style={{ textAlign: "left" }}>Examples</th>
 </tr>
 </thead>
 <tbody>
@@ -150,8 +150,8 @@ Below is a list of details, best practices, and dimensions sizes for each partne
 <table>
 <thead>
 <tr>
-<th>Details</th>
-<th>Examples</th>
+<th style={{ textAlign: "left" }}>Details</th>
+<th style={{ textAlign: "left" }}>Examples</th>
 </tr>
 </thead>
 <tbody>
@@ -198,8 +198,8 @@ Below is a list of details, best practices, and dimensions sizes for each partne
 <table>
 <thead>
 <tr>
-<th>Details</th>
-<th>Examples</th>
+<th style={{ textAlign: "left" }}>Details</th>
+<th style={{ textAlign: "left" }}>Examples</th>
 </tr>
 </thead>
 <tbody>
@@ -237,8 +237,8 @@ Below is a list of details, best practices, and dimensions sizes for each partne
 <table>
 <thead>
 <tr>
-<th>Details</th>
-<th>Examples</th>
+<th style={{ textAlign: "left" }}>Details</th>
+<th style={{ textAlign: "left" }}>Examples</th>
 </tr>
 </thead>
 <tbody>
@@ -260,8 +260,8 @@ Below is a list of details, best practices, and dimensions sizes for each partne
 <table>
 <thead>
 <tr>
-<th>Details</th>
-<th>Examples</th>
+<th style={{ textAlign: "left" }}>Details</th>
+<th style={{ textAlign: "left" }}>Examples</th>
 </tr>
 </thead>
 <tbody>
@@ -288,8 +288,8 @@ Below is a list of details, best practices, and dimensions sizes for each partne
 <table>
 <thead>
 <tr>
-<th>Details</th>
-<th>Example</th>
+<th style={{ textAlign: "left" }}>Details</th>
+<th style={{ textAlign: "left" }}>Example</th>
 </tr>
 </thead>
 <tbody>
@@ -307,8 +307,8 @@ Below is a list of details, best practices, and dimensions sizes for each partne
 <table>
 <thead>
 <tr>
-<th>Details</th>
-<th>Example</th>
+<th style={{ textAlign: "left" }}>Details</th>
+<th style={{ textAlign: "left" }}>Example</th>
 </tr>
 </thead>
 <tbody>

@@ -91,8 +91,8 @@ Apps must implement an API that retrieves the images and description of the app 
 <table>
 <thead>
 <tr>
-<th class="short-line">Item</th>
-<th class="short-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Item</th>
+<th class="short-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -109,9 +109,9 @@ Apps must implement an API that retrieves the images and description of the app 
 <td class="long-line">The HTTP header of the GET requests includes a JSON Web Token (JWT) for verifying that the API call is from Roku and the customer's locale for determining which offer image to display to the customer. <br><div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Field</th>
-<th class="short-line">Type</th>
-<th class="short-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Field</th>
+<th class="short-line" style={{ textAlign: "left" }}>Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -178,8 +178,8 @@ The posters/artwork with the content or networks featured in the app are used to
 <table>
 <thead>
 <tr>
-<th class="short-line">Specification</th>
-<th class="short-line">Requirements</th>
+<th class="short-line" style={{ textAlign: "left" }}>Specification</th>
+<th class="short-line" style={{ textAlign: "left" }}>Requirements</th>
 </tr>
 </thead>
 <tbody>
@@ -222,8 +222,8 @@ The following table lists the requirements for implementing the personalized pro
 <table>
 <thead>
 <tr>
-<th class="short-line">Item</th>
-<th class="short-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Item</th>
+<th class="short-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -240,9 +240,9 @@ The following table lists the requirements for implementing the personalized pro
 <td class="long-line">The HTTP header of the GET requests includes a JWT token for verifying that the API call is from Roku, and the customer's email hash, locale, and activation date for determining which offers the customer is eligible for: <div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Field</th>
-<th class="short-line">Type</th>
-<th class="short-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Field</th>
+<th class="short-line" style={{ textAlign: "left" }}>Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -279,9 +279,9 @@ The following table lists the requirements for implementing the personalized pro
 <td class="long-line">The API returns a <strong>Products</strong> array, which contains a list of product objects. The following information is included for each product in the array: <br><div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Field</th>
-<th class="short-line">Type</th>
-<th class="short-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Field</th>
+<th class="short-line" style={{ textAlign: "left" }}>Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>

@@ -27,11 +27,11 @@ While it is technically possible to have more than one scene per app, we recomme
 <table>
 <thead>
 <tr>
-<th class="short-line">Field</th>
-<th class="short-line">Type</th>
-<th class="short-line">Default</th>
-<th class="short-line">Access Permission</th>
-<th class="short-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Field</th>
+<th class="short-line" style={{ textAlign: "left" }}>Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Default</th>
+<th class="short-line" style={{ textAlign: "left" }}>Access Permission</th>
+<th class="short-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -92,8 +92,8 @@ While it is technically possible to have more than one scene per app, we recomme
 <td class="long-line">Defines the default color palette used by those nodes that have a <strong>palette</strong> field (for example, the <strong>Scene</strong> node, <a href="https://developer.roku.com/dev/docs/standard-dialog">standard dialogs</a>, <a href="https://developer.roku.com/dev/docs/dynamic-keyboard-base">dynamic custom voice keyboards</a>, and so on).<br><br>Apps typically set the <strong>Scene.palette</strong> field to consistently color the standard dialogs and keyboards in the app.<br><br>Nodes that include a <strong>palette</strong> field can be set to an <strong>RSGPalette</strong> node to override the default colors specified in the <strong>Scene</strong> node.<br><br>If a node that supports a palette does not set its <strong>palette</strong> filed, the node looks up the scene graph until it finds a node with its <strong>palette</strong> field set.<br><br>If no ancestor node is found with its palette field set, the default color palette is used (gray with white text).<br><br>The RSGPalette color values used by the Scene node are as follows:<br><div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Palette Color Name</th>
-<th class="short-line">Usages</th>
+<th class="short-line" style={{ textAlign: "left" }}>Palette Color Name</th>
+<th class="short-line" style={{ textAlign: "left" }}>Usages</th>
 </tr>
 </thead>
 <tbody>

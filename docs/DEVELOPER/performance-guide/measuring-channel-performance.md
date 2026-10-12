@@ -71,9 +71,9 @@ beacon. When you exit your app, the console displays a report summarizing the st
 <table>
   <thead>
     <tr>
-      <th><strong>Statistic</strong></th>
-      <th><strong>Beacon Type</strong></th>
-      <th><strong>Description</strong></th>
+      <th style={{ textAlign: "left" }}><strong>Statistic</strong></th>
+      <th style={{ textAlign: "left" }}><strong>Beacon Type</strong></th>
+      <th style={{ textAlign: "left" }}><strong>Description</strong></th>
     </tr>
   </thead>
   <tbody>
@@ -104,12 +104,12 @@ The Roku OS can measure and record eight app performance metrics: app launch, ap
 <table>
   <thead>
     <tr>
-      <th><strong>Metric</strong></th>
-      <th><strong>Start Point</strong></th>
-      <th><strong>Stop Point</strong></th>
-      <th><strong>Initiate Beacon</strong></th>
-      <th><strong>Complete Beacon</strong></th>
-      <th><strong>Fired by</strong></th>
+      <th style={{ textAlign: "left" }}><strong>Metric</strong></th>
+      <th style={{ textAlign: "left" }}><strong>Start Point</strong></th>
+      <th style={{ textAlign: "left" }}><strong>Stop Point</strong></th>
+      <th style={{ textAlign: "left" }}><strong>Initiate Beacon</strong></th>
+      <th style={{ textAlign: "left" }}><strong>Complete Beacon</strong></th>
+      <th style={{ textAlign: "left" }}><strong>Fired by</strong></th>
     </tr>
   </thead>
   <tbody>

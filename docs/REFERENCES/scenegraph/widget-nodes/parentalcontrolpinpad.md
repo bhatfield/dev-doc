@@ -24,16 +24,16 @@ ParentalControlPinPad includes a new field, pinSuccess for blocking content:
 <Table>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Field
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Type
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Default
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Description
       </th>
     </tr>

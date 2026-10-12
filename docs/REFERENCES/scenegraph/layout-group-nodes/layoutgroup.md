@@ -19,11 +19,11 @@ The LayoutGroup node class manages the position of its child nodes by arranging 
 <table>
   <thead>
     <tr>
-      <th class="short-line">Field</th>
-      <th class="short-line">Type</th>
-      <th class="short-line">Default</th>
-      <th class="short-line">Access Permission</th>
-      <th class="long-line">Description</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Field</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Type</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Default</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Access Permission</th>
+      <th class="long-line" style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>
@@ -37,7 +37,7 @@ The LayoutGroup node class manages the position of its child nodes by arranging 
         <div class="hscroll">
         <table>
           <thead>
-            <tr><th class="short-line">Value</th><th class="short-line">Use</th></tr>
+            <tr><th class="short-line" style={{ textAlign: "left" }}>Value</th><th class="short-line" style={{ textAlign: "left" }}>Use</th></tr>
           </thead>
           <tbody>
             <tr><td class="short-line">horiz</td><td class="long-line">Positions the children in a row from left to right</td></tr>
@@ -57,7 +57,7 @@ The LayoutGroup node class manages the position of its child nodes by arranging 
         <div class="hscroll">
         <table>
           <thead>
-            <tr><th class="short-line">Value</th><th class="short-line">layoutDirection</th><th class="short-line">Use</th></tr>
+            <tr><th class="short-line" style={{ textAlign: "left" }}>Value</th><th class="short-line" style={{ textAlign: "left" }}>layoutDirection</th><th class="short-line" style={{ textAlign: "left" }}>Use</th></tr>
           </thead>
           <tbody>
             <tr><td class="short-line">left</td><td class="short-line">vert</td><td class="long-line">Aligns the left edges of each child in the column, and sets the LayoutGroup node local x-coordinate origin at the left edge of the children</td></tr>
@@ -82,7 +82,7 @@ The LayoutGroup node class manages the position of its child nodes by arranging 
         <div class="hscroll">
         <table>
           <thead>
-            <tr><th class="short-line">Value</th><th class="short-line">layoutDirection</th><th class="short-line">Use</th></tr>
+            <tr><th class="short-line" style={{ textAlign: "left" }}>Value</th><th class="short-line" style={{ textAlign: "left" }}>layoutDirection</th><th class="short-line" style={{ textAlign: "left" }}>Use</th></tr>
           </thead>
           <tbody>
             <tr><td class="short-line">top</td><td class="short-line">horiz</td><td class="long-line">Aligns the top edges of each child in the row, and sets the <strong>LayoutGroup</strong> node local y-coordinate origin at the top edge of the children</td></tr>

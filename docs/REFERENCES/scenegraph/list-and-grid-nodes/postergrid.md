@@ -59,11 +59,11 @@ There are three general categories of layouts.
 <table>
   <thead>
     <tr>
-      <th>Field</th>
-      <th>Type</th>
-      <th>Default</th>
-      <th>Access Permission</th>
-      <th>Description</th>
+      <th style={{ textAlign: "left" }}>Field</th>
+      <th style={{ textAlign: "left" }}>Type</th>
+      <th style={{ textAlign: "left" }}>Default</th>
+      <th style={{ textAlign: "left" }}>Access Permission</th>
+      <th style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>
@@ -93,7 +93,7 @@ There are three general categories of layouts.
       <td>option string</td>
       <td>noScale</td>
       <td>READ\_WRITE</td>
-      <td>Provides automatic scaling of posters, if <code>useAtlas</code> is set to false. If you intend to load very large graphical images, such as larger than the user interface resolution, you must set one of the scaling options other than <code>noScale</code>, otherwise the image may fail to load. The following are the possible field values:<br /><br /><table><thead><tr><th>Option</th><th>Effect</th></tr></thead><tbody><tr><td>noScale</td><td>No scaling</td></tr><tr><td>scaleToFit</td><td>Scale the image to fit into the target screen element area, preserving the aspect ratio but "letterboxing" or "pillarboxing" the image (background-color bars at the top/bottom or left/right of the image)</td></tr><tr><td>scaleToFill</td><td>Stretch the image width and height dimensions to fill the target screen element area, distorting the image if the target screen element area has a different aspect ratio than the image</td></tr><tr><td>scaleToZoom</td><td>Scale the image to fill the target screen element area, preserving the aspect ratio but not "letterboxing" or "pillarboxing" the image, with some of the image cropped out</td></tr></tbody></table></td>
+      <td>Provides automatic scaling of posters, if <code>useAtlas</code> is set to false. If you intend to load very large graphical images, such as larger than the user interface resolution, you must set one of the scaling options other than <code>noScale</code>, otherwise the image may fail to load. The following are the possible field values:<br /><br /><table><thead><tr><th style={{ textAlign: "left" }}>Option</th><th style={{ textAlign: "left" }}>Effect</th></tr></thead><tbody><tr><td>noScale</td><td>No scaling</td></tr><tr><td>scaleToFit</td><td>Scale the image to fit into the target screen element area, preserving the aspect ratio but "letterboxing" or "pillarboxing" the image (background-color bars at the top/bottom or left/right of the image)</td></tr><tr><td>scaleToFill</td><td>Stretch the image width and height dimensions to fill the target screen element area, distorting the image if the target screen element area has a different aspect ratio than the image</td></tr><tr><td>scaleToZoom</td><td>Scale the image to fill the target screen element area, preserving the aspect ratio but not "letterboxing" or "pillarboxing" the image, with some of the image cropped out</td></tr></tbody></table></td>
     </tr>
     <tr>
       <td>itemSpacing</td>
@@ -248,14 +248,14 @@ There are three general categories of layouts.
       <td>string</td>
       <td>center</td>
       <td>READ\_WRITE</td>
-      <td>Specifies the horizontal positioning of the grid item captions. Possible values are:<br /><br /><table><thead><tr><th>Value</th><th>Meaning</th></tr></thead><tbody><tr><td>left</td><td>Left-justify the caption relative to the grid item poster</td></tr><tr><td>center</td><td>Center-justify the caption relative to the grid item poster</td></tr><tr><td>right</td><td>Right-justify the caption relative to the grid item poster</td></tr></tbody></table><br /><br />Set enableCaptionScrolling to false to use captionHorizAlignment</td>
+      <td>Specifies the horizontal positioning of the grid item captions. Possible values are:<br /><br /><table><thead><tr><th style={{ textAlign: "left" }}>Value</th><th style={{ textAlign: "left" }}>Meaning</th></tr></thead><tbody><tr><td>left</td><td>Left-justify the caption relative to the grid item poster</td></tr><tr><td>center</td><td>Center-justify the caption relative to the grid item poster</td></tr><tr><td>right</td><td>Right-justify the caption relative to the grid item poster</td></tr></tbody></table><br /><br />Set enableCaptionScrolling to false to use captionHorizAlignment</td>
     </tr>
     <tr>
       <td>captionVertAlignment</td>
       <td>string</td>
       <td>below</td>
       <td>READ\_WRITE</td>
-      <td>Specifies the vertical positioning of the grid item captions. Possible values are:<br /><br /><table><thead><tr><th>Value</th><th>Meaning</th></tr></thead><tbody><tr><td>above</td><td>Position the caption so the bottom of the caption lies just above the grid item poster</td></tr><tr><td>top</td><td>Align the top of the caption with the top edge of the grid item poster</td></tr><tr><td>center</td><td>Align the vertical center of the caption with the vertical center of the of the grid item poster</td></tr><tr><td>bottom</td><td>Align the bottom of the caption with the bottom edge of the grid item poster</td></tr><tr><td>below</td><td>Position the caption so the top of the caption lies just below the grid item poster</td></tr></tbody></table></td>
+      <td>Specifies the vertical positioning of the grid item captions. Possible values are:<br /><br /><table><thead><tr><th style={{ textAlign: "left" }}>Value</th><th style={{ textAlign: "left" }}>Meaning</th></tr></thead><tbody><tr><td>above</td><td>Position the caption so the bottom of the caption lies just above the grid item poster</td></tr><tr><td>top</td><td>Align the top of the caption with the top edge of the grid item poster</td></tr><tr><td>center</td><td>Align the vertical center of the caption with the vertical center of the of the grid item poster</td></tr><tr><td>bottom</td><td>Align the bottom of the caption with the bottom edge of the grid item poster</td></tr><tr><td>below</td><td>Position the caption so the top of the caption lies just below the grid item poster</td></tr></tbody></table></td>
     </tr>
     <tr>
       <td>captionLineSpacing</td>
@@ -438,9 +438,9 @@ If the grid items are not to be grouped into sections, one child ContentNode sho
 <table>
   <thead>
     <tr>
-      <th>Attribute</th>
-      <th>Type</th>
-      <th>Description</th>
+      <th style={{ textAlign: "left" }}>Attribute</th>
+      <th style={{ textAlign: "left" }}>Type</th>
+      <th style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>

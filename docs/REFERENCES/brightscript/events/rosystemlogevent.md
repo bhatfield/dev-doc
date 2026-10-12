@@ -28,9 +28,9 @@ If LogType is "http.connect" or "http.error", the event AA contains the base key
 <table>
   <thead>
     <tr>
-      <th>Key</th>
-      <th>Type</th>
-      <th>Description</th>
+      <th style={{ textAlign: "left" }}>Key</th>
+      <th style={{ textAlign: "left" }}>Type</th>
+      <th style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>

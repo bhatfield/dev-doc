@@ -146,9 +146,9 @@ Returns the localized date of the device.
 <table>
 <thead>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th>Description</th>
+<th style={{ textAlign: "left" }}>Name</th>
+<th style={{ textAlign: "left" }}>Type</th>
+<th style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -203,9 +203,9 @@ Returns the localized time of the device.
 <table>
 <thead>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th>Description</th>
+<th style={{ textAlign: "left" }}>Name</th>
+<th style={{ textAlign: "left" }}>Type</th>
+<th style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -254,7 +254,7 @@ Returns the date/time formatted string.
 
 | Name   | Type   | Description                     |
 | :----- | :----- | :------------------------------ |
-| format | String | <table><thead><tr><th>Format</th></tr></thead><tbody><tr><td>long-date</td></tr><tr><td>short-weekday</td></tr><tr><td>no-weekday</td></tr><tr><td>short-month</td></tr><tr><td>short-month-short-weekday</td></tr><tr><td>short-month-no-weekday</td></tr><tr><td>short-date</td></tr><tr><td>short-date-dashes</td></tr></tbody></table> |
+| format | String | <table><thead><tr><th style={{ textAlign: "left" }}>Format</th></tr></thead><tbody><tr><td>long-date</td></tr><tr><td>short-weekday</td></tr><tr><td>no-weekday</td></tr><tr><td>short-month</td></tr><tr><td>short-month-short-weekday</td></tr><tr><td>short-month-no-weekday</td></tr><tr><td>short-date</td></tr><tr><td>short-date-dashes</td></tr></tbody></table> |
 
 
 ##### Return Value

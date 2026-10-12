@@ -172,8 +172,8 @@ The formatting requested below is a subset of the [Roku Channel Ingest Specifica
 <table>
   <thead>
     <tr>
-      <th><strong>Video Codec</strong></th>
-      <th><strong>ProRes</strong></th>
+      <th style={{ textAlign: "left" }}><strong>Video Codec</strong></th>
+      <th style={{ textAlign: "left" }}><strong>ProRes</strong></th>
     </tr>
   </thead>
   <tbody>
@@ -231,8 +231,8 @@ The formatting requested below is a subset of the [Roku Channel Ingest Specifica
 <table>
   <thead>
     <tr>
-      <th><strong>Audio Codec</strong></th>
-      <th><strong>PCM</strong></th>
+      <th style={{ textAlign: "left" }}><strong>Audio Codec</strong></th>
+      <th style={{ textAlign: "left" }}><strong>PCM</strong></th>
     </tr>
   </thead>
   <tbody>
@@ -274,8 +274,8 @@ From each Texted Master created, please export following proxy files:
 <table>
   <thead>
     <tr>
-      <th>Video Codec</th>
-      <th>H.264</th>
+      <th style={{ textAlign: "left" }}>Video Codec</th>
+      <th style={{ textAlign: "left" }}>H.264</th>
     </tr>
   </thead>
   <tbody>

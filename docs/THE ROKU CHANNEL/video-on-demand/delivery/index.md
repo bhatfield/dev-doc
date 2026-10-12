@@ -534,7 +534,7 @@ Source video, closed captions, and artwork files delivered for ingest must adher
 <Table align={["left"]}>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Character sets
       </th>
     </tr>
@@ -738,11 +738,11 @@ Roku utilizes a transform engine that can “normalize” different metadata for
 <Table align={["left","left"]}>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Film/Clip Requirements
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
         TV Requirements
       </th>
     </tr>
@@ -904,19 +904,19 @@ XML format preferred. One complete XML shall be delivered for each movie, clip, 
 <Table align={["left","left","left","left"]}>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Format Name
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
         Format Extension
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
         Encoding
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
         Package Version
       </th>
     </tr>

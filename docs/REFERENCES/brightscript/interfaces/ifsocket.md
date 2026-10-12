@@ -104,11 +104,11 @@ Sets the address using a BSD bind() call
 <table>
   <thead>
     <tr>
-      <th>Name</th>
-      <th>Return Type</th>
-      <th>Parameters</th>
-      <th>Return Value</th>
-      <th>Description</th>
+      <th style={{ textAlign: "left" }}>Name</th>
+      <th style={{ textAlign: "left" }}>Return Type</th>
+      <th style={{ textAlign: "left" }}>Parameters</th>
+      <th style={{ textAlign: "left" }}>Return Value</th>
+      <th style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>

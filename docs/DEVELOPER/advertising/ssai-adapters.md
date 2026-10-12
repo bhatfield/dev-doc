@@ -251,8 +251,8 @@ Before using the adapter samples, the developer must be familiar with the SSAI p
 <table>
   <thead>
     <tr>
-      <th><strong>Verizon Media Services</strong></th>
-      <th><strong>File</strong></th>
+      <th style={{ textAlign: "left" }}><strong>Verizon Media Services</strong></th>
+      <th style={{ textAlign: "left" }}><strong>File</strong></th>
     </tr>
   </thead>
   <tbody>
@@ -268,8 +268,8 @@ Before using the adapter samples, the developer must be familiar with the SSAI p
 <table>
   <thead>
     <tr>
-      <th>Adobe Adapter</th>
-      <th>File</th>
+      <th style={{ textAlign: "left" }}>Adobe Adapter</th>
+      <th style={{ textAlign: "left" }}>File</th>
     </tr>
   </thead>
   <tbody>
@@ -285,8 +285,8 @@ Before using the adapter samples, the developer must be familiar with the SSAI p
 <table>
   <thead>
     <tr>
-      <th>OTTera AdNet+ Adapter</th>
-      <th>File</th>
+      <th style={{ textAlign: "left" }}>OTTera AdNet+ Adapter</th>
+      <th style={{ textAlign: "left" }}>File</th>
     </tr>
   </thead>
   <tbody>
@@ -302,8 +302,8 @@ Before using the adapter samples, the developer must be familiar with the SSAI p
 <table>
   <thead>
     <tr>
-      <th>Brightcove/OnceUX Adapter</th>
-      <th>File</th>
+      <th style={{ textAlign: "left" }}>Brightcove/OnceUX Adapter</th>
+      <th style={{ textAlign: "left" }}>File</th>
     </tr>
   </thead>
   <tbody>
@@ -319,8 +319,8 @@ Before using the adapter samples, the developer must be familiar with the SSAI p
 <table>
   <thead>
     <tr>
-      <th>Yospace Adapter</th>
-      <th>File</th>
+      <th style={{ textAlign: "left" }}>Yospace Adapter</th>
+      <th style={{ textAlign: "left" }}>File</th>
     </tr>
   </thead>
   <tbody>
@@ -336,8 +336,8 @@ Before using the adapter samples, the developer must be familiar with the SSAI p
 <table>
   <thead>
     <tr>
-      <th>AWS Elemental MediaTailor Adapter</th>
-      <th>File</th>
+      <th style={{ textAlign: "left" }}>AWS Elemental MediaTailor Adapter</th>
+      <th style={{ textAlign: "left" }}>File</th>
     </tr>
   </thead>
   <tbody>

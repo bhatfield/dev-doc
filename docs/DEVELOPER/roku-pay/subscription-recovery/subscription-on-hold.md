@@ -72,11 +72,11 @@ The [v2 getAllPurchases](doc:add-ons-integration#getpurchases) API returns an **
 <table>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Subscription state
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
         **purchases.billingPlan.state**
       </th>
     </tr>
@@ -169,87 +169,87 @@ This reference summarizes the **request** and **requestStatus** fields used by t
 <table>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Field
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
         Type
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
         Description
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
 
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
 
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
 
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
 
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
 
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
 
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
 
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
 
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
 
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
 
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
 
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
 
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
 
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
 
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
 
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
 
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
 
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
 
       </th>
     </tr>
@@ -275,9 +275,9 @@ This reference summarizes the **request** and **requestStatus** fields used by t
         <table>
           <thead>
             <tr>
-              <th>Field</th>
-              <th>Type</th>
-              <th>Description</th>
+              <th style={{ textAlign: "left" }}>Field</th>
+              <th style={{ textAlign: "left" }}>Type</th>
+              <th style={{ textAlign: "left" }}>Description</th>
             </tr>
           </thead>
           <tbody>
@@ -300,9 +300,9 @@ This reference summarizes the **request** and **requestStatus** fields used by t
                 <table>
                   <thead>
                     <tr>
-                      <th>Field</th>
-                      <th>Type</th>
-                      <th>Description</th>
+                      <th style={{ textAlign: "left" }}>Field</th>
+                      <th style={{ textAlign: "left" }}>Type</th>
+                      <th style={{ textAlign: "left" }}>Description</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -373,9 +373,9 @@ This reference summarizes the **request** and **requestStatus** fields used by t
         <table>
           <thead>
             <tr>
-              <th>Field</th>
-              <th>Type</th>
-              <th>Description</th>
+              <th style={{ textAlign: "left" }}>Field</th>
+              <th style={{ textAlign: "left" }}>Type</th>
+              <th style={{ textAlign: "left" }}>Description</th>
             </tr>
           </thead>
           <tbody>
@@ -690,9 +690,9 @@ This reference summarizes the **request** and **requestStatus** fields used by t
         <table>
           <thead>
             <tr>
-              <th>Field</th>
-              <th>Type</th>
-              <th>Description</th>
+              <th style={{ textAlign: "left" }}>Field</th>
+              <th style={{ textAlign: "left" }}>Type</th>
+              <th style={{ textAlign: "left" }}>Description</th>
             </tr>
           </thead>
           <tbody>
@@ -957,87 +957,87 @@ This reference summarizes the **request** and **requestStatus** fields used by t
 <table>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Field
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
         Type
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
         Description
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
 
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
 
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
 
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
 
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
 
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
 
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
 
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
 
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
 
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
 
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
 
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
 
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
 
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
 
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
 
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
 
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
 
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
 
       </th>
     </tr>
@@ -1063,9 +1063,9 @@ This reference summarizes the **request** and **requestStatus** fields used by t
         <table>
           <thead>
             <tr>
-              <th>Field</th>
-              <th>Type</th>
-              <th>Description</th>
+              <th style={{ textAlign: "left" }}>Field</th>
+              <th style={{ textAlign: "left" }}>Type</th>
+              <th style={{ textAlign: "left" }}>Description</th>
             </tr>
           </thead>
           <tbody>

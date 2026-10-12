@@ -79,9 +79,9 @@ Integrating into Continue Watching entails calling the Roku Continue Watching AP
 <table>
   <thead>
     <tr>
-      <th>Step</th>
-      <th>API</th>
-      <th>Description</th>
+      <th style={{ textAlign: "left" }}>Step</th>
+      <th style={{ textAlign: "left" }}>API</th>
+      <th style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>
@@ -120,8 +120,8 @@ The following table summarizes the basic information for the Continue Watching R
 <table>
   <thead>
     <tr>
-      <th>Item</th>
-      <th>Description</th>
+      <th style={{ textAlign: "left" }}>Item</th>
+      <th style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>
@@ -158,10 +158,10 @@ To add new content items and update existing ones to the Continue Watching row, 
 <table>
   <thead>
     <tr>
-      <th>Parameter</th>
-      <th>Type</th>
-      <th>Required/Optional</th>
-      <th>Description</th>
+      <th style={{ textAlign: "left" }}>Parameter</th>
+      <th style={{ textAlign: "left" }}>Type</th>
+      <th style={{ textAlign: "left" }}>Required/Optional</th>
+      <th style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>
@@ -418,13 +418,13 @@ The JWT payload must have the following claims:
 <Table align={["left","left","left"]}>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "left" }}>
         **Claim**
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         **Type**
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         **Description**
       </th>
     </tr>

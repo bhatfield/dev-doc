@@ -51,9 +51,9 @@ Gets the set of ads to be rendered now. This method may be called with no parame
 <table>
   <thead>
     <tr>
-      <th>Name</th>
-      <th>Type</th>
-      <th>Description</th>
+      <th style={{ textAlign: "left" }}>Name</th>
+      <th style={{ textAlign: "left" }}>Type</th>
+      <th style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>
@@ -84,10 +84,10 @@ Client applications should always check the return value. If it is false, an app
 <table>
   <thead>
     <tr>
-      <th><strong>Argument</strong></th>
-      <th><strong>Type</strong></th>
-      <th><strong>Required</strong>?</th>
-      <th><strong>Description</strong></th>
+      <th style={{ textAlign: "left" }}><strong>Argument</strong></th>
+      <th style={{ textAlign: "left" }}><strong>Type</strong></th>
+      <th style={{ textAlign: "left" }}><strong>Required</strong>?</th>
+      <th style={{ textAlign: "left" }}><strong>Description</strong></th>
     </tr>
   </thead>
   <tbody>
@@ -157,9 +157,9 @@ The default is for Roku to backfill ads if this method is not called or **useRok
 <table>
   <thead>
     <tr>
-      <th>Argument</th>
-      <th>Type</th>
-      <th>Description</th>
+      <th style={{ textAlign: "left" }}>Argument</th>
+      <th style={{ textAlign: "left" }}>Type</th>
+      <th style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>
@@ -191,9 +191,9 @@ Any additional known types can be mapped to their stream format by setting this 
 <table>
   <thead>
     <tr>
-      <th>Argument</th>
-      <th>Type</th>
-      <th>Description</th>
+      <th style={{ textAlign: "left" }}>Argument</th>
+      <th style={{ textAlign: "left" }}>Type</th>
+      <th style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>
@@ -395,9 +395,9 @@ The semantics and implementation of targeting based on genre values are dependen
 <table>
   <thead>
     <tr>
-      <th>Argument</th>
-      <th>Type</th>
-      <th>Description</th>
+      <th style={{ textAlign: "left" }}>Argument</th>
+      <th style={{ textAlign: "left" }}>Type</th>
+      <th style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>
@@ -502,10 +502,10 @@ Merges a video feed and a set of one or more ad pods into a single playlist for 
 <table>
   <thead>
     <tr>
-      <th>Argument</th>
-      <th>Type</th>
-      <th>Required?</th>
-      <th>Description</th>
+      <th style={{ textAlign: "left" }}>Argument</th>
+      <th style={{ textAlign: "left" }}>Type</th>
+      <th style={{ textAlign: "left" }}>Required?</th>
+      <th style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>
@@ -543,9 +543,9 @@ For client-side stitched streams, the app will also get tracking events during c
 <table>
   <thead>
     <tr>
-      <th>Argument</th>
-      <th>Type</th>
-      <th>Description</th>
+      <th style={{ textAlign: "left" }}>Argument</th>
+      <th style={{ textAlign: "left" }}>Type</th>
+      <th style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>
@@ -599,9 +599,9 @@ The advertising framework must first be initialized using the stitchedAdsInit() 
 <table>
   <thead>
     <tr>
-      <th><strong>Argument</strong></th>
-      <th><strong>Type</strong></th>
-      <th><strong>Description</strong></th>
+      <th style={{ textAlign: "left" }}><strong>Argument</strong></th>
+      <th style={{ textAlign: "left" }}><strong>Type</strong></th>
+      <th style={{ textAlign: "left" }}><strong>Description</strong></th>
     </tr>
   </thead>
   <tbody>
@@ -704,9 +704,9 @@ Enables the client application to set a callback function and timeout value for 
 <table>
   <thead>
     <tr>
-      <th>Argument</th>
-      <th>Type</th>
-      <th>Description</th>
+      <th style={{ textAlign: "left" }}>Argument</th>
+      <th style={{ textAlign: "left" }}>Type</th>
+      <th style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>

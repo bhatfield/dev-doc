@@ -25,19 +25,19 @@ The BusySpinner node class is a simple widget that displays a continuously rotat
 <Table>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Field
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Type
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Default
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Access Permission
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Description
       </th>
     </tr>

@@ -34,8 +34,8 @@ To add a user to your account and assign them roles and permissions, follow thes
    <table>
    <thead>
    <tr>
-   <th class="short-line"><strong>Field</strong></th>
-   <th class="short-line"><strong>Description</strong></th>
+   <th class="short-line" style={{ textAlign: "left" }}><strong>Field</strong></th>
+   <th class="short-line" style={{ textAlign: "left" }}><strong>Description</strong></th>
    </tr>
    </thead>
    <tbody>
@@ -77,9 +77,9 @@ Accounts that build and publish Roku apps can have the following roles and permi
 <table>
 <thead>
 <tr>
-<th class="short-line">Role</th>
-<th class="short-line">Permissions</th>
-<th class="short-line">Access-level</th>
+<th class="short-line" style={{ textAlign: "left" }}>Role</th>
+<th class="short-line" style={{ textAlign: "left" }}>Permissions</th>
+<th class="short-line" style={{ textAlign: "left" }}>Access-level</th>
 </tr>
 </thead>
 <tbody>
@@ -160,11 +160,11 @@ Accounts that distribute content on The Roku Channel can have the following role
 <Table align={["left","left"]}>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Role
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
         Permissions
       </th>
     </tr>
@@ -244,11 +244,11 @@ Accounts that distribute content on The Roku Channel can have the following role
 <Table align={["left","left"]}>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Role
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
         Permissions
       </th>
     </tr>

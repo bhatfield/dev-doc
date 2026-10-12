@@ -19,9 +19,9 @@ next:
 <div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line"><strong>HTTP Method</strong></th>
-<th class="short-line"><strong>Path</strong></th>
-<th class="short-line"><strong>Summary</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>HTTP Method</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Path</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Summary</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -131,9 +131,9 @@ next:
 <div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line"><strong>Key</strong></th>
-<th class="short-line"><strong>Type</strong></th>
-<th class="short-line"><strong>Description</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Key</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Type</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Description</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -148,9 +148,9 @@ next:
 <td class="long-line">A status code summarizing the result of the command: <br><div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line"><strong>Code</strong></th>
-<th class="short-line"><strong>Summary</strong></th>
-<th class="short-line"><strong>Detail</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Code</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Summary</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Detail</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -211,9 +211,9 @@ next:
 <div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line"><strong>Key</strong></th>
-<th class="short-line"><strong>Type</strong></th>
-<th class="short-line"><strong>Description</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Key</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Type</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Description</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -233,10 +233,10 @@ next:
 <div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Method Type</th>
-<th class="short-line">Path</th>
-<th class="short-line">Return Value</th>
-<th class="short-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Method Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Path</th>
+<th class="short-line" style={{ textAlign: "left" }}>Return Value</th>
+<th class="short-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -246,9 +246,9 @@ next:
 <td class="long-line">A JSON object with the server's platform and build date. This object contains the following fields:<br><div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line"><strong>Key</strong></th>
-<th class="short-line"><strong>Type</strong></th>
-<th class="short-line"><strong>Description</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Key</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Type</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Description</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -307,11 +307,11 @@ next:
 <div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Method Type</th>
-<th class="short-line">Path</th>
-<th class="short-line">Parameters</th>
-<th class="short-line">Return Value</th>
-<th class="short-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Method Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Path</th>
+<th class="short-line" style={{ textAlign: "left" }}>Parameters</th>
+<th class="short-line" style={{ textAlign: "left" }}>Return Value</th>
+<th class="short-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -324,9 +324,9 @@ next:
 <td class="long-line">A JSON object with the device's advertisement ID, which is used as the sessionId. This object has the following fields:<br><div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line"><strong>Key</strong></th>
-<th class="short-line"><strong>Type</strong></th>
-<th class="short-line"><strong>Description</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Key</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Type</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Description</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -390,10 +390,10 @@ next:
 <div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Method Type</th>
-<th class="short-line">Path</th>
-<th class="short-line">Return Value</th>
-<th class="short-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Method Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Path</th>
+<th class="short-line" style={{ textAlign: "left" }}>Return Value</th>
+<th class="short-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -403,9 +403,9 @@ next:
 <td class="long-line">A JSON object with an array of sessions. This object has the following fields:<br><div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line"><strong>Key</strong></th>
-<th class="short-line"><strong>Type</strong></th>
-<th class="short-line"><strong>Description</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Key</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Type</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Description</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -469,10 +469,10 @@ next:
 <div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Method Type</th>
-<th class="short-line">Path</th>
-<th class="short-line">Return Value</th>
-<th class="short-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Method Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Path</th>
+<th class="short-line" style={{ textAlign: "left" }}>Return Value</th>
+<th class="short-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -482,9 +482,9 @@ next:
 <td class="long-line">A JSON object with device information. This object has the following fields:<br><div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line"><strong>Key</strong></th>
-<th class="short-line"><strong>Type</strong></th>
-<th class="short-line"><strong>Description</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Key</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Type</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Description</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -548,10 +548,10 @@ next:
 <div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Method Type</th>
-<th class="short-line">Path</th>
-<th class="short-line">Return Value</th>
-<th class="short-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Method Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Path</th>
+<th class="short-line" style={{ textAlign: "left" }}>Return Value</th>
+<th class="short-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -561,9 +561,9 @@ next:
 <td class="long-line">A JSON object that has the following fields:<br><div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line"><strong>Key</strong></th>
-<th class="short-line"><strong>Type</strong></th>
-<th class="short-line"><strong>Description</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Key</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Type</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Description</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -593,11 +593,11 @@ next:
 <div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Method Type</th>
-<th class="short-line">Path</th>
-<th class="short-line">JSON Parameters</th>
-<th class="short-line">Return Value</th>
-<th class="short-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Method Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Path</th>
+<th class="short-line" style={{ textAlign: "left" }}>JSON Parameters</th>
+<th class="short-line" style={{ textAlign: "left" }}>Return Value</th>
+<th class="short-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -613,9 +613,9 @@ next:
 <td class="long-line">A JSON object with the following fields: <div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line"><strong>Key</strong></th>
-<th class="short-line"><strong>Type</strong></th>
-<th class="short-line"><strong>Description</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Key</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Type</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Description</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -644,11 +644,11 @@ next:
 <div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Method Type</th>
-<th class="short-line">Path</th>
-<th class="short-line">JSON Parameters</th>
-<th class="short-line">Return Value</th>
-<th class="short-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Method Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Path</th>
+<th class="short-line" style={{ textAlign: "left" }}>JSON Parameters</th>
+<th class="short-line" style={{ textAlign: "left" }}>Return Value</th>
+<th class="short-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -662,9 +662,9 @@ next:
 <td class="long-line">A JSON object with the following fields: <div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line"><strong>Key</strong></th>
-<th class="short-line"><strong>Type</strong></th>
-<th class="short-line"><strong>Description</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Key</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Type</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Description</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -693,11 +693,11 @@ next:
 <div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Method Type</th>
-<th class="short-line">Path</th>
-<th class="short-line">JSON Parameters</th>
-<th class="short-line">Return Value</th>
-<th class="short-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Method Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Path</th>
+<th class="short-line" style={{ textAlign: "left" }}>JSON Parameters</th>
+<th class="short-line" style={{ textAlign: "left" }}>Return Value</th>
+<th class="short-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -713,9 +713,9 @@ next:
 <td class="long-line">A JSON object with the  following fields:<br><div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line"><strong>Key</strong></th>
-<th class="short-line"><strong>Type</strong></th>
-<th class="short-line"><strong>Description</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Key</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Type</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Description</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -745,11 +745,11 @@ next:
 <div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Method Type</th>
-<th class="short-line">Path</th>
-<th class="short-line">JSON Parameters</th>
-<th class="short-line">Return Value</th>
-<th class="short-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Method Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Path</th>
+<th class="short-line" style={{ textAlign: "left" }}>JSON Parameters</th>
+<th class="short-line" style={{ textAlign: "left" }}>Return Value</th>
+<th class="short-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -765,9 +765,9 @@ next:
 <td class="long-line">A JSON object with the following fields: <div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line"><strong>Key</strong></th>
-<th class="short-line"><strong>Type</strong></th>
-<th class="short-line"><strong>Description</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Key</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Type</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Description</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -796,11 +796,11 @@ next:
 <div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Method Type</th>
-<th class="short-line">Path</th>
-<th class="short-line">JSON Parameters</th>
-<th class="short-line">Return Value</th>
-<th class="short-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Method Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Path</th>
+<th class="short-line" style={{ textAlign: "left" }}>JSON Parameters</th>
+<th class="short-line" style={{ textAlign: "left" }}>Return Value</th>
+<th class="short-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -815,9 +815,9 @@ next:
 <td class="long-line">A JSON object with the  following fields:<br> <div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line"><strong>Key</strong></th>
-<th class="short-line"><strong>Type</strong></th>
-<th class="short-line"><strong>Description</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Key</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Type</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Description</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -846,11 +846,11 @@ next:
 <div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Method Type</th>
-<th class="short-line">Path</th>
-<th class="short-line">JSON Parameters</th>
-<th class="short-line">Return Value</th>
-<th class="short-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Method Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Path</th>
+<th class="short-line" style={{ textAlign: "left" }}>JSON Parameters</th>
+<th class="short-line" style={{ textAlign: "left" }}>Return Value</th>
+<th class="short-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -865,9 +865,9 @@ next:
 <td class="long-line">A JSON object with the specified session. This object has the following fields:<br> <div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line"><strong>Key</strong></th>
-<th class="short-line"><strong>Type</strong></th>
-<th class="short-line"><strong>Description</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Key</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Type</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Description</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -896,11 +896,11 @@ next:
 <div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Method Type</th>
-<th class="short-line">Path</th>
-<th class="short-line">JSON Parameters</th>
-<th class="short-line">Return Value</th>
-<th class="short-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Method Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Path</th>
+<th class="short-line" style={{ textAlign: "left" }}>JSON Parameters</th>
+<th class="short-line" style={{ textAlign: "left" }}>Return Value</th>
+<th class="short-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -914,9 +914,9 @@ next:
 <td class="long-line">A JSON object with the following fields:<br> <div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line"><strong>Key</strong></th>
-<th class="short-line"><strong>Type</strong></th>
-<th class="short-line"><strong>Description</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Key</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Type</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Description</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -945,11 +945,11 @@ next:
 <div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Method Type</th>
-<th class="short-line">Path</th>
-<th class="short-line">JSON Parameters</th>
-<th class="short-line">Return Value</th>
-<th class="short-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Method Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Path</th>
+<th class="short-line" style={{ textAlign: "left" }}>JSON Parameters</th>
+<th class="short-line" style={{ textAlign: "left" }}>Return Value</th>
+<th class="short-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -963,9 +963,9 @@ next:
 <td class="long-line">A JSON object with the following fields: <br><div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line"><strong>Key</strong></th>
-<th class="short-line"><strong>Type</strong></th>
-<th class="short-line"><strong>Description</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Key</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Type</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Description</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -994,11 +994,11 @@ next:
 <div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Method Type</th>
-<th class="short-line">Path</th>
-<th class="short-line">JSON Parameters</th>
-<th class="short-line">Return Value</th>
-<th class="short-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Method Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Path</th>
+<th class="short-line" style={{ textAlign: "left" }}>JSON Parameters</th>
+<th class="short-line" style={{ textAlign: "left" }}>Return Value</th>
+<th class="short-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -1034,9 +1034,9 @@ next:
 <td class="long-line">A WebElement JSON object representing the retrieved elements. This object has the following fields: <div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line"><strong>Key</strong></th>
-<th class="short-line"><strong>Type</strong></th>
-<th class="short-line"><strong>Description</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Key</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Type</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Description</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -1110,11 +1110,11 @@ next:
 <div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Method Type</th>
-<th class="short-line">Path</th>
-<th class="short-line">JSON Parameters</th>
-<th class="short-line">Return Value</th>
-<th class="short-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Method Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Path</th>
+<th class="short-line" style={{ textAlign: "left" }}>JSON Parameters</th>
+<th class="short-line" style={{ textAlign: "left" }}>Return Value</th>
+<th class="short-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -1150,9 +1150,9 @@ next:
 <td class="long-line">A WebElement JSON object representing the retrieved element. This object has the following fields:<br> <div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line"><strong>Key</strong></th>
-<th class="short-line"><strong>Type</strong></th>
-<th class="short-line"><strong>Description</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Key</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Type</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Description</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -1226,10 +1226,10 @@ next:
 <div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Method Type</th>
-<th class="short-line">Path</th>
-<th class="short-line">Return Value</th>
-<th class="short-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Method Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Path</th>
+<th class="short-line" style={{ textAlign: "left" }}>Return Value</th>
+<th class="short-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -1239,9 +1239,9 @@ next:
 <td class="long-line">A JSON object with the element that currently has focus. This object has the following fields: <br><div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line"><strong>Key</strong></th>
-<th class="short-line"><strong>Type</strong></th>
-<th class="short-line"><strong>Description</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Key</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Type</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Description</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -1315,10 +1315,10 @@ next:
 <div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Method Type</th>
-<th class="short-line">Path</th>
-<th class="short-line">Return Value</th>
-<th class="short-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Method Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Path</th>
+<th class="short-line" style={{ textAlign: "left" }}>Return Value</th>
+<th class="short-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -1328,9 +1328,9 @@ next:
 <td class="long-line">A JSON object with the current page source. This object has the following fields: <div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line"><strong>Key</strong></th>
-<th class="short-line"><strong>Type</strong></th>
-<th class="short-line"><strong>Description</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Key</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Type</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Description</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -1359,10 +1359,10 @@ next:
 <div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Method Type</th>
-<th class="short-line">Path</th>
-<th class="short-line">Return Value</th>
-<th class="short-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Method Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Path</th>
+<th class="short-line" style={{ textAlign: "left" }}>Return Value</th>
+<th class="short-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -1372,9 +1372,9 @@ next:
 <td class="long-line">A JSON object with an array of installed apps. This object has the following fields: <div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line"><strong>Key</strong></th>
-<th class="short-line"><strong>Type</strong></th>
-<th class="short-line"><strong>Description</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Key</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Type</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Description</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -1428,10 +1428,10 @@ next:
 <div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Method Type</th>
-<th class="short-line">Path</th>
-<th class="short-line">Return Value</th>
-<th class="short-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Method Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Path</th>
+<th class="short-line" style={{ textAlign: "left" }}>Return Value</th>
+<th class="short-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -1441,9 +1441,9 @@ next:
 <td class="long-line">A JSON object with the app currently loaded on the device. This object has the following fields: <div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line"><strong>Key</strong></th>
-<th class="short-line"><strong>Type</strong></th>
-<th class="short-line"><strong>Description</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Key</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Type</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Description</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -1497,10 +1497,10 @@ next:
 <div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Method Type</th>
-<th class="short-line">Path</th>
-<th class="short-line">Return Value</th>
-<th class="short-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Method Type</th>
+<th class="short-line" style={{ textAlign: "left" }}>Path</th>
+<th class="short-line" style={{ textAlign: "left" }}>Return Value</th>
+<th class="short-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -1510,9 +1510,9 @@ next:
 <td class="long-line">A JSON object with the information about the Roku media player. This object has the following fields: <div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line"><strong>Key</strong></th>
-<th class="short-line"><strong>Type</strong></th>
-<th class="short-line"><strong>Description</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Key</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Type</strong></th>
+<th class="short-line" style={{ textAlign: "left" }}><strong>Description</strong></th>
 </tr>
 </thead>
 <tbody>

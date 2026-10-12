@@ -29,7 +29,7 @@ Encrypts data on a device that is unique per device, app, or model.
 | Name    | Type        | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | :------ | :---------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | input   | roByteArray | The data to be encrypted.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| encType | String      | The encryption key type, which is a string that may be set to "channel", "device", or "model": <table><thead><tr><th>encType</th><th>Description</th></tr></thead><tbody><tr><td>device</td><td>Encrypt data with a device unique key. This can be used to implement a secure storage-like algorithm.</td></tr><tr><td>channel</td><td>Encrypt data with an app unique key This enables you to provision credentials, API tokens, or other data from the cloud to devices securely. Apps signed with same signing key will share the encryption key.</td></tr><tr><td>model</td><td>Encrypt app with a model unique key This is similar to the "channel" encryption type, but with the scope limited to a specific model.</td></tr></tbody></table> |
+| encType | String      | The encryption key type, which is a string that may be set to "channel", "device", or "model": <table><thead><tr><th style={{ textAlign: "left" }}>encType</th><th style={{ textAlign: "left" }}>Description</th></tr></thead><tbody><tr><td>device</td><td>Encrypt data with a device unique key. This can be used to implement a secure storage-like algorithm.</td></tr><tr><td>channel</td><td>Encrypt data with an app unique key This enables you to provision credentials, API tokens, or other data from the cloud to devices securely. Apps signed with same signing key will share the encryption key.</td></tr><tr><td>model</td><td>Encrypt app with a model unique key This is similar to the "channel" encryption type, but with the scope limited to a specific model.</td></tr></tbody></table> |
 
 ##### Return Value
 
@@ -46,9 +46,9 @@ Decrypts data stored on a device that was previously encoded with the [**Encrypt
 <table>
   <thead>
     <tr>
-      <th>Name</th>
-      <th>Type</th>
-      <th>Description</th>
+      <th style={{ textAlign: "left" }}>Name</th>
+      <th style={{ textAlign: "left" }}>Type</th>
+      <th style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>

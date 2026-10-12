@@ -64,13 +64,13 @@ The following outlines what we support. A preferred video set up is outlined in 
 <table>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "left" }}>
         **Description**
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         **Specification**
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         **Preferred**
       </th>
     </tr>
@@ -1155,27 +1155,27 @@ The following genres are supported:
 <Table align={["left","left","left","left","left","left"]}>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "left" }}>
         1.
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
         2.
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
         3.
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
         4.
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
         5.
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
         6.
       </th>
     </tr>

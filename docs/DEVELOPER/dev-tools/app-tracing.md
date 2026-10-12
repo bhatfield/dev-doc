@@ -174,10 +174,10 @@ You can use the roPerfetto BrightScript component to capture custom events in a 
 <table>
   <thead>
     <tr>
-      <th><strong>Event</strong></th>
-      <th><strong>Description</strong></th>
-      <th><strong>Example</strong></th>
-      <th><strong>Snippet</strong></th>
+      <th style={{ textAlign: "left" }}><strong>Event</strong></th>
+      <th style={{ textAlign: "left" }}><strong>Description</strong></th>
+      <th style={{ textAlign: "left" }}><strong>Example</strong></th>
+      <th style={{ textAlign: "left" }}><strong>Snippet</strong></th>
     </tr>
   </thead>
   <tbody>

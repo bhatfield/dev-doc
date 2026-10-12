@@ -60,23 +60,23 @@ The **subscription-recovery** test API includes a set of POST methods for changi
 <Table align={["left","left","left","left","left"]}>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "left" }}>
         #
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
         Usecase
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
         Subscription state change
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
         Method
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
         URL
       </th>
     </tr>

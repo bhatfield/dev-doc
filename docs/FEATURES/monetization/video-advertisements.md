@@ -35,9 +35,9 @@ The following chart illustrates the key differences between the two monetization
 <table>
   <thead>
     <tr>
-      <th />
-      <th>Inventory Split</th>
-      <th>Roku Sales Representation Program</th>
+      <th / style={{ textAlign: "left" }}>
+      <th style={{ textAlign: "left" }}>Inventory Split</th>
+      <th style={{ textAlign: "left" }}>Roku Sales Representation Program</th>
     </tr>
   </thead>
   <tbody>

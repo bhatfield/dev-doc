@@ -28,11 +28,11 @@ The **StdDlgTextItem** node is used to display a block of text. It should only b
 <table>
 <thead>
 <tr>
-<th>Field</th>
-<th>Type</th>
-<th>Default</th>
-<th>Access Permission</th>
-<th>Description</th>
+<th style={{ textAlign: "left" }}>Field</th>
+<th style={{ textAlign: "left" }}>Type</th>
+<th style={{ textAlign: "left" }}>Default</th>
+<th style={{ textAlign: "left" }}>Access Permission</th>
+<th style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -48,7 +48,7 @@ The **StdDlgTextItem** node is used to display a block of text. It should only b
 <td>string</td>
 <td>"normal"</td>
 <td>READ_WRITE</td>
-<td>Specifies a named style to be used for the displayed text's color and font. The supported styles include:<br /><table><thead><tr><th>Style Name</th><th>Palette Color</th><th>Font</th></tr></thead><tbody><tr><td>"normal"</td><td>DialogTextColor</td><td>SmallSystemFont</td></tr><tr><td>"secondary"</td><td>DialogSecondaryTextColor</td><td>SmallestSystemFont</td></tr><tr><td>"bold"</td><td>DialogTextColor</td><td>SmallBoldSystemFont</td></tr></tbody></table></td>
+<td>Specifies a named style to be used for the displayed text's color and font. The supported styles include:<br /><table><thead><tr><th style={{ textAlign: "left" }}>Style Name</th><th style={{ textAlign: "left" }}>Palette Color</th><th style={{ textAlign: "left" }}>Font</th></tr></thead><tbody><tr><td>"normal"</td><td>DialogTextColor</td><td>SmallSystemFont</td></tr><tr><td>"secondary"</td><td>DialogSecondaryTextColor</td><td>SmallestSystemFont</td></tr><tr><td>"bold"</td><td>DialogTextColor</td><td>SmallBoldSystemFont</td></tr></tbody></table></td>
 </tr>
 <tr>
 <td>audioGuideText</td>

@@ -25,13 +25,13 @@ Returns an roAssociativeArray describing the input event, which may be one of th
 <Table align={["left","left","left"]}>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Key
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Type
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Value
       </th>
     </tr>

@@ -100,9 +100,9 @@ Returns the local bounding rectangle of this node's identified sub part in the n
 <table>
 <thead>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th>Description</th>
+<th style={{ textAlign: "left" }}>Name</th>
+<th style={{ textAlign: "left" }}>Type</th>
+<th style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -131,9 +131,9 @@ Returns the bounding rectangle of this node's identified sub part, as transforme
 <table>
 <thead>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th>Description</th>
+<th style={{ textAlign: "left" }}>Name</th>
+<th style={{ textAlign: "left" }}>Type</th>
+<th style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -163,9 +163,9 @@ Returns the bounding rectangle of this node's subpart in its Scene's coordinate 
 <table>
 <thead>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th>Description</th>
+<th style={{ textAlign: "left" }}>Name</th>
+<th style={{ textAlign: "left" }}>Type</th>
+<th style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -186,11 +186,11 @@ An associative array with the bounding rectangle.
 <table>
 <thead>
 <tr>
-<th>Name</th>
-<th>Return Type</th>
-<th>Parameters</th>
-<th>Return Value</th>
-<th>Description</th>
+<th style={{ textAlign: "left" }}>Name</th>
+<th style={{ textAlign: "left" }}>Return Type</th>
+<th style={{ textAlign: "left" }}>Parameters</th>
+<th style={{ textAlign: "left" }}>Return Value</th>
+<th style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -217,9 +217,9 @@ Returns the bounding rectangle of this node's subpart into the specified  ancest
 <table>
 <thead>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th>Description</th>
+<th style={{ textAlign: "left" }}>Name</th>
+<th style={{ textAlign: "left" }}>Type</th>
+<th style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>

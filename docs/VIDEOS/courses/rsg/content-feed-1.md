@@ -21,8 +21,8 @@ This lesson explains how the content feed is used to load and organize content i
 <table>
   <thead>
     <tr>
-      <th>Item</th>
-      <th>Description</th>
+      <th style={{ textAlign: "left" }}>Item</th>
+      <th style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>

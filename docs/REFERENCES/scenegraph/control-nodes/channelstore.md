@@ -30,11 +30,11 @@ Each of the commands starts a sequence of actions associated with the financial 
 <table>
   <thead>
     <tr>
-      <th class="short-line">Field</th>
-      <th class="short-line">Type</th>
-      <th class="short-line">Default</th>
-      <th class="short-line">Access Permission</th>
-      <th class="long-line">Description</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Field</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Type</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Default</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Access Permission</th>
+      <th class="long-line" style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>
@@ -53,11 +53,11 @@ Each of the commands starts a sequence of actions associated with the financial 
 <table>
   <thead>
     <tr>
-      <th class="short-line">Field</th>
-      <th class="short-line">Type</th>
-      <th class="short-line">Default</th>
-      <th class="short-line">Access Permission</th>
-      <th class="long-line">Description</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Field</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Type</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Default</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Access Permission</th>
+      <th class="long-line" style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>
@@ -76,11 +76,11 @@ Each of the commands starts a sequence of actions associated with the financial 
 <table>
   <thead>
     <tr>
-      <th class="short-line">Field</th>
-      <th class="short-line">Type</th>
-      <th class="short-line">Default</th>
-      <th class="short-line">Access Permission</th>
-      <th class="long-line">Description</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Field</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Type</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Default</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Access Permission</th>
+      <th class="long-line" style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>
@@ -89,7 +89,7 @@ Each of the commands starts a sequence of actions associated with the financial 
       <td class="short-line">ContentNode</td>
       <td class="short-line">invalid</td>
       <td class="short-line">READ\_WRITE</td>
-      <td class="long-line">Specifies whether the RFI screen is used for customer sign-ups or sign-ins. This may be one of the following values:<br /><div class="hscroll"><table><thead><tr><th class="short-line">Field</th><th class="short-line">Type</th><th class="short-line">Default</th><th class="long-line">Description</th></tr></thead><tbody><tr><td class="short-line">context</td><td class="short-line">string</td><td class="short-line">"signup"</td><td class="long-line">Specifies the context of the RFI screen, which may be one of the following values:<ul>
+      <td class="long-line">Specifies whether the RFI screen is used for customer sign-ups or sign-ins. This may be one of the following values:<br /><div class="hscroll"><table><thead><tr><th class="short-line" style={{ textAlign: "left" }}>Field</th><th class="short-line" style={{ textAlign: "left" }}>Type</th><th class="short-line" style={{ textAlign: "left" }}>Default</th><th class="long-line" style={{ textAlign: "left" }}>Description</th></tr></thead><tbody><tr><td class="short-line">context</td><td class="short-line">string</td><td class="short-line">"signup"</td><td class="long-line">Specifies the context of the RFI screen, which may be one of the following values:<ul>
       <li>"signup": The RFI screen displays a "Let's create your account" title and lists the customer information specified in the <a href="#requesteduserdata"><strong>requestedUserData</strong> field</a>. The RFI screen uses the "signup" context by default. See <a href="https://developer.roku.com/dev/docs/signup-best-practices">Sign-up requirements and best practices</a> for more information on implementing the app sign-up UI.</li><li>"signin: "The RFI screen displays a "Sign in" title and lists only email or phone attributes, if specified in the <a href="#requesteduserdata"><strong>requestedUserData</strong> field</a>. Other attributes are ignored, even if specified. See the <a href="#sign-in-example">Sign-in example</a> for how to use this field. See <a href="https://developer.roku.com/dev/docs/signin-best-practices">Sign-in requirements and best practices</a> for more information on implementing the app sign-in UI.</li></ul>
       </td></tr><tr><td class="short-line">forceShowData</td><td class="short-line">Boolean</td><td class="short-line">false</td><td class="long-line">If true, the RFI signup screen displays the values of the requested customer information to be shared with the app (for example, Jone Doe, [jon.doe@emailaddress.com](mailto:jon.doe@emailaddress.com)).<br /><br />By default, this flag is set to false, which means that the default RFI screen for the region is used. For example, in the US, the RFI screen displays the type of customer information being requested (email address, name, and so on).<br /><br />This flag has no effect if the context field is set to "signin" (the RFI sign-in screen always displays the customer information values). <br /><br /><strong>Example</strong>:<br /><pre><code>store = CreateObject("roSGNode", "ChannelStore")<br />' Doesn't show user data in dialog unless necessary in the user's region.<br /> store.requestedUserData = "email,firstname,lastname,gender,birth"<br />store.command = "getUserData"<br />' Shows user data in dialog.<br />info = CreateObject("roSGNode", "ContentNode")<br />info.addFields(\{forceShowData: true})<br />store.requestedUserDataInfo = info<br />store.requestedUserData = "email"<br />store.command = "getUserData"</code></pre></td></tr></tbody></table></div></td>
     </tr>
@@ -135,11 +135,11 @@ store.command = "getUserData"
 <table>
   <thead>
     <tr>
-      <th class="short-line">Field</th>
-      <th class="short-line">Type</th>
-      <th class="short-line">Default</th>
-      <th class="short-line">Access Permission</th>
-      <th class="long-line">Description</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Field</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Type</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Default</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Access Permission</th>
+      <th class="long-line" style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>
@@ -158,11 +158,11 @@ store.command = "getUserData"
 <table>
   <thead>
     <tr>
-      <th class="short-line">Field</th>
-      <th class="short-line">Type</th>
-      <th class="short-line">Default</th>
-      <th class="short-line">Access Permission</th>
-      <th class="long-line">Description</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Field</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Type</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Default</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Access Permission</th>
+      <th class="long-line" style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>
@@ -171,7 +171,7 @@ store.command = "getUserData"
       <td class="short-line">ContentNode</td>
       <td class="short-line">invalid</td>
       <td class="short-line">READ\_WRITE</td>
-      <td class="long-line">Contains the order to be filled when the <a href="#doorder"><strong>doOrder</strong></a> command is executed. This ContentNode contains one child ContentNode for each of the items to be purchased. The child ContentNode must contain the following fields:<br /><div class="hscroll"><table><thead><tr><th class="short-line">Field</th><th class="short-line">Type</th><th class="long-line">Description</th></tr></thead><tbody><tr><td class="short-line">code</td><td class="short-line">string</td><td class="long-line">Identifies the product to be purchased, as entered in the <strong>Product Identifier</strong> field on the <a href="https://developer.roku.com/products">In-App Product page in the Developer Dashboard</a> when the product was created. See <a href="#creating-an-order">Creating an order</a> for more information.</td></tr><tr><td class="short-line">qty</td><td class="short-line">Integer</td><td class="long-line">The quantity of the item to be purchased, which is typically 1 for most in-app products.<br /><br />This is only typically more than 1 if the product is a "packet" of identical items (such as game points, number of viewings permitted of some item of content, and so on).</td></tr></tbody></table></div><br />To clear an order, set the <strong>order</strong> field to "invalid".<br /><br /><strong>For upgrades/downgrades only</strong>. You need to include an <strong>action</strong> field to specify a subscription plan change. <div class="hscroll"><table><thead><tr><th class="short-line">Field</th><th class="short-line">Type</th><th class="short-line">Access Permission</th><th class="long-line">Description</th></tr></thead><tbody><tr><td class="short-line">action</td><td class="short-line">string</td><td class="short-line">READ\_WRITE</td><td class="long-line">Set this to "Upgrade" or "Downgrade" to change the subscription plan from a previous purchase (for example, <code>myOrder.action = "Upgrade"</code>). The required values are case-sensitive; do not pass "upgrade" or "downgrade". See <a href="https://developer.roku.com/dev/docs/on-device-upgrade-downgrade">On-device upgrade and downgrade</a> for more information.</td></tr></tbody></table></div></td>
+      <td class="long-line">Contains the order to be filled when the <a href="#doorder"><strong>doOrder</strong></a> command is executed. This ContentNode contains one child ContentNode for each of the items to be purchased. The child ContentNode must contain the following fields:<br /><div class="hscroll"><table><thead><tr><th class="short-line" style={{ textAlign: "left" }}>Field</th><th class="short-line" style={{ textAlign: "left" }}>Type</th><th class="long-line" style={{ textAlign: "left" }}>Description</th></tr></thead><tbody><tr><td class="short-line">code</td><td class="short-line">string</td><td class="long-line">Identifies the product to be purchased, as entered in the <strong>Product Identifier</strong> field on the <a href="https://developer.roku.com/products">In-App Product page in the Developer Dashboard</a> when the product was created. See <a href="#creating-an-order">Creating an order</a> for more information.</td></tr><tr><td class="short-line">qty</td><td class="short-line">Integer</td><td class="long-line">The quantity of the item to be purchased, which is typically 1 for most in-app products.<br /><br />This is only typically more than 1 if the product is a "packet" of identical items (such as game points, number of viewings permitted of some item of content, and so on).</td></tr></tbody></table></div><br />To clear an order, set the <strong>order</strong> field to "invalid".<br /><br /><strong>For upgrades/downgrades only</strong>. You need to include an <strong>action</strong> field to specify a subscription plan change. <div class="hscroll"><table><thead><tr><th class="short-line" style={{ textAlign: "left" }}>Field</th><th class="short-line" style={{ textAlign: "left" }}>Type</th><th class="short-line" style={{ textAlign: "left" }}>Access Permission</th><th class="long-line" style={{ textAlign: "left" }}>Description</th></tr></thead><tbody><tr><td class="short-line">action</td><td class="short-line">string</td><td class="short-line">READ\_WRITE</td><td class="long-line">Set this to "Upgrade" or "Downgrade" to change the subscription plan from a previous purchase (for example, <code>myOrder.action = "Upgrade"</code>). The required values are case-sensitive; do not pass "upgrade" or "downgrade". See <a href="https://developer.roku.com/dev/docs/on-device-upgrade-downgrade">On-device upgrade and downgrade</a> for more information.</td></tr></tbody></table></div></td>
     </tr>
   </tbody>
 </table>
@@ -204,11 +204,11 @@ m.channelStore.deltaOrder = { "code": "UPC4321", "qty": 1}
 <table>
   <thead>
     <tr>
-      <th class="short-line">Field</th>
-      <th class="short-line">Type</th>
-      <th class="short-line">Default</th>
-      <th class="short-line">Access Permission</th>
-      <th class="long-line">Description</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Field</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Type</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Default</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Access Permission</th>
+      <th class="long-line" style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>
@@ -231,11 +231,11 @@ m.channelStore.deltaOrder = { "code": "UPC4321", "qty": 1}
 <table>
   <thead>
     <tr>
-      <th class="short-line">Field</th>
-      <th class="short-line">Type</th>
-      <th class="short-line">Default</th>
-      <th class="short-line">Access Permission</th>
-      <th class="long-line">Description</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Field</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Type</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Default</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Access Permission</th>
+      <th class="long-line" style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>
@@ -244,7 +244,7 @@ m.channelStore.deltaOrder = { "code": "UPC4321", "qty": 1}
       <td class="short-line">ContentNode</td>
       <td class="short-line">invalid</td>
       <td class="short-line">READ\_WRITE</td>
-      <td class="long-line">Specifies the product to be ordered from a TVOD app. The order contains the following fields:<br /><div class="hscroll"><table><thead><tr><th class="short-line">Field</th><th class="short-line">Type</th><th class="long-line">Description</th></tr></thead><tbody><tr><td class="short-line">code</td><td class="short-line">string</td><td class="long-line">Identifies the product to be purchased, as entered in the <strong>Product Identifier</strong> field on the <a href="https://developer.roku.com/products">In-App Product page in the Developer Dashboard</a> when the product was created. For TVOD-exclusive apps, a single in-app product may be used for all orders. <br /><br />A TVOD-exclusive app only has transactional products such as movie rentals; it does not offer any subscription products.</td></tr><tr><td class="short-line">priceDisplay</td><td class="short-line">string</td><td class="long-line">The original price of the product. Do not include a currency symbol (for example, set this to "3.99" instead of "$3.99").</td></tr><tr><td class="short-line">price</td><td class="short-line">string</td><td class="long-line">The final price of the product, including any discounts. Do not include a currency symbol (for example, set this to "3.99" instead of "$3.99").</td></tr><tr><td class="short-line">title</td><td class="short-line">string</td><td class="long-line">A description of the product (for example, the name of a rental movie).</td></tr><tr><td class="short-line">couponCode</td><td class="short-line">string</td><td class="long-line">An alphanumeric string entered by the customer to receive a discounted price on the product.</td></tr><tr><td class="short-line">contentKey</td><td class="short-line">string</td><td class="long-line">The publisher-specific SKU (or other unique identifier) for the product.</td></tr></tbody></table></div></td>
+      <td class="long-line">Specifies the product to be ordered from a TVOD app. The order contains the following fields:<br /><div class="hscroll"><table><thead><tr><th class="short-line" style={{ textAlign: "left" }}>Field</th><th class="short-line" style={{ textAlign: "left" }}>Type</th><th class="long-line" style={{ textAlign: "left" }}>Description</th></tr></thead><tbody><tr><td class="short-line">code</td><td class="short-line">string</td><td class="long-line">Identifies the product to be purchased, as entered in the <strong>Product Identifier</strong> field on the <a href="https://developer.roku.com/products">In-App Product page in the Developer Dashboard</a> when the product was created. For TVOD-exclusive apps, a single in-app product may be used for all orders. <br /><br />A TVOD-exclusive app only has transactional products such as movie rentals; it does not offer any subscription products.</td></tr><tr><td class="short-line">priceDisplay</td><td class="short-line">string</td><td class="long-line">The original price of the product. Do not include a currency symbol (for example, set this to "3.99" instead of "$3.99").</td></tr><tr><td class="short-line">price</td><td class="short-line">string</td><td class="long-line">The final price of the product, including any discounts. Do not include a currency symbol (for example, set this to "3.99" instead of "$3.99").</td></tr><tr><td class="short-line">title</td><td class="short-line">string</td><td class="long-line">A description of the product (for example, the name of a rental movie).</td></tr><tr><td class="short-line">couponCode</td><td class="short-line">string</td><td class="long-line">An alphanumeric string entered by the customer to receive a discounted price on the product.</td></tr><tr><td class="short-line">contentKey</td><td class="short-line">string</td><td class="long-line">The publisher-specific SKU (or other unique identifier) for the product.</td></tr></tbody></table></div></td>
     </tr>
   </tbody>
 </table>
@@ -256,11 +256,11 @@ m.channelStore.deltaOrder = { "code": "UPC4321", "qty": 1}
 <table>
   <thead>
     <tr>
-      <th class="short-line">Field</th>
-      <th class="short-line">Type</th>
-      <th class="short-line">Default</th>
-      <th class="short-line">Access Permission</th>
-      <th class="long-line">Description</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Field</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Type</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Default</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Access Permission</th>
+      <th class="long-line" style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>
@@ -269,7 +269,7 @@ m.channelStore.deltaOrder = { "code": "UPC4321", "qty": 1}
       <td class="short-line">ContentNode</td>
       <td class="short-line">invalid</td>
       <td class="short-line">READ\_WRITE</td>
-      <td class="long-line">Confirms the product being ordered from a TVOD app. The order contains the following fields:<br /><div class="hscroll"><table><thead><tr><th class="short-line">Field</th><th class="short-line">Type</th><th class="long-line">Description</th></tr></thead><tbody><tr><td class="short-line">orderId</td><td class="short-line">string</td><td class="long-line">The orderID returned by Roku in the <a href="#requestpartnerorderstatus">RequestPartnerOrderStatus</a> content node.</td></tr><tr><td class="short-line">code</td><td class="short-line">string</td><td class="long-line">The product identifier.</td></tr><tr><td class="short-line">priceDisplay</td><td class="short-line">string</td><td class="long-line">The original price of the product. Do not include a currency symbol (for example, set this to "3.99" instead of "$3.99").</td></tr><tr><td class="short-line">price</td><td class="short-line">string</td><td class="long-line">The final price of the product, including any discounts. Do not include a currency symbol (for example, set this to "3.99" instead of "$3.99").</td></tr><tr><td class="short-line">title</td><td class="short-line">string</td><td class="long-line">The name of the product to be displayed on customers' invoices.</td></tr><tr><td class="short-line">couponCode</td><td class="short-line">string</td><td class="long-line">An alphanumeric string entered by the customer to receive a discounted price on the product.</td></tr><tr><td class="short-line">contentKey</td><td class="short-line">string</td><td class="long-line">The publisher-specific SKU (or other unique identifier) for the product.</td></tr></tbody></table></div></td>
+      <td class="long-line">Confirms the product being ordered from a TVOD app. The order contains the following fields:<br /><div class="hscroll"><table><thead><tr><th class="short-line" style={{ textAlign: "left" }}>Field</th><th class="short-line" style={{ textAlign: "left" }}>Type</th><th class="long-line" style={{ textAlign: "left" }}>Description</th></tr></thead><tbody><tr><td class="short-line">orderId</td><td class="short-line">string</td><td class="long-line">The orderID returned by Roku in the <a href="#requestpartnerorderstatus">RequestPartnerOrderStatus</a> content node.</td></tr><tr><td class="short-line">code</td><td class="short-line">string</td><td class="long-line">The product identifier.</td></tr><tr><td class="short-line">priceDisplay</td><td class="short-line">string</td><td class="long-line">The original price of the product. Do not include a currency symbol (for example, set this to "3.99" instead of "$3.99").</td></tr><tr><td class="short-line">price</td><td class="short-line">string</td><td class="long-line">The final price of the product, including any discounts. Do not include a currency symbol (for example, set this to "3.99" instead of "$3.99").</td></tr><tr><td class="short-line">title</td><td class="short-line">string</td><td class="long-line">The name of the product to be displayed on customers' invoices.</td></tr><tr><td class="short-line">couponCode</td><td class="short-line">string</td><td class="long-line">An alphanumeric string entered by the customer to receive a discounted price on the product.</td></tr><tr><td class="short-line">contentKey</td><td class="short-line">string</td><td class="long-line">The publisher-specific SKU (or other unique identifier) for the product.</td></tr></tbody></table></div></td>
     </tr>
   </tbody>
 </table>
@@ -315,11 +315,11 @@ m.channelStore.deltaOrder = { "code": "UPC4321", "qty": 1}
 <table>
   <thead>
     <tr>
-      <th class="short-line">Field</th>
-      <th class="short-line">Type</th>
-      <th class="short-line">Default</th>
-      <th class="short-line">Access Permission</th>
-      <th class="long-line">Description</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Field</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Type</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Default</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Access Permission</th>
+      <th class="long-line" style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>
@@ -372,9 +372,9 @@ Overall, the [**userData** field](#userdata) field may contain the following Rok
 <table>
   <thead>
     <tr>
-      <th class="short-line">Field</th>
-      <th class="short-line">Type</th>
-      <th class="long-line">Description</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Field</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Type</th>
+      <th class="long-line" style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>
@@ -465,9 +465,9 @@ Lists the [In-App Products](/dev/docs/in-channel-products) that are linked to th
 <table>
   <thead>
     <tr>
-      <th class="short-line">Field</th>
-      <th class="short-line">Type</th>
-      <th class="long-line">Description</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Field</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Type</th>
+      <th class="long-line" style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>
@@ -516,9 +516,9 @@ When the command completes, the [**orderStatus** field](#orderstatus) is set to 
 <table>
   <thead>
     <tr>
-      <th class="short-line">Field</th>
-      <th class="short-line">Type</th>
-      <th class="long-line">Description</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Field</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Type</th>
+      <th class="long-line" style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>
@@ -551,9 +551,9 @@ When this command completes, the [**purchases** field](#purchases) is set to a C
 <table>
   <thead>
     <tr>
-      <th class="short-line">Field</th>
-      <th class="short-line">Type</th>
-      <th class="long-line">Description</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Field</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Type</th>
+      <th class="long-line" style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>
@@ -570,9 +570,9 @@ If this command is successful, the [**purchases** field](#purchases) ContentNode
 <table>
   <thead>
     <tr>
-      <th class="short-line">Field</th>
-      <th class="short-line">Type</th>
-      <th class="long-line">Description</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Field</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Type</th>
+      <th class="long-line" style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>
@@ -678,9 +678,9 @@ When this command completes, the [**purchases** field](#purchases) is set to a C
 <table>
   <thead>
     <tr>
-      <th class="short-line">Field</th>
-      <th class="short-line">Type</th>
-      <th class="long-line">Description</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Field</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Type</th>
+      <th class="long-line" style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>
@@ -697,9 +697,9 @@ If this command is successful, the [**purchases** field](#purchases) ContentNode
 <table>
   <thead>
     <tr>
-      <th class="short-line">Field</th>
-      <th class="short-line">Type</th>
-      <th class="long-line">Description</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Field</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Type</th>
+      <th class="long-line" style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>
@@ -859,16 +859,16 @@ This command returns an roAssociativeArray with the following values:
 <table>
   <thead>
     <tr>
-      <th class="short-line">Key</th>
-      <th class="short-line">Type</th>
-      <th class="long-line">Value</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Key</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Type</th>
+      <th class="long-line" style={{ textAlign: "left" }}>Value</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td class="short-line">response</td>
       <td class="short-line">json</td>
-      <td class="long-line">A string in JSON format, with the following key-value pairs: <br /><div class="hscroll"><table><thead><tr><th class="short-line">Key</th><th class="short-line">Type</th><th class="long-line">Description</th></tr></thead><tbody><tr><td class="short-line">status</td><td class="short-line">string</td><td class="long-line">The request status, which may be "success" or "failure".</td></tr><tr><td class="short-line">error</td><td class="short-line">string</td><td class="long-line">A description of the error (if any). This will be set to "none" for a successful request.</td></tr><tr><td class="short-line">error\_detail</td><td class="short-line">string</td><td class="long-line">A detailed description of the service error (if any). This value will be null (uninitialized) for a successful request.</td></tr></tbody></table></div><br /><br />if billing is not enabled for the app, this field will include a string with a service error message.</td>
+      <td class="long-line">A string in JSON format, with the following key-value pairs: <br /><div class="hscroll"><table><thead><tr><th class="short-line" style={{ textAlign: "left" }}>Key</th><th class="short-line" style={{ textAlign: "left" }}>Type</th><th class="long-line" style={{ textAlign: "left" }}>Description</th></tr></thead><tbody><tr><td class="short-line">status</td><td class="short-line">string</td><td class="long-line">The request status, which may be "success" or "failure".</td></tr><tr><td class="short-line">error</td><td class="short-line">string</td><td class="long-line">A description of the error (if any). This will be set to "none" for a successful request.</td></tr><tr><td class="short-line">error\_detail</td><td class="short-line">string</td><td class="long-line">A detailed description of the service error (if any). This value will be null (uninitialized) for a successful request.</td></tr></tbody></table></div><br /><br />if billing is not enabled for the app, this field will include a string with a service error message.</td>
     </tr>
     <tr>
       <td class="short-line">status</td>
@@ -885,9 +885,9 @@ Retrieves an oAuth token, custom token, or other authentication artifact (`chann
 <table>
   <thead>
     <tr>
-      <th class="short-line">Key</th>
-      <th class="short-line">Type</th>
-      <th class="long-line">Description</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Key</th>
+      <th class="short-line" style={{ textAlign: "left" }}>Type</th>
+      <th class="long-line" style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>
@@ -904,7 +904,7 @@ Retrieves an oAuth token, custom token, or other authentication artifact (`chann
     <tr>
       <td class="short-line">json</td>
       <td class="short-line">string</td>
-      <td class="long-line">A string in JSON format, with the following key-value pairs: <br /><div class="hscroll"><table><thead><tr><th class="short-line">Key</th><th class="short-line">Type</th><th class="long-line">Description</th></tr></thead><tbody><tr><td class="short-line">error</td><td class="short-line">string</td><td class="long-line">A string containing an error message (if any). This value will be null (uninitialized) for a successful request.</td></tr><tr><td class="short-line">roku\_pucid</td><td class="short-line">string</td><td class="long-line">An agnostic ID (in UUID format) representing the user. This value will be identical when retrieved in the same app across devices linked to the same Roku account. <br /><br />If an app is storing an access token in the Roku cloud, this field does not contain a PUCID value.</td></tr><tr><td class="short-line">token\_type</td><td class="short-line">string</td><td class="long-line">Type of the returned token, e.g. "urn:roku:pucid:token\_type:pucid\_token"</td></tr><tr><td class="short-line">channel\_data</td><td class="short-line">String</td><td class="long-line">The access token, oAuth token, or other authentication artifact stored by the app in the Roku cloud via the <a href="#storechannelcreddata">StoreChannelCredData</a> command. <br /><br />This field is not returned if the <a href="#storechannelcreddata">StoreChannelCredData</a> command is not used to store an artifact in the Roku cloud.</td></tr></tbody></table></div><br /> If the request fails, this json string will be empty.</td>
+      <td class="long-line">A string in JSON format, with the following key-value pairs: <br /><div class="hscroll"><table><thead><tr><th class="short-line" style={{ textAlign: "left" }}>Key</th><th class="short-line" style={{ textAlign: "left" }}>Type</th><th class="long-line" style={{ textAlign: "left" }}>Description</th></tr></thead><tbody><tr><td class="short-line">error</td><td class="short-line">string</td><td class="long-line">A string containing an error message (if any). This value will be null (uninitialized) for a successful request.</td></tr><tr><td class="short-line">roku\_pucid</td><td class="short-line">string</td><td class="long-line">An agnostic ID (in UUID format) representing the user. This value will be identical when retrieved in the same app across devices linked to the same Roku account. <br /><br />If an app is storing an access token in the Roku cloud, this field does not contain a PUCID value.</td></tr><tr><td class="short-line">token\_type</td><td class="short-line">string</td><td class="long-line">Type of the returned token, e.g. "urn:roku:pucid:token\_type:pucid\_token"</td></tr><tr><td class="short-line">channel\_data</td><td class="short-line">String</td><td class="long-line">The access token, oAuth token, or other authentication artifact stored by the app in the Roku cloud via the <a href="#storechannelcreddata">StoreChannelCredData</a> command. <br /><br />This field is not returned if the <a href="#storechannelcreddata">StoreChannelCredData</a> command is not used to store an artifact in the Roku cloud.</td></tr></tbody></table></div><br /> If the request fails, this json string will be empty.</td>
     </tr>
     <tr>
       <td class="short-line">publisherDeviceID</td>
@@ -1034,9 +1034,9 @@ You can send the following ChannelStore commands with the generic request framew
 <table>
 <thead>
 <tr>
-<th class="short-line">Field</th>
-<th class="short-line">Type</th>
-<th class="long-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Field</th>
+<th class="short-line" style={{ textAlign: "left" }}>Type</th>
+<th class="long-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -1048,9 +1048,9 @@ You can send the following ChannelStore commands with the generic request framew
 <div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Field</th>
-<th class="short-line">Type</th>
-<th class="long-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Field</th>
+<th class="short-line" style={{ textAlign: "left" }}>Type</th>
+<th class="long-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -1072,9 +1072,9 @@ You can send the following ChannelStore commands with the generic request framew
 <div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Field</th>
-<th class="short-line">Type</th>
-<th class="long-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Field</th>
+<th class="short-line" style={{ textAlign: "left" }}>Type</th>
+<th class="long-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -1099,9 +1099,9 @@ You can send the following ChannelStore commands with the generic request framew
 <table>
 <thead>
 <tr>
-<th class="short-line">Field</th>
-<th class="short-line">Type</th>
-<th class="long-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Field</th>
+<th class="short-line" style={{ textAlign: "left" }}>Type</th>
+<th class="long-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -1113,9 +1113,9 @@ You can send the following ChannelStore commands with the generic request framew
 <div class="hscroll"><table>
 <thead>
 <tr>
-<th class="short-line">Field</th>
-<th class="short-line">Type</th>
-<th class="long-line">Description</th>
+<th class="short-line" style={{ textAlign: "left" }}>Field</th>
+<th class="short-line" style={{ textAlign: "left" }}>Type</th>
+<th class="long-line" style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>

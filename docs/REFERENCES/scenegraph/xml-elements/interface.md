@@ -23,13 +23,13 @@ The following attributes define each \<field> XML element:
 <Table>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Attribute
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Required
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Description
       </th>
     </tr>

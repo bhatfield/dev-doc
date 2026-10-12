@@ -51,8 +51,8 @@ To get started with your RAF integration, do the following:
 <table>
   <thead>
     <tr>
-      <th>VAST 2.0 Feature</th>
-      <th>Supported</th>
+      <th style={{ textAlign: "left" }}>VAST 2.0 Feature</th>
+      <th style={{ textAlign: "left" }}>Supported</th>
     </tr>
   </thead>
   <tbody>

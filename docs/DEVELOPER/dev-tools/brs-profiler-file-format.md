@@ -100,9 +100,9 @@ Each entry is a stream of bytes, beginning with a varint-encoded unsigned 64-bit
 <table>
   <thead>
     <tr>
-      <th scope="col">Entry tag (variant-encoded uint64)</th>
-      <th scope="col">Entry type</th>
-      <th scope="col">Following bytes</th>
+      <th scope="col" style={{ textAlign: "left" }}>Entry tag (variant-encoded uint64)</th>
+      <th scope="col" style={{ textAlign: "left" }}>Entry type</th>
+      <th scope="col" style={{ textAlign: "left" }}>Following bytes</th>
     </tr>
   </thead>
   <tbody>
@@ -126,9 +126,9 @@ String IDs are stored in several fields within the profiling data. The indexes a
 <table>
   <thead>
     <tr>
-      <th scope="col">Entry tag (variant-encoded uint64)</th>
-      <th scope="col">Entry type</th>
-      <th scope="col">String</th>
+      <th scope="col" style={{ textAlign: "left" }}>Entry tag (variant-encoded uint64)</th>
+      <th scope="col" style={{ textAlign: "left" }}>Entry type</th>
+      <th scope="col" style={{ textAlign: "left" }}>String</th>
     </tr>
   </thead>
   <tbody>
@@ -151,9 +151,9 @@ The modules listed in a profiler file are run simultaneously within a single pro
 <table>
   <thead>
     <tr>
-      <th scope="col">Entry tag (variant-encoded uint64)</th>
-      <th scope="col">Entry type</th>
-      <th scope="col">Thread name</th>
+      <th scope="col" style={{ textAlign: "left" }}>Entry tag (variant-encoded uint64)</th>
+      <th scope="col" style={{ textAlign: "left" }}>Entry type</th>
+      <th scope="col" style={{ textAlign: "left" }}>Thread name</th>
     </tr>
   </thead>
   <tbody>
@@ -176,13 +176,13 @@ A path element represents a single entry in a call path that is typically a func
 <table>
   <thead>
     <tr>
-      <th scope="col">Entry tag (varint-encoded uint64)</th>
-      <th scope="col">Entry type</th>
-      <th scope="col">Calling path element ID</th>
-      <th scope="col">Executive module ID</th>
-      <th scope="col">File name</th>
-      <th scope="col">Line number</th>
-      <th scope="col">Function name</th>
+      <th scope="col" style={{ textAlign: "left" }}>Entry tag (varint-encoded uint64)</th>
+      <th scope="col" style={{ textAlign: "left" }}>Entry type</th>
+      <th scope="col" style={{ textAlign: "left" }}>Calling path element ID</th>
+      <th scope="col" style={{ textAlign: "left" }}>Executive module ID</th>
+      <th scope="col" style={{ textAlign: "left" }}>File name</th>
+      <th scope="col" style={{ textAlign: "left" }}>Line number</th>
+      <th scope="col" style={{ textAlign: "left" }}>Function name</th>
     </tr>
   </thead>
   <tbody>
@@ -205,13 +205,13 @@ A path element represents a single entry in a call path that is typically a func
 <table>
   <thead>
     <tr>
-      <th scope="col">Entry tag (varint-encoded uint64)</th>
-      <th scope="col">Entry type</th>
-      <th scope="col">Calling path element ID</th>
-      <th scope="col">Line offset in caller</th>
-      <th scope="col">File name</th>
-      <th scope="col">Line number</th>
-      <th scope="col">Function name</th>
+      <th scope="col" style={{ textAlign: "left" }}>Entry tag (varint-encoded uint64)</th>
+      <th scope="col" style={{ textAlign: "left" }}>Entry type</th>
+      <th scope="col" style={{ textAlign: "left" }}>Calling path element ID</th>
+      <th scope="col" style={{ textAlign: "left" }}>Line offset in caller</th>
+      <th scope="col" style={{ textAlign: "left" }}>File name</th>
+      <th scope="col" style={{ textAlign: "left" }}>Line number</th>
+      <th scope="col" style={{ textAlign: "left" }}>Function name</th>
     </tr>
   </thead>
   <tbody>
@@ -236,12 +236,12 @@ A memory operation is a stream of bytes.
 <table>
   <thead>
     <tr>
-      <th scope="col">Entry tag (varint-encoded uint64)</th>
-      <th scope="col">Operation type</th>
-      <th scope="col">Entry type</th>
-      <th scope="col">Line offset</th>
-      <th scope="col">Memory address</th>
-      <th scope="col">Allocation size</th>
+      <th scope="col" style={{ textAlign: "left" }}>Entry tag (varint-encoded uint64)</th>
+      <th scope="col" style={{ textAlign: "left" }}>Operation type</th>
+      <th scope="col" style={{ textAlign: "left" }}>Entry type</th>
+      <th scope="col" style={{ textAlign: "left" }}>Line offset</th>
+      <th scope="col" style={{ textAlign: "left" }}>Memory address</th>
+      <th scope="col" style={{ textAlign: "left" }}>Allocation size</th>
     </tr>
   </thead>
   <tbody>
@@ -266,11 +266,11 @@ A CPU measurement entry is a stream of bytes. The custom tool should treat CPU e
 <table>
   <thead>
     <tr>
-      <th scope="col">Entry tag (varint-encoded uint64)</th>
-      <th scope="col">Entry type</th>
-      <th scope="col">Line offset</th>
-      <th scope="col">CPU self</th>
-      <th scope="col">Time self</th>
+      <th scope="col" style={{ textAlign: "left" }}>Entry tag (varint-encoded uint64)</th>
+      <th scope="col" style={{ textAlign: "left" }}>Entry type</th>
+      <th scope="col" style={{ textAlign: "left" }}>Line offset</th>
+      <th scope="col" style={{ textAlign: "left" }}>CPU self</th>
+      <th scope="col" style={{ textAlign: "left" }}>Time self</th>
     </tr>
   </thead>
   <tbody>
@@ -293,9 +293,9 @@ A count of calls made into a specific call path. The custom tool should treat ea
 <table>
   <thead>
     <tr>
-      <th scope="col">Entry tag (varint-encoded uint64)</th>
-      <th scope="col">Entry type</th>
-      <th scope="col">Call count</th>
+      <th scope="col" style={{ textAlign: "left" }}>Entry tag (varint-encoded uint64)</th>
+      <th scope="col" style={{ textAlign: "left" }}>Entry type</th>
+      <th scope="col" style={{ textAlign: "left" }}>Call count</th>
     </tr>
   </thead>
   <tbody>

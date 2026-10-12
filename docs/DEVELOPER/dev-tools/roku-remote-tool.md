@@ -92,10 +92,10 @@ Begin by specifying your app information in the `params` section. You must use *
 <table>
   <thead>
     <tr>
-      <th>Keyword</th>
-      <th>Graphic or Label</th>
-      <th>Description</th>
-      <th>Example (in <code>params</code> section)</th>
+      <th style={{ textAlign: "left" }}>Keyword</th>
+      <th style={{ textAlign: "left" }}>Graphic or Label</th>
+      <th style={{ textAlign: "left" }}>Description</th>
+      <th style={{ textAlign: "left" }}>Example (in <code>params</code> section)</th>
     </tr>
   </thead>
   <tbody>
@@ -131,10 +131,10 @@ Continue by creating operational steps, using a concise set of commands. Steps c
 <table>
   <thead>
     <tr>
-      <th>Step</th>
-      <th>Graphic</th>
-      <th>Description</th>
-      <th>Example</th>
+      <th style={{ textAlign: "left" }}>Step</th>
+      <th style={{ textAlign: "left" }}>Graphic</th>
+      <th style={{ textAlign: "left" }}>Description</th>
+      <th style={{ textAlign: "left" }}>Example</th>
     </tr>
   </thead>
   <tbody>
@@ -190,10 +190,10 @@ Creation of the following blocks is aided by macros. Click on each label for det
 <table>
   <thead>
     <tr>
-      <th>Step</th>
-      <th>Label</th>
-      <th>Description</th>
-      <th>Example</th>
+      <th style={{ textAlign: "left" }}>Step</th>
+      <th style={{ textAlign: "left" }}>Label</th>
+      <th style={{ textAlign: "left" }}>Description</th>
+      <th style={{ textAlign: "left" }}>Example</th>
     </tr>
   </thead>
   <tbody>
@@ -225,10 +225,10 @@ For sequences of steps that you have to follow in multiple places within your sc
 <table>
   <thead>
     <tr>
-      <th>Step</th>
-      <th>On-screen label</th>
-      <th>Description</th>
-      <th>Example</th>
+      <th style={{ textAlign: "left" }}>Step</th>
+      <th style={{ textAlign: "left" }}>On-screen label</th>
+      <th style={{ textAlign: "left" }}>Description</th>
+      <th style={{ textAlign: "left" }}>Example</th>
     </tr>
   </thead>
   <tbody>

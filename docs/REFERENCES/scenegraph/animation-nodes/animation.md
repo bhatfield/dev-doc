@@ -76,11 +76,11 @@ end function
 <table>
   <thead>
     <tr>
-      <th>Field</th>
-      <th>Type</th>
-      <th>Default</th>
-      <th>Access Permission</th>
-      <th>Description</th>
+      <th style={{ textAlign: "left" }}>Field</th>
+      <th style={{ textAlign: "left" }}>Type</th>
+      <th style={{ textAlign: "left" }}>Default</th>
+      <th style={{ textAlign: "left" }}>Access Permission</th>
+      <th style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>
@@ -96,7 +96,7 @@ end function
       <td>string</td>
       <td>"outCubic"</td>
       <td>READ\_WRITE</td>
-      <td>Specifies the interpolator function to be used for the animation: <table><thead><tr><th>Value</th><th>Ease-In/Ease-Out Function</th></tr></thead><tbody><tr><td>linear</td><td>No ease-in or ease-out</td></tr><tr><td>inQuad</td><td>Quadratic ease-in function, no ease-out</td></tr><tr><td>inCubic</td><td>Cubic ease-in function, no ease-out</td></tr><tr><td>inQuartic</td><td>Quartic ease-in function, no ease-out</td></tr><tr><td>inQuintic</td><td>Quintic ease-in function, no ease-out</td></tr><tr><td>inExpo</td><td>Exponential ease-in function, no ease-out</td></tr><tr><td>outQuad</td><td>Quadratic ease-out function, no ease-in</td></tr><tr><td>outCubic</td><td>Cubic ease-out function, no ease-in</td></tr><tr><td>outQuartic</td><td>Quartic ease-out function, no ease-in</td></tr><tr><td>outQuintic</td><td>Quintic ease-out function, no ease-in</td></tr><tr><td>outExpo</td><td>Exponential ease-out function, no ease-in</td></tr><tr><td>inOutQuad</td><td>Quadratic ease-in and ease-out function</td></tr><tr><td>inOutCubic</td><td>Cubic ease-in and ease-out function</td></tr><tr><td>inOutQuartic</td><td>Quartic ease-in and ease-out function</td></tr><tr><td>inOutQuintic</td><td>Quintic ease-in and ease-out function</td></tr><tr><td>inOutExpo</td><td>Exponential ease-in and ease-out function</td></tr><tr><td>piecewise</td><td>Quadratic ease-in and ease-out function with extra control over the percentage of the duration during which ease-in and ease-out occurs. The extra control is specified using the <code>easeInPercent</code> and <code>easeOutPercent</code> fields.</td></tr></tbody></table></td>
+      <td>Specifies the interpolator function to be used for the animation: <table><thead><tr><th style={{ textAlign: "left" }}>Value</th><th style={{ textAlign: "left" }}>Ease-In/Ease-Out Function</th></tr></thead><tbody><tr><td>linear</td><td>No ease-in or ease-out</td></tr><tr><td>inQuad</td><td>Quadratic ease-in function, no ease-out</td></tr><tr><td>inCubic</td><td>Cubic ease-in function, no ease-out</td></tr><tr><td>inQuartic</td><td>Quartic ease-in function, no ease-out</td></tr><tr><td>inQuintic</td><td>Quintic ease-in function, no ease-out</td></tr><tr><td>inExpo</td><td>Exponential ease-in function, no ease-out</td></tr><tr><td>outQuad</td><td>Quadratic ease-out function, no ease-in</td></tr><tr><td>outCubic</td><td>Cubic ease-out function, no ease-in</td></tr><tr><td>outQuartic</td><td>Quartic ease-out function, no ease-in</td></tr><tr><td>outQuintic</td><td>Quintic ease-out function, no ease-in</td></tr><tr><td>outExpo</td><td>Exponential ease-out function, no ease-in</td></tr><tr><td>inOutQuad</td><td>Quadratic ease-in and ease-out function</td></tr><tr><td>inOutCubic</td><td>Cubic ease-in and ease-out function</td></tr><tr><td>inOutQuartic</td><td>Quartic ease-in and ease-out function</td></tr><tr><td>inOutQuintic</td><td>Quintic ease-in and ease-out function</td></tr><tr><td>inOutExpo</td><td>Exponential ease-in and ease-out function</td></tr><tr><td>piecewise</td><td>Quadratic ease-in and ease-out function with extra control over the percentage of the duration during which ease-in and ease-out occurs. The extra control is specified using the <code>easeInPercent</code> and <code>easeOutPercent</code> fields.</td></tr></tbody></table></td>
     </tr>
     <tr>
       <td>easeInPercent</td>

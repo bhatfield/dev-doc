@@ -23,19 +23,19 @@ Below is a list of studios that have demonstrated success in effectively develop
 <table>
 <thead>
 <tr>
-<th class="short-line" colspan="1" rowspan="1">
+<th class="short-line" colspan="1" rowspan="1" style={{ textAlign: "left" }}>
 <p><strong>Company</strong></p>
 </th>
-<th class="short-line" colspan="1" rowspan="1">
+<th class="short-line" colspan="1" rowspan="1" style={{ textAlign: "left" }}>
 <p><strong>Region</strong></p>
 </th>
-<th class="short-line" colspan="1" rowspan="1">
+<th class="short-line" colspan="1" rowspan="1" style={{ textAlign: "left" }}>
 <p><strong>Contact</strong></p>
 </th>
-<th class="short-line" colspan="1" rowspan="1">
+<th class="short-line" colspan="1" rowspan="1" style={{ textAlign: "left" }}>
 <p><strong>Example</strong></p>
 </th>
-<th class="short-line" colspan="1" rowspan="1">
+<th class="short-line" colspan="1" rowspan="1" style={{ textAlign: "left" }}>
 <p><strong>Website</strong></p>
 </th>
 </tr>

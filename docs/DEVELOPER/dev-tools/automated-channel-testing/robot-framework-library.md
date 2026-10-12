@@ -79,16 +79,16 @@ The Roku's Robot Framework Library includes the following keywords:
 <Table align={["left","left","left","left"]}>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Keyword
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Argument
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Description
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Example
       </th>
     </tr>
@@ -118,16 +118,16 @@ The Roku's Robot Framework Library includes the following keywords:
 <Table align={["left","left","left","left"]}>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Keyword
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Argument
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Description
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Example
       </th>
     </tr>
@@ -159,16 +159,16 @@ The Roku's Robot Framework Library includes the following keywords:
 <Table align={["left","left","left","left"]}>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Keyword
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Argument
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Description
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Example
       </th>
     </tr>
@@ -198,13 +198,13 @@ The Roku's Robot Framework Library includes the following keywords:
 <Table align={["left","left",null]}>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Keyword
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Description
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Example
       </th>
     </tr>
@@ -237,16 +237,16 @@ The Roku's Robot Framework Library includes the following keywords:
 <Table align={["left","left","left",null]}>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Keyword
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Arguments
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Description
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Example
       </th>
     </tr>
@@ -275,16 +275,16 @@ The Roku's Robot Framework Library includes the following keywords:
 <Table align={["left","left","left",null]}>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Keyword
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Arguments
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Description
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Example
       </th>
     </tr>
@@ -316,16 +316,16 @@ The Roku's Robot Framework Library includes the following keywords:
 <Table align={["left","left","left",null]}>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Keyword
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Arguments
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Description
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Example
       </th>
     </tr>
@@ -370,16 +370,16 @@ The Roku's Robot Framework Library includes the following keywords:
 <Table align={["left","left","left",null]}>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Keyword
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Arguments
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Description
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Example
       </th>
     </tr>
@@ -408,16 +408,16 @@ The Roku's Robot Framework Library includes the following keywords:
 <Table align={["left","left","left",null]}>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Keyword
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Arguments
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Description
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Exa  
         mple
       </th>
@@ -453,16 +453,16 @@ The Roku's Robot Framework Library includes the following keywords:
 <Table align={["left","left","left",null]}>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Keyword
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Arguments
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Description
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Example
       </th>
     </tr>
@@ -508,16 +508,16 @@ The Roku's Robot Framework Library includes the following keywords:
 <Table align={["left","left","left",null]}>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Keyword
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Arguments
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Description
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Example
       </th>
     </tr>
@@ -551,16 +551,16 @@ The Roku's Robot Framework Library includes the following keywords:
 <Table align={["left","left","left",null]}>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Keyword
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Arguments
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Description
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Example
       </th>
     </tr>
@@ -599,16 +599,16 @@ The Roku's Robot Framework Library includes the following keywords:
 <Table align={["left","left","left",null]}>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Keyword
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Arguments
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Description
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Example
       </th>
     </tr>
@@ -638,13 +638,13 @@ The Roku's Robot Framework Library includes the following keywords:
 <Table align={["left","left",null]}>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Keyword
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Description
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Example
       </th>
     </tr>
@@ -720,13 +720,13 @@ The Roku's Robot Framework Library includes the following keywords:
 <Table align={["left","left",null]}>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Keyword
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Description
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Example
       </th>
     </tr>
@@ -751,13 +751,13 @@ The Roku's Robot Framework Library includes the following keywords:
 <Table align={["left","left",null]}>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Keyword
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Description
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Example
       </th>
     </tr>
@@ -842,16 +842,16 @@ The Roku's Robot Framework Library includes the following keywords:
 <Table align={["left",null,"left",null]}>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Keyword
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Arguments
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Description
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Example
       </th>
     </tr>
@@ -881,16 +881,16 @@ The Roku's Robot Framework Library includes the following keywords:
 <Table align={["left",null,"left",null]}>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Keyword
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Arguments
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Description
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Example
       </th>
     </tr>
@@ -918,16 +918,16 @@ The Roku's Robot Framework Library includes the following keywords:
 <Table align={["left",null,"left",null]}>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Keyword
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Arguments
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Description
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Example
       </th>
     </tr>
@@ -955,16 +955,16 @@ The Roku's Robot Framework Library includes the following keywords:
 <Table align={["left",null,"left",null]}>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Keyword
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Arguments
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Description
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Example
       </th>
     </tr>

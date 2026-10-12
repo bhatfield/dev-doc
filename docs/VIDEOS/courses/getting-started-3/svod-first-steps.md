@@ -27,9 +27,9 @@ After watching this video, publishers can complete the initial requirements and 
 <table>
   <thead>
     <tr>
-      <th>Step</th>
-      <th>Item</th>
-      <th>Summary</th>
+      <th style={{ textAlign: "left" }}>Step</th>
+      <th style={{ textAlign: "left" }}>Item</th>
+      <th style={{ textAlign: "left" }}>Summary</th>
     </tr>
   </thead>
   <tbody>

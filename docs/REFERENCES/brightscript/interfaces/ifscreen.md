@@ -49,9 +49,9 @@ An associative array containing the following key/value pairs:
 <table>
   <thead>
     <tr>
-      <th><strong>Key</strong></th>
-      <th><strong>Type</strong></th>
-      <th><strong>Value</strong></th>
+      <th style={{ textAlign: "left" }}><strong>Key</strong></th>
+      <th style={{ textAlign: "left" }}><strong>Type</strong></th>
+      <th style={{ textAlign: "left" }}><strong>Value</strong></th>
     </tr>
   </thead>
 

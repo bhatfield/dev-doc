@@ -19,8 +19,8 @@ To create an instance of the Roku JavaScript Library, provide the following thre
 <div class="hscroll"><table>
     <thead>
       <tr>
-        <th class="short-line">Argument</th>
-        <th class="short-line">Description</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Argument</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Description</th>
       </tr>
     </thead>
     <tbody>
@@ -121,10 +121,10 @@ The Roku's JavaScript Library includes the following keywords:
 <div class="hscroll"><table>
     <thead>
       <tr>
-        <th class="short-line">Keyword</th>
-        <th class="short-line">Argument</th>
-        <th class="short-line">Description</th>
-        <th class="short-line">Example</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Keyword</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Argument</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Description</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Example</th>
       </tr>
     </thead>
     <tbody>
@@ -146,10 +146,10 @@ The Roku's JavaScript Library includes the following keywords:
 <div class="hscroll"><table>
     <thead>
       <tr>
-        <th class="short-line">Keyword</th>
-        <th class="short-line">Argument</th>
-        <th class="short-line">Description</th>
-        <th class="short-line">Example</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Keyword</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Argument</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Description</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Example</th>
       </tr>
     </thead>
     <tbody>
@@ -173,10 +173,10 @@ The Roku's JavaScript Library includes the following keywords:
 <div class="hscroll"><table>
     <thead>
       <tr>
-        <th class="short-line">Keyword</th>
-        <th class="short-line">Argument</th>
-        <th class="short-line">Description</th>
-        <th class="short-line">Example</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Keyword</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Argument</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Description</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Example</th>
       </tr>
     </thead>
     <tbody>
@@ -198,9 +198,9 @@ The Roku's JavaScript Library includes the following keywords:
 <div class="hscroll"><table>
     <thead>
       <tr>
-        <th class="short-line">Keyword</th>
-        <th class="short-line">Description</th>
-        <th class="short-line">Example</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Keyword</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Description</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Example</th>
       </tr>
     </thead>
     <tbody>
@@ -225,10 +225,10 @@ const apps = await library.getApps()
 <div class="hscroll"><table>
     <thead>
       <tr>
-        <th class="short-line">Keyword</th>
-        <th class="short-line">Arguments</th>
-        <th class="short-line">Description</th>
-        <th class="short-line">Example</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Keyword</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Arguments</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Description</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Example</th>
       </tr>
     </thead>
     <tbody>
@@ -249,10 +249,10 @@ const apps = await library.getApps()
 <div class="hscroll"><table>
     <thead>
       <tr>
-        <th class="short-line">Keyword</th>
-        <th class="short-line">Arguments</th>
-        <th class="short-line">Description</th>
-        <th class="short-line">Example</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Keyword</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Arguments</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Description</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Example</th>
       </tr>
     </thead>
     <tbody>
@@ -273,10 +273,10 @@ const apps = await library.getApps()
 <div class="hscroll"><table>
     <thead>
       <tr>
-        <th class="short-line">Keyword</th>
-        <th class="short-line">Arguments</th>
-        <th class="short-line">Description</th>
-        <th class="short-line">Example</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Keyword</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Arguments</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Description</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Example</th>
       </tr>
     </thead>
     <tbody>
@@ -299,9 +299,9 @@ const apps = await library.getApps()
 <div class="hscroll"><table>
     <thead>
       <tr>
-        <th class="short-line">Keyword</th>
-        <th class="short-line">Description</th>
-        <th class="short-line">Example</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Keyword</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Description</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Example</th>
       </tr>
     </thead>
     <tbody>
@@ -320,9 +320,9 @@ const apps = await library.getApps()
 <div class="hscroll"><table>
     <thead>
       <tr>
-        <th class="short-line">Keyword</th>
-        <th class="short-line">Description</th>
-        <th class="short-line">Example</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Keyword</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Description</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Example</th>
       </tr>
     </thead>
     <tbody>
@@ -343,10 +343,10 @@ expect(14000).greaterThan(time);
 <div class="hscroll"><table>
     <thead>
       <tr>
-        <th class="short-line">Keyword</th>
-        <th class="short-line">Arguments</th>
-        <th class="short-line">Description</th>
-        <th class="short-line">Example</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Keyword</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Arguments</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Description</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Example</th>
       </tr>
     </thead>
     <tbody>
@@ -367,10 +367,10 @@ expect(14000).greaterThan(time);
 <div class="hscroll"><table>
     <thead>
       <tr>
-        <th class="short-line">Keyword</th>
-        <th class="short-line">Arguments</th>
-        <th class="short-line">Description</th>
-        <th class="short-line">Example</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Keyword</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Arguments</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Description</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Example</th>
       </tr>
     </thead>
     <tbody>
@@ -392,10 +392,10 @@ expect(14000).greaterThan(time);
 <div class="hscroll"><table>
     <thead>
       <tr>
-        <th class="short-line">Keyword</th>
-        <th class="short-line">Arguments</th>
-        <th class="short-line">Description</th>
-        <th class="short-line">Example</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Keyword</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Arguments</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Description</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Example</th>
       </tr>
     </thead>
     <tbody>
@@ -426,10 +426,10 @@ const result = library.getChildNodes(rowList, searchData);
 <div class="hscroll"><table>
     <thead>
       <tr>
-        <th class="short-line">Keyword</th>
-        <th class="short-line">Arguments</th>
-        <th class="short-line">Description</th>
-        <th class="short-line">Example</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Keyword</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Arguments</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Description</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Example</th>
       </tr>
     </thead>
     <tbody>
@@ -453,10 +453,10 @@ expect(poster).to.equal('poster.png');
 <div class="hscroll"><table>
     <thead>
       <tr>
-        <th class="short-line">Keyword</th>
-        <th class="short-line">Arguments</th>
-        <th class="short-line">Description</th>
-        <th class="short-line">Example</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Keyword</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Arguments</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Description</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Example</th>
       </tr>
     </thead>
     <tbody>
@@ -480,9 +480,9 @@ expect(poster).to.equal('poster.png');
 <div class="hscroll"><table>
     <thead>
       <tr>
-        <th class="short-line">Keyword</th>
-        <th class="short-line">Description</th>
-        <th class="short-line">Example</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Keyword</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Description</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Example</th>
       </tr>
     </thead>
     <tbody>
@@ -502,10 +502,10 @@ expect(poster).to.equal('poster.png');
 <div class="hscroll"><table>
     <thead>
       <tr>
-        <th class="short-line">Keyword</th>
-        <th class="short-line">Arguments</th>
-        <th class="short-line">Description</th>
-        <th class="short-line">Example</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Keyword</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Arguments</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Description</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Example</th>
       </tr>
     </thead>
     <tbody>
@@ -527,9 +527,9 @@ expect(poster).to.equal('poster.png');
 <div class="hscroll"><table>
     <thead>
       <tr>
-        <th class="short-line">Keyword</th>
-        <th class="short-line">Description</th>
-        <th class="short-line">Example</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Keyword</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Description</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Example</th>
       </tr>
     </thead>
     <tbody>
@@ -541,9 +541,9 @@ expect(poster).to.equal('poster.png');
             <table>
               <thead>
                 <tr>
-                  <th class="short-line"><strong>Key</strong></th>
-                  <th class="short-line"><strong>Type</strong></th>
-                  <th class="short-line"><strong>Description</strong></th>
+                  <th class="short-line" style={{ textAlign: "left" }}><strong>Key</strong></th>
+                  <th class="short-line" style={{ textAlign: "left" }}><strong>Type</strong></th>
+                  <th class="short-line" style={{ textAlign: "left" }}><strong>Description</strong></th>
                 </tr>
               </thead>
               <tbody>
@@ -603,9 +603,9 @@ expect(data.Position).greaterThan(9000);
 <div class="hscroll"><table>
     <thead>
       <tr>
-        <th class="short-line">Keyword</th>
-        <th class="short-line">Description</th>
-        <th class="short-line">Example</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Keyword</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Description</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Example</th>
       </tr>
     </thead>
     <tbody>
@@ -617,9 +617,9 @@ expect(data.Position).greaterThan(9000);
             <table>
               <thead>
                 <tr>
-                  <th class="short-line"><strong>Key</strong></th>
-                  <th class="short-line"><strong>Type</strong></th>
-                  <th class="short-line"><strong>Description</strong></th>
+                  <th class="short-line" style={{ textAlign: "left" }}><strong>Key</strong></th>
+                  <th class="short-line" style={{ textAlign: "left" }}><strong>Type</strong></th>
+                  <th class="short-line" style={{ textAlign: "left" }}><strong>Description</strong></th>
                 </tr>
               </thead>
               <tbody>
@@ -689,9 +689,9 @@ expect(info.language).to.equal('en')
 <div class="hscroll"><table>
     <thead>
       <tr>
-        <th class="short-line">Keyword</th>
-        <th class="short-line">Description</th>
-        <th class="short-line">Example</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Keyword</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Description</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Example</th>
       </tr>
     </thead>
     <tbody>
@@ -703,9 +703,9 @@ expect(info.language).to.equal('en')
             <table>
               <thead>
                 <tr>
-                  <th class="short-line"><strong>Key</strong></th>
-                  <th class="short-line"><strong>Type</strong></th>
-                  <th class="short-line"><strong>Description</strong></th>
+                  <th class="short-line" style={{ textAlign: "left" }}><strong>Key</strong></th>
+                  <th class="short-line" style={{ textAlign: "left" }}><strong>Type</strong></th>
+                  <th class="short-line" style={{ textAlign: "left" }}><strong>Description</strong></th>
                 </tr>
               </thead>
               <tbody>
@@ -860,10 +860,10 @@ expect(data.Position).greaterThan(9000);
 <div class="hscroll"><table>
     <thead>
       <tr>
-        <th class="short-line">Keyword</th>
-        <th class="short-line">Arguments</th>
-        <th class="short-line">Description</th>
-        <th class="short-line">Example</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Keyword</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Arguments</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Description</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Example</th>
       </tr>
     </thead>
     <tbody>
@@ -887,10 +887,10 @@ expect(res).equal(true);
 <div class="hscroll"><table>
     <thead>
       <tr>
-        <th class="short-line">Keyword</th>
-        <th class="short-line">Arguments</th>
-        <th class="short-line">Description</th>
-        <th class="short-line">Example</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Keyword</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Arguments</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Description</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Example</th>
       </tr>
     </thead>
     <tbody>
@@ -908,10 +908,10 @@ expect(res).equal(true);
 <div class="hscroll"><table>
     <thead>
       <tr>
-        <th class="short-line">Keyword</th>
-        <th class="short-line">Arguments</th>
-        <th class="short-line">Description</th>
-        <th class="short-line">Example</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Keyword</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Arguments</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Description</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Example</th>
       </tr>
     </thead>
     <tbody>
@@ -929,10 +929,10 @@ expect(res).equal(true);
 <div class="hscroll"><table>
     <thead>
       <tr>
-        <th class="short-line">Keyword</th>
-        <th class="short-line">Arguments</th>
-        <th class="short-line">Description</th>
-        <th class="short-line">Example</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Keyword</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Arguments</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Description</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Example</th>
       </tr>
     </thead>
     <tbody>

@@ -73,11 +73,11 @@ The following changes the text string on the display screen every five seconds a
 <table>
 <thead>
 <tr>
-<th>Field</th>
-<th>Type</th>
-<th>Default</th>
-<th>Access Permission</th>
-<th>Description</th>
+<th style={{ textAlign: "left" }}>Field</th>
+<th style={{ textAlign: "left" }}>Type</th>
+<th style={{ textAlign: "left" }}>Default</th>
+<th style={{ textAlign: "left" }}>Access Permission</th>
+<th style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -86,7 +86,7 @@ The following changes the text string on the display screen every five seconds a
 <td>string</td>
 <td>none</td>
 <td>READ_WRITE</td>
-<td>Used to control the operation of the Timer node. Recognized values include: <table><thead><tr><th>Value</th><th>Effect</th></tr></thead><tbody><tr><td>none</td><td>No effect</td></tr><tr><td>start</td><td>Starts the <strong>Timer</strong> node operation</td></tr><tr><td>stop</td><td>Stops a running <strong>Timer</strong> node</td></tr></tbody></table></td>
+<td>Used to control the operation of the Timer node. Recognized values include: <table><thead><tr><th style={{ textAlign: "left" }}>Value</th><th style={{ textAlign: "left" }}>Effect</th></tr></thead><tbody><tr><td>none</td><td>No effect</td></tr><tr><td>start</td><td>Starts the <strong>Timer</strong> node operation</td></tr><tr><td>stop</td><td>Stops a running <strong>Timer</strong> node</td></tr></tbody></table></td>
 </tr>
 <tr>
 <td>repeat</td>

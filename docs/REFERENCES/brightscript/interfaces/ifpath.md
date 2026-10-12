@@ -28,11 +28,11 @@ Modifies or changes the current path via the specified relative or absolute path
 <table>
 <thead>
 <tr>
-<th>Name</th>
-<th>Return Type</th>
-<th>Parameters</th>
-<th>Return Value</th>
-<th>Description</th>
+<th style={{ textAlign: "left" }}>Name</th>
+<th style={{ textAlign: "left" }}>Return Type</th>
+<th style={{ textAlign: "left" }}>Parameters</th>
+<th style={{ textAlign: "left" }}>Return Value</th>
+<th style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -75,7 +75,7 @@ Returns an [roAssociativeArray](/docs/references/brightscript/components/roassoc
 
 ##### Return Value
 
-An [roAssociativeArray](doc:roassociativearray) that contains the following keys: <table><thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>basename</td><td>String</td><td>The filename, without parent directories or extension.</td></tr><tr><td>extension</td><td>String</td><td>The filename, with extension, without parent directories.</td></tr><tr><td>filename</td><td>String</td><td>The filename.</td></tr><tr><td>parent</td><td>String</td><td>The parent directory, or empty if in a root directory.</td></tr><tr><td>phy</td><td>String</td><td>The PHY volume.</td></tr></tbody></table>
+An [roAssociativeArray](doc:roassociativearray) that contains the following keys: <table><thead><tr><th style={{ textAlign: "left" }}>Name</th><th style={{ textAlign: "left" }}>Type</th><th style={{ textAlign: "left" }}>Description</th></tr></thead><tbody><tr><td>basename</td><td>String</td><td>The filename, without parent directories or extension.</td></tr><tr><td>extension</td><td>String</td><td>The filename, with extension, without parent directories.</td></tr><tr><td>filename</td><td>String</td><td>The filename.</td></tr><tr><td>parent</td><td>String</td><td>The parent directory, or empty if in a root directory.</td></tr><tr><td>phy</td><td>String</td><td>The PHY volume.</td></tr></tbody></table>
 
 
 ##### Example (BrightScript Debugger Interactive Shell)

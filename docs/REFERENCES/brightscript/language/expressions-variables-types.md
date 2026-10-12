@@ -329,10 +329,10 @@ except for exponentiation, which is right associative.
 <Table>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "left" }}>
         ()
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Function call, or parentheses
       </th>
     </tr>

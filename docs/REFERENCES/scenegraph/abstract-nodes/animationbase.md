@@ -24,11 +24,11 @@ AnimationBase is an abstract node class that contains the fields common to the [
 <table>
 <thead>
 <tr>
-<th>Field</th>
-<th>Type</th>
-<th>Default</th>
-<th>Access Permission</th>
-<th>Description</th>
+<th style={{ textAlign: "left" }}>Field</th>
+<th style={{ textAlign: "left" }}>Type</th>
+<th style={{ textAlign: "left" }}>Default</th>
+<th style={{ textAlign: "left" }}>Access Permission</th>
+<th style={{ textAlign: "left" }}>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -37,14 +37,14 @@ AnimationBase is an abstract node class that contains the fields common to the [
 <td>option string</td>
 <td>none</td>
 <td>READ_WRITE</td>
-<td>Controls the animation. Supported options include: <table><thead><tr><th>Option</th><th>Effect</th></tr></thead><tbody><tr><td>none</td><td>Initial state with no associated action</td></tr><tr><td>start</td><td>Always plays the animation from the beginning</td></tr><tr><td>stop</td><td>Stops the animation in its current state</td></tr><tr><td>pause</td><td>Pauses the animation in its current state</td></tr><tr><td>resume</td><td>If paused, resumes the animation from its current state. If the animation is not paused, plays the animation from the beginning.</td></tr><tr><td>finish</td><td>Jumps to the end of the animation, then stops. All animated fields will be immediately set to their final values as if the animation had completed.</td></tr></tbody></table></td>
+<td>Controls the animation. Supported options include: <table><thead><tr><th style={{ textAlign: "left" }}>Option</th><th style={{ textAlign: "left" }}>Effect</th></tr></thead><tbody><tr><td>none</td><td>Initial state with no associated action</td></tr><tr><td>start</td><td>Always plays the animation from the beginning</td></tr><tr><td>stop</td><td>Stops the animation in its current state</td></tr><tr><td>pause</td><td>Pauses the animation in its current state</td></tr><tr><td>resume</td><td>If paused, resumes the animation from its current state. If the animation is not paused, plays the animation from the beginning.</td></tr><tr><td>finish</td><td>Jumps to the end of the animation, then stops. All animated fields will be immediately set to their final values as if the animation had completed.</td></tr></tbody></table></td>
 </tr>
 <tr>
 <td>state</td>
 <td>value string</td>
 <td>stopped</td>
 <td>READ_ONLY</td>
-<td>Indicates the state of the animation. Values include: <table><thead><tr><th>Value</th><th>Meaning</th></tr></thead><tbody><tr><td>running</td><td>Indicates that the animation is in progress</td></tr><tr><td>paused</td><td>Indicates that the animation has been paused</td></tr><tr><td>stopped</td><td>Indicates that the animation has either run to completion or has been explicitly stopped</td></tr></tbody></table></td>
+<td>Indicates the state of the animation. Values include: <table><thead><tr><th style={{ textAlign: "left" }}>Value</th><th style={{ textAlign: "left" }}>Meaning</th></tr></thead><tbody><tr><td>running</td><td>Indicates that the animation is in progress</td></tr><tr><td>paused</td><td>Indicates that the animation has been paused</td></tr><tr><td>stopped</td><td>Indicates that the animation has either run to completion or has been explicitly stopped</td></tr></tbody></table></td>
 </tr>
 <tr>
 <td>repeat</td>

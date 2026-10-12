@@ -49,10 +49,10 @@ select the item.
 <div class="hscroll"><table>
     <thead>
       <tr>
-        <th class="short-line">Attributes</th>
-        <th class="short-line">Type</th>
-        <th class="short-line">Values</th>
-        <th class="short-line">Example</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Attributes</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Type</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Values</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Example</th>
       </tr>
     </thead>
     <tbody>
@@ -65,8 +65,8 @@ select the item.
             <table>
               <thead>
                 <tr>
-                  <th class="short-line">Content Type</th>
-                  <th class="short-line">Return Value</th>
+                  <th class="short-line" style={{ textAlign: "left" }}>Content Type</th>
+                  <th class="short-line" style={{ textAlign: "left" }}>Return Value</th>
                 </tr>
               </thead>
               <tbody>
@@ -280,11 +280,11 @@ Digital rights management (DRM) content meta-data control attributes are availab
 <div class="hscroll"><table>
     <thead>
       <tr>
-        <th class="short-line">Attribute</th>
-        <th class="short-line">DRM System</th>
-        <th class="short-line">Type</th>
-        <th class="short-line">Value</th>
-        <th class="short-line">Example</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Attribute</th>
+        <th class="short-line" style={{ textAlign: "left" }}>DRM System</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Type</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Value</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Example</th>
       </tr>
     </thead>
     <tbody>
@@ -462,10 +462,10 @@ Developers can use the **contentClassifier** content metadata attribute to speci
 <div class="hscroll"><table>
     <thead>
       <tr>
-        <th class="short-line">Attribute</th>
-        <th class="short-line">Type</th>
-        <th class="short-line">Values</th>
-        <th class="short-line">Example</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Attribute</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Type</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Values</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Example</th>
       </tr>
     </thead>
     <tbody>
@@ -499,9 +499,9 @@ The following table details how the different **contentClassifier** attribute va
 <div class="hscroll"><table>
     <thead>
       <tr>
-        <th class="short-line">Content Classifier</th>
-        <th class="short-line">Sound Mode</th>
-        <th class="short-line">Picture Mode</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Content Classifier</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Sound Mode</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Picture Mode</th>
       </tr>
     </thead>
     <tbody>
@@ -580,10 +580,10 @@ Playback configuration meta-data attributes are used to configure the playback o
 <div class="hscroll"><table>
     <thead>
       <tr>
-        <th class="short-line">Attribute</th>
-        <th class="short-line">Type</th>
-        <th class="short-line">Values</th>
-        <th class="short-line">Example</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Attribute</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Type</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Values</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Example</th>
       </tr>
     </thead>
     <tbody>
@@ -626,8 +626,8 @@ Playback configuration meta-data attributes are used to configure the playback o
             <table>
               <thead>
                 <tr>
-                  <th class="short-line">Key</th>
-                  <th class="short-line">Type</th>
+                  <th class="short-line" style={{ textAlign: "left" }}>Key</th>
+                  <th class="short-line" style={{ textAlign: "left" }}>Type</th>
                 </tr>
               </thead>
               <tbody>
@@ -666,8 +666,8 @@ Playback configuration meta-data attributes are used to configure the playback o
             <table>
               <thead>
                 <tr>
-                  <th class="short-line">Key</th>
-                  <th class="short-line">Type</th>
+                  <th class="short-line" style={{ textAlign: "left" }}>Key</th>
+                  <th class="short-line" style={{ textAlign: "left" }}>Type</th>
                 </tr>
               </thead>
               <tbody>
@@ -951,10 +951,10 @@ Content Delivery Networks (CDNs) can be switched during playback to load balance
 <div class="hscroll"><table>
     <thead>
       <tr>
-        <th class="short-line">Attribute</th>
-        <th class="short-line">Type</th>
-        <th class="short-line">Values</th>
-        <th class="short-line">Description</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Attribute</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Type</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Values</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Description</th>
       </tr>
     </thead>
     <tbody>
@@ -966,10 +966,10 @@ Content Delivery Networks (CDNs) can be switched during playback to load balance
             <table>
               <thead>
                 <tr>
-                  <th class="short-line">Key</th>
-                  <th class="short-line">Required/ Optional</th>
-                  <th class="short-line">Type</th>
-                  <th class="short-line">Description</th>
+                  <th class="short-line" style={{ textAlign: "left" }}>Key</th>
+                  <th class="short-line" style={{ textAlign: "left" }}>Required/ Optional</th>
+                  <th class="short-line" style={{ textAlign: "left" }}>Type</th>
+                  <th class="short-line" style={{ textAlign: "left" }}>Description</th>
                 </tr>
               </thead>
               <tbody>
@@ -1047,9 +1047,9 @@ video.setHttpAgent(httpAgent)
 <div class="hscroll"><table>
     <thead>
       <tr>
-        <th class="short-line">Attribute</th>
-        <th class="short-line">Type</th>
-        <th class="short-line">Values</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Attribute</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Type</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Values</th>
       </tr>
     </thead>
     <tbody>
@@ -1121,10 +1121,10 @@ the playback parameters for the content item.
 <div class="hscroll"><table>
     <thead>
       <tr>
-        <th class="short-line">Attribute</th>
-        <th class="short-line">Type</th>
-        <th class="short-line">Values</th>
-        <th class="short-line">Example</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Attribute</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Type</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Values</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Example</th>
       </tr>
     </thead>
     <tbody>
@@ -1166,10 +1166,10 @@ the playback parameters for the content item.
 <div class="hscroll"><table>
     <thead>
       <tr>
-        <th class="short-line">Attribute</th>
-        <th class="short-line">Type</th>
-        <th class="short-line">Values</th>
-        <th class="short-line">Example</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Attribute</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Type</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Values</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Example</th>
       </tr>
     </thead>
     <tbody>
@@ -1211,10 +1211,10 @@ the playback parameters for the content item.
 <div class="hscroll"><table>
     <thead>
       <tr>
-        <th class="short-line">Attribute</th>
-        <th class="short-line">Type</th>
-        <th class="short-line">Values</th>
-        <th class="short-line">Example</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Attribute</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Type</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Values</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Example</th>
       </tr>
     </thead>
     <tbody>
@@ -1244,8 +1244,8 @@ each value.
 <div class="hscroll"><table>
     <thead>
       <tr>
-        <th class="short-line">Value</th>
-        <th class="short-line">Icon</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Value</th>
+        <th class="short-line" style={{ textAlign: "left" }}>Icon</th>
       </tr>
     </thead>
     <tbody>

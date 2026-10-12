@@ -259,19 +259,19 @@ You can resolve common virtual device issues by following these troubleshooting 
 <Table>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Issue
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
         Description
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
         Cause
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
         Solution
       </th>
     </tr>

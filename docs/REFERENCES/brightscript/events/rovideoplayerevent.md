@@ -253,8 +253,8 @@ Returns an associative array with the following information about the stream seg
 <table>
   <thead>
     <tr>
-      <th>Key</th>
-      <th>Value</th>
+      <th style={{ textAlign: "left" }}>Key</th>
+      <th style={{ textAlign: "left" }}>Value</th>
     </tr>
   </thead>
   <tbody>

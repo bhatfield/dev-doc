@@ -325,8 +325,8 @@ Returns the string with the following characters replaced with their correspondi
 <table>
   <thead>
     <tr>
-      <th>Character</th>
-      <th>Replaced with</th>
+      <th style={{ textAlign: "left" }}>Character</th>
+      <th style={{ textAlign: "left" }}>Replaced with</th>
     </tr>
   </thead>
   <tbody>
@@ -366,8 +366,8 @@ Returns the string with the following HTML entity encoding sequences replaced wi
 <table>
   <thead>
     <tr>
-      <th>Entity</th>
-      <th>Replaced with</th>
+      <th style={{ textAlign: "left" }}>Entity</th>
+      <th style={{ textAlign: "left" }}>Replaced with</th>
     </tr>
   </thead>
   <tbody>

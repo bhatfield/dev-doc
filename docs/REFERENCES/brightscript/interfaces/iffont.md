@@ -29,7 +29,7 @@ next:
 
 | Name            | Type    | Parameters                                                                                                                                                      | Possible Values | Description                 |                                                                                                  |
 | :-------------- | :------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------- | :-------------------------- | :----------------------------------------------------------------------------------------------- |
-| GetOneLineWidth | Integer | <table><thead><tr><th>Name</th><th>Type</th></tr></thead><tbody><tr><td>MaxWidth</td><td>Integer</td></tr><tr><td>text</td><td>String</td></tr></tbody></table> |                 | Number of pixels as Integer | Returns the width in pixels occupied by the text (this is capped at the maximum provided value). |
+| GetOneLineWidth | Integer | <table><thead><tr><th style={{ textAlign: "left" }}>Name</th><th style={{ textAlign: "left" }}>Type</th></tr></thead><tbody><tr><td>MaxWidth</td><td>Integer</td></tr><tr><td>text</td><td>String</td></tr></tbody></table> |                 | Number of pixels as Integer | Returns the width in pixels occupied by the text (this is capped at the maximum provided value). |
 
 Each glyph and the needed spacing between glyphs is measured. The returned number of pixels will be no larger than MaxWidth. MaxWidth is generally the number of pixels available for rendering on this line.
 

@@ -84,15 +84,15 @@ When a deep link is sent to your app, it will include **contentId** and a **medi
 <table>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "left" }}>
         mediaType in Deep Link
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
         Description
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
         Required Launch Behavior
       </th>
     </tr>
@@ -357,15 +357,15 @@ The following attributes are required:
 <table>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Parameter
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
         Description
       </th>
 
-      <th>
+      <th style={{ textAlign: "left" }}>
         Example
       </th>
     </tr>

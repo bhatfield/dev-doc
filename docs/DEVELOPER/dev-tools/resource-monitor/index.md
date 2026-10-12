@@ -106,8 +106,8 @@ The following app and media events are displayed:
 <table>
   <thead>
     <tr>
-      <th>App events/beacons</th>
-      <th>Media events</th>
+      <th style={{ textAlign: "left" }}>App events/beacons</th>
+      <th style={{ textAlign: "left" }}>Media events</th>
     </tr>
   </thead>
   <tbody>
@@ -166,8 +166,8 @@ Each of the values listed in the graph is described as follows:
 <table>
   <thead>
     <tr>
-      <th>Value</th>
-      <th>Description</th>
+      <th style={{ textAlign: "left" }}>Value</th>
+      <th style={{ textAlign: "left" }}>Description</th>
     </tr>
   </thead>
   <tbody>

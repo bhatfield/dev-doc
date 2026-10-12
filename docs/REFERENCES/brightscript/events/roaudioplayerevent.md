@@ -125,10 +125,10 @@ Returns an associative array with the following information about the stream seg
 <Table>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Key
       </th>
-      <th>
+      <th style={{ textAlign: "left" }}>
         Value
       </th>
     </tr>

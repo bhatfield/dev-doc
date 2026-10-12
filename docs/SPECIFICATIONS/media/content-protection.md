@@ -14,9 +14,9 @@ next:
 
 |        | PlayReady | AES-128 | Widevine |
 | ------ | --------- | ------- | -------- |
-| HLS    |           |         | Y        |
+| HLS    |           | Y       | Y        |
 | Smooth | Y         |         |          |
-| DASH   | Y         |         | Y        |
+| DASH   | Y         | Y       | Y        |
 
 > Supported DRM info can be queried using [ifDeviceInfo.getDRMInfo()](doc:ifdeviceinfo#getdrminfoex-as-object).
 >
